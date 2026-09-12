@@ -1,0 +1,5267 @@
+{
+ "meta": {
+  "check": "check_C28-1.0",
+  "construction": "strict_upper-1.0",
+  "command": "checks/check_C28.py 40",
+  "n_max": 40,
+  "seconds_total": 69.01
+ },
+ "results": {
+  "4": {
+   "n": 4,
+   "B_n": 6,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 3,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.0
+  },
+  "5": {
+   "n": 5,
+   "B_n": 10,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.01
+  },
+  "6": {
+   "n": 6,
+   "B_n": 15,
+   "max_H_excess_true_min": 1,
+   "max_R_excess_true_min": 1,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.01
+  },
+  "7": {
+   "n": 7,
+   "B_n": 21,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.02
+  },
+  "8": {
+   "n": 8,
+   "B_n": 28,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 3,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 5,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 7,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.03
+  },
+  "9": {
+   "n": 9,
+   "B_n": 36,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.04
+  },
+  "10": {
+   "n": 10,
+   "B_n": 45,
+   "max_H_excess_true_min": 1,
+   "max_R_excess_true_min": 1,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 8,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.06
+  },
+  "11": {
+   "n": 11,
+   "B_n": 55,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.08
+  },
+  "12": {
+   "n": 12,
+   "B_n": 66,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 3,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 5,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 7,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 9,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 11,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.14
+  },
+  "13": {
+   "n": 13,
+   "B_n": 78,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.16
+  },
+  "14": {
+   "n": 14,
+   "B_n": 91,
+   "max_H_excess_true_min": 1,
+   "max_R_excess_true_min": 1,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 10,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 12,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.19
+  },
+  "15": {
+   "n": 15,
+   "B_n": 105,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.23
+  },
+  "16": {
+   "n": 16,
+   "B_n": 120,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 3,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 5,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 7,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 9,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 11,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 13,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 15,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.29
+  },
+  "17": {
+   "n": 17,
+   "B_n": 136,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.34
+  },
+  "18": {
+   "n": 18,
+   "B_n": 153,
+   "max_H_excess_true_min": 1,
+   "max_R_excess_true_min": 1,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 12,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 14,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 16,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.43
+  },
+  "19": {
+   "n": 19,
+   "B_n": 171,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.51
+  },
+  "20": {
+   "n": 20,
+   "B_n": 190,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 3,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 5,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 7,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 9,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 11,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 13,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 15,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 17,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 19,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.63
+  },
+  "21": {
+   "n": 21,
+   "B_n": 210,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 19,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 20,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.74
+  },
+  "22": {
+   "n": 22,
+   "B_n": 231,
+   "max_H_excess_true_min": 1,
+   "max_R_excess_true_min": 1,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 14,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 16,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 18,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 19,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 20,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 21,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 0.9
+  },
+  "23": {
+   "n": 23,
+   "B_n": 253,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 19,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 20,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 21,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 22,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 1.04
+  },
+  "24": {
+   "n": 24,
+   "B_n": 276,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 3,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 5,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 7,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 9,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 11,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 13,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 15,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 17,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 19,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 20,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 21,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 22,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 23,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 1.22
+  },
+  "25": {
+   "n": 25,
+   "B_n": 300,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 19,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 20,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 21,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 22,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 23,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 24,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 1.37
+  },
+  "26": {
+   "n": 26,
+   "B_n": 325,
+   "max_H_excess_true_min": 1,
+   "max_R_excess_true_min": 1,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 14,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 16,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 18,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 19,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 20,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 21,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 22,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 23,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 24,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 25,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 1.59
+  },
+  "27": {
+   "n": 27,
+   "B_n": 351,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 19,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 20,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 21,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 22,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 23,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 24,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 25,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 26,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 1.84
+  },
+  "28": {
+   "n": 28,
+   "B_n": 378,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 3,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 5,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 7,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 9,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 11,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 13,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 15,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 17,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 19,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 20,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 21,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 22,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 23,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 24,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 25,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 26,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 27,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 2.03
+  },
+  "29": {
+   "n": 29,
+   "B_n": 406,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 19,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 20,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 21,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 22,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 23,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 24,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 25,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 26,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 27,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 28,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 2.26
+  },
+  "30": {
+   "n": 30,
+   "B_n": 435,
+   "max_H_excess_true_min": 1,
+   "max_R_excess_true_min": 1,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 14,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 16,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 18,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 19,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 20,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 21,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 22,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 23,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 24,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 25,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 26,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 27,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 28,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 29,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 2.58
+  },
+  "31": {
+   "n": 31,
+   "B_n": 465,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 19,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 20,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 21,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 22,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 23,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 24,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 25,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 26,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 27,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 28,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 29,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 30,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 2.9
+  },
+  "32": {
+   "n": 32,
+   "B_n": 496,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 3,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 5,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 7,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 9,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 11,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 13,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 15,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 17,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 19,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 20,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 21,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 22,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 23,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 24,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -9
+    },
+    {
+     "h": 25,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 26,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 27,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 28,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 29,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 30,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 31,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 3.29
+  },
+  "33": {
+   "n": 33,
+   "B_n": 528,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 19,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 20,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 21,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 22,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 23,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 24,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 25,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -9
+    },
+    {
+     "h": 26,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 27,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 28,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 29,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 30,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 31,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 32,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 3.66
+  },
+  "34": {
+   "n": 34,
+   "B_n": 561,
+   "max_H_excess_true_min": 1,
+   "max_R_excess_true_min": 1,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 14,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 16,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 18,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 19,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 20,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 21,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 22,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 23,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 24,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 25,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 26,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -9
+    },
+    {
+     "h": 27,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 28,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 29,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 30,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 31,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 32,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 33,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 4.11
+  },
+  "35": {
+   "n": 35,
+   "B_n": 595,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 19,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 20,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 21,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 22,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 23,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 24,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 25,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 26,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -9
+    },
+    {
+     "h": 27,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -9
+    },
+    {
+     "h": 28,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 29,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 30,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 31,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 32,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 33,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 34,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 4.59
+  },
+  "36": {
+   "n": 36,
+   "B_n": 630,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 3,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 5,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 7,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 9,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 11,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 13,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 15,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 17,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 19,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 20,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 21,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 22,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 23,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 24,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 25,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 26,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -9
+    },
+    {
+     "h": 27,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -10
+    },
+    {
+     "h": 28,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -9
+    },
+    {
+     "h": 29,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 30,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 31,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 32,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 33,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 34,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 35,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 5.07
+  },
+  "37": {
+   "n": 37,
+   "B_n": 666,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 19,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 20,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 21,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 22,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 23,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 24,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 25,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 26,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 27,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -9
+    },
+    {
+     "h": 28,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -10
+    },
+    {
+     "h": 29,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -9
+    },
+    {
+     "h": 30,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 31,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 32,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 33,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 34,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 35,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 36,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 5.6
+  },
+  "38": {
+   "n": 38,
+   "B_n": 703,
+   "max_H_excess_true_min": 1,
+   "max_R_excess_true_min": 1,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 14,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 16,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 18,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": 1
+    },
+    {
+     "h": 19,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 20,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 21,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 22,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 23,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 24,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 25,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 26,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 27,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 28,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -9
+    },
+    {
+     "h": 29,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -10
+    },
+    {
+     "h": 30,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -9
+    },
+    {
+     "h": 31,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 32,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 33,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 34,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 35,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 36,
+     "c_pred": 0,
+     "H_excess_true_min": 1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 37,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 6.43
+  },
+  "39": {
+   "n": 39,
+   "B_n": 741,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 3,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 5,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 7,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 9,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 11,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 13,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 15,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 17,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 19,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 20,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 21,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 22,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 23,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 24,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 25,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 26,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 27,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 28,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -9
+    },
+    {
+     "h": 29,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -10
+    },
+    {
+     "h": 30,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -10
+    },
+    {
+     "h": 31,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -9
+    },
+    {
+     "h": 32,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 33,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 34,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 35,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 36,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 37,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 38,
+     "c_pred": 1,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 7.04
+  },
+  "40": {
+   "n": 40,
+   "B_n": 780,
+   "max_H_excess_true_min": 0,
+   "max_R_excess_true_min": 0,
+   "rows": [
+    {
+     "h": 0,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 1,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 2,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 3,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 4,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 5,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 6,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 7,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 8,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 9,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 10,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 11,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 12,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 13,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 14,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 15,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 16,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 17,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 18,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 19,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": 0
+    },
+    {
+     "h": 20,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -1
+    },
+    {
+     "h": 21,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    },
+    {
+     "h": 22,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 23,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 24,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 25,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 26,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 27,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 28,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -9
+    },
+    {
+     "h": 29,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -10
+    },
+    {
+     "h": 30,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -11
+    },
+    {
+     "h": 31,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -10
+    },
+    {
+     "h": 32,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -9
+    },
+    {
+     "h": 33,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -8
+    },
+    {
+     "h": 34,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -7
+    },
+    {
+     "h": 35,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -6
+    },
+    {
+     "h": 36,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -5
+    },
+    {
+     "h": 37,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -4
+    },
+    {
+     "h": 38,
+     "c_pred": 1,
+     "H_excess_true_min": -1,
+     "R_excess_true_min": -3
+    },
+    {
+     "h": 39,
+     "c_pred": 0,
+     "H_excess_true_min": 0,
+     "R_excess_true_min": -2
+    }
+   ],
+   "seconds": 7.56
+  }
+ },
+ "log": [
+  "n=4: all 4 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (0.0 s)",
+  "n=5: all 5 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (0.01 s)",
+  "n=6: all 6 reflections OK; max true-min excess H-route 1, carrier-route 1; predicted-shift formulas matched exactly (0.01 s)",
+  "n=7: all 7 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (0.02 s)",
+  "n=8: all 8 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (0.03 s)",
+  "n=9: all 9 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (0.04 s)",
+  "n=10: all 10 reflections OK; max true-min excess H-route 1, carrier-route 1; predicted-shift formulas matched exactly (0.06 s)",
+  "n=11: all 11 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (0.08 s)",
+  "n=12: all 12 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (0.14 s)",
+  "n=13: all 13 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (0.16 s)",
+  "n=14: all 14 reflections OK; max true-min excess H-route 1, carrier-route 1; predicted-shift formulas matched exactly (0.19 s)",
+  "n=15: all 15 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (0.23 s)",
+  "n=16: all 16 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (0.29 s)",
+  "n=17: all 17 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (0.34 s)",
+  "n=18: all 18 reflections OK; max true-min excess H-route 1, carrier-route 1; predicted-shift formulas matched exactly (0.43 s)",
+  "n=19: all 19 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (0.51 s)",
+  "n=20: all 20 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (0.63 s)",
+  "n=21: all 21 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (0.74 s)",
+  "n=22: all 22 reflections OK; max true-min excess H-route 1, carrier-route 1; predicted-shift formulas matched exactly (0.9 s)",
+  "n=23: all 23 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (1.04 s)",
+  "n=24: all 24 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (1.22 s)",
+  "n=25: all 25 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (1.37 s)",
+  "n=26: all 26 reflections OK; max true-min excess H-route 1, carrier-route 1; predicted-shift formulas matched exactly (1.59 s)",
+  "n=27: all 27 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (1.84 s)",
+  "n=28: all 28 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (2.03 s)",
+  "n=29: all 29 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (2.26 s)",
+  "n=30: all 30 reflections OK; max true-min excess H-route 1, carrier-route 1; predicted-shift formulas matched exactly (2.58 s)",
+  "n=31: all 31 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (2.9 s)",
+  "n=32: all 32 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (3.29 s)",
+  "n=33: all 33 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (3.66 s)",
+  "n=34: all 34 reflections OK; max true-min excess H-route 1, carrier-route 1; predicted-shift formulas matched exactly (4.11 s)",
+  "n=35: all 35 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (4.59 s)",
+  "n=36: all 36 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (5.07 s)",
+  "n=37: all 37 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (5.6 s)",
+  "n=38: all 38 reflections OK; max true-min excess H-route 1, carrier-route 1; predicted-shift formulas matched exactly (6.43 s)",
+  "n=39: all 39 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (7.04 s)",
+  "n=40: all 40 reflections OK; max true-min excess H-route 0, carrier-route 0; predicted-shift formulas matched exactly (7.56 s)"
+ ]
+}
