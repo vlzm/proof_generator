@@ -1,0 +1,141 @@
+{
+ "core_version": "oracle-1.0",
+ "construction_version": "strict_upper-1.0 (N1 sections 1-3, oracle-1.0)",
+ "experiment_version": "loss_map-1.0 (strict_upper-1.0, oracle-1.0)",
+ "command": "experiments/loss_map.py --h8 9 --report data/runs/strict_loss_audit/loss_map_h8.json",
+ "h8": {
+  "4": {
+   "count": 24,
+   "B_n": 6,
+   "max_Q_R_minus_B": 0,
+   "max_Q_RJ_minus_B": 0,
+   "hist_Q_R_minus_B_top": {
+    "-3": 6,
+    "-2": 5,
+    "-1": 3,
+    "0": 1
+   },
+   "hist_Q_RJ_minus_B_top": {
+    "-3": 6,
+    "-2": 5,
+    "-1": 3,
+    "0": 1
+   },
+   "exceptions_Q_R_above_B": [],
+   "seconds": 0.0
+  },
+  "5": {
+   "count": 120,
+   "B_n": 10,
+   "max_Q_R_minus_B": 0,
+   "max_Q_RJ_minus_B": 0,
+   "hist_Q_R_minus_B_top": {
+    "-3": 18,
+    "-2": 16,
+    "-1": 3,
+    "0": 2
+   },
+   "hist_Q_RJ_minus_B_top": {
+    "-3": 24,
+    "-2": 8,
+    "-1": 3,
+    "0": 2
+   },
+   "exceptions_Q_R_above_B": [],
+   "seconds": 0.0
+  },
+  "6": {
+   "count": 720,
+   "B_n": 15,
+   "max_Q_R_minus_B": 1,
+   "max_Q_RJ_minus_B": 0,
+   "hist_Q_R_minus_B_top": {
+    "-2": 36,
+    "-1": 17,
+    "0": 6,
+    "1": 1
+   },
+   "hist_Q_RJ_minus_B_top": {
+    "-3": 66,
+    "-2": 16,
+    "-1": 5,
+    "0": 3
+   },
+   "exceptions_Q_R_above_B": [
+    {
+     "pi": [
+      2,
+      1,
+      0,
+      5,
+      4,
+      3
+     ],
+     "Q_R": 16,
+     "Q_RJ": 14
+    }
+   ],
+   "seconds": 0.3
+  },
+  "7": {
+   "count": 5040,
+   "B_n": 21,
+   "max_Q_R_minus_B": 0,
+   "max_Q_RJ_minus_B": 0,
+   "hist_Q_R_minus_B_top": {
+    "-3": 226,
+    "-2": 91,
+    "-1": 17,
+    "0": 3
+   },
+   "hist_Q_RJ_minus_B_top": {
+    "-3": 171,
+    "-2": 47,
+    "-1": 6,
+    "0": 3
+   },
+   "exceptions_Q_R_above_B": [],
+   "seconds": 2.9
+  },
+  "8": {
+   "count": 40320,
+   "B_n": 28,
+   "max_Q_R_minus_B": 0,
+   "max_Q_RJ_minus_B": 0,
+   "hist_Q_R_minus_B_top": {
+    "-3": 1242,
+    "-2": 420,
+    "-1": 81,
+    "0": 10
+   },
+   "hist_Q_RJ_minus_B_top": {
+    "-3": 749,
+    "-2": 166,
+    "-1": 19,
+    "0": 2
+   },
+   "exceptions_Q_R_above_B": [],
+   "seconds": 29.3
+  },
+  "9": {
+   "count": 362880,
+   "B_n": 36,
+   "max_Q_R_minus_B": 0,
+   "max_Q_RJ_minus_B": 0,
+   "hist_Q_R_minus_B_top": {
+    "-3": 3112,
+    "-2": 617,
+    "-1": 77,
+    "0": 13
+   },
+   "hist_Q_RJ_minus_B_top": {
+    "-3": 1384,
+    "-2": 244,
+    "-1": 29,
+    "0": 10
+   },
+   "exceptions_Q_R_above_B": [],
+   "seconds": 321.9
+  }
+ }
+}
