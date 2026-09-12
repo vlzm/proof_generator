@@ -1,0 +1,59 @@
+cycles n=4: 20 cycles OK
+cycles n=5: 84 cycles OK
+cycles n=6: 409 cycles OK
+cycles n=7: 2365 cycles OK
+cycles n=8: 16064 cycles OK
+cycles n=9: 125664 cycles OK
+cycles total 144606 in 10.6s
+scalar 4<=n<=100000: (T), (T') exact rounding OK in 0.3s; T'-U for n<=60: {4: 0, 5: 0, 6: 1, 7: 0, 8: 1, 9: 0, 10: 0, 11: 0, 12: 1, 13: 0, 14: 1, 15: 0, 16: 0, 17: 0, 18: 1, 19: 0, 20: 1, 21: 0, 22: 0, 23: 0, 24: 1, 25: 0, 26: 1, 27: 0, 28: 0, 29: 0, 30: 1, 31: 0, 32: 1, 33: 0, 34: 0, 35: 1, 36: 1, 37: 0, 38: 1, 39: 0, 40: 0, 41: 1, 42: 1, 43: 0, 44: 1, 45: 0, 46: 0, 47: 1, 48: 1, 49: 0, 50: 1, 51: 0, 52: 0, 53: 1, 54: 1, 55: 0, 56: 1, 57: 0, 58: 0, 59: 1, 60: 1}
+reflections n=4: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=5: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=6: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=7: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=8: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=9: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=10: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=11: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=12: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=13: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=14: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=15: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=16: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=17: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=18: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=19: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=20: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=21: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=22: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=23: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=24: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=25: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=26: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=27: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=28: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=29: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=30: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=31: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=32: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=33: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=34: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=35: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=36: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=37: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=38: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=39: all h OK; sigma_n min_c bound - B_n = 0
+reflections n=40: all h OK; sigma_n min_c bound - B_n = 0
+C23 n=8: V=16, T_min=16, calE=24, ratio=2/3
+C23 n=16: V=64, T_min=64, calE=80, ratio=4/5
+C23 n=24: V=144, T_min=144, calE=168, ratio=6/7
+C23 n=32: V=256, T_min=256, calE=288, ratio=8/9
+C23 n=40: V=400, T_min=400, calE=440, ratio=10/11
+C23 n=48: V=576, T_min=576, calE=624, ratio=12/13
+C23 n=56: V=784, T_min=784, calE=840, ratio=14/15
+C23 n=64: V=1024, T_min=1024, calE=1088, ratio=16/17
+report written: data/runs/strict_audit/check_C16_cycles_scalar.json
+PASS
+
+real	0m18.942s
+user	0m18.920s
+sys	0m0.012s

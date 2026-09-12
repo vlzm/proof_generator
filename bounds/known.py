@@ -80,7 +80,7 @@ CLAIMED_BOUNDS = (
     ("C4/C10/C11", 4, gap_bound),
     ("C16", 4, strict_upper_bound),
     ("C17", 4, strict_upper_bound_simple),
-)
+)  # C1/C4/C10/C11 are CLAIMED; C16/C17 are PROVED (see PROVED_BOUNDS)
 
 # Locally VERIFIED exact diameters (certified tables in data/tables).
 VERIFIED_EXACT = {4: 6, 5: 10, 6: 15, 7: 21, 8: 28, 9: 36, 10: 45, 11: 55,
@@ -93,12 +93,24 @@ def best_claimed(n):
     return v, cid
 
 
+# Bounds PROVED by local audit (CLAIMS.md): C16 (U_n) and C17, both n >= 4,
+# audit of 2026-09-12 in docs/notes/strict_proof_audit.md.
+PROVED_BOUNDS = (
+    ("C16", 4, strict_upper_bound),
+    ("C17", 4, strict_upper_bound_simple),
+)
+
+
 def certified_bound(n):
-    """Confirmed bound: VERIFIED exact data only; no local PROVED general
-    upper bound exists yet (C1/C4/C16/C17 are all CLAIMED)."""
+    """Confirmed bound: min of VERIFIED exact data (finite range) and
+    locally PROVED general bounds (C16/C17). C1/C4/C10/C11 stay CLAIMED
+    and are excluded here."""
+    vals = [(f(n), cid) for cid, n0, f in PROVED_BOUNDS if n >= n0]
     if n in VERIFIED_EXACT:
-        return VERIFIED_EXACT[n], "VERIFIED (certified BFS table)"
-    return None, "no locally certified bound for this n"
+        vals.append((VERIFIED_EXACT[n], "VERIFIED (certified BFS table)"))
+    if not vals:
+        return None, "no locally certified bound for this n"
+    return min(vals)
 
 
 if __name__ == "__main__":

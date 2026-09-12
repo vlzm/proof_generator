@@ -1,0 +1,341 @@
+{
+ "core_version": "oracle-1.0",
+ "construction_version": "strict_upper-1.0 (N1 sections 1-3, oracle-1.0)",
+ "command": "checks/check_C16.py --perms 8 --report data/runs/strict_audit/check_C16_perms.json",
+ "mandatory_example": true,
+ "perms": {
+  "range": "4<=n<=8",
+  "coverage": "exhaustive",
+  "per_n": {
+   "4": {
+    "n": 4,
+    "permutations": 24,
+    "shifts_per_perm": 4,
+    "words_built": 96,
+    "U_n": 9,
+    "B_n": 6,
+    "max_min_c_len": 6,
+    "worst_examples": [
+     [
+      1,
+      0,
+      3,
+      2
+     ],
+     [
+      3,
+      2,
+      1,
+      0
+     ]
+    ],
+    "c22_violations": 0,
+    "loss_min_c_len_minus_d": {
+     "0": 8,
+     "2": 14,
+     "4": 2
+    },
+    "loss_min_c_reduced_minus_d": {
+     "0": 20,
+     "2": 4
+    },
+    "table_used": true,
+    "seconds": 0.0
+   },
+   "5": {
+    "n": 5,
+    "permutations": 120,
+    "shifts_per_perm": 5,
+    "words_built": 600,
+    "U_n": 13,
+    "B_n": 10,
+    "max_min_c_len": 11,
+    "worst_examples": [
+     [
+      0,
+      2,
+      4,
+      1,
+      3
+     ],
+     [
+      0,
+      3,
+      1,
+      4,
+      2
+     ],
+     [
+      1,
+      3,
+      0,
+      2,
+      4
+     ],
+     [
+      1,
+      4,
+      2,
+      0,
+      3
+     ],
+     [
+      2,
+      0,
+      3,
+      1,
+      4
+     ]
+    ],
+    "c22_violations": 0,
+    "loss_min_c_len_minus_d": {
+     "0": 12,
+     "1": 23,
+     "2": 27,
+     "3": 36,
+     "4": 12,
+     "5": 10
+    },
+    "loss_min_c_reduced_minus_d": {
+     "0": 55,
+     "1": 41,
+     "2": 17,
+     "3": 7
+    },
+    "table_used": true,
+    "seconds": 0.0
+   },
+   "6": {
+    "n": 6,
+    "permutations": 720,
+    "shifts_per_perm": 6,
+    "words_built": 4320,
+    "U_n": 20,
+    "B_n": 15,
+    "max_min_c_len": 16,
+    "worst_examples": [
+     [
+      0,
+      1,
+      4,
+      5,
+      2,
+      3
+     ],
+     [
+      0,
+      3,
+      4,
+      1,
+      2,
+      5
+     ],
+     [
+      0,
+      3,
+      5,
+      1,
+      4,
+      2
+     ],
+     [
+      0,
+      4,
+      2,
+      5,
+      1,
+      3
+     ],
+     [
+      0,
+      5,
+      4,
+      3,
+      2,
+      1
+     ]
+    ],
+    "c22_violations": 0,
+    "loss_min_c_len_minus_d": {
+     "0": 77,
+     "2": 281,
+     "4": 282,
+     "6": 79,
+     "8": 1
+    },
+    "loss_min_c_reduced_minus_d": {
+     "0": 399,
+     "2": 231,
+     "4": 81,
+     "6": 9
+    },
+    "table_used": true,
+    "seconds": 0.4
+   },
+   "7": {
+    "n": 7,
+    "permutations": 5040,
+    "shifts_per_perm": 7,
+    "words_built": 35280,
+    "U_n": 27,
+    "B_n": 21,
+    "max_min_c_len": 23,
+    "worst_examples": [
+     [
+      0,
+      3,
+      6,
+      2,
+      5,
+      1,
+      4
+     ],
+     [
+      0,
+      4,
+      2,
+      6,
+      1,
+      5,
+      3
+     ],
+     [
+      0,
+      4,
+      6,
+      3,
+      1,
+      5,
+      2
+     ],
+     [
+      0,
+      5,
+      2,
+      6,
+      4,
+      1,
+      3
+     ],
+     [
+      0,
+      5,
+      3,
+      1,
+      6,
+      4,
+      2
+     ]
+    ],
+    "c22_violations": 0,
+    "loss_min_c_len_minus_d": {
+     "0": 129,
+     "1": 278,
+     "2": 618,
+     "3": 876,
+     "4": 934,
+     "5": 1121,
+     "6": 477,
+     "7": 515,
+     "8": 63,
+     "9": 29
+    },
+    "loss_min_c_reduced_minus_d": {
+     "0": 1420,
+     "1": 901,
+     "2": 1115,
+     "3": 766,
+     "4": 456,
+     "5": 287,
+     "6": 61,
+     "7": 32,
+     "8": 1,
+     "9": 1
+    },
+    "table_used": true,
+    "seconds": 2.9
+   },
+   "8": {
+    "n": 8,
+    "permutations": 40320,
+    "shifts_per_perm": 8,
+    "words_built": 322560,
+    "U_n": 35,
+    "B_n": 28,
+    "max_min_c_len": 30,
+    "worst_examples": [
+     [
+      0,
+      2,
+      5,
+      7,
+      3,
+      1,
+      6,
+      4
+     ],
+     [
+      0,
+      3,
+      7,
+      6,
+      2,
+      5,
+      1,
+      4
+     ],
+     [
+      0,
+      3,
+      7,
+      6,
+      4,
+      2,
+      1,
+      5
+     ],
+     [
+      0,
+      4,
+      7,
+      2,
+      5,
+      1,
+      6,
+      3
+     ],
+     [
+      0,
+      4,
+      7,
+      3,
+      6,
+      2,
+      1,
+      5
+     ]
+    ],
+    "c22_violations": 0,
+    "loss_min_c_len_minus_d": {
+     "0": 821,
+     "2": 4843,
+     "4": 11364,
+     "6": 13602,
+     "8": 8286,
+     "10": 1378,
+     "12": 26
+    },
+    "loss_min_c_reduced_minus_d": {
+     "0": 8499,
+     "2": 13675,
+     "4": 11751,
+     "6": 5432,
+     "8": 934,
+     "10": 29
+    },
+    "table_used": true,
+    "seconds": 29.7
+   }
+  }
+ }
+}
