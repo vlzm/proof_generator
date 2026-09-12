@@ -1,0 +1,18 @@
+{
+ "n": 7,
+ "D_n": 21,
+ "num_geodesics": 84,
+ "splits_NX_Nrot_count": [
+  [
+   9,
+   12,
+   84
+  ]
+ ],
+ "min_N_X": 9,
+ "expected_N_X": 9,
+ "expected_N_rot": 12,
+ "C13_min_split_ok": true,
+ "C13_all_geodesics_same_split_n_ge_5": true,
+ "dag_size": 572
+}

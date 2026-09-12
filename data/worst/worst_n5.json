@@ -1,0 +1,27 @@
+{
+ "n": 5,
+ "D_n": 10,
+ "B_n": 10,
+ "profile": [
+  1,
+  3,
+  6,
+  10,
+  16,
+  24,
+  29,
+  21,
+  6,
+  3,
+  1
+ ],
+ "num_at_D": 1,
+ "num_at_D_minus_1": 3,
+ "argmax_is_unique_sigma": true,
+ "layer_Dm1_is_3_neighbours_of_sigma": true,
+ "d_sigma": 10,
+ "d_rev": 8,
+ "d_rev_eq_D_minus_2": true,
+ "inversion_preserves_d": true,
+ "sigma_conjugation_preserves_d": true
+}

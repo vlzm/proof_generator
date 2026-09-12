@@ -1,0 +1,14 @@
+{
+ "n": 7,
+ "generators": "L (left cyclic shift), R (right cyclic shift), X (swap first two); PROBLEM.md conventions",
+ "indexing": "Lehmer rank (rank_perm in exact/bfs.py)",
+ "dtype": "uint8, 0xFF = unvisited",
+ "core_version": "oracle-1.0",
+ "complete": true,
+ "max_distance": 21,
+ "sha256": "bd693c40759fbfa555f4d1ec7d59bcfdd0f11382e00c3152ef7aabf15c05097f",
+ "bfs_seconds": 0.04,
+ "cross_check": "cross-checked vs bfs_dict",
+ "certified": true,
+ "certifier": "oracle/verify_distances.py (independent moves)"
+}
