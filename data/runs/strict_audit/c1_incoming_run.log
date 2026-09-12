@@ -1,8 +1,0 @@
-n=4: PASS; states=24; bound=8; max constructed length=6; maximizers=1; first maximizer=(1, 0, 3, 2); chosen c counts=(3, 8, 8, 5)
-n=5: PASS; states=120; bound=13; max constructed length=10; maximizers=2; first maximizer=(1, 0, 4, 3, 2); chosen c counts=(10, 25, 40, 28, 17)
-n=6: PASS; states=720; bound=19; max constructed length=16; maximizers=1; first maximizer=(0, 1, 4, 5, 2, 3); chosen c counts=(98, 113, 134, 165, 127, 83)
-n=7: PASS; states=5040; bound=26; max constructed length=21; maximizers=17; first maximizer=(0, 2, 5, 1, 6, 4, 3); chosen c counts=(424, 662, 765, 1097, 743, 773, 576)
-
-real	0m1.576s
-user	0m1.511s
-sys	0m0.044s
