@@ -23,7 +23,7 @@ and `h` is even; in every other case (`n` odd, `n = 0 (mod 4)`, or
 `n = 2 (mod 4)` with `h` odd) the minimum is `<= B_n`. The second line
 follows from the first by the trivial Lemma R5 below; it is never worse,
 and the *worst case over h* is identical for both routes at every `n`
-tested (`4<=n<=40`, see "Machine verification") — but the two true minima
+tested (`4<=n<=60`, see "Machine verification") — but the two true minima
 do **not** coincide at every individual `h`: e.g. at `n=6, h=0` the true
 `min_c` of the H-route quantity is `B_n+1` while the true `min_c` of the
 carrier-route quantity is `B_n-1` (§7 gives the numbers). The carrier
@@ -137,7 +137,7 @@ n = 2 (mod 4):  F_{h'} = P-1 (h' even), P+1 (h' odd)   (m odd, m-1 even:
 ```
 
 (`checks/check_C28.py` verifies these four closed forms against the
-executed construction's actual `F_c, S_c` for every reflection, `4<=n<=40`,
+executed construction's actual `F_c, S_c` for every reflection, `4<=n<=60`,
 by assertion — not just the final bound.)
 
 ## 4. The two route values used (Lemma R4)
@@ -237,7 +237,7 @@ C27v from a finite check to a theorem.
 ## 8. Machine verification
 
 `checks/check_C28.py` (check_C28-1.0), against `strict_upper-1.0`
-(oracle-1.0): for every `4<=n<=40` and every `h in Z_n` (exhaustive, not
+(oracle-1.0): for every `4<=n<=60` and every `h in Z_n` (exhaustive, not
 sampled):
 
 1. asserts the closed-form `F_{h'}, S_{h'}` (§3, §2) match
@@ -253,7 +253,7 @@ sampled):
    quantity are `<= B_n+1`.
 
 Result (`data/runs/check_C28/run.md`): all assertions PASS,
-`4<=n<=40`; the true-minimum excess over `B_n` is exactly `1` when
+`4<=n<=60`; the true-minimum excess over `B_n` is exactly `1` when
 `n = 2 (mod 4)` and exactly `0` otherwise, for *both* routes, at every `n`
 tested — confirming the Theorem's case split is exact, not just an upper
 bound, on this family.
