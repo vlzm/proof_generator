@@ -1,0 +1,14 @@
+{
+ "n": 12,
+ "generators": "L (left cyclic shift), R (right cyclic shift), X (swap first two); PROBLEM.md conventions",
+ "indexing": "Lehmer rank (rank_perm in exact/bfs.py)",
+ "dtype": "uint8, 0xFF = unvisited",
+ "core_version": "oracle-1.0",
+ "builder": "exact/bfs_fast.c (byte-identical to exact/bfs.py for 4<=n<=10)",
+ "complete": true,
+ "max_distance": 66,
+ "sha256": "a4b60b50b38b020eafc16828115b3da8ede3cb437260ea2841823602b1c1290c",
+ "note": "built by bfs_fast.c; certified by bfs_fast cert (all states/edges)",
+ "certified": true,
+ "certifier": "exact/bfs_fast.c cert (all 479001600 states, all edges)"
+}

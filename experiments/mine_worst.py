@@ -30,11 +30,21 @@ def mine(n):
     dist, _ = load(n)
     fact = factorials(n)
     D = max(dist)
-    profile = [0] * (D + 1)
-    for b in dist:
-        profile[b] += 1
-    argmax = [unrank_perm(r, n, fact) for r, b in enumerate(dist) if b == D]
-    layer1 = [unrank_perm(r, n, fact) for r, b in enumerate(dist) if b == D - 1]
+    # bytes.count/find run at C speed; a Python loop over n! bytes does not
+    profile = [dist.count(v) for v in range(D + 1)]
+    assert sum(profile) == fact[n]
+
+    def find_layer(value):
+        out, pos, needle = [], 0, bytes([value])
+        while True:
+            pos = dist.find(needle, pos)
+            if pos < 0:
+                return out
+            out.append(unrank_perm(pos, n, fact))
+            pos += 1
+
+    argmax = find_layer(D)
+    layer1 = find_layer(D - 1)
 
     s = sigma(n)
     rv = rev(n)
@@ -42,9 +52,20 @@ def mine(n):
     d_rev = dist[rank_perm(rv, fact)]
     sigma_neighbours = sorted(apply_move(s, m) for m in ("L", "R", "X"))
 
-    # PROBLEM §4.3 invariances: d(p) = d(p^{-1}) and d(sigma p sigma)
+    # PROBLEM §4.3 invariances: d(p) = d(p^{-1}) and d(sigma p sigma).
+    # Exhaustive for n <= 10; SAMPLED for larger n (full loop too slow in
+    # pure Python) — the sampled result is diagnostics, not a certificate.
+    import random
+    if fact[n] <= 4000000:
+        sym_ranks = range(fact[n])
+        sym_coverage = "exhaustive"
+    else:
+        rng = random.Random(20260912)
+        sym_ranks = [rng.randrange(fact[n]) for _ in range(200000)]
+        sym_coverage = "SAMPLED 200000 states, seed 20260912"
     inv_ok = conj_ok = True
-    for r, b in enumerate(dist):
+    for r in sym_ranks:
+        b = dist[r]
         p = unrank_perm(r, n, fact)
         pinv = [0] * n
         for i, v in enumerate(p):
@@ -72,6 +93,7 @@ def mine(n):
         "d_rev_eq_D_minus_2": d_rev == D - 2,
         "inversion_preserves_d": inv_ok,
         "sigma_conjugation_preserves_d": conj_ok,
+        "symmetry_check_coverage": sym_coverage,
     }
     return result
 

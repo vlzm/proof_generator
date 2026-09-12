@@ -73,13 +73,13 @@ def bfs_dict(n):
     return dist
 
 
-def bfs_lehmer(n, progress=False):
-    """Dense BFS; returns bytearray of length n! indexed by Lehmer rank."""
+def bfs_lehmer(n, progress=False, start=None):
+    """Dense BFS from `start` (default id_n); bytearray indexed by Lehmer rank."""
     fact = factorials(n)
     total = fact[n]
-    dist = bytearray([UNVISITED]) * 1
     dist = bytearray(b"\xff" * total)
-    start = identity(n)
+    if start is None:
+        start = identity(n)
     r0 = rank_perm(start, fact)
     dist[r0] = 0
     frontier = [r0]

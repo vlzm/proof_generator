@@ -1,0 +1,5 @@
+data/tables/dist_n11.bin
+data/tables/dist_n12.bin
+exact/bfs_fast
+__pycache__/
+*.pyc

@@ -29,6 +29,60 @@ def bfs_from(start):
     return dist
 
 
+def mine_dense(n):
+    """Table-based variant for n >= 11.
+
+    Uses a certified distance table plus left-invariance of the graph
+    metric: moves act on the right (p -> p o l), so
+    dist(sigma, p) = dist(id, sigma^-1 o p) = d(sigma o p) (sigma = sigma^-1).
+    The geodesic DAG is grown forward from id without scanning all of S_n.
+    The identity itself is asserted against dict BFS for n = 8 in
+    self_test_left_invariance().
+    """
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "exact"))
+    from bfs import factorials, rank_perm
+    idn, sg = identity(n), sigma(n)
+    fact = factorials(n)
+    tables_dir = os.path.join(os.path.dirname(__file__), "..", "data", "tables")
+    with open(os.path.join(tables_dir, f"dist_n{n}.bin"), "rb") as f:
+        dist = f.read()
+
+    def d_id_of(p):
+        return dist[rank_perm(p, fact)]
+
+    def d_sg_of(p):
+        return dist[rank_perm(tuple(sg[v] for v in p), fact)]
+
+    D = d_id_of(sg)
+    assert d_sg_of(idn) == D
+    on_dag = {idn: 0}
+    frontier = [idn]
+    a = 0
+    while frontier:
+        a += 1
+        nxt = []
+        for p in frontier:
+            for m in ("L", "R", "X"):
+                q = apply_move(p, m)
+                if q not in on_dag and d_id_of(q) == a \
+                        and d_sg_of(q) == D - a:
+                    on_dag[q] = a
+                    nxt.append(q)
+        frontier = nxt
+    return _dp(n, idn, sg, D, set(on_dag), on_dag)
+
+
+def self_test_left_invariance():
+    """dist(sigma, p) == d(sigma o p) for all p, n = 8 (exhaustive)."""
+    n = 8
+    sg = sigma(n)
+    d_id = bfs_from(identity(n))
+    d_sg = bfs_from(sg)
+    for p, dd in d_sg.items():
+        assert d_id[tuple(sg[v] for v in p)] == dd
+    return True
+
+
 def mine(n):
     idn, sg = identity(n), sigma(n)
     d_id = bfs_from(idn)
@@ -36,6 +90,10 @@ def mine(n):
     D = d_id[sg]
 
     on_dag = {p for p, d in d_id.items() if d + d_sg[p] == D}
+    return _dp(n, idn, sg, D, on_dag, d_id)
+
+
+def _dp(n, idn, sg, D, on_dag, d_id):
     layers = [[] for _ in range(D + 1)]
     for p in on_dag:
         layers[d_id[p]].append(p)
@@ -79,7 +137,7 @@ def main():
                            "geodesics")
     os.makedirs(out_dir, exist_ok=True)
     for n in [int(a) for a in sys.argv[1:]]:
-        res = mine(n)
+        res = mine(n) if n <= 10 else mine_dense(n)
         with open(os.path.join(out_dir, f"geodesics_n{n}.json"), "w") as f:
             json.dump(res, f, indent=1)
         print(f"n={n}: D={res['D_n']}, geodesics={res['num_geodesics']}, "
