@@ -94,11 +94,14 @@ def best_claimed(n):
 
 
 def certified_bound(n):
-    """Confirmed bound: VERIFIED exact data only; no local PROVED general
-    upper bound exists yet (C1/C4/C16/C17 are all CLAIMED)."""
+    """Confirmed bound: VERIFIED exact data where available, otherwise U_n
+    (C16, PROVED by the local audit of N1, docs/notes/strict_proof_audit.md).
+    C1/C4/C10/C11 remain CLAIMED and are not used here."""
     if n in VERIFIED_EXACT:
         return VERIFIED_EXACT[n], "VERIFIED (certified BFS table)"
-    return None, "no locally certified bound for this n"
+    if n >= 4:
+        return strict_upper_bound(n), "PROVED (C16, local audit 12.09.2026)"
+    return None, "outside the range n >= 4"
 
 
 if __name__ == "__main__":
