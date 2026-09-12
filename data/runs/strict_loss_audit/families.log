@@ -1,0 +1,10 @@
+n=4: 10 inputs in 0.0 s; reflections Q_min-B: [-1, 0, -1, 0], Q_R-B: [-1, 0, -1, -2], Q_RJ-B: [-1, 0, -1, -2]; shift loss on sigma_n 1, route 0
+n=5: 15 inputs in 0.0 s; reflections Q_min-B: [0, 0, 0, 0, 0], Q_R-B: [-1, 0, 0, -1, -2], Q_RJ-B: [-1, 0, 0, -1, -2]; shift loss on sigma_n 3/5, route 0
+n=6: 21 inputs in 0.0 s; reflections Q_min-B: [1, 0, 1, 0, 1, 0], Q_R-B: [-1, 0, 1, 0, -1, -2], Q_RJ-B: [-1, 0, -1, 0, -1, -2]; shift loss on sigma_n 4/3, route 0
+n=7: 28 inputs in 0.1 s; reflections Q_min-B: [0, 0, 0, 0, 0, 0, 0], Q_R-B: [-1, 0, 0, 0, -1, -2, -2], Q_RJ-B: [-1, 0, 0, 0, -1, -2, -2]; shift loss on sigma_n 1, route 0
+n=8: 37 inputs in 0.1 s; reflections Q_min-B: [-1, 0, -1, 0, -1, 0, -1, 0], Q_R-B: [-1, 0, -1, 0, -1, -2, -3, -2], Q_RJ-B: [-1, 0, -1, 0, -1, -2, -3, -2]; shift loss on sigma_n 7/4, route 0
+n=9: 45 inputs in 0.1 s; reflections Q_min-B: [0, 0, 0, 0, 0, 0, 0, 0, 0], Q_R-B: [-1, 0, 0, 0, 0, -1, -2, -3, -2], Q_RJ-B: [-1, 0, 0, 0, 0, -1, -2, -3, -2]; shift loss on sigma_n 13/9, route 0
+n=10: 55 inputs in 0.2 s; reflections Q_min-B: [1, 0, 1, 0, 1, 0, 1, 0, 1, 0], Q_R-B: [-1, 0, 1, 0, 1, 0, -1, -2, -3, -2], Q_RJ-B: [-1, 0, -1, 0, -1, 0, -1, -2, -3, -2]; shift loss on sigma_n 11/5, route 0
+n=11: 66 inputs in 0.3 s; reflections Q_min-B: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], Q_R-B: [-1, 0, 0, 0, 0, 0, -1, -2, -3, -3, -2], Q_RJ-B: [-1, 0, 0, 0, 0, 0, -1, -2, -3, -3, -2]; shift loss on sigma_n 21/11, route 0
+n=12: 78 inputs in 0.4 s; reflections Q_min-B: [-1, 0, -1, 0, -1, 0, -1, 0, -1, 0, -1, 0], Q_R-B: [-1, 0, -1, 0, -1, 0, -1, -2, -3, -4, -3, -2], Q_RJ-B: [-1, 0, -1, 0, -1, 0, -1, -2, -3, -4, -3, -2]; shift loss on sigma_n 8/3, route 0
+done in 1.3 s
