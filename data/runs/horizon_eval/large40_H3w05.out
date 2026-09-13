@@ -1,0 +1,3 @@
+== horizon_eval-1.1 sweep-1.3 oracle-1.0 args={'perms': 0, 'perms_from': 4, 'families': 0, 'samples': 4, 'seed': 1, 'workers': 2, 'horizon': 3, 'weight': 0.5, 'thrs': '1,2', 'tag': 'H3w0.5_large40', 'fallback': False, 'large': '40'}
+large n=40: 101 inputs, 735 s; max excess {'refl': 0, 'rev': -2, 'affine': -69, 'random': -136} argmax {'refl': 'refl_h1', 'rev': 'rev_n', 'affine': 'affine_37_1', 'random': 'random_0'}
+written /home/user/proof_generator/experiments/../data/runs/horizon_eval/report_H3w0.5_large40.json

@@ -1,0 +1,47 @@
+{
+ "meta": {
+  "candidate": "sweep-1.3",
+  "horizon": 3,
+  "weight": 0.5,
+  "fallback": false,
+  "note": "H10 affine counterexamples (C27) under the horizon policy, full min over c, dir, thr"
+ },
+ "rows": [
+  {
+   "n": 27,
+   "a": 8,
+   "b": 3,
+   "B": 351,
+   "len": 297,
+   "N_X": 115,
+   "N_rot": 182,
+   "c": 8,
+   "thr": 1,
+   "seconds": 2
+  },
+  {
+   "n": 36,
+   "a": 5,
+   "b": 1,
+   "B": 630,
+   "len": 553,
+   "N_X": 200,
+   "N_rot": 353,
+   "c": 15,
+   "thr": 1,
+   "seconds": 7
+  },
+  {
+   "n": 54,
+   "a": 17,
+   "b": 5,
+   "B": 1431,
+   "len": 1239,
+   "N_X": 486,
+   "N_rot": 753,
+   "c": 11,
+   "thr": 1,
+   "seconds": 28
+  }
+ ]
+}
