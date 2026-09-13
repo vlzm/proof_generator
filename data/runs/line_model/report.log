@@ -1,0 +1,14 @@
+== line_model-1.0 oracle-1.0 args={'nmin': 4, 'nmax': 8}
+n=4: 4 line BFS runs, 0 s
+n=4: max d_line = 6 (B_n = 6) at (1, 0, 3, 2); max min-inv = 2 (floor((n-1)^2/4) = 2) at (0, 3, 2, 1); d_line = d on 24/24; hist d_line - d: {0: 24}; 0 s
+n=5: 5 line BFS runs, 0 s
+n=5: max d_line = 10 (B_n = 10) at (1, 0, 4, 3, 2); max min-inv = 4 (floor((n-1)^2/4) = 4) at (0, 4, 3, 2, 1); d_line = d on 114/120; hist d_line - d: {0: 114, 1: 6}; 0 s
+n=6: 6 line BFS runs, 0 s
+n=6: max d_line = 15 (B_n = 15) at (1, 0, 5, 4, 3, 2); max min-inv = 6 (floor((n-1)^2/4) = 6) at (0, 5, 4, 3, 2, 1); d_line = d on 698/720; hist d_line - d: {0: 698, 2: 22}; 0 s
+n=7: 7 line BFS runs, 2 s
+n=7: max d_line = 21 (B_n = 21) at (1, 0, 6, 5, 4, 3, 2); max min-inv = 9 (floor((n-1)^2/4) = 9) at (0, 6, 5, 4, 3, 2, 1); d_line = d on 4389/5040; hist d_line - d: {0: 4389, 1: 524, 2: 95, 3: 32}; 3 s
+n=8: 8 line BFS runs, 24 s
+== line_model-1.0 oracle-1.0 args={'nmin': 9, 'nmax': 9}
+n=8: max d_line = 28 (B_n = 28) at (1, 0, 7, 6, 5, 4, 3, 2); max min-inv = 12 (floor((n-1)^2/4) = 12) at (0, 7, 6, 5, 4, 3, 2, 1); d_line = d on 35725/40320; hist d_line - d: {0: 35725, 2: 4433, 4: 162}; 40 s
+n=9: 9 line BFS runs, 295 s
+n=9: max d_line = 36 (B_n = 36) at (1, 0, 8, 7, 6, 5, 4, 3, 2); max min-inv = 16 (floor((n-1)^2/4) = 16) at (0, 8, 7, 6, 5, 4, 3, 2, 1); d_line = d on 278458/362880; hist d_line - d: {0: 278458, 1: 62789, 2: 10029, 3: 10494, 4: 834, 5: 272, 6: 4}; 500 s
