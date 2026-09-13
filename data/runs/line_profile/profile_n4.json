@@ -1,0 +1,14 @@
+{"n": 4, "count": 24, "max_d_minus_2I": 3, "argmax_d_minus_2I_rank": 1, "max_d_minus_I": 4, "argmax_d_minus_I_rank": 1,
+ "by_I": [
+  {"I": 0, "count": 4, "max_d": 2, "min_d": 0, "argmax_rank": 16},
+  {"I": 1, "count": 16, "max_d": 5, "min_d": 1, "argmax_rank": 1},
+  {"I": 2, "count": 4, "max_d": 6, "min_d": 4, "argmax_rank": 7}],
+ "by_d": [
+  {"d": 0, "count": 1, "max_I": 0, "min_I": 0},
+  {"d": 1, "count": 3, "max_I": 1, "min_I": 0},
+  {"d": 2, "count": 5, "max_I": 1, "min_I": 0},
+  {"d": 3, "count": 6, "max_I": 1, "min_I": 1},
+  {"d": 4, "count": 5, "max_I": 2, "min_I": 1},
+  {"d": 5, "count": 3, "max_I": 2, "min_I": 1},
+  {"d": 6, "count": 1, "max_I": 2, "min_I": 2}],
+ "joint": [[0, 0, 1], [0, 1, 2], [0, 2, 1], [1, 1, 1], [1, 2, 4], [1, 3, 6], [1, 4, 4], [1, 5, 1], [2, 4, 1], [2, 5, 2], [2, 6, 1]]}
