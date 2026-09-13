@@ -25,7 +25,7 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 for sub in ("oracle", "constructions", "experiments"):
     sys.path.insert(0, os.path.join(ROOT, sub))
 
-from moves import CORE_VERSION  # noqa: E402
+from moves import CORE_VERSION, freely_reduce, apply_word, identity  # noqa: E402
 import strict_upper as su  # noqa: E402
 from h10_scan import bound_R, B  # noqa: E402
 
@@ -57,9 +57,40 @@ def lemma4_choice(n, h):
     return (1, 0) if h % 2 == 1 else (0, 1)
 
 
+def check_part2(nmax):
+    """C28 part 2 (docs/proofs/C28_reflections.md, 'Часть 2'): after free
+    reduction, the carrier-route word has length <= B_n on every reflection.
+    Only the exceptional case of part 1 (n = 2 mod 4, h even) needs checking;
+    cases 1-4 already give <= B_n before reduction (Lemma 4 value <= 0)."""
+    worst = None
+    pairs = 0
+    for n in range(4, nmax + 1):
+        if n % 4 != 2:
+            continue
+        Bn = B(n)
+        for h in range(0, n, 2):
+            pi = tuple((h - i) % n for i in range(n))
+            best = None
+            for c in range(n):
+                sw = su.shift_word(pi, c, route="carrier")
+                red = freely_reduce(sw["word"])
+                assert apply_word(pi, red) == identity(n), ("part 2 word must sort pi", n, h, c)
+                if best is None or len(red) < best:
+                    best = len(red)
+            pairs += 1
+            excess = best - Bn
+            assert excess <= 0, ("C28 part 2: <= B_n after reduction", n, h, excess)
+            if worst is None or excess > worst[0]:
+                worst = (excess, n, h)
+    return {"pairs_checked": pairs, "worst_excess": worst[0] if worst else None,
+            "worst_at": worst[1:] if worst else None}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--nmax", type=int, default=60)
+    ap.add_argument("--part2-nmax", type=int, default=40,
+                     help="range for the (slower) part-2 reduction check")
     a = ap.parse_args()
     t0 = time.time()
     checked = 0
@@ -89,19 +120,26 @@ def main():
             assert minR <= 1, ("C28 with R_c", n, h, minR)
             if minR == 1:
                 plus_one_R.append((n, h))
+    t1 = time.time()
+    part2 = check_part2(a.part2_nmax)
+    t2 = time.time()
     report = {
         "claim": "C28", "core": CORE_VERSION, "construction": su.CONSTRUCTION_VERSION,
         "range": f"4<=n<={a.nmax}, all reflections, all shifts",
-        "checked_shifts": checked, "elapsed_s": round(time.time() - t0, 1),
+        "checked_shifts": checked, "elapsed_s": round(t1 - t0, 1),
         "R_route_plus_one_cases": plus_one_R,
+        "part2": {"range": f"4<=n<={a.part2_nmax}, n=2 mod 4, all even h",
+                  "elapsed_s": round(t2 - t1, 1), **part2},
         "result": "PASS",
     }
     out = os.path.join(ROOT, "data", "runs", "check_C28")
     os.makedirs(out, exist_ok=True)
     with open(os.path.join(out, "report.json"), "w") as f:
         json.dump(report, f, indent=1)
-    print(f"C28 PASS: {checked} (n, h, c) triples, 4<=n<={a.nmax}, {report['elapsed_s']} s")
+    print(f"C28 part 1 PASS: {checked} (n, h, c) triples, 4<=n<={a.nmax}, {report['elapsed_s']} s")
     print("R-route minimum = B_n + 1 at (n, h):", plus_one_R)
+    print(f"C28 part 2 PASS: {part2['pairs_checked']} (n, h) pairs, "
+          f"4<=n<={a.part2_nmax}, worst excess {part2['worst_excess']}, {report['part2']['elapsed_s']} s")
 
 
 if __name__ == "__main__":

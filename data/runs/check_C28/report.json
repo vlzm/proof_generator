@@ -4,7 +4,7 @@
  "construction": "strict_upper-1.0",
  "range": "4<=n<=60, all reflections, all shifts",
  "checked_shifts": 73796,
- "elapsed_s": 16.1,
+ "elapsed_s": 19.3,
  "R_route_plus_one_cases": [
   [
    6,
@@ -427,5 +427,15 @@
    28
   ]
  ],
+ "part2": {
+  "range": "4<=n<=40, n=2 mod 4, all even h",
+  "elapsed_s": 2.7,
+  "pairs_checked": 99,
+  "worst_excess": -1,
+  "worst_at": [
+   6,
+   0
+  ]
+ },
  "result": "PASS"
 }
