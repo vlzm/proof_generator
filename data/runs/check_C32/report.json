@@ -1,0 +1,63 @@
+{
+  "version": "check_C32-1.0",
+  "core": "oracle-1.0",
+  "construction": "strict_upper-1.0",
+  "range": "4<=n<=9",
+  "total_seconds": 337.708,
+  "results": [
+    {
+      "n": 4,
+      "n_perms": 24,
+      "pairs_checked": 96,
+      "lemma_violations": [],
+      "sc_coverage_pct": 100.0,
+      "sc_prime_coverage_pct": 100.0,
+      "seconds": 0.005
+    },
+    {
+      "n": 5,
+      "n_perms": 120,
+      "pairs_checked": 600,
+      "lemma_violations": [],
+      "sc_coverage_pct": 91.66666666666667,
+      "sc_prime_coverage_pct": 100.0,
+      "seconds": 0.032
+    },
+    {
+      "n": 6,
+      "n_perms": 720,
+      "pairs_checked": 4320,
+      "lemma_violations": [],
+      "sc_coverage_pct": 92.5,
+      "sc_prime_coverage_pct": 95.27777777777777,
+      "seconds": 0.274
+    },
+    {
+      "n": 7,
+      "n_perms": 5040,
+      "pairs_checked": 35280,
+      "lemma_violations": [],
+      "sc_coverage_pct": 90.27777777777777,
+      "sc_prime_coverage_pct": 92.79761904761905,
+      "seconds": 2.579
+    },
+    {
+      "n": 8,
+      "n_perms": 40320,
+      "pairs_checked": 322560,
+      "lemma_violations": [],
+      "sc_coverage_pct": 83.13492063492063,
+      "sc_prime_coverage_pct": 90.75644841269842,
+      "seconds": 26.799
+    },
+    {
+      "n": 9,
+      "n_perms": 362880,
+      "pairs_checked": 3265920,
+      "lemma_violations": [],
+      "sc_coverage_pct": 81.46742724867725,
+      "sc_prime_coverage_pct": 89.68171296296296,
+      "seconds": 308.018
+    }
+  ]
+}
