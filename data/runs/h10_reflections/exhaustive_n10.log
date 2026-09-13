@@ -1,0 +1,20 @@
+check_C28-1.0 oracle-1.0 strict_upper-1.0
+  200000 done, max excess 0, 57 s
+  400000 done, max excess 0, 113 s
+  600000 done, max excess 0, 170 s
+  800000 done, max excess 1, 227 s
+  1000000 done, max excess 1, 284 s
+  1200000 done, max excess 1, 341 s
+  1400000 done, max excess 1, 398 s
+  1600000 done, max excess 1, 455 s
+  1800000 done, max excess 1, 511 s
+  2000000 done, max excess 1, 568 s
+  2200000 done, max excess 1, 625 s
+  2400000 done, max excess 1, 682 s
+  2600000 done, max excess 1, 739 s
+  2800000 done, max excess 1, 795 s
+  3000000 done, max excess 1, 853 s
+  3200000 done, max excess 1, 909 s
+  3400000 done, max excess 1, 966 s
+  3600000 done, max excess 1, 1022 s
+n=10: 3628800 permutations, max min_c excess 1, tight inputs 96, 1030 s

@@ -1,0 +1,6 @@
+check_C28-1.0 oracle-1.0 strict_upper-1.0
+n=4: max min_c excess 0, tight inputs 1 (1 reflections), SC covers 24/24 = 100.0%
+n=5: max min_c excess 0, tight inputs 2 (2 reflections), SC covers 110/120 = 91.7%
+n=6: max min_c excess 1, tight inputs 7 (3 reflections), SC covers 666/720 = 92.5%
+n=7: max min_c excess 0, tight inputs 3 (3 reflections), SC covers 4550/5040 = 90.3%
+n=8: max min_c excess 0, tight inputs 11 (2 reflections), SC covers 33520/40320 = 83.1%
