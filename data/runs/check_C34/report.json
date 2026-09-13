@@ -1,0 +1,165 @@
+{
+ "version": "check_C34-1.0",
+ "construction": "line_cocktail-1.0",
+ "core": "oracle-1.0",
+ "args": {
+  "amax": 8
+ },
+ "part_a": [
+  {
+   "n": 4,
+   "lines": 24,
+   "N_rot": 5,
+   "seconds": 0.0
+  },
+  {
+   "n": 5,
+   "lines": 120,
+   "N_rot": 9,
+   "seconds": 0.0
+  },
+  {
+   "n": 6,
+   "lines": 720,
+   "N_rot": 14,
+   "seconds": 0.0
+  },
+  {
+   "n": 7,
+   "lines": 5040,
+   "N_rot": 20,
+   "seconds": 0.1
+  },
+  {
+   "n": 8,
+   "lines": 40320,
+   "N_rot": 27,
+   "seconds": 1.3
+  }
+ ],
+ "part_b": [
+  {
+   "n": 4,
+   "tau": [
+    0,
+    1,
+    3,
+    2
+   ],
+   "d": 5,
+   "I": 1,
+   "word": "LLXRR",
+   "ok": true
+  },
+  {
+   "n": 6,
+   "tau": [
+    0,
+    1,
+    2,
+    4,
+    3,
+    5
+   ],
+   "d": 7,
+   "I": 1,
+   "word": "LLLXRRR",
+   "ok": true
+  },
+  {
+   "n": 8,
+   "tau": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    4,
+    6,
+    7
+   ],
+   "d": 9,
+   "I": 1,
+   "word": "LLLLXRRRR",
+   "ok": true
+  },
+  {
+   "n": 10,
+   "tau": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    5,
+    7,
+    8,
+    9
+   ],
+   "d": 11,
+   "I": 1,
+   "word": "LLLLLXRRRRR",
+   "ok": true
+  }
+ ],
+ "part_c": [
+  {
+   "n": 4,
+   "max_d_minus_I": 4,
+   "floor_n2_4": 4,
+   "max_I": 2,
+   "floor_(n-1)2_4": 2,
+   "max_d_minus_2I": 3
+  },
+  {
+   "n": 5,
+   "max_d_minus_I": 6,
+   "floor_n2_4": 6,
+   "max_I": 4,
+   "floor_(n-1)2_4": 4,
+   "max_d_minus_2I": 3
+  },
+  {
+   "n": 6,
+   "max_d_minus_I": 9,
+   "floor_n2_4": 9,
+   "max_I": 6,
+   "floor_(n-1)2_4": 6,
+   "max_d_minus_2I": 5
+  },
+  {
+   "n": 7,
+   "max_d_minus_I": 12,
+   "floor_n2_4": 12,
+   "max_I": 9,
+   "floor_(n-1)2_4": 9,
+   "max_d_minus_2I": 6
+  },
+  {
+   "n": 8,
+   "max_d_minus_I": 16,
+   "floor_n2_4": 16,
+   "max_I": 12,
+   "floor_(n-1)2_4": 12,
+   "max_d_minus_2I": 8
+  },
+  {
+   "n": 9,
+   "max_d_minus_I": 20,
+   "floor_n2_4": 20,
+   "max_I": 16,
+   "floor_(n-1)2_4": 16,
+   "max_d_minus_2I": 10
+  },
+  {
+   "n": 10,
+   "max_d_minus_I": 25,
+   "floor_n2_4": 25,
+   "max_I": 20,
+   "floor_(n-1)2_4": 20,
+   "max_d_minus_2I": 13
+  }
+ ],
+ "verdict": "PASS"
+}

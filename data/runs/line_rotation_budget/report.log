@@ -1,0 +1,88 @@
+== line_rotation_budget-1.0 oracle-1.0 args={'nmin': 4, 'nmax': 7}
+n=4: 4 reduced 0-1 BFS runs, 0 s
+n=4: max Rfree over lines = 5 at (3, 2, 1, 0); floor(n^2/4) = 4
+n=4: max d_red - d = 0 at (0, 1, 2, 3), hist {0: 24}
+n=4: max d_red - I - floor(n^2/4) = 0 at (0, 1, 3, 2), hist {-4: 2, -3: 6, -2: 8, -1: 6, 0: 2}
+n=4: max Rbest = 4 at (0, 1, 3, 2), hist {0: 2, 1: 6, 2: 8, 3: 6, 4: 2}
+   I= 0 count=     4 max_d= 2 max_d_red= 2 max_Rbest= 2 I+floor(n^2/4)=4
+   I= 1 count=    16 max_d= 5 max_d_red= 5 max_Rbest= 4 I+floor(n^2/4)=5
+   I= 2 count=     4 max_d= 6 max_d_red= 6 max_Rbest= 4 I+floor(n^2/4)=6
+n=5: 5 reduced 0-1 BFS runs, 0 s
+n=5: max Rfree over lines = 9 at (4, 3, 2, 1, 0); floor(n^2/4) = 6
+n=5: max d_red - d = 1 at (0, 2, 1, 4, 3), hist {0: 114, 1: 6}
+n=5: max d_red - I - floor(n^2/4) = 0 at (0, 1, 4, 3, 2), hist {-6: 2, -5: 8, -4: 20, -3: 36, -2: 39, -1: 11, 0: 4}
+n=5: max Rbest = 6 at (0, 1, 4, 3, 2), hist {0: 2, 1: 8, 2: 20, 3: 36, 4: 39, 5: 11, 6: 4}
+   I= 0 count=     5 max_d= 2 max_d_red= 2 max_Rbest= 2 I+floor(n^2/4)=6
+   I= 1 count=    25 max_d= 5 max_d_red= 5 max_Rbest= 4 I+floor(n^2/4)=7
+   I= 2 count=    50 max_d= 7 max_d_red= 8 max_Rbest= 6 I+floor(n^2/4)=8
+   I= 3 count=    35 max_d= 9 max_d_red= 9 max_Rbest= 6 I+floor(n^2/4)=9
+   I= 4 count=     5 max_d=10 max_d_red=10 max_Rbest= 6 I+floor(n^2/4)=10
+n=6: 6 reduced 0-1 BFS runs, 0 s
+n=6: max Rfree over lines = 14 at (5, 3, 4, 1, 2, 0); floor(n^2/4) = 9
+n=6: max d_red - d = 2 at (0, 1, 3, 2, 5, 4), hist {0: 698, 2: 22}
+n=6: max d_red - I - floor(n^2/4) = 0 at (0, 1, 5, 4, 3, 2), hist {-9: 2, -8: 8, -7: 22, -6: 50, -5: 98, -4: 164, -3: 191, -2: 135, -1: 47, 0: 3}
+n=6: max Rbest = 9 at (0, 1, 4, 5, 3, 2), hist {0: 2, 1: 8, 2: 22, 3: 50, 4: 98, 5: 159, 6: 171, 7: 132, 8: 67, 9: 11}
+   I= 0 count=     6 max_d= 3 max_d_red= 3 max_Rbest= 3 I+floor(n^2/4)=9
+   I= 1 count=    36 max_d= 7 max_d_red= 7 max_Rbest= 6 I+floor(n^2/4)=10
+   I= 2 count=   126 max_d= 9 max_d_red=10 max_Rbest= 8 I+floor(n^2/4)=11
+   I= 3 count=   264 max_d=11 max_d_red=11 max_Rbest= 8 I+floor(n^2/4)=12
+   I= 4 count=   246 max_d=12 max_d_red=13 max_Rbest= 9 I+floor(n^2/4)=13
+   I= 5 count=    36 max_d=14 max_d_red=14 max_Rbest= 9 I+floor(n^2/4)=14
+   I= 6 count=     6 max_d=15 max_d_red=15 max_Rbest= 9 I+floor(n^2/4)=15
+n=7: 7 reduced 0-1 BFS runs, 2 s
+n=7: max Rfree over lines = 20 at (6, 4, 5, 3, 1, 2, 0); floor(n^2/4) = 12
+n=7: max d_red - d = 3 at (0, 1, 4, 3, 6, 5, 2), hist {0: 4389, 1: 524, 2: 95, 3: 32}
+n=7: max d_red - I - floor(n^2/4) = 0 at (0, 1, 5, 6, 4, 3, 2), hist {-12: 2, -11: 8, -10: 24, -9: 64, -8: 152, -7: 342, -6: 622, -5: 938, -4: 1187, -3: 1093, -2: 537, -1: 63, 0: 8}
+n=7: max Rbest = 12 at (0, 1, 5, 6, 3, 4, 2), hist {0: 2, 1: 8, 2: 24, 3: 64, 4: 152, 5: 342, 6: 622, 7: 938, 8: 1177, 9: 1055, 10: 560, 11: 85, 12: 11}
+   I= 0 count=     7 max_d= 3 max_d_red= 3 max_Rbest= 3 I+floor(n^2/4)=12
+   I= 1 count=    49 max_d= 7 max_d_red= 7 max_Rbest= 6 I+floor(n^2/4)=13
+   I= 2 count=   196 max_d= 9 max_d_red=10 max_Rbest= 8 I+floor(n^2/4)=14
+   I= 3 count=   539 max_d=11 max_d_red=13 max_Rbest=10 I+floor(n^2/4)=15
+   I= 4 count=  1078 max_d=14 max_d_red=15 max_Rbest=11 I+floor(n^2/4)=16
+   I= 5 count=  1519 max_d=16 max_d_red=17 max_Rbest=12 I+floor(n^2/4)=17
+   I= 6 count=  1190 max_d=16 max_d_red=17 max_Rbest=12 I+floor(n^2/4)=18
+   I= 7 count=   406 max_d=18 max_d_red=19 max_Rbest=12 I+floor(n^2/4)=19
+   I= 8 count=    49 max_d=20 max_d_red=20 max_Rbest=12 I+floor(n^2/4)=20
+   I= 9 count=     7 max_d=21 max_d_red=21 max_Rbest=12 I+floor(n^2/4)=21
+== line_rotation_budget-1.0 oracle-1.0 args={'nmin': 8, 'nmax': 8}
+n=8: 8 reduced 0-1 BFS runs, 25 s
+n=8: max Rfree over lines = 27 at (7, 5, 6, 4, 3, 1, 2, 0); floor(n^2/4) = 16
+n=8: max d_red - d = 4 at (0, 1, 3, 2, 5, 4, 7, 6), hist {0: 35725, 2: 4433, 4: 162}
+n=8: max d_red - I - floor(n^2/4) = 0 at (0, 1, 6, 7, 4, 5, 2, 3), hist {-16: 2, -15: 8, -14: 24, -13: 66, -12: 166, -11: 398, -10: 882, -9: 1766, -8: 3052, -7: 4829, -6: 6497, -5: 7696, -4: 7382, -3: 5081, -2: 2134, -1: 316, 0: 21}
+n=8: max Rbest = 16 at (0, 1, 4, 6, 2, 7, 3, 5), hist {0: 2, 1: 8, 2: 24, 3: 66, 4: 166, 5: 398, 6: 880, 7: 1745, 8: 2928, 9: 4603, 10: 6145, 11: 7499, 12: 7400, 13: 5319, 14: 2565, 15: 522, 16: 50}
+   I= 0 count=     8 max_d= 4 max_d_red= 4 max_Rbest= 4 I+floor(n^2/4)=16
+   I= 1 count=    64 max_d= 9 max_d_red= 9 max_Rbest= 8 I+floor(n^2/4)=17
+   I= 2 count=   288 max_d=11 max_d_red=12 max_Rbest=10 I+floor(n^2/4)=18
+   I= 3 count=   960 max_d=13 max_d_red=15 max_Rbest=12 I+floor(n^2/4)=19
+   I= 4 count=  2512 max_d=16 max_d_red=16 max_Rbest=12 I+floor(n^2/4)=20
+   I= 5 count=  5312 max_d=18 max_d_red=19 max_Rbest=14 I+floor(n^2/4)=21
+   I= 6 count=  8896 max_d=20 max_d_red=20 max_Rbest=14 I+floor(n^2/4)=22
+   I= 7 count= 11200 max_d=22 max_d_red=22 max_Rbest=16 I+floor(n^2/4)=23
+   I= 8 count=  8208 max_d=23 max_d_red=24 max_Rbest=16 I+floor(n^2/4)=24
+   I= 9 count=  2504 max_d=24 max_d_red=25 max_Rbest=16 I+floor(n^2/4)=25
+   I=10 count=   288 max_d=25 max_d_red=26 max_Rbest=16 I+floor(n^2/4)=26
+   I=11 count=    72 max_d=27 max_d_red=27 max_Rbest=16 I+floor(n^2/4)=27
+   I=12 count=     8 max_d=28 max_d_red=28 max_Rbest=16 I+floor(n^2/4)=28
+== line_rotation_budget-1.0 oracle-1.0 args={'nmin': 9, 'nmax': 9}
+n=9: 9 reduced 0-1 BFS runs, 342 s
+n=9: max Rfree over lines = 35 at (8, 6, 7, 5, 4, 3, 1, 2, 0); floor(n^2/4) = 20
+n=9: max d_red - d = 6 at (1, 6, 8, 3, 0, 5, 2, 7, 4), hist {0: 278458, 1: 62789, 2: 10029, 3: 10494, 4: 834, 5: 272, 6: 4}
+n=9: max d_red - I - floor(n^2/4) = 0 at (0, 1, 2, 7, 8, 5, 6, 3, 4), hist {-20: 2, -19: 8, -18: 24, -17: 68, -16: 180, -15: 456, -14: 1094, -13: 2550, -12: 5304, -11: 9978, -10: 17539, -9: 27899, -8: 40880, -7: 53493, -6: 61926, -5: 59691, -4: 47329, -3: 26688, -2: 7023, -1: 731, 0: 17}
+n=9: max Rbest = 20 at (0, 1, 2, 7, 8, 5, 6, 3, 4), hist {0: 2, 1: 8, 2: 24, 3: 68, 4: 180, 5: 456, 6: 1094, 7: 2550, 8: 5304, 9: 9978, 10: 17489, 11: 27639, 12: 40470, 13: 52723, 14: 61584, 15: 59291, 16: 47858, 17: 26907, 18: 8014, 19: 1130, 20: 111}
+   I= 0 count=     9 max_d= 4 max_d_red= 4 max_Rbest= 4 I+floor(n^2/4)=20
+   I= 1 count=    81 max_d= 9 max_d_red= 9 max_Rbest= 8 I+floor(n^2/4)=21
+   I= 2 count=   405 max_d=11 max_d_red=14 max_Rbest=12 I+floor(n^2/4)=22
+   I= 3 count=  1485 max_d=13 max_d_red=15 max_Rbest=12 I+floor(n^2/4)=23
+   I= 4 count=  4374 max_d=16 max_d_red=18 max_Rbest=14 I+floor(n^2/4)=24
+   I= 5 count= 10773 max_d=18 max_d_red=20 max_Rbest=15 I+floor(n^2/4)=25
+   I= 6 count= 22653 max_d=21 max_d_red=22 max_Rbest=16 I+floor(n^2/4)=26
+   I= 7 count= 40905 max_d=23 max_d_red=24 max_Rbest=18 I+floor(n^2/4)=27
+   I= 8 count= 63018 max_d=26 max_d_red=26 max_Rbest=19 I+floor(n^2/4)=28
+   I= 9 count= 79596 max_d=28 max_d_red=28 max_Rbest=20 I+floor(n^2/4)=29
+   I=10 count= 74457 max_d=29 max_d_red=30 max_Rbest=20 I+floor(n^2/4)=30
+   I=11 count= 45414 max_d=30 max_d_red=31 max_Rbest=20 I+floor(n^2/4)=31
+   I=12 count= 16092 max_d=31 max_d_red=32 max_Rbest=20 I+floor(n^2/4)=32
+   I=13 count=  3105 max_d=32 max_d_red=33 max_Rbest=20 I+floor(n^2/4)=33
+   I=14 count=   423 max_d=33 max_d_red=34 max_Rbest=20 I+floor(n^2/4)=34
+   I=15 count=    81 max_d=35 max_d_red=35 max_Rbest=20 I+floor(n^2/4)=35
+   I=16 count=     9 max_d=36 max_d_red=36 max_Rbest=20 I+floor(n^2/4)=36

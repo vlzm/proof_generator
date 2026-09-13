@@ -1,0 +1,85 @@
+{
+ "version": "line_rotation_budget-1.0",
+ "core": "oracle-1.0",
+ "rows": [
+  {
+   "n": 4,
+   "B_n": 6,
+   "floor_n2_4": 4,
+   "seconds": 0,
+   "max_Rfree_line": 5,
+   "argmax_Rfree_line": [
+    3,
+    2,
+    1,
+    0
+   ],
+   "hist_Rfree_line": {
+    "0": 4,
+    "1": 4,
+    "2": 5,
+    "3": 6,
+    "4": 4,
+    "5": 1
+   },
+   "max_d_red_minus_d": 0,
+   "argmax_d_red_minus_d": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "hist_d_red_minus_d": {
+    "0": 24
+   },
+   "max_d_red_minus_I_minus_floor_n2_4": 0,
+   "argmax": [
+    0,
+    1,
+    3,
+    2
+   ],
+   "hist_d_red_minus_I_minus_floor_n2_4": {
+    "-4": 2,
+    "-3": 6,
+    "-2": 8,
+    "-1": 6,
+    "0": 2
+   },
+   "max_Rbest": 4,
+   "argmax_Rbest": [
+    0,
+    1,
+    3,
+    2
+   ],
+   "hist_Rbest": {
+    "0": 2,
+    "1": 6,
+    "2": 8,
+    "3": 6,
+    "4": 2
+   },
+   "profile_by_I": {
+    "0": {
+     "count": 4,
+     "max_d_red": 2,
+     "max_rbest": 2,
+     "max_d": 2
+    },
+    "1": {
+     "count": 16,
+     "max_d_red": 5,
+     "max_rbest": 4,
+     "max_d": 5
+    },
+    "2": {
+     "count": 4,
+     "max_d_red": 6,
+     "max_rbest": 4,
+     "max_d": 6
+    }
+   }
+  }
+ ]
+}

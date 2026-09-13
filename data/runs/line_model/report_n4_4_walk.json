@@ -1,0 +1,72 @@
+{
+ "version": "line_model-1.1",
+ "core": "oracle-1.0",
+ "rows": [
+  {
+   "n": 4,
+   "B_n": 6,
+   "count": 24,
+   "max_d_line": 6,
+   "argmax_d_line": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "max_min_inversions": 2,
+   "floor_(n-1)^2/4": 2,
+   "argmax_inv": [
+    0,
+    3,
+    2,
+    1
+   ],
+   "d_line_eq_d": 24,
+   "hist_d_line_minus_d": {
+    "0": 24
+   },
+   "seconds": 0,
+   "walk": {
+    "joint_hist_(d_line-d_walk, d_walk-d)": {
+     "0,0": 24
+    },
+    "max_d_walk_minus_d": 0,
+    "argmax_d_walk_minus_d": null,
+    "by_I": {
+     "0": {
+      "0,0": 4
+     },
+     "1": {
+      "0,0": 16
+     },
+     "2": {
+      "0,0": 4
+     }
+    },
+    "by_d": {
+     "0": {
+      "0,0": 1
+     },
+     "1": {
+      "0,0": 3
+     },
+     "2": {
+      "0,0": 5
+     },
+     "3": {
+      "0,0": 6
+     },
+     "4": {
+      "0,0": 5
+     },
+     "5": {
+      "0,0": 3
+     },
+     "6": {
+      "0,0": 1
+     }
+    }
+   }
+  }
+ ]
+}
