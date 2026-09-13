@@ -1,0 +1,8 @@
+== sweep_eval-1.0 sweep-1.1 oracle-1.0 args={'perms': 9, 'families': 0, 'samples': 0, 'seed': 1, 'workers': 4}
+n=4: 24 perms, 0 s; sweep: max len-B_n = 0 (1 inputs), max reduced-B_n = 0, max len-d = 0; portfolio min(N1_R, sweep): max -B_n = 0 (1 inputs); wins {'tie': 24}
+n=5: 120 perms, 0 s; sweep: max len-B_n = 0 (1 inputs), max reduced-B_n = 0, max len-d = 0; portfolio min(N1_R, sweep): max -B_n = 0 (1 inputs); wins {'tie': 91, 'sweep': 29}
+n=6: 720 perms, 1 s; sweep: max len-B_n = 0 (1 inputs), max reduced-B_n = 0, max len-d = 2; portfolio min(N1_R, sweep): max -B_n = 0 (1 inputs); wins {'tie': 466, 'sweep': 242, 'n1': 12}
+n=7: 5040 perms, 6 s; sweep: max len-B_n = 0 (1 inputs), max reduced-B_n = 0, max len-d = 4; portfolio min(N1_R, sweep): max -B_n = 0 (1 inputs); wins {'tie': 2189, 'sweep': 2593, 'n1': 258}
+n=8: 40320 perms, 80 s; sweep: max len-B_n = 0 (1 inputs), max reduced-B_n = 0, max len-d = 6; portfolio min(N1_R, sweep): max -B_n = 0 (1 inputs); wins {'tie': 14908, 'sweep': 23004, 'n1': 2408}
+n=9: 362880 perms, 1245 s; sweep: max len-B_n = 2 (1 inputs), max reduced-B_n = 2, max len-d = 7; portfolio min(N1_R, sweep): max -B_n = 0 (3 inputs); wins {'tie': 76853, 'sweep': 252662, 'n1': 33365}
+written /home/user/proof_generator/experiments/../data/runs/sweep_eval/report_perms9_fam0.json

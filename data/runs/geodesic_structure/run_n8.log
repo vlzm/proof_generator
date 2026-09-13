@@ -1,0 +1,6 @@
+sigma_n: d=28 geodesics=448 N_X={'12': 448} shifts={'0': 118, '2': 85, '4': 23, '6': 74} N1 best c=0 len=28 min_cross=4 (0.04 s)
+reflection h=2: d=27 geodesics=128 N_X={'12': 128} shifts={'1': 98, '3': 37, '5': 37, '7': 128} N1 best c=1 len=27 min_cross=4 (0.03 s)
+affine a=3 b=0 (min_c len_R - B_n = -3, - d = 4, d = 21): d=21 geodesics=12 N_X={'8': 12} shifts={'3': 148, '5': 152} N1 best c=1 len=25 min_cross=8 (0.02 s)
+affine a=3 b=4 (min_c len_R - B_n = -3, - d = 4, d = 21): d=21 geodesics=16 N_X={'8': 12, '9': 4} shifts={'0': 69, '1': 107, '7': 124} N1 best c=1 len=25 min_cross=5 (0.02 s)
+affine a=5 b=3 (min_c len_R - B_n = -3, - d = 4, d = 21): d=21 geodesics=6 N_X={'8': 6} shifts={'7': 300} N1 best c=3 len=25 min_cross=8 (0.02 s)
+done 0.1 s
