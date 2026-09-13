@@ -1,0 +1,1 @@
+{"mode":"exhaust","n":4,"count":24,"bound_floor((n-1)^2/4)":2,"max_I":2,"argmax_rank":5,"violations":0,"first_violation_rank":-1,"by_I":[[0,4],[1,16],[2,4]]}

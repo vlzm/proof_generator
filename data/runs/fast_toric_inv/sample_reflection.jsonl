@@ -1,0 +1,7 @@
+{"mode":"sample","family":"reflection","n":20,"trials":20,"seed":12345,"bound_floor((n-1)^2/4)":90,"max_I":90,"argbest_trial":0,"violations":0}
+{"mode":"sample","family":"reflection","n":50,"trials":50,"seed":12345,"bound_floor((n-1)^2/4)":600,"max_I":600,"argbest_trial":0,"violations":0}
+{"mode":"sample","family":"reflection","n":100,"trials":100,"seed":12345,"bound_floor((n-1)^2/4)":2450,"max_I":2450,"argbest_trial":0,"violations":0}
+{"mode":"sample","family":"reflection","n":101,"trials":101,"seed":12345,"bound_floor((n-1)^2/4)":2500,"max_I":2500,"argbest_trial":0,"violations":0}
+{"mode":"sample","family":"reflection","n":200,"trials":200,"seed":12345,"bound_floor((n-1)^2/4)":9900,"max_I":9900,"argbest_trial":0,"violations":0}
+{"mode":"sample","family":"reflection","n":500,"trials":500,"seed":12345,"bound_floor((n-1)^2/4)":62250,"max_I":62250,"argbest_trial":0,"violations":0}
+{"mode":"sample","family":"reflection","n":1000,"trials":1000,"seed":12345,"bound_floor((n-1)^2/4)":249500,"max_I":249500,"argbest_trial":0,"violations":0}

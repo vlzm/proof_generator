@@ -1,0 +1,6 @@
+{"mode":"q0exhaust","n":4,"count":24,"bound":2,"max_C0":2,"violations":0}
+{"mode":"q0exhaust","n":5,"count":120,"bound":4,"max_C0":4,"violations":0}
+{"mode":"q0exhaust","n":6,"count":720,"bound":6,"max_C0":6,"violations":0}
+{"mode":"q0exhaust","n":7,"count":5040,"bound":9,"max_C0":10,"violations":7}
+{"mode":"q0exhaust","n":8,"count":40320,"bound":12,"max_C0":13,"violations":16}
+{"mode":"q0exhaust","n":9,"count":362880,"bound":16,"max_C0":17,"violations":162}

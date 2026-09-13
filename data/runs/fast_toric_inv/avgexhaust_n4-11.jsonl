@@ -1,0 +1,8 @@
+{"mode":"avgexhaust","n":4,"count":24,"n_times_bound":8,"max_sum_Cq":8,"max_avg":2.000000,"bound":2,"argmax_rank":5,"violations":0}
+{"mode":"avgexhaust","n":5,"count":120,"n_times_bound":20,"max_sum_Cq":20,"max_avg":4.000000,"bound":4,"argmax_rank":23,"violations":0}
+{"mode":"avgexhaust","n":6,"count":720,"n_times_bound":36,"max_sum_Cq":36,"max_avg":6.000000,"bound":6,"argmax_rank":119,"violations":0}
+{"mode":"avgexhaust","n":7,"count":5040,"n_times_bound":63,"max_sum_Cq":63,"max_avg":9.000000,"bound":9,"argmax_rank":719,"violations":0}
+{"mode":"avgexhaust","n":8,"count":40320,"n_times_bound":96,"max_sum_Cq":96,"max_avg":12.000000,"bound":12,"argmax_rank":5039,"violations":0}
+{"mode":"avgexhaust","n":9,"count":362880,"n_times_bound":144,"max_sum_Cq":144,"max_avg":16.000000,"bound":16,"argmax_rank":40319,"violations":0}
+{"mode":"avgexhaust","n":10,"count":3628800,"n_times_bound":200,"max_sum_Cq":200,"max_avg":20.000000,"bound":20,"argmax_rank":362879,"violations":0}
+{"mode":"avgexhaust","n":11,"count":39916800,"n_times_bound":275,"max_sum_Cq":275,"max_avg":25.000000,"bound":25,"argmax_rank":3628799,"violations":0}
