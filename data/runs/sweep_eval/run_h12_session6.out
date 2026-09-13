@@ -1,0 +1,5 @@
+== sweep_eval-1.0 sweep-1.2 oracle-1.0 args={'perms': 9, 'families': 60, 'samples': 30, 'seed': 1, 'workers': 3}
+n=4: 24 perms, 0 s; sweep: max len-B_n = 0 (1 inputs), max reduced-B_n = 0, max len-d = 0; portfolio min(N1_R, sweep): max -B_n = 0 (1 inputs); wins {'tie': 24}
+n=5: 120 perms, 0 s; sweep: max len-B_n = 0 (1 inputs), max reduced-B_n = 0, max len-d = 0; portfolio min(N1_R, sweep): max -B_n = 0 (1 inputs); wins {'tie': 91, 'sweep': 29}
+n=6: 720 perms, 1 s; sweep: max len-B_n = 0 (1 inputs), max reduced-B_n = 0, max len-d = 2; portfolio min(N1_R, sweep): max -B_n = 0 (1 inputs); wins {'tie': 466, 'sweep': 242, 'n1': 12}
+n=7: 5040 perms, 17 s; sweep: max len-B_n = 0 (1 inputs), max reduced-B_n = 0, max len-d = 4; portfolio min(N1_R, sweep): max -B_n = 0 (1 inputs); wins {'tie': 2220, 'sweep': 2610, 'n1': 210}
