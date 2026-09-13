@@ -1,0 +1,60 @@
+{
+ "core": "oracle-1.0",
+ "construction": "strict_upper-1.0",
+ "claim": "H10/C27 restricted to reflections pi(i)=h-i mod n (docs/proofs/H10_reflections.md)",
+ "command": "checks/check_C27_reflections.py --max-n-exhaustive 60 --max-n-carrier 40",
+ "odd_n": {
+  "range": "5<=n<=60 step 2 (all odd)",
+  "triples_full": 35980,
+  "cases_c1": 896
+ },
+ "even_n": {
+  "range": "4<=n<=60 step 2 (all even)",
+  "pairs_checked": 1856,
+  "excess_by_class": {
+   "n%4=0,h%2=0": [
+    3,
+    -1
+   ],
+   "n%4=0,h%2=1": [
+    0,
+    2
+   ],
+   "n%4=2,h%2=0": [
+    1,
+    1
+   ],
+   "n%4=2,h%2=1": [
+    2,
+    0
+   ]
+  }
+ },
+ "words_n1_route": {
+  "range": "4<=n<=40",
+  "route": "n1",
+  "words_checked": 22126,
+  "worst_excess": 1,
+  "worst_example_n_h": [
+   6,
+   0
+  ]
+ },
+ "words_carrier_route": {
+  "range": "4<=n<=40",
+  "route": "carrier",
+  "words_checked": 22126,
+  "worst_excess": 1,
+  "worst_example_n_h": [
+   6,
+   2
+  ]
+ },
+ "seconds": 45.4,
+ "log": [
+  "odd n 5..60: F_c=P and S_c=3(n-1)/2 at every (h,c) -- 35980 triples; 2F_1-S_1+H(1)=B_n exactly at every h -- 896 cases",
+  "even n 4..60: closed-form F_c,S_c,H(c) match construction at c=0,1 for every h -- 1856 (h,c) pairs; excess pairs by class: n%4=0,h%2=0:(3, -1), n%4=0,h%2=1:(0, 2), n%4=2,h%2=0:(1, 1), n%4=2,h%2=1:(2, 0)",
+  "route=n1: all reflections 4<=n<=40, all shifts, words executed and verified to sort (22126 words); worst min_c(len)-B_n = 1 at (6, 0)",
+  "route=carrier: all reflections 4<=n<=40, all shifts, words executed and verified to sort (22126 words); worst min_c(len)-B_n = 1 at (6, 2)"
+ ]
+}
