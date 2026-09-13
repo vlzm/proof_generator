@@ -1,0 +1,7 @@
+{"n": 4, "bound": 2, "total": 24, "b_only_fail": 0, "a_only_fail": 0, "full_fail": 0}
+{"n": 5, "bound": 4, "total": 120, "b_only_fail": 0, "a_only_fail": 0, "full_fail": 0}
+{"n": 6, "bound": 6, "total": 720, "b_only_fail": 0, "a_only_fail": 0, "full_fail": 0}
+{"n": 7, "bound": 9, "total": 5040, "b_only_fail": 7, "a_only_fail": 7, "full_fail": 0}
+{"n": 8, "bound": 12, "total": 40320, "b_only_fail": 16, "a_only_fail": 16, "full_fail": 0}
+{"n": 9, "bound": 16, "total": 362880, "b_only_fail": 162, "a_only_fail": 162, "full_fail": 0}
+{"n": 10, "bound": 20, "total": 3628800, "b_only_fail": 1250, "a_only_fail": 1250, "full_fail": 0}
