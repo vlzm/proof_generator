@@ -1,0 +1,7 @@
+h13i_cut_torus-1.0
+n=4 perms=24 I_max=2 (target 2, 4 maximizers) B1=2 B2=3 B3=2 B4=4.833 [0.0s]
+n=5 perms=120 I_max=4 (target 4, 5 maximizers) B1=5 B2=6 B3=4 B4=8.000 [0.0s]
+n=6 perms=720 I_max=6 (target 6, 6 maximizers) B1=22/3 B2=8 B3=6 B4=11.858 [0.1s]
+n=7 perms=5040 I_max=9 (target 9, 7 maximizers) B1=11 B2=12 B3=10 B4=16.429 [0.9s]
+n=8 perms=40320 I_max=12 (target 12, 8 maximizers) B1=14 B2=16 B3=13 B4=21.729 [3.8s]
+n=9 perms=362880 I_max=16 (target 16, 9 maximizers) B1=58/3 B2=22 B3=17 B4=27.768 [41.8s]
