@@ -1,0 +1,248 @@
+{
+ "meta": {
+  "source": "experiments/h10_scan_pr5.py --n 10 (scan_n10.json, tight_inputs)",
+  "construction": "strict_upper-1.0",
+  "core": "oracle-1.0",
+  "claim": "H10 / C27 part 2: min_c red_R <= B_n",
+  "minimality": "smallest n over all permutations: n<=9 exhaustive (C27v), n=10 exhaustive; unique such input at n=10"
+ },
+ "n": 10,
+ "pi": [
+  9,
+  2,
+  5,
+  0,
+  1,
+  8,
+  7,
+  6,
+  3,
+  4
+ ],
+ "d": 36,
+ "B_n": 45,
+ "min_len_R_minus_B": 1,
+ "min_red_R_minus_B": 1,
+ "per_c": [
+  {
+   "c": 0,
+   "K": 2,
+   "cycle_lengths": [
+    8,
+    2
+   ],
+   "F": 26,
+   "S": 16,
+   "R": 10,
+   "carriers": [
+    1,
+    6
+   ],
+   "len_R": 46,
+   "red_R": 46,
+   "N_X": 17,
+   "N_rot": 29,
+   "word": "RRRRXLLLLLLXLXLLXLXLLXLXLXLXRXRRXLXLXLXLXRXRXR",
+   "red_word": "RRRRXLLLLLLXLXLLXLXLLXLXLXLXRXRRXLXLXLXLXRXRXR"
+  },
+  {
+   "c": 1,
+   "K": 3,
+   "cycle_lengths": [
+    2,
+    4,
+    2
+   ],
+   "F": 24,
+   "S": 11,
+   "R": 9,
+   "carriers": [
+    1,
+    2,
+    5
+   ],
+   "len_R": 46,
+   "red_R": 46,
+   "N_X": 19,
+   "N_rot": 27,
+   "word": "RRRRRXLXLXLXRXRXRXRRRXLXLXLLXLXRXRXRXRRXRXLXRX",
+   "red_word": "RRRRRXLXLXLXRXRXRXRRRXLXLXLLXLXRXRXRXRRXRXLXRX"
+  },
+  {
+   "c": 2,
+   "K": 2,
+   "cycle_lengths": [
+    8,
+    2
+   ],
+   "F": 26,
+   "S": 12,
+   "R": 8,
+   "carriers": [
+    2,
+    6
+   ],
+   "len_R": 48,
+   "red_R": 48,
+   "N_X": 19,
+   "N_rot": 29,
+   "word": "RRRRXLXLXRXRXRRRRXLXLXLXLLXRXRXRXLXLXLXLXLLLXLXR",
+   "red_word": "RRRRXLXLXRXRXRRRRXLXLXLXLLXRXRXRXLXLXLXLXLLLXLXR"
+  },
+  {
+   "c": 3,
+   "K": 3,
+   "cycle_lengths": [
+    4,
+    2,
+    2
+   ],
+   "F": 24,
+   "S": 11,
+   "R": 9,
+   "carriers": [
+    6,
+    1,
+    7
+   ],
+   "len_R": 46,
+   "red_R": 46,
+   "N_X": 19,
+   "N_rot": 27,
+   "word": "LXLXLXLXRXRXRXRRRRXLXRXRXLXLXLLXLXRXRXRXRRXRRR",
+   "red_word": "LXLXLXLXRXRXRXRRRRXLXRXRXLXLXLLXLXRXRXRXRRXRRR"
+  },
+  {
+   "c": 4,
+   "K": 2,
+   "cycle_lengths": [
+    8,
+    2
+   ],
+   "F": 26,
+   "S": 12,
+   "R": 8,
+   "carriers": [
+    7,
+    1
+   ],
+   "len_R": 48,
+   "red_R": 46,
+   "N_X": 17,
+   "N_rot": 31,
+   "word": "LXLXLXLXLLXLXLXLXLRRRRXLXLLXLXLLLXRXRXRRXRXRRRRR",
+   "red_word": "LXLXLXLXLLXLXLXLXRRRXLXLLXLXLLLXRXRXRRXRXRRRRR"
+  },
+  {
+   "c": 5,
+   "K": 3,
+   "cycle_lengths": [
+    4,
+    2,
+    2
+   ],
+   "F": 24,
+   "S": 11,
+   "R": 9,
+   "carriers": [
+    0,
+    7,
+    3
+   ],
+   "len_R": 46,
+   "red_R": 46,
+   "N_X": 19,
+   "N_rot": 27,
+   "word": "XLXLXLLXLXRXRXRXRRXRRRXLXLXLXRXRXRXRRRRXLXRXLL",
+   "red_word": "XLXLXLLXLXRXRXRXRRXRRRXLXLXLXRXRXRXRRRRXLXRXLL"
+  },
+  {
+   "c": 6,
+   "K": 2,
+   "cycle_lengths": [
+    8,
+    2
+   ],
+   "F": 26,
+   "S": 12,
+   "R": 6,
+   "carriers": [
+    4,
+    3
+   ],
+   "len_R": 46,
+   "red_R": 46,
+   "N_X": 19,
+   "N_rot": 27,
+   "word": "LLLXLXLXRXRXLXLXLLXLXLXLXLXRRXRXRXLLLXLXLXLXLL",
+   "red_word": "LLLXLXLXRXRXLXLXLLXLXLXLXLXRRXRXRXLLLXLXLXLXLL"
+  },
+  {
+   "c": 7,
+   "K": 3,
+   "cycle_lengths": [
+    4,
+    2,
+    2
+   ],
+   "F": 24,
+   "S": 11,
+   "R": 9,
+   "carriers": [
+    4,
+    9,
+    3
+   ],
+   "len_R": 46,
+   "red_R": 46,
+   "N_X": 19,
+   "N_rot": 27,
+   "word": "RXLXRXLLLLXLXLXLXRXRXRXLXLXLXLLXLXRXRXRXRRXLLL",
+   "red_word": "RXLXRXLLLLXLXLXLXRXRXRXLXLXLXLLXLXRXRXRXRRXLLL"
+  },
+  {
+   "c": 8,
+   "K": 2,
+   "cycle_lengths": [
+    8,
+    2
+   ],
+   "F": 26,
+   "S": 14,
+   "R": 8,
+   "carriers": [
+    4,
+    5
+   ],
+   "len_R": 46,
+   "red_R": 46,
+   "N_X": 17,
+   "N_rot": 29,
+   "word": "LLLLXLXLXLXLLXLXLLLXLXLXLLXLXLXRRXRXRRXRXLXLLL",
+   "red_word": "LLLLXLXLXLXLLXLXLLLXLXLXLLXLXLXRRXRXRRXRXLXLLL"
+  },
+  {
+   "c": 9,
+   "K": 3,
+   "cycle_lengths": [
+    4,
+    2,
+    2
+   ],
+   "F": 24,
+   "S": 11,
+   "R": 9,
+   "carriers": [
+    8,
+    9,
+    5
+   ],
+   "len_R": 46,
+   "red_R": 46,
+   "N_X": 19,
+   "N_rot": 27,
+   "word": "RXLXLXLXRXRXRXRXLXLXLLXLXRXRXRXRRXRRRXLXRXLLLL",
+   "red_word": "RXLXLXLXRXRXRXRXLXLXLLXLXRXRXRXRRXRRRXLXRXLLLL"
+  }
+ ]
+}
