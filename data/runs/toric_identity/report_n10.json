@@ -1,0 +1,132 @@
+{
+ "version": "toric_identity-1.0",
+ "python": "3.11.15",
+ "args": {
+  "nmax": 10,
+  "nmin": 10,
+  "identity_sample": 20,
+  "skip_lines": true
+ },
+ "rows": [
+  {
+   "n": 10,
+   "M": 20,
+   "perms": 3628800,
+   "identity_checked": 3616,
+   "max_n2A": 2850,
+   "A_bound_n2": 2850,
+   "argmax_A_count": 10,
+   "argmax_A_all_reflections": true,
+   "max_I": 20,
+   "I_general_bound": 28,
+   "max_avg_a_min_b": "20",
+   "avgmin_tight_count": 10,
+   "avgmin_tight_all_reflections": true,
+   "line_family_failures": "\u043d\u0435 \u0441\u0447\u0438\u0442\u0430\u043b\u043e\u0441\u044c",
+   "line_family_worst": null,
+   "seconds": 82.9
+  }
+ ],
+ "second_moment_refinement_on_reflections": [
+  {
+   "n": 4,
+   "A": "7/2",
+   "var": "9/4",
+   "refined": "13/5",
+   "float": 2.6,
+   "M": 2,
+   "I": 2
+  },
+  {
+   "n": 5,
+   "A": "6",
+   "var": "24/5",
+   "refined": "24/5",
+   "float": 4.8,
+   "M": 4,
+   "I": 4
+  },
+  {
+   "n": 6,
+   "A": "55/6",
+   "var": "329/36",
+   "refined": "38/5",
+   "float": 7.6,
+   "M": 6,
+   "I": 6
+  },
+  {
+   "n": 7,
+   "A": "13",
+   "var": "16",
+   "refined": "11",
+   "float": 11.0,
+   "M": 9,
+   "I": 9
+  },
+  {
+   "n": 8,
+   "A": "35/2",
+   "var": "105/4",
+   "refined": "15",
+   "float": 15.0,
+   "M": 12,
+   "I": 12
+  },
+  {
+   "n": 9,
+   "A": "68/3",
+   "var": "368/9",
+   "refined": "98/5",
+   "float": 19.6,
+   "M": 16,
+   "I": 16
+  },
+  {
+   "n": 10,
+   "A": "57/2",
+   "var": "1221/20",
+   "refined": "124/5",
+   "float": 24.8,
+   "M": 20,
+   "I": 20
+  },
+  {
+   "n": 11,
+   "A": "35",
+   "var": "88",
+   "refined": "153/5",
+   "float": 30.6,
+   "M": 25,
+   "I": 25
+  },
+  {
+   "n": 12,
+   "A": "253/6",
+   "var": "4433/36",
+   "refined": "37",
+   "float": 37.0,
+   "M": 30,
+   "I": 30
+  },
+  {
+   "n": 13,
+   "A": "50",
+   "var": "168",
+   "refined": "44",
+   "float": 44.0,
+   "M": 36,
+   "I": 36
+  },
+  {
+   "n": 14,
+   "A": "117/2",
+   "var": "897/4",
+   "refined": "258/5",
+   "float": 51.6,
+   "M": 42,
+   "I": 42
+  }
+ ],
+ "seconds": 82.9
+}
