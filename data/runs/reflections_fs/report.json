@@ -1,0 +1,12 @@
+{
+ "summary": {
+  "goal": "verify docs/proofs/reflections_FS.md Lemma 3 (F_c, S_c on reflections)",
+  "core_version": "oracle-1.0",
+  "construction_version": "strict_upper-1.0",
+  "range": "4<=n<=12, all h, all c (exhaustive)",
+  "checked_pairs": 636,
+  "mismatches": 0,
+  "seconds": 0.06
+ },
+ "mismatches": []
+}
