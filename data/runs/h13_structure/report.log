@@ -1,0 +1,6 @@
+== h13_structure-1.0 oracle-1.0 args={'nmin': 7, 'nmax': 7}
+n=7: floor((n-1)^2/4)=9, threshold(>)=7.25, near_max count=56
+n=7: gap(d_line-d) by blocks: {0: {0: 7}, 1: {0: 2236, 1: 299, 2: 81, 3: 24}, 2: {0: 1787, 1: 199, 2: 14, 3: 8}, 3: {0: 338, 1: 26}, 4: {0: 21}}
+== h13_structure-1.0 oracle-1.0 args={'nmin': 8, 'nmax': 8}
+n=8: floor((n-1)^2/4)=12, threshold(>)=10.0, near_max count=80
+n=8: gap(d_line-d) by blocks: {0: {0: 8}, 1: {0: 15461, 2: 2175, 4: 124}, 2: {0: 15187, 2: 1935, 4: 38}, 3: {0: 4733, 2: 323}, 4: {0: 336}}

@@ -1,0 +1,15 @@
+== h13_blocks-1.0 oracle-1.0 args={'ks': [2, 3, 4], 'ns': [9, 10, 11, 12]}
+k=2 n=9: I(pi)=2 edges=[0, 4] forced_rotation_lb=4 d_exact=10 floor(n/2)=4 d - 2I - floor(n/2) = 2
+k=2 n=10: I(pi)=2 edges=[0, 5] forced_rotation_lb=5 d_exact=12 floor(n/2)=5 d - 2I - floor(n/2) = 3
+k=2 n=11: I(pi)=2 edges=[0, 5] forced_rotation_lb=5 d_exact=12 floor(n/2)=5 d - 2I - floor(n/2) = 3
+k=2 n=12: I(pi)=2 edges=[0, 6] forced_rotation_lb=6 d_exact=14 floor(n/2)=6 d - 2I - floor(n/2) = 4
+k=3 n=9: I(pi)=3 edges=[0, 3, 6] forced_rotation_lb=6 d_exact=12 floor(n/2)=4 d - 2I - floor(n/2) = 2
+k=3 n=10: I(pi)=3 edges=[0, 3, 6] forced_rotation_lb=6 d_exact=13 floor(n/2)=5 d - 2I - floor(n/2) = 2
+k=3 n=11: I(pi)=3 edges=[0, 3, 7] forced_rotation_lb=7 d_exact=14 floor(n/2)=5 d - 2I - floor(n/2) = 3
+k=3 n=12: I(pi)=3 edges=[0, 4, 8] forced_rotation_lb=8 d_exact=15 floor(n/2)=6 d - 2I - floor(n/2) = 3
+k=4 n=9: I(pi)=4 edges=[0, 2, 4, 6] forced_rotation_lb=6 d_exact=13 floor(n/2)=4 d - 2I - floor(n/2) = 1
+k=4 n=10: I(pi)=4 edges=[0, 2, 5, 7] forced_rotation_lb=7 d_exact=14 floor(n/2)=5 d - 2I - floor(n/2) = 1
+k=4 n=11: I(pi)=4 edges=[0, 2, 5, 8] forced_rotation_lb=8 d_exact=15 floor(n/2)=5 d - 2I - floor(n/2) = 2
+k=4 n=12: I(pi)=4 edges=[0, 3, 6, 9] forced_rotation_lb=9 d_exact=16 floor(n/2)=6 d - 2I - floor(n/2) = 2
+== h13_blocks-1.1 oracle-1.0 args={'ks': [2, 3, 4, 5], 'ns': [9, 10], 'nmax_dline': 10}
+k=2 n=9: I(pi)=2 edges=[0, 4] forced_rotation_lb=4 predicted_d_line=I+lb=6 d_line_exact=10 d_exact=10 floor(n/2)=4 d-2I-floor(n/2)=2 d_line-2I-floor(n/2)=2

@@ -1,0 +1,174 @@
+{
+ "version": "h13_blocks-1.0",
+ "core": "oracle-1.0",
+ "rows": [
+  {
+   "k": 2,
+   "n": 9,
+   "edges": [
+    0,
+    4
+   ],
+   "I": 2,
+   "d_exact": 10,
+   "forced_rotation_lb": 4,
+   "floor_n_2": 4,
+   "gap_over_floor_n2": 2
+  },
+  {
+   "k": 2,
+   "n": 10,
+   "edges": [
+    0,
+    5
+   ],
+   "I": 2,
+   "d_exact": 12,
+   "forced_rotation_lb": 5,
+   "floor_n_2": 5,
+   "gap_over_floor_n2": 3
+  },
+  {
+   "k": 2,
+   "n": 11,
+   "edges": [
+    0,
+    5
+   ],
+   "I": 2,
+   "d_exact": 12,
+   "forced_rotation_lb": 5,
+   "floor_n_2": 5,
+   "gap_over_floor_n2": 3
+  },
+  {
+   "k": 2,
+   "n": 12,
+   "edges": [
+    0,
+    6
+   ],
+   "I": 2,
+   "d_exact": 14,
+   "forced_rotation_lb": 6,
+   "floor_n_2": 6,
+   "gap_over_floor_n2": 4
+  },
+  {
+   "k": 3,
+   "n": 9,
+   "edges": [
+    0,
+    3,
+    6
+   ],
+   "I": 3,
+   "d_exact": 12,
+   "forced_rotation_lb": 6,
+   "floor_n_2": 4,
+   "gap_over_floor_n2": 2
+  },
+  {
+   "k": 3,
+   "n": 10,
+   "edges": [
+    0,
+    3,
+    6
+   ],
+   "I": 3,
+   "d_exact": 13,
+   "forced_rotation_lb": 6,
+   "floor_n_2": 5,
+   "gap_over_floor_n2": 2
+  },
+  {
+   "k": 3,
+   "n": 11,
+   "edges": [
+    0,
+    3,
+    7
+   ],
+   "I": 3,
+   "d_exact": 14,
+   "forced_rotation_lb": 7,
+   "floor_n_2": 5,
+   "gap_over_floor_n2": 3
+  },
+  {
+   "k": 3,
+   "n": 12,
+   "edges": [
+    0,
+    4,
+    8
+   ],
+   "I": 3,
+   "d_exact": 15,
+   "forced_rotation_lb": 8,
+   "floor_n_2": 6,
+   "gap_over_floor_n2": 3
+  },
+  {
+   "k": 4,
+   "n": 9,
+   "edges": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "I": 4,
+   "d_exact": 13,
+   "forced_rotation_lb": 6,
+   "floor_n_2": 4,
+   "gap_over_floor_n2": 1
+  },
+  {
+   "k": 4,
+   "n": 10,
+   "edges": [
+    0,
+    2,
+    5,
+    7
+   ],
+   "I": 4,
+   "d_exact": 14,
+   "forced_rotation_lb": 7,
+   "floor_n_2": 5,
+   "gap_over_floor_n2": 1
+  },
+  {
+   "k": 4,
+   "n": 11,
+   "edges": [
+    0,
+    2,
+    5,
+    8
+   ],
+   "I": 4,
+   "d_exact": 15,
+   "forced_rotation_lb": 8,
+   "floor_n_2": 5,
+   "gap_over_floor_n2": 2
+  },
+  {
+   "k": 4,
+   "n": 12,
+   "edges": [
+    0,
+    3,
+    6,
+    9
+   ],
+   "I": 4,
+   "d_exact": 16,
+   "forced_rotation_lb": 9,
+   "floor_n_2": 6,
+   "gap_over_floor_n2": 2
+  }
+ ]
+}
