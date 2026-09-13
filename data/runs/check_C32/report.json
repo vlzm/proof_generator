@@ -1,0 +1,5093 @@
+{
+ "version": "check_C32-1.0",
+ "construction": "two_arc-1.0",
+ "candidate": "sweep-1.3",
+ "core": "oracle-1.0",
+ "args": {
+  "nmax": 100,
+  "pmax": 24
+ },
+ "PASS": true,
+ "formulas": {
+  "nmax": 100,
+  "seconds": 11.7,
+  "fails": [],
+  "rows": [
+   {
+    "n": 4,
+    "B_n": 6,
+    "N_X": 2,
+    "cases": {
+     "even": 4
+    },
+    "len_sigma": 6,
+    "len_rev": 4
+   },
+   {
+    "n": 5,
+    "B_n": 10,
+    "N_X": 4,
+    "cases": {
+     "odd_B": 2,
+     "odd_A": 2,
+     "odd_mirror": 1
+    },
+    "len_sigma": 10,
+    "len_rev": 8
+   },
+   {
+    "n": 6,
+    "B_n": 15,
+    "N_X": 6,
+    "cases": {
+     "even": 6
+    },
+    "len_sigma": 15,
+    "len_rev": 13
+   },
+   {
+    "n": 7,
+    "B_n": 21,
+    "N_X": 9,
+    "cases": {
+     "odd_B": 3,
+     "odd_A": 3,
+     "odd_mirror": 1
+    },
+    "len_sigma": 21,
+    "len_rev": 19
+   },
+   {
+    "n": 8,
+    "B_n": 28,
+    "N_X": 12,
+    "cases": {
+     "even": 8
+    },
+    "len_sigma": 28,
+    "len_rev": 26
+   },
+   {
+    "n": 9,
+    "B_n": 36,
+    "N_X": 16,
+    "cases": {
+     "odd_B": 4,
+     "odd_A": 4,
+     "odd_mirror": 1
+    },
+    "len_sigma": 36,
+    "len_rev": 34
+   },
+   {
+    "n": 10,
+    "B_n": 45,
+    "N_X": 20,
+    "cases": {
+     "even": 10
+    },
+    "len_sigma": 45,
+    "len_rev": 43
+   },
+   {
+    "n": 11,
+    "B_n": 55,
+    "N_X": 25,
+    "cases": {
+     "odd_B": 5,
+     "odd_A": 5,
+     "odd_mirror": 1
+    },
+    "len_sigma": 55,
+    "len_rev": 53
+   },
+   {
+    "n": 12,
+    "B_n": 66,
+    "N_X": 30,
+    "cases": {
+     "even": 12
+    },
+    "len_sigma": 66,
+    "len_rev": 64
+   },
+   {
+    "n": 13,
+    "B_n": 78,
+    "N_X": 36,
+    "cases": {
+     "odd_B": 6,
+     "odd_A": 6,
+     "odd_mirror": 1
+    },
+    "len_sigma": 78,
+    "len_rev": 76
+   },
+   {
+    "n": 14,
+    "B_n": 91,
+    "N_X": 42,
+    "cases": {
+     "even": 14
+    },
+    "len_sigma": 91,
+    "len_rev": 89
+   },
+   {
+    "n": 15,
+    "B_n": 105,
+    "N_X": 49,
+    "cases": {
+     "odd_B": 7,
+     "odd_A": 7,
+     "odd_mirror": 1
+    },
+    "len_sigma": 105,
+    "len_rev": 103
+   },
+   {
+    "n": 16,
+    "B_n": 120,
+    "N_X": 56,
+    "cases": {
+     "even": 16
+    },
+    "len_sigma": 120,
+    "len_rev": 118
+   },
+   {
+    "n": 17,
+    "B_n": 136,
+    "N_X": 64,
+    "cases": {
+     "odd_B": 8,
+     "odd_A": 8,
+     "odd_mirror": 1
+    },
+    "len_sigma": 136,
+    "len_rev": 134
+   },
+   {
+    "n": 18,
+    "B_n": 153,
+    "N_X": 72,
+    "cases": {
+     "even": 18
+    },
+    "len_sigma": 153,
+    "len_rev": 151
+   },
+   {
+    "n": 19,
+    "B_n": 171,
+    "N_X": 81,
+    "cases": {
+     "odd_B": 9,
+     "odd_A": 9,
+     "odd_mirror": 1
+    },
+    "len_sigma": 171,
+    "len_rev": 169
+   },
+   {
+    "n": 20,
+    "B_n": 190,
+    "N_X": 90,
+    "cases": {
+     "even": 20
+    },
+    "len_sigma": 190,
+    "len_rev": 188
+   },
+   {
+    "n": 21,
+    "B_n": 210,
+    "N_X": 100,
+    "cases": {
+     "odd_B": 10,
+     "odd_A": 10,
+     "odd_mirror": 1
+    },
+    "len_sigma": 210,
+    "len_rev": 208
+   },
+   {
+    "n": 22,
+    "B_n": 231,
+    "N_X": 110,
+    "cases": {
+     "even": 22
+    },
+    "len_sigma": 231,
+    "len_rev": 229
+   },
+   {
+    "n": 23,
+    "B_n": 253,
+    "N_X": 121,
+    "cases": {
+     "odd_B": 11,
+     "odd_A": 11,
+     "odd_mirror": 1
+    },
+    "len_sigma": 253,
+    "len_rev": 251
+   },
+   {
+    "n": 24,
+    "B_n": 276,
+    "N_X": 132,
+    "cases": {
+     "even": 24
+    },
+    "len_sigma": 276,
+    "len_rev": 274
+   },
+   {
+    "n": 25,
+    "B_n": 300,
+    "N_X": 144,
+    "cases": {
+     "odd_B": 12,
+     "odd_A": 12,
+     "odd_mirror": 1
+    },
+    "len_sigma": 300,
+    "len_rev": 298
+   },
+   {
+    "n": 26,
+    "B_n": 325,
+    "N_X": 156,
+    "cases": {
+     "even": 26
+    },
+    "len_sigma": 325,
+    "len_rev": 323
+   },
+   {
+    "n": 27,
+    "B_n": 351,
+    "N_X": 169,
+    "cases": {
+     "odd_B": 13,
+     "odd_A": 13,
+     "odd_mirror": 1
+    },
+    "len_sigma": 351,
+    "len_rev": 349
+   },
+   {
+    "n": 28,
+    "B_n": 378,
+    "N_X": 182,
+    "cases": {
+     "even": 28
+    },
+    "len_sigma": 378,
+    "len_rev": 376
+   },
+   {
+    "n": 29,
+    "B_n": 406,
+    "N_X": 196,
+    "cases": {
+     "odd_B": 14,
+     "odd_A": 14,
+     "odd_mirror": 1
+    },
+    "len_sigma": 406,
+    "len_rev": 404
+   },
+   {
+    "n": 30,
+    "B_n": 435,
+    "N_X": 210,
+    "cases": {
+     "even": 30
+    },
+    "len_sigma": 435,
+    "len_rev": 433
+   },
+   {
+    "n": 31,
+    "B_n": 465,
+    "N_X": 225,
+    "cases": {
+     "odd_B": 15,
+     "odd_A": 15,
+     "odd_mirror": 1
+    },
+    "len_sigma": 465,
+    "len_rev": 463
+   },
+   {
+    "n": 32,
+    "B_n": 496,
+    "N_X": 240,
+    "cases": {
+     "even": 32
+    },
+    "len_sigma": 496,
+    "len_rev": 494
+   },
+   {
+    "n": 33,
+    "B_n": 528,
+    "N_X": 256,
+    "cases": {
+     "odd_B": 16,
+     "odd_A": 16,
+     "odd_mirror": 1
+    },
+    "len_sigma": 528,
+    "len_rev": 526
+   },
+   {
+    "n": 34,
+    "B_n": 561,
+    "N_X": 272,
+    "cases": {
+     "even": 34
+    },
+    "len_sigma": 561,
+    "len_rev": 559
+   },
+   {
+    "n": 35,
+    "B_n": 595,
+    "N_X": 289,
+    "cases": {
+     "odd_B": 17,
+     "odd_A": 17,
+     "odd_mirror": 1
+    },
+    "len_sigma": 595,
+    "len_rev": 593
+   },
+   {
+    "n": 36,
+    "B_n": 630,
+    "N_X": 306,
+    "cases": {
+     "even": 36
+    },
+    "len_sigma": 630,
+    "len_rev": 628
+   },
+   {
+    "n": 37,
+    "B_n": 666,
+    "N_X": 324,
+    "cases": {
+     "odd_B": 18,
+     "odd_A": 18,
+     "odd_mirror": 1
+    },
+    "len_sigma": 666,
+    "len_rev": 664
+   },
+   {
+    "n": 38,
+    "B_n": 703,
+    "N_X": 342,
+    "cases": {
+     "even": 38
+    },
+    "len_sigma": 703,
+    "len_rev": 701
+   },
+   {
+    "n": 39,
+    "B_n": 741,
+    "N_X": 361,
+    "cases": {
+     "odd_B": 19,
+     "odd_A": 19,
+     "odd_mirror": 1
+    },
+    "len_sigma": 741,
+    "len_rev": 739
+   },
+   {
+    "n": 40,
+    "B_n": 780,
+    "N_X": 380,
+    "cases": {
+     "even": 40
+    },
+    "len_sigma": 780,
+    "len_rev": 778
+   },
+   {
+    "n": 41,
+    "B_n": 820,
+    "N_X": 400,
+    "cases": {
+     "odd_B": 20,
+     "odd_A": 20,
+     "odd_mirror": 1
+    },
+    "len_sigma": 820,
+    "len_rev": 818
+   },
+   {
+    "n": 42,
+    "B_n": 861,
+    "N_X": 420,
+    "cases": {
+     "even": 42
+    },
+    "len_sigma": 861,
+    "len_rev": 859
+   },
+   {
+    "n": 43,
+    "B_n": 903,
+    "N_X": 441,
+    "cases": {
+     "odd_B": 21,
+     "odd_A": 21,
+     "odd_mirror": 1
+    },
+    "len_sigma": 903,
+    "len_rev": 901
+   },
+   {
+    "n": 44,
+    "B_n": 946,
+    "N_X": 462,
+    "cases": {
+     "even": 44
+    },
+    "len_sigma": 946,
+    "len_rev": 944
+   },
+   {
+    "n": 45,
+    "B_n": 990,
+    "N_X": 484,
+    "cases": {
+     "odd_B": 22,
+     "odd_A": 22,
+     "odd_mirror": 1
+    },
+    "len_sigma": 990,
+    "len_rev": 988
+   },
+   {
+    "n": 46,
+    "B_n": 1035,
+    "N_X": 506,
+    "cases": {
+     "even": 46
+    },
+    "len_sigma": 1035,
+    "len_rev": 1033
+   },
+   {
+    "n": 47,
+    "B_n": 1081,
+    "N_X": 529,
+    "cases": {
+     "odd_B": 23,
+     "odd_A": 23,
+     "odd_mirror": 1
+    },
+    "len_sigma": 1081,
+    "len_rev": 1079
+   },
+   {
+    "n": 48,
+    "B_n": 1128,
+    "N_X": 552,
+    "cases": {
+     "even": 48
+    },
+    "len_sigma": 1128,
+    "len_rev": 1126
+   },
+   {
+    "n": 49,
+    "B_n": 1176,
+    "N_X": 576,
+    "cases": {
+     "odd_B": 24,
+     "odd_A": 24,
+     "odd_mirror": 1
+    },
+    "len_sigma": 1176,
+    "len_rev": 1174
+   },
+   {
+    "n": 50,
+    "B_n": 1225,
+    "N_X": 600,
+    "cases": {
+     "even": 50
+    },
+    "len_sigma": 1225,
+    "len_rev": 1223
+   },
+   {
+    "n": 51,
+    "B_n": 1275,
+    "N_X": 625,
+    "cases": {
+     "odd_B": 25,
+     "odd_A": 25,
+     "odd_mirror": 1
+    },
+    "len_sigma": 1275,
+    "len_rev": 1273
+   },
+   {
+    "n": 52,
+    "B_n": 1326,
+    "N_X": 650,
+    "cases": {
+     "even": 52
+    },
+    "len_sigma": 1326,
+    "len_rev": 1324
+   },
+   {
+    "n": 53,
+    "B_n": 1378,
+    "N_X": 676,
+    "cases": {
+     "odd_B": 26,
+     "odd_A": 26,
+     "odd_mirror": 1
+    },
+    "len_sigma": 1378,
+    "len_rev": 1376
+   },
+   {
+    "n": 54,
+    "B_n": 1431,
+    "N_X": 702,
+    "cases": {
+     "even": 54
+    },
+    "len_sigma": 1431,
+    "len_rev": 1429
+   },
+   {
+    "n": 55,
+    "B_n": 1485,
+    "N_X": 729,
+    "cases": {
+     "odd_B": 27,
+     "odd_A": 27,
+     "odd_mirror": 1
+    },
+    "len_sigma": 1485,
+    "len_rev": 1483
+   },
+   {
+    "n": 56,
+    "B_n": 1540,
+    "N_X": 756,
+    "cases": {
+     "even": 56
+    },
+    "len_sigma": 1540,
+    "len_rev": 1538
+   },
+   {
+    "n": 57,
+    "B_n": 1596,
+    "N_X": 784,
+    "cases": {
+     "odd_B": 28,
+     "odd_A": 28,
+     "odd_mirror": 1
+    },
+    "len_sigma": 1596,
+    "len_rev": 1594
+   },
+   {
+    "n": 58,
+    "B_n": 1653,
+    "N_X": 812,
+    "cases": {
+     "even": 58
+    },
+    "len_sigma": 1653,
+    "len_rev": 1651
+   },
+   {
+    "n": 59,
+    "B_n": 1711,
+    "N_X": 841,
+    "cases": {
+     "odd_B": 29,
+     "odd_A": 29,
+     "odd_mirror": 1
+    },
+    "len_sigma": 1711,
+    "len_rev": 1709
+   },
+   {
+    "n": 60,
+    "B_n": 1770,
+    "N_X": 870,
+    "cases": {
+     "even": 60
+    },
+    "len_sigma": 1770,
+    "len_rev": 1768
+   },
+   {
+    "n": 61,
+    "B_n": 1830,
+    "N_X": 900,
+    "cases": {
+     "odd_B": 30,
+     "odd_A": 30,
+     "odd_mirror": 1
+    },
+    "len_sigma": 1830,
+    "len_rev": 1828
+   },
+   {
+    "n": 62,
+    "B_n": 1891,
+    "N_X": 930,
+    "cases": {
+     "even": 62
+    },
+    "len_sigma": 1891,
+    "len_rev": 1889
+   },
+   {
+    "n": 63,
+    "B_n": 1953,
+    "N_X": 961,
+    "cases": {
+     "odd_B": 31,
+     "odd_A": 31,
+     "odd_mirror": 1
+    },
+    "len_sigma": 1953,
+    "len_rev": 1951
+   },
+   {
+    "n": 64,
+    "B_n": 2016,
+    "N_X": 992,
+    "cases": {
+     "even": 64
+    },
+    "len_sigma": 2016,
+    "len_rev": 2014
+   },
+   {
+    "n": 65,
+    "B_n": 2080,
+    "N_X": 1024,
+    "cases": {
+     "odd_B": 32,
+     "odd_A": 32,
+     "odd_mirror": 1
+    },
+    "len_sigma": 2080,
+    "len_rev": 2078
+   },
+   {
+    "n": 66,
+    "B_n": 2145,
+    "N_X": 1056,
+    "cases": {
+     "even": 66
+    },
+    "len_sigma": 2145,
+    "len_rev": 2143
+   },
+   {
+    "n": 67,
+    "B_n": 2211,
+    "N_X": 1089,
+    "cases": {
+     "odd_B": 33,
+     "odd_A": 33,
+     "odd_mirror": 1
+    },
+    "len_sigma": 2211,
+    "len_rev": 2209
+   },
+   {
+    "n": 68,
+    "B_n": 2278,
+    "N_X": 1122,
+    "cases": {
+     "even": 68
+    },
+    "len_sigma": 2278,
+    "len_rev": 2276
+   },
+   {
+    "n": 69,
+    "B_n": 2346,
+    "N_X": 1156,
+    "cases": {
+     "odd_B": 34,
+     "odd_A": 34,
+     "odd_mirror": 1
+    },
+    "len_sigma": 2346,
+    "len_rev": 2344
+   },
+   {
+    "n": 70,
+    "B_n": 2415,
+    "N_X": 1190,
+    "cases": {
+     "even": 70
+    },
+    "len_sigma": 2415,
+    "len_rev": 2413
+   },
+   {
+    "n": 71,
+    "B_n": 2485,
+    "N_X": 1225,
+    "cases": {
+     "odd_B": 35,
+     "odd_A": 35,
+     "odd_mirror": 1
+    },
+    "len_sigma": 2485,
+    "len_rev": 2483
+   },
+   {
+    "n": 72,
+    "B_n": 2556,
+    "N_X": 1260,
+    "cases": {
+     "even": 72
+    },
+    "len_sigma": 2556,
+    "len_rev": 2554
+   },
+   {
+    "n": 73,
+    "B_n": 2628,
+    "N_X": 1296,
+    "cases": {
+     "odd_B": 36,
+     "odd_A": 36,
+     "odd_mirror": 1
+    },
+    "len_sigma": 2628,
+    "len_rev": 2626
+   },
+   {
+    "n": 74,
+    "B_n": 2701,
+    "N_X": 1332,
+    "cases": {
+     "even": 74
+    },
+    "len_sigma": 2701,
+    "len_rev": 2699
+   },
+   {
+    "n": 75,
+    "B_n": 2775,
+    "N_X": 1369,
+    "cases": {
+     "odd_B": 37,
+     "odd_A": 37,
+     "odd_mirror": 1
+    },
+    "len_sigma": 2775,
+    "len_rev": 2773
+   },
+   {
+    "n": 76,
+    "B_n": 2850,
+    "N_X": 1406,
+    "cases": {
+     "even": 76
+    },
+    "len_sigma": 2850,
+    "len_rev": 2848
+   },
+   {
+    "n": 77,
+    "B_n": 2926,
+    "N_X": 1444,
+    "cases": {
+     "odd_B": 38,
+     "odd_A": 38,
+     "odd_mirror": 1
+    },
+    "len_sigma": 2926,
+    "len_rev": 2924
+   },
+   {
+    "n": 78,
+    "B_n": 3003,
+    "N_X": 1482,
+    "cases": {
+     "even": 78
+    },
+    "len_sigma": 3003,
+    "len_rev": 3001
+   },
+   {
+    "n": 79,
+    "B_n": 3081,
+    "N_X": 1521,
+    "cases": {
+     "odd_B": 39,
+     "odd_A": 39,
+     "odd_mirror": 1
+    },
+    "len_sigma": 3081,
+    "len_rev": 3079
+   },
+   {
+    "n": 80,
+    "B_n": 3160,
+    "N_X": 1560,
+    "cases": {
+     "even": 80
+    },
+    "len_sigma": 3160,
+    "len_rev": 3158
+   },
+   {
+    "n": 81,
+    "B_n": 3240,
+    "N_X": 1600,
+    "cases": {
+     "odd_B": 40,
+     "odd_A": 40,
+     "odd_mirror": 1
+    },
+    "len_sigma": 3240,
+    "len_rev": 3238
+   },
+   {
+    "n": 82,
+    "B_n": 3321,
+    "N_X": 1640,
+    "cases": {
+     "even": 82
+    },
+    "len_sigma": 3321,
+    "len_rev": 3319
+   },
+   {
+    "n": 83,
+    "B_n": 3403,
+    "N_X": 1681,
+    "cases": {
+     "odd_B": 41,
+     "odd_A": 41,
+     "odd_mirror": 1
+    },
+    "len_sigma": 3403,
+    "len_rev": 3401
+   },
+   {
+    "n": 84,
+    "B_n": 3486,
+    "N_X": 1722,
+    "cases": {
+     "even": 84
+    },
+    "len_sigma": 3486,
+    "len_rev": 3484
+   },
+   {
+    "n": 85,
+    "B_n": 3570,
+    "N_X": 1764,
+    "cases": {
+     "odd_B": 42,
+     "odd_A": 42,
+     "odd_mirror": 1
+    },
+    "len_sigma": 3570,
+    "len_rev": 3568
+   },
+   {
+    "n": 86,
+    "B_n": 3655,
+    "N_X": 1806,
+    "cases": {
+     "even": 86
+    },
+    "len_sigma": 3655,
+    "len_rev": 3653
+   },
+   {
+    "n": 87,
+    "B_n": 3741,
+    "N_X": 1849,
+    "cases": {
+     "odd_B": 43,
+     "odd_A": 43,
+     "odd_mirror": 1
+    },
+    "len_sigma": 3741,
+    "len_rev": 3739
+   },
+   {
+    "n": 88,
+    "B_n": 3828,
+    "N_X": 1892,
+    "cases": {
+     "even": 88
+    },
+    "len_sigma": 3828,
+    "len_rev": 3826
+   },
+   {
+    "n": 89,
+    "B_n": 3916,
+    "N_X": 1936,
+    "cases": {
+     "odd_B": 44,
+     "odd_A": 44,
+     "odd_mirror": 1
+    },
+    "len_sigma": 3916,
+    "len_rev": 3914
+   },
+   {
+    "n": 90,
+    "B_n": 4005,
+    "N_X": 1980,
+    "cases": {
+     "even": 90
+    },
+    "len_sigma": 4005,
+    "len_rev": 4003
+   },
+   {
+    "n": 91,
+    "B_n": 4095,
+    "N_X": 2025,
+    "cases": {
+     "odd_B": 45,
+     "odd_A": 45,
+     "odd_mirror": 1
+    },
+    "len_sigma": 4095,
+    "len_rev": 4093
+   },
+   {
+    "n": 92,
+    "B_n": 4186,
+    "N_X": 2070,
+    "cases": {
+     "even": 92
+    },
+    "len_sigma": 4186,
+    "len_rev": 4184
+   },
+   {
+    "n": 93,
+    "B_n": 4278,
+    "N_X": 2116,
+    "cases": {
+     "odd_B": 46,
+     "odd_A": 46,
+     "odd_mirror": 1
+    },
+    "len_sigma": 4278,
+    "len_rev": 4276
+   },
+   {
+    "n": 94,
+    "B_n": 4371,
+    "N_X": 2162,
+    "cases": {
+     "even": 94
+    },
+    "len_sigma": 4371,
+    "len_rev": 4369
+   },
+   {
+    "n": 95,
+    "B_n": 4465,
+    "N_X": 2209,
+    "cases": {
+     "odd_B": 47,
+     "odd_A": 47,
+     "odd_mirror": 1
+    },
+    "len_sigma": 4465,
+    "len_rev": 4463
+   },
+   {
+    "n": 96,
+    "B_n": 4560,
+    "N_X": 2256,
+    "cases": {
+     "even": 96
+    },
+    "len_sigma": 4560,
+    "len_rev": 4558
+   },
+   {
+    "n": 97,
+    "B_n": 4656,
+    "N_X": 2304,
+    "cases": {
+     "odd_B": 48,
+     "odd_A": 48,
+     "odd_mirror": 1
+    },
+    "len_sigma": 4656,
+    "len_rev": 4654
+   },
+   {
+    "n": 98,
+    "B_n": 4753,
+    "N_X": 2352,
+    "cases": {
+     "even": 98
+    },
+    "len_sigma": 4753,
+    "len_rev": 4751
+   },
+   {
+    "n": 99,
+    "B_n": 4851,
+    "N_X": 2401,
+    "cases": {
+     "odd_B": 49,
+     "odd_A": 49,
+     "odd_mirror": 1
+    },
+    "len_sigma": 4851,
+    "len_rev": 4849
+   },
+   {
+    "n": 100,
+    "B_n": 4950,
+    "N_X": 2450,
+    "cases": {
+     "even": 100
+    },
+    "len_sigma": 4950,
+    "len_rev": 4948
+   }
+  ]
+ },
+ "tables": {
+  "fails": [],
+  "rows": [
+   {
+    "n": 4,
+    "d_by_h": [
+     5,
+     6,
+     5,
+     4
+    ]
+   },
+   {
+    "n": 5,
+    "d_by_h": [
+     9,
+     10,
+     9,
+     8,
+     8
+    ]
+   },
+   {
+    "n": 6,
+    "d_by_h": [
+     14,
+     15,
+     14,
+     13,
+     12,
+     13
+    ]
+   },
+   {
+    "n": 7,
+    "d_by_h": [
+     20,
+     21,
+     20,
+     19,
+     18,
+     18,
+     19
+    ]
+   },
+   {
+    "n": 8,
+    "d_by_h": [
+     27,
+     28,
+     27,
+     26,
+     25,
+     24,
+     25,
+     26
+    ]
+   },
+   {
+    "n": 9,
+    "d_by_h": [
+     35,
+     36,
+     35,
+     34,
+     33,
+     32,
+     32,
+     33,
+     34
+    ]
+   },
+   {
+    "n": 10,
+    "d_by_h": [
+     44,
+     45,
+     44,
+     43,
+     42,
+     41,
+     40,
+     41,
+     42,
+     43
+    ]
+   }
+  ]
+ },
+ "policy": {
+  "pmax": 24,
+  "seconds": 4.3,
+  "pairs": 217,
+  "kinds": {
+   "sequential": 132,
+   "interleaved": 85
+  },
+  "dead_pairs": 77,
+  "other": [],
+  "not_explained": [],
+  "rows": [
+   {
+    "n": 4,
+    "h'": 1,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 1,
+    "len": 6,
+    "len_minus_B": 0,
+    "N_X": 2,
+    "N_rot": 4,
+    "approach": 0,
+    "final": 2,
+    "junction_extra": 1,
+    "explained": true
+   },
+   {
+    "n": 4,
+    "h'": 3,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 3,
+    "len": 6,
+    "len_minus_B": 0,
+    "N_X": 2,
+    "N_rot": 4,
+    "approach": 1,
+    "final": 1,
+    "junction_extra": 1,
+    "explained": true
+   },
+   {
+    "n": 5,
+    "h'": 0,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 0,
+    "len": 10,
+    "len_minus_B": 0,
+    "N_X": 4,
+    "N_rot": 6,
+    "approach": 0,
+    "final": 2,
+    "junction_extra": 1,
+    "explained": true
+   },
+   {
+    "n": 5,
+    "h'": 1,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 1,
+    "len": 10,
+    "len_minus_B": 0,
+    "N_X": 4,
+    "N_rot": 6,
+    "approach": 0,
+    "final": 2,
+    "junction_extra": 1,
+    "explained": true
+   },
+   {
+    "n": 5,
+    "h'": 2,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 2,
+    "len": 10,
+    "len_minus_B": 0,
+    "N_X": 4,
+    "N_rot": 6,
+    "approach": 0,
+    "final": 2,
+    "junction_extra": 1,
+    "explained": true
+   },
+   {
+    "n": 5,
+    "h'": 3,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 3,
+    "len": 10,
+    "len_minus_B": 0,
+    "N_X": 4,
+    "N_rot": 6,
+    "approach": 1,
+    "final": 1,
+    "junction_extra": 1,
+    "explained": true
+   },
+   {
+    "n": 5,
+    "h'": 4,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 4,
+    "len": 10,
+    "len_minus_B": 0,
+    "N_X": 4,
+    "N_rot": 6,
+    "approach": 1,
+    "final": 1,
+    "junction_extra": 1,
+    "explained": true
+   },
+   {
+    "n": 6,
+    "h'": 0,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 0,
+    "len": 16,
+    "len_minus_B": 1,
+    "N_X": 6,
+    "N_rot": 10,
+    "approach": 0,
+    "final": 2,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 6,
+    "h'": 2,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 2,
+    "len": 14,
+    "len_minus_B": -1,
+    "N_X": 6,
+    "N_rot": 8,
+    "approach": 0,
+    "final": 0,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 6,
+    "h'": 4,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 4,
+    "len": 16,
+    "len_minus_B": 1,
+    "N_X": 6,
+    "N_rot": 10,
+    "approach": 1,
+    "final": 1,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 7,
+    "h'": 0,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 0,
+    "len": 22,
+    "len_minus_B": 1,
+    "N_X": 9,
+    "N_rot": 13,
+    "approach": 0,
+    "final": 3,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 7,
+    "h'": 1,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 1,
+    "len": 21,
+    "len_minus_B": 0,
+    "N_X": 9,
+    "N_rot": 12,
+    "approach": 0,
+    "final": 1,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 7,
+    "h'": 2,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 2,
+    "len": 22,
+    "len_minus_B": 1,
+    "N_X": 9,
+    "N_rot": 13,
+    "approach": 0,
+    "final": 3,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 7,
+    "h'": 3,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 3,
+    "len": 23,
+    "len_minus_B": 2,
+    "N_X": 9,
+    "N_rot": 14,
+    "approach": 1,
+    "final": 2,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 7,
+    "h'": 4,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 4,
+    "len": 23,
+    "len_minus_B": 2,
+    "N_X": 9,
+    "N_rot": 14,
+    "approach": 1,
+    "final": 3,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 7,
+    "h'": 5,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 5,
+    "len": 23,
+    "len_minus_B": 2,
+    "N_X": 9,
+    "N_rot": 14,
+    "approach": 1,
+    "final": 3,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 7,
+    "h'": 6,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 6,
+    "len": 23,
+    "len_minus_B": 2,
+    "N_X": 9,
+    "N_rot": 14,
+    "approach": 2,
+    "final": 2,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 8,
+    "h'": 1,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 1,
+    "len": 28,
+    "len_minus_B": 0,
+    "N_X": 12,
+    "N_rot": 16,
+    "approach": 0,
+    "final": 3,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 8,
+    "h'": 3,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 3,
+    "len": 28,
+    "len_minus_B": 0,
+    "N_X": 12,
+    "N_rot": 16,
+    "approach": 1,
+    "final": 2,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 8,
+    "h'": 5,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 5,
+    "len": 28,
+    "len_minus_B": 0,
+    "N_X": 12,
+    "N_rot": 16,
+    "approach": 2,
+    "final": 1,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 8,
+    "h'": 7,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 7,
+    "len": 28,
+    "len_minus_B": 0,
+    "N_X": 12,
+    "N_rot": 16,
+    "approach": 1,
+    "final": 2,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 9,
+    "h'": 0,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 0,
+    "len": 37,
+    "len_minus_B": 1,
+    "N_X": 16,
+    "N_rot": 21,
+    "approach": 0,
+    "final": 4,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 9,
+    "h'": 1,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 1,
+    "len": 36,
+    "len_minus_B": 0,
+    "N_X": 16,
+    "N_rot": 20,
+    "approach": 0,
+    "final": 1,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 9,
+    "h'": 2,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 2,
+    "len": 37,
+    "len_minus_B": 1,
+    "N_X": 16,
+    "N_rot": 21,
+    "approach": 0,
+    "final": 4,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 9,
+    "h'": 3,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 3,
+    "len": 38,
+    "len_minus_B": 2,
+    "N_X": 16,
+    "N_rot": 22,
+    "approach": 1,
+    "final": 2,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 9,
+    "h'": 4,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 4,
+    "len": 38,
+    "len_minus_B": 2,
+    "N_X": 16,
+    "N_rot": 22,
+    "approach": 1,
+    "final": 4,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 9,
+    "h'": 5,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 5,
+    "len": 38,
+    "len_minus_B": 2,
+    "N_X": 16,
+    "N_rot": 22,
+    "approach": 2,
+    "final": 3,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 9,
+    "h'": 6,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 6,
+    "len": 38,
+    "len_minus_B": 2,
+    "N_X": 16,
+    "N_rot": 22,
+    "approach": 2,
+    "final": 3,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 9,
+    "h'": 7,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 7,
+    "len": 38,
+    "len_minus_B": 2,
+    "N_X": 16,
+    "N_rot": 22,
+    "approach": 1,
+    "final": 4,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 9,
+    "h'": 8,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 8,
+    "len": 38,
+    "len_minus_B": 2,
+    "N_X": 16,
+    "N_rot": 22,
+    "approach": 1,
+    "final": 2,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 10,
+    "h'": 0,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 0,
+    "len": 44,
+    "len_minus_B": -1,
+    "N_X": 20,
+    "N_rot": 24,
+    "approach": 0,
+    "final": 3,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 10,
+    "h'": 2,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 2,
+    "len": 44,
+    "len_minus_B": -1,
+    "N_X": 20,
+    "N_rot": 24,
+    "approach": 0,
+    "final": 3,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 10,
+    "h'": 4,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 4,
+    "len": 44,
+    "len_minus_B": -1,
+    "N_X": 20,
+    "N_rot": 24,
+    "approach": 1,
+    "final": 2,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 10,
+    "h'": 6,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 6,
+    "len": 44,
+    "len_minus_B": -1,
+    "N_X": 20,
+    "N_rot": 24,
+    "approach": 2,
+    "final": 1,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 10,
+    "h'": 8,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 8,
+    "len": 44,
+    "len_minus_B": -1,
+    "N_X": 20,
+    "N_rot": 24,
+    "approach": 1,
+    "final": 2,
+    "junction_extra": 2,
+    "explained": true
+   },
+   {
+    "n": 11,
+    "h'": 0,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 0,
+    "len": 56,
+    "len_minus_B": 1,
+    "N_X": 25,
+    "N_rot": 31,
+    "approach": 0,
+    "final": 4,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 11,
+    "h'": 1,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 1,
+    "len": 55,
+    "len_minus_B": 0,
+    "N_X": 25,
+    "N_rot": 30,
+    "approach": 0,
+    "final": 2,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 11,
+    "h'": 2,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 2,
+    "len": 56,
+    "len_minus_B": 1,
+    "N_X": 25,
+    "N_rot": 31,
+    "approach": 0,
+    "final": 4,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 11,
+    "h'": 3,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 3,
+    "len": 57,
+    "len_minus_B": 2,
+    "N_X": 25,
+    "N_rot": 32,
+    "approach": 1,
+    "final": 3,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 11,
+    "h'": 4,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 4,
+    "len": 58,
+    "len_minus_B": 3,
+    "N_X": 25,
+    "N_rot": 33,
+    "approach": 1,
+    "final": 5,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 11,
+    "h'": 5,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 5,
+    "len": 59,
+    "len_minus_B": 4,
+    "N_X": 25,
+    "N_rot": 34,
+    "approach": 2,
+    "final": 4,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 11,
+    "h'": 6,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 6,
+    "len": 59,
+    "len_minus_B": 4,
+    "N_X": 25,
+    "N_rot": 34,
+    "approach": 2,
+    "final": 5,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 11,
+    "h'": 7,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 7,
+    "len": 59,
+    "len_minus_B": 4,
+    "N_X": 25,
+    "N_rot": 34,
+    "approach": 2,
+    "final": 5,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 11,
+    "h'": 8,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 8,
+    "len": 59,
+    "len_minus_B": 4,
+    "N_X": 25,
+    "N_rot": 34,
+    "approach": 3,
+    "final": 4,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 11,
+    "h'": 9,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 9,
+    "len": 58,
+    "len_minus_B": 3,
+    "N_X": 25,
+    "N_rot": 33,
+    "approach": 1,
+    "final": 5,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 11,
+    "h'": 10,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 10,
+    "len": 57,
+    "len_minus_B": 2,
+    "N_X": 25,
+    "N_rot": 32,
+    "approach": 1,
+    "final": 3,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 12,
+    "h'": 1,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 1,
+    "len": 66,
+    "len_minus_B": 0,
+    "N_X": 30,
+    "N_rot": 36,
+    "approach": 0,
+    "final": 4,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 12,
+    "h'": 3,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 3,
+    "len": 66,
+    "len_minus_B": 0,
+    "N_X": 30,
+    "N_rot": 36,
+    "approach": 1,
+    "final": 3,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 12,
+    "h'": 5,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 5,
+    "len": 66,
+    "len_minus_B": 0,
+    "N_X": 30,
+    "N_rot": 36,
+    "approach": 2,
+    "final": 2,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 12,
+    "h'": 7,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 7,
+    "len": 66,
+    "len_minus_B": 0,
+    "N_X": 30,
+    "N_rot": 36,
+    "approach": 3,
+    "final": 1,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 12,
+    "h'": 9,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 9,
+    "len": 66,
+    "len_minus_B": 0,
+    "N_X": 30,
+    "N_rot": 36,
+    "approach": 2,
+    "final": 2,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 12,
+    "h'": 11,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 11,
+    "len": 66,
+    "len_minus_B": 0,
+    "N_X": 30,
+    "N_rot": 36,
+    "approach": 1,
+    "final": 3,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 13,
+    "h'": 0,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 0,
+    "len": 79,
+    "len_minus_B": 1,
+    "N_X": 36,
+    "N_rot": 43,
+    "approach": 0,
+    "final": 5,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 13,
+    "h'": 1,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 1,
+    "len": 78,
+    "len_minus_B": 0,
+    "N_X": 36,
+    "N_rot": 42,
+    "approach": 0,
+    "final": 4,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 13,
+    "h'": 2,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 2,
+    "len": 79,
+    "len_minus_B": 1,
+    "N_X": 36,
+    "N_rot": 43,
+    "approach": 0,
+    "final": 5,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 13,
+    "h'": 3,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 3,
+    "len": 80,
+    "len_minus_B": 2,
+    "N_X": 36,
+    "N_rot": 44,
+    "approach": 1,
+    "final": 5,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 13,
+    "h'": 4,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 4,
+    "len": 81,
+    "len_minus_B": 3,
+    "N_X": 36,
+    "N_rot": 45,
+    "approach": 1,
+    "final": 6,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 13,
+    "h'": 5,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 5,
+    "len": 82,
+    "len_minus_B": 4,
+    "N_X": 36,
+    "N_rot": 46,
+    "approach": 2,
+    "final": 6,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 13,
+    "h'": 6,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 6,
+    "len": 82,
+    "len_minus_B": 4,
+    "N_X": 36,
+    "N_rot": 46,
+    "approach": 2,
+    "final": 6,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 13,
+    "h'": 7,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 7,
+    "len": 82,
+    "len_minus_B": 4,
+    "N_X": 36,
+    "N_rot": 46,
+    "approach": 3,
+    "final": 5,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 13,
+    "h'": 8,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 8,
+    "len": 82,
+    "len_minus_B": 4,
+    "N_X": 36,
+    "N_rot": 46,
+    "approach": 3,
+    "final": 5,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 13,
+    "h'": 9,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 9,
+    "len": 82,
+    "len_minus_B": 4,
+    "N_X": 36,
+    "N_rot": 46,
+    "approach": 2,
+    "final": 6,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 13,
+    "h'": 10,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 10,
+    "len": 82,
+    "len_minus_B": 4,
+    "N_X": 36,
+    "N_rot": 46,
+    "approach": 2,
+    "final": 6,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 13,
+    "h'": 11,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 11,
+    "len": 81,
+    "len_minus_B": 3,
+    "N_X": 36,
+    "N_rot": 45,
+    "approach": 1,
+    "final": 6,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 13,
+    "h'": 12,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 12,
+    "len": 80,
+    "len_minus_B": 2,
+    "N_X": 36,
+    "N_rot": 44,
+    "approach": 1,
+    "final": 5,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 14,
+    "h'": 0,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 0,
+    "len": 90,
+    "len_minus_B": -1,
+    "N_X": 42,
+    "N_rot": 48,
+    "approach": 0,
+    "final": 4,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 14,
+    "h'": 2,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 2,
+    "len": 90,
+    "len_minus_B": -1,
+    "N_X": 42,
+    "N_rot": 48,
+    "approach": 0,
+    "final": 4,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 14,
+    "h'": 4,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 4,
+    "len": 90,
+    "len_minus_B": -1,
+    "N_X": 42,
+    "N_rot": 48,
+    "approach": 1,
+    "final": 3,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 14,
+    "h'": 6,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 6,
+    "len": 90,
+    "len_minus_B": -1,
+    "N_X": 42,
+    "N_rot": 48,
+    "approach": 2,
+    "final": 2,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 14,
+    "h'": 8,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 8,
+    "len": 90,
+    "len_minus_B": -1,
+    "N_X": 42,
+    "N_rot": 48,
+    "approach": 3,
+    "final": 1,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 14,
+    "h'": 10,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 10,
+    "len": 90,
+    "len_minus_B": -1,
+    "N_X": 42,
+    "N_rot": 48,
+    "approach": 2,
+    "final": 2,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 14,
+    "h'": 12,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 12,
+    "len": 90,
+    "len_minus_B": -1,
+    "N_X": 42,
+    "N_rot": 48,
+    "approach": 1,
+    "final": 3,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 15,
+    "h'": 0,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 0,
+    "len": 106,
+    "len_minus_B": 1,
+    "N_X": 49,
+    "N_rot": 57,
+    "approach": 0,
+    "final": 5,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 15,
+    "h'": 1,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 1,
+    "len": 105,
+    "len_minus_B": 0,
+    "N_X": 49,
+    "N_rot": 56,
+    "approach": 0,
+    "final": 5,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 15,
+    "h'": 2,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 2,
+    "len": 106,
+    "len_minus_B": 1,
+    "N_X": 49,
+    "N_rot": 57,
+    "approach": 0,
+    "final": 5,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 15,
+    "h'": 3,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 3,
+    "len": 107,
+    "len_minus_B": 2,
+    "N_X": 49,
+    "N_rot": 58,
+    "approach": 1,
+    "final": 6,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 15,
+    "h'": 4,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 4,
+    "len": 108,
+    "len_minus_B": 3,
+    "N_X": 49,
+    "N_rot": 59,
+    "approach": 1,
+    "final": 6,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 15,
+    "h'": 5,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 5,
+    "len": 109,
+    "len_minus_B": 4,
+    "N_X": 49,
+    "N_rot": 60,
+    "approach": 2,
+    "final": 7,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 15,
+    "h'": 6,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 6,
+    "len": 110,
+    "len_minus_B": 5,
+    "N_X": 49,
+    "N_rot": 61,
+    "approach": 2,
+    "final": 7,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 15,
+    "h'": 7,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 7,
+    "len": 110,
+    "len_minus_B": 5,
+    "N_X": 49,
+    "N_rot": 61,
+    "approach": 3,
+    "final": 7,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 15,
+    "h'": 8,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 8,
+    "len": 111,
+    "len_minus_B": 6,
+    "N_X": 49,
+    "N_rot": 62,
+    "approach": 3,
+    "final": 7,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 15,
+    "h'": 9,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 9,
+    "len": 111,
+    "len_minus_B": 6,
+    "N_X": 49,
+    "N_rot": 62,
+    "approach": 3,
+    "final": 7,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 15,
+    "h'": 10,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 10,
+    "len": 111,
+    "len_minus_B": 6,
+    "N_X": 49,
+    "N_rot": 62,
+    "approach": 4,
+    "final": 6,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 15,
+    "h'": 11,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 11,
+    "len": 110,
+    "len_minus_B": 5,
+    "N_X": 49,
+    "N_rot": 61,
+    "approach": 2,
+    "final": 7,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 15,
+    "h'": 12,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 12,
+    "len": 109,
+    "len_minus_B": 4,
+    "N_X": 49,
+    "N_rot": 60,
+    "approach": 2,
+    "final": 7,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 15,
+    "h'": 13,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 13,
+    "len": 108,
+    "len_minus_B": 3,
+    "N_X": 49,
+    "N_rot": 59,
+    "approach": 1,
+    "final": 6,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 15,
+    "h'": 14,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 14,
+    "len": 107,
+    "len_minus_B": 2,
+    "N_X": 49,
+    "N_rot": 58,
+    "approach": 1,
+    "final": 6,
+    "junction_extra": 3,
+    "explained": true
+   },
+   {
+    "n": 16,
+    "h'": 1,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 1,
+    "len": 120,
+    "len_minus_B": 0,
+    "N_X": 56,
+    "N_rot": 64,
+    "approach": 0,
+    "final": 5,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 16,
+    "h'": 3,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 3,
+    "len": 120,
+    "len_minus_B": 0,
+    "N_X": 56,
+    "N_rot": 64,
+    "approach": 1,
+    "final": 4,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 16,
+    "h'": 5,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 5,
+    "len": 120,
+    "len_minus_B": 0,
+    "N_X": 56,
+    "N_rot": 64,
+    "approach": 2,
+    "final": 3,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 16,
+    "h'": 7,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 7,
+    "len": 120,
+    "len_minus_B": 0,
+    "N_X": 56,
+    "N_rot": 64,
+    "approach": 3,
+    "final": 2,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 16,
+    "h'": 9,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 9,
+    "len": 120,
+    "len_minus_B": 0,
+    "N_X": 56,
+    "N_rot": 64,
+    "approach": 4,
+    "final": 1,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 16,
+    "h'": 11,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 11,
+    "len": 120,
+    "len_minus_B": 0,
+    "N_X": 56,
+    "N_rot": 64,
+    "approach": 3,
+    "final": 2,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 16,
+    "h'": 13,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 13,
+    "len": 120,
+    "len_minus_B": 0,
+    "N_X": 56,
+    "N_rot": 64,
+    "approach": 2,
+    "final": 3,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 16,
+    "h'": 15,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 15,
+    "len": 120,
+    "len_minus_B": 0,
+    "N_X": 56,
+    "N_rot": 64,
+    "approach": 1,
+    "final": 4,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 0,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 0,
+    "len": 137,
+    "len_minus_B": 1,
+    "N_X": 64,
+    "N_rot": 73,
+    "approach": 0,
+    "final": 6,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 1,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 1,
+    "len": 136,
+    "len_minus_B": 0,
+    "N_X": 64,
+    "N_rot": 72,
+    "approach": 0,
+    "final": 5,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 2,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 2,
+    "len": 137,
+    "len_minus_B": 1,
+    "N_X": 64,
+    "N_rot": 73,
+    "approach": 0,
+    "final": 6,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 3,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 3,
+    "len": 138,
+    "len_minus_B": 2,
+    "N_X": 64,
+    "N_rot": 74,
+    "approach": 1,
+    "final": 6,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 4,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 4,
+    "len": 139,
+    "len_minus_B": 3,
+    "N_X": 64,
+    "N_rot": 75,
+    "approach": 1,
+    "final": 7,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 5,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 5,
+    "len": 140,
+    "len_minus_B": 4,
+    "N_X": 64,
+    "N_rot": 76,
+    "approach": 2,
+    "final": 7,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 6,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 6,
+    "len": 141,
+    "len_minus_B": 5,
+    "N_X": 64,
+    "N_rot": 77,
+    "approach": 2,
+    "final": 8,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 7,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 7,
+    "len": 142,
+    "len_minus_B": 6,
+    "N_X": 64,
+    "N_rot": 78,
+    "approach": 3,
+    "final": 8,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 8,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 8,
+    "len": 142,
+    "len_minus_B": 6,
+    "N_X": 64,
+    "N_rot": 78,
+    "approach": 3,
+    "final": 8,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 9,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 9,
+    "len": 142,
+    "len_minus_B": 6,
+    "N_X": 64,
+    "N_rot": 78,
+    "approach": 4,
+    "final": 7,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 10,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 10,
+    "len": 142,
+    "len_minus_B": 6,
+    "N_X": 64,
+    "N_rot": 78,
+    "approach": 4,
+    "final": 7,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 11,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 11,
+    "len": 142,
+    "len_minus_B": 6,
+    "N_X": 64,
+    "N_rot": 78,
+    "approach": 3,
+    "final": 8,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 12,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 12,
+    "len": 142,
+    "len_minus_B": 6,
+    "N_X": 64,
+    "N_rot": 78,
+    "approach": 3,
+    "final": 8,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 13,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 13,
+    "len": 141,
+    "len_minus_B": 5,
+    "N_X": 64,
+    "N_rot": 77,
+    "approach": 2,
+    "final": 8,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 14,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 14,
+    "len": 140,
+    "len_minus_B": 4,
+    "N_X": 64,
+    "N_rot": 76,
+    "approach": 2,
+    "final": 7,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 15,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 15,
+    "len": 139,
+    "len_minus_B": 3,
+    "N_X": 64,
+    "N_rot": 75,
+    "approach": 1,
+    "final": 7,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 17,
+    "h'": 16,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 16,
+    "len": 138,
+    "len_minus_B": 2,
+    "N_X": 64,
+    "N_rot": 74,
+    "approach": 1,
+    "final": 6,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 18,
+    "h'": 0,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 0,
+    "len": 152,
+    "len_minus_B": -1,
+    "N_X": 72,
+    "N_rot": 80,
+    "approach": 0,
+    "final": 5,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 18,
+    "h'": 2,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 2,
+    "len": 152,
+    "len_minus_B": -1,
+    "N_X": 72,
+    "N_rot": 80,
+    "approach": 0,
+    "final": 5,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 18,
+    "h'": 4,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 4,
+    "len": 152,
+    "len_minus_B": -1,
+    "N_X": 72,
+    "N_rot": 80,
+    "approach": 1,
+    "final": 4,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 18,
+    "h'": 6,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 6,
+    "len": 152,
+    "len_minus_B": -1,
+    "N_X": 72,
+    "N_rot": 80,
+    "approach": 2,
+    "final": 3,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 18,
+    "h'": 8,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 8,
+    "len": 152,
+    "len_minus_B": -1,
+    "N_X": 72,
+    "N_rot": 80,
+    "approach": 3,
+    "final": 2,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 18,
+    "h'": 10,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 10,
+    "len": 152,
+    "len_minus_B": -1,
+    "N_X": 72,
+    "N_rot": 80,
+    "approach": 4,
+    "final": 1,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 18,
+    "h'": 12,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 12,
+    "len": 152,
+    "len_minus_B": -1,
+    "N_X": 72,
+    "N_rot": 80,
+    "approach": 3,
+    "final": 2,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 18,
+    "h'": 14,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 14,
+    "len": 152,
+    "len_minus_B": -1,
+    "N_X": 72,
+    "N_rot": 80,
+    "approach": 2,
+    "final": 3,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 18,
+    "h'": 16,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 16,
+    "len": 152,
+    "len_minus_B": -1,
+    "N_X": 72,
+    "N_rot": 80,
+    "approach": 1,
+    "final": 4,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 0,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 0,
+    "len": 172,
+    "len_minus_B": 1,
+    "N_X": 81,
+    "N_rot": 91,
+    "approach": 0,
+    "final": 6,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 1,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 1,
+    "len": 171,
+    "len_minus_B": 0,
+    "N_X": 81,
+    "N_rot": 90,
+    "approach": 0,
+    "final": 6,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 2,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 2,
+    "len": 172,
+    "len_minus_B": 1,
+    "N_X": 81,
+    "N_rot": 91,
+    "approach": 0,
+    "final": 6,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 3,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 3,
+    "len": 173,
+    "len_minus_B": 2,
+    "N_X": 81,
+    "N_rot": 92,
+    "approach": 1,
+    "final": 7,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 4,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 4,
+    "len": 174,
+    "len_minus_B": 3,
+    "N_X": 81,
+    "N_rot": 93,
+    "approach": 1,
+    "final": 7,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 5,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 5,
+    "len": 175,
+    "len_minus_B": 4,
+    "N_X": 81,
+    "N_rot": 94,
+    "approach": 2,
+    "final": 8,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 6,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 6,
+    "len": 176,
+    "len_minus_B": 5,
+    "N_X": 81,
+    "N_rot": 95,
+    "approach": 2,
+    "final": 8,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 7,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 7,
+    "len": 177,
+    "len_minus_B": 6,
+    "N_X": 81,
+    "N_rot": 96,
+    "approach": 3,
+    "final": 9,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 8,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 8,
+    "len": 178,
+    "len_minus_B": 7,
+    "N_X": 81,
+    "N_rot": 97,
+    "approach": 3,
+    "final": 9,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 9,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 9,
+    "len": 178,
+    "len_minus_B": 7,
+    "N_X": 81,
+    "N_rot": 97,
+    "approach": 4,
+    "final": 9,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 10,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 10,
+    "len": 179,
+    "len_minus_B": 8,
+    "N_X": 81,
+    "N_rot": 98,
+    "approach": 4,
+    "final": 9,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 11,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 11,
+    "len": 179,
+    "len_minus_B": 8,
+    "N_X": 81,
+    "N_rot": 98,
+    "approach": 4,
+    "final": 9,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 12,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 12,
+    "len": 179,
+    "len_minus_B": 8,
+    "N_X": 81,
+    "N_rot": 98,
+    "approach": 5,
+    "final": 8,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 13,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 13,
+    "len": 178,
+    "len_minus_B": 7,
+    "N_X": 81,
+    "N_rot": 97,
+    "approach": 3,
+    "final": 9,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 14,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 14,
+    "len": 177,
+    "len_minus_B": 6,
+    "N_X": 81,
+    "N_rot": 96,
+    "approach": 3,
+    "final": 9,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 15,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 15,
+    "len": 176,
+    "len_minus_B": 5,
+    "N_X": 81,
+    "N_rot": 95,
+    "approach": 2,
+    "final": 8,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 16,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 16,
+    "len": 175,
+    "len_minus_B": 4,
+    "N_X": 81,
+    "N_rot": 94,
+    "approach": 2,
+    "final": 8,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 17,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 17,
+    "len": 174,
+    "len_minus_B": 3,
+    "N_X": 81,
+    "N_rot": 93,
+    "approach": 1,
+    "final": 7,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 19,
+    "h'": 18,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 18,
+    "len": 173,
+    "len_minus_B": 2,
+    "N_X": 81,
+    "N_rot": 92,
+    "approach": 1,
+    "final": 7,
+    "junction_extra": 4,
+    "explained": true
+   },
+   {
+    "n": 20,
+    "h'": 1,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 1,
+    "len": 190,
+    "len_minus_B": 0,
+    "N_X": 90,
+    "N_rot": 100,
+    "approach": 0,
+    "final": 6,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 20,
+    "h'": 3,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 3,
+    "len": 190,
+    "len_minus_B": 0,
+    "N_X": 90,
+    "N_rot": 100,
+    "approach": 1,
+    "final": 5,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 20,
+    "h'": 5,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 5,
+    "len": 190,
+    "len_minus_B": 0,
+    "N_X": 90,
+    "N_rot": 100,
+    "approach": 2,
+    "final": 4,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 20,
+    "h'": 7,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 7,
+    "len": 190,
+    "len_minus_B": 0,
+    "N_X": 90,
+    "N_rot": 100,
+    "approach": 3,
+    "final": 3,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 20,
+    "h'": 9,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 9,
+    "len": 190,
+    "len_minus_B": 0,
+    "N_X": 90,
+    "N_rot": 100,
+    "approach": 4,
+    "final": 2,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 20,
+    "h'": 11,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 11,
+    "len": 190,
+    "len_minus_B": 0,
+    "N_X": 90,
+    "N_rot": 100,
+    "approach": 5,
+    "final": 1,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 20,
+    "h'": 13,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 13,
+    "len": 190,
+    "len_minus_B": 0,
+    "N_X": 90,
+    "N_rot": 100,
+    "approach": 4,
+    "final": 2,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 20,
+    "h'": 15,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 15,
+    "len": 190,
+    "len_minus_B": 0,
+    "N_X": 90,
+    "N_rot": 100,
+    "approach": 3,
+    "final": 3,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 20,
+    "h'": 17,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 17,
+    "len": 190,
+    "len_minus_B": 0,
+    "N_X": 90,
+    "N_rot": 100,
+    "approach": 2,
+    "final": 4,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 20,
+    "h'": 19,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 19,
+    "len": 190,
+    "len_minus_B": 0,
+    "N_X": 90,
+    "N_rot": 100,
+    "approach": 1,
+    "final": 5,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 0,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 0,
+    "len": 211,
+    "len_minus_B": 1,
+    "N_X": 100,
+    "N_rot": 111,
+    "approach": 0,
+    "final": 7,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 1,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 1,
+    "len": 210,
+    "len_minus_B": 0,
+    "N_X": 100,
+    "N_rot": 110,
+    "approach": 0,
+    "final": 6,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 2,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 2,
+    "len": 211,
+    "len_minus_B": 1,
+    "N_X": 100,
+    "N_rot": 111,
+    "approach": 0,
+    "final": 7,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 3,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 3,
+    "len": 212,
+    "len_minus_B": 2,
+    "N_X": 100,
+    "N_rot": 112,
+    "approach": 1,
+    "final": 7,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 4,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 4,
+    "len": 213,
+    "len_minus_B": 3,
+    "N_X": 100,
+    "N_rot": 113,
+    "approach": 1,
+    "final": 8,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 5,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 5,
+    "len": 214,
+    "len_minus_B": 4,
+    "N_X": 100,
+    "N_rot": 114,
+    "approach": 2,
+    "final": 8,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 6,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 6,
+    "len": 215,
+    "len_minus_B": 5,
+    "N_X": 100,
+    "N_rot": 115,
+    "approach": 2,
+    "final": 9,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 7,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 7,
+    "len": 216,
+    "len_minus_B": 6,
+    "N_X": 100,
+    "N_rot": 116,
+    "approach": 3,
+    "final": 9,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 8,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 8,
+    "len": 217,
+    "len_minus_B": 7,
+    "N_X": 100,
+    "N_rot": 117,
+    "approach": 3,
+    "final": 10,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 9,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 9,
+    "len": 218,
+    "len_minus_B": 8,
+    "N_X": 100,
+    "N_rot": 118,
+    "approach": 4,
+    "final": 10,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 10,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 10,
+    "len": 218,
+    "len_minus_B": 8,
+    "N_X": 100,
+    "N_rot": 118,
+    "approach": 4,
+    "final": 10,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 11,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 11,
+    "len": 218,
+    "len_minus_B": 8,
+    "N_X": 100,
+    "N_rot": 118,
+    "approach": 5,
+    "final": 9,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 12,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 12,
+    "len": 218,
+    "len_minus_B": 8,
+    "N_X": 100,
+    "N_rot": 118,
+    "approach": 5,
+    "final": 9,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 13,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 13,
+    "len": 218,
+    "len_minus_B": 8,
+    "N_X": 100,
+    "N_rot": 118,
+    "approach": 4,
+    "final": 10,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 14,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 14,
+    "len": 218,
+    "len_minus_B": 8,
+    "N_X": 100,
+    "N_rot": 118,
+    "approach": 4,
+    "final": 10,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 15,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 15,
+    "len": 217,
+    "len_minus_B": 7,
+    "N_X": 100,
+    "N_rot": 117,
+    "approach": 3,
+    "final": 10,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 16,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 16,
+    "len": 216,
+    "len_minus_B": 6,
+    "N_X": 100,
+    "N_rot": 116,
+    "approach": 3,
+    "final": 9,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 17,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 17,
+    "len": 215,
+    "len_minus_B": 5,
+    "N_X": 100,
+    "N_rot": 115,
+    "approach": 2,
+    "final": 9,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 18,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 18,
+    "len": 214,
+    "len_minus_B": 4,
+    "N_X": 100,
+    "N_rot": 114,
+    "approach": 2,
+    "final": 8,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 19,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 19,
+    "len": 213,
+    "len_minus_B": 3,
+    "N_X": 100,
+    "N_rot": 113,
+    "approach": 1,
+    "final": 8,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 21,
+    "h'": 20,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 20,
+    "len": 212,
+    "len_minus_B": 2,
+    "N_X": 100,
+    "N_rot": 112,
+    "approach": 1,
+    "final": 7,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 22,
+    "h'": 0,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 0,
+    "len": 230,
+    "len_minus_B": -1,
+    "N_X": 110,
+    "N_rot": 120,
+    "approach": 0,
+    "final": 6,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 22,
+    "h'": 2,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 2,
+    "len": 230,
+    "len_minus_B": -1,
+    "N_X": 110,
+    "N_rot": 120,
+    "approach": 0,
+    "final": 6,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 22,
+    "h'": 4,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 4,
+    "len": 230,
+    "len_minus_B": -1,
+    "N_X": 110,
+    "N_rot": 120,
+    "approach": 1,
+    "final": 5,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 22,
+    "h'": 6,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 6,
+    "len": 230,
+    "len_minus_B": -1,
+    "N_X": 110,
+    "N_rot": 120,
+    "approach": 2,
+    "final": 4,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 22,
+    "h'": 8,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 8,
+    "len": 230,
+    "len_minus_B": -1,
+    "N_X": 110,
+    "N_rot": 120,
+    "approach": 3,
+    "final": 3,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 22,
+    "h'": 10,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 10,
+    "len": 230,
+    "len_minus_B": -1,
+    "N_X": 110,
+    "N_rot": 120,
+    "approach": 4,
+    "final": 2,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 22,
+    "h'": 12,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 12,
+    "len": 230,
+    "len_minus_B": -1,
+    "N_X": 110,
+    "N_rot": 120,
+    "approach": 5,
+    "final": 1,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 22,
+    "h'": 14,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 14,
+    "len": 230,
+    "len_minus_B": -1,
+    "N_X": 110,
+    "N_rot": 120,
+    "approach": 4,
+    "final": 2,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 22,
+    "h'": 16,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 16,
+    "len": 230,
+    "len_minus_B": -1,
+    "N_X": 110,
+    "N_rot": 120,
+    "approach": 3,
+    "final": 3,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 22,
+    "h'": 18,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 18,
+    "len": 230,
+    "len_minus_B": -1,
+    "N_X": 110,
+    "N_rot": 120,
+    "approach": 2,
+    "final": 4,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 22,
+    "h'": 20,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out"
+    ],
+    "twoA": 20,
+    "len": 230,
+    "len_minus_B": -1,
+    "N_X": 110,
+    "N_rot": 120,
+    "approach": 1,
+    "final": 5,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 0,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 0,
+    "len": 254,
+    "len_minus_B": 1,
+    "N_X": 121,
+    "N_rot": 133,
+    "approach": 0,
+    "final": 7,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 1,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 1,
+    "len": 253,
+    "len_minus_B": 0,
+    "N_X": 121,
+    "N_rot": 132,
+    "approach": 0,
+    "final": 7,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 2,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 2,
+    "len": 254,
+    "len_minus_B": 1,
+    "N_X": 121,
+    "N_rot": 133,
+    "approach": 0,
+    "final": 7,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 3,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 3,
+    "len": 255,
+    "len_minus_B": 2,
+    "N_X": 121,
+    "N_rot": 134,
+    "approach": 1,
+    "final": 8,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 4,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 4,
+    "len": 256,
+    "len_minus_B": 3,
+    "N_X": 121,
+    "N_rot": 135,
+    "approach": 1,
+    "final": 8,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 5,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 5,
+    "len": 257,
+    "len_minus_B": 4,
+    "N_X": 121,
+    "N_rot": 136,
+    "approach": 2,
+    "final": 9,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 6,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 6,
+    "len": 258,
+    "len_minus_B": 5,
+    "N_X": 121,
+    "N_rot": 137,
+    "approach": 2,
+    "final": 9,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 7,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 7,
+    "len": 259,
+    "len_minus_B": 6,
+    "N_X": 121,
+    "N_rot": 138,
+    "approach": 3,
+    "final": 10,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 8,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 8,
+    "len": 260,
+    "len_minus_B": 7,
+    "N_X": 121,
+    "N_rot": 139,
+    "approach": 3,
+    "final": 10,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 9,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 9,
+    "len": 261,
+    "len_minus_B": 8,
+    "N_X": 121,
+    "N_rot": 140,
+    "approach": 4,
+    "final": 11,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 10,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 10,
+    "len": 262,
+    "len_minus_B": 9,
+    "N_X": 121,
+    "N_rot": 141,
+    "approach": 4,
+    "final": 11,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 11,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 11,
+    "len": 262,
+    "len_minus_B": 9,
+    "N_X": 121,
+    "N_rot": 141,
+    "approach": 5,
+    "final": 11,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 12,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 12,
+    "len": 263,
+    "len_minus_B": 10,
+    "N_X": 121,
+    "N_rot": 142,
+    "approach": 5,
+    "final": 11,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 13,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 13,
+    "len": 263,
+    "len_minus_B": 10,
+    "N_X": 121,
+    "N_rot": 142,
+    "approach": 5,
+    "final": 11,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 14,
+    "kind": "sequential",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 14,
+    "len": 263,
+    "len_minus_B": 10,
+    "N_X": 121,
+    "N_rot": 142,
+    "approach": 6,
+    "final": 10,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 15,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 15,
+    "len": 262,
+    "len_minus_B": 9,
+    "N_X": 121,
+    "N_rot": 141,
+    "approach": 4,
+    "final": 11,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 16,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 16,
+    "len": 261,
+    "len_minus_B": 8,
+    "N_X": 121,
+    "N_rot": 140,
+    "approach": 4,
+    "final": 11,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 17,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 17,
+    "len": 260,
+    "len_minus_B": 7,
+    "N_X": 121,
+    "N_rot": 139,
+    "approach": 3,
+    "final": 10,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 18,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 18,
+    "len": 259,
+    "len_minus_B": 6,
+    "N_X": 121,
+    "N_rot": 138,
+    "approach": 3,
+    "final": 10,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 19,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 19,
+    "len": 258,
+    "len_minus_B": 5,
+    "N_X": 121,
+    "N_rot": 137,
+    "approach": 2,
+    "final": 9,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 20,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 20,
+    "len": 257,
+    "len_minus_B": 4,
+    "N_X": 121,
+    "N_rot": 136,
+    "approach": 2,
+    "final": 9,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 21,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 21,
+    "len": 256,
+    "len_minus_B": 3,
+    "N_X": 121,
+    "N_rot": 135,
+    "approach": 1,
+    "final": 8,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 23,
+    "h'": 22,
+    "kind": "interleaved",
+    "modes": [
+     "out",
+     "out_mirror"
+    ],
+    "twoA": 22,
+    "len": 255,
+    "len_minus_B": 2,
+    "N_X": 121,
+    "N_rot": 134,
+    "approach": 1,
+    "final": 8,
+    "junction_extra": 5,
+    "explained": true
+   },
+   {
+    "n": 24,
+    "h'": 1,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 1,
+    "len": 276,
+    "len_minus_B": 0,
+    "N_X": 132,
+    "N_rot": 144,
+    "approach": 0,
+    "final": 7,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 24,
+    "h'": 3,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 3,
+    "len": 276,
+    "len_minus_B": 0,
+    "N_X": 132,
+    "N_rot": 144,
+    "approach": 1,
+    "final": 6,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 24,
+    "h'": 5,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 5,
+    "len": 276,
+    "len_minus_B": 0,
+    "N_X": 132,
+    "N_rot": 144,
+    "approach": 2,
+    "final": 5,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 24,
+    "h'": 7,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 7,
+    "len": 276,
+    "len_minus_B": 0,
+    "N_X": 132,
+    "N_rot": 144,
+    "approach": 3,
+    "final": 4,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 24,
+    "h'": 9,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 9,
+    "len": 276,
+    "len_minus_B": 0,
+    "N_X": 132,
+    "N_rot": 144,
+    "approach": 4,
+    "final": 3,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 24,
+    "h'": 11,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 11,
+    "len": 276,
+    "len_minus_B": 0,
+    "N_X": 132,
+    "N_rot": 144,
+    "approach": 5,
+    "final": 2,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 24,
+    "h'": 13,
+    "kind": "sequential",
+    "modes": [
+     "out",
+     "out"
+    ],
+    "twoA": 13,
+    "len": 276,
+    "len_minus_B": 0,
+    "N_X": 132,
+    "N_rot": 144,
+    "approach": 6,
+    "final": 1,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 24,
+    "h'": 15,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 15,
+    "len": 276,
+    "len_minus_B": 0,
+    "N_X": 132,
+    "N_rot": 144,
+    "approach": 5,
+    "final": 2,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 24,
+    "h'": 17,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 17,
+    "len": 276,
+    "len_minus_B": 0,
+    "N_X": 132,
+    "N_rot": 144,
+    "approach": 4,
+    "final": 3,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 24,
+    "h'": 19,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 19,
+    "len": 276,
+    "len_minus_B": 0,
+    "N_X": 132,
+    "N_rot": 144,
+    "approach": 3,
+    "final": 4,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 24,
+    "h'": 21,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 21,
+    "len": 276,
+    "len_minus_B": 0,
+    "N_X": 132,
+    "N_rot": 144,
+    "approach": 2,
+    "final": 5,
+    "junction_extra": 6,
+    "explained": true
+   },
+   {
+    "n": 24,
+    "h'": 23,
+    "kind": "interleaved",
+    "modes": [
+     "out_mirror",
+     "out_mirror"
+    ],
+    "twoA": 23,
+    "len": 276,
+    "len_minus_B": 0,
+    "N_X": 132,
+    "N_rot": 144,
+    "approach": 1,
+    "final": 6,
+    "junction_extra": 6,
+    "explained": true
+   }
+  ]
+ }
+}
