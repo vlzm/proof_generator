@@ -1,0 +1,3170 @@
+{
+ "checker": "check_C27-1.0",
+ "core": "oracle-1.0",
+ "construction": "strict_upper-1.0",
+ "args": {
+  "perm_max_n": 7,
+  "reflection_max_n": 30,
+  "zigzag_max_n": 20,
+  "cycle_max_n": 9,
+  "seed": 20260913
+ },
+ "claim": "C27 / H10 (carrier-route variant): REFUTED",
+ "A_cross_check": {
+  "cases": 6304,
+  "shifts": 43696,
+  "coverage": "all permutations 4 <= n <= 7, 200 random each for n = 8, 9"
+ },
+ "B_C_counterexamples": {
+  "C27b_minimal": {
+   "n": 10,
+   "pi": [
+    9,
+    2,
+    5,
+    0,
+    1,
+    8,
+    7,
+    6,
+    3,
+    4
+   ],
+   "B_n": 45,
+   "min_len": 46,
+   "min_reduced": 46,
+   "rows": [
+    {
+     "c": 0,
+     "F_c": 26,
+     "S_c": 16,
+     "R_c": 10,
+     "H": 10,
+     "len": 46,
+     "reduced": 46
+    },
+    {
+     "c": 1,
+     "F_c": 24,
+     "S_c": 11,
+     "R_c": 9,
+     "H": 9,
+     "len": 46,
+     "reduced": 46
+    },
+    {
+     "c": 2,
+     "F_c": 26,
+     "S_c": 12,
+     "R_c": 8,
+     "H": 10,
+     "len": 48,
+     "reduced": 48
+    },
+    {
+     "c": 3,
+     "F_c": 24,
+     "S_c": 11,
+     "R_c": 9,
+     "H": 11,
+     "len": 46,
+     "reduced": 46
+    },
+    {
+     "c": 4,
+     "F_c": 26,
+     "S_c": 12,
+     "R_c": 8,
+     "H": 12,
+     "len": 48,
+     "reduced": 46
+    },
+    {
+     "c": 5,
+     "F_c": 24,
+     "S_c": 11,
+     "R_c": 9,
+     "H": 13,
+     "len": 46,
+     "reduced": 46
+    },
+    {
+     "c": 6,
+     "F_c": 26,
+     "S_c": 12,
+     "R_c": 6,
+     "H": 12,
+     "len": 46,
+     "reduced": 46
+    },
+    {
+     "c": 7,
+     "F_c": 24,
+     "S_c": 11,
+     "R_c": 9,
+     "H": 11,
+     "len": 46,
+     "reduced": 46
+    },
+    {
+     "c": 8,
+     "F_c": 26,
+     "S_c": 14,
+     "R_c": 8,
+     "H": 10,
+     "len": 46,
+     "reduced": 46
+    },
+    {
+     "c": 9,
+     "F_c": 24,
+     "S_c": 11,
+     "R_c": 9,
+     "H": 9,
+     "len": 46,
+     "reduced": 46
+    }
+   ],
+   "minimality": "exhaustive for 4 <= n <= 9 (C27v, session 3) and unique among the 3 628 800 permutations of S_10 (check_C27_fast 10)"
+  },
+  "C27a": {
+   "18": {
+    "pi": "5i+16 mod 18",
+    "perm": [
+     16,
+     3,
+     8,
+     13,
+     0,
+     5,
+     10,
+     15,
+     2,
+     7,
+     12,
+     17,
+     4,
+     9,
+     14,
+     1,
+     6,
+     11
+    ],
+    "B_n": 153,
+    "min_len": 156,
+    "excess": 3,
+    "min_reduced": 148,
+    "reduced_excess": -5,
+    "rows": [
+     {
+      "c": 0,
+      "F_c": 80,
+      "S_c": 20,
+      "R_c": 18,
+      "H": 18,
+      "len": 158,
+      "reduced": 158
+     },
+     {
+      "c": 1,
+      "F_c": 82,
+      "S_c": 23,
+      "R_c": 17,
+      "H": 17,
+      "len": 158,
+      "reduced": 150
+     },
+     {
+      "c": 2,
+      "F_c": 80,
+      "S_c": 20,
+      "R_c": 16,
+      "H": 18,
+      "len": 156,
+      "reduced": 156
+     },
+     {
+      "c": 3,
+      "F_c": 82,
+      "S_c": 23,
+      "R_c": 17,
+      "H": 19,
+      "len": 158,
+      "reduced": 156
+     },
+     {
+      "c": 4,
+      "F_c": 80,
+      "S_c": 20,
+      "R_c": 16,
+      "H": 20,
+      "len": 156,
+      "reduced": 156
+     },
+     {
+      "c": 5,
+      "F_c": 82,
+      "S_c": 23,
+      "R_c": 15,
+      "H": 21,
+      "len": 156,
+      "reduced": 148
+     },
+     {
+      "c": 6,
+      "F_c": 80,
+      "S_c": 20,
+      "R_c": 16,
+      "H": 22,
+      "len": 156,
+      "reduced": 156
+     },
+     {
+      "c": 7,
+      "F_c": 82,
+      "S_c": 23,
+      "R_c": 19,
+      "H": 23,
+      "len": 160,
+      "reduced": 152
+     },
+     {
+      "c": 8,
+      "F_c": 80,
+      "S_c": 20,
+      "R_c": 16,
+      "H": 24,
+      "len": 156,
+      "reduced": 156
+     },
+     {
+      "c": 9,
+      "F_c": 82,
+      "S_c": 23,
+      "R_c": 17,
+      "H": 25,
+      "len": 158,
+      "reduced": 158
+     },
+     {
+      "c": 10,
+      "F_c": 80,
+      "S_c": 20,
+      "R_c": 16,
+      "H": 24,
+      "len": 156,
+      "reduced": 156
+     },
+     {
+      "c": 11,
+      "F_c": 82,
+      "S_c": 23,
+      "R_c": 17,
+      "H": 23,
+      "len": 158,
+      "reduced": 152
+     },
+     {
+      "c": 12,
+      "F_c": 80,
+      "S_c": 20,
+      "R_c": 16,
+      "H": 22,
+      "len": 156,
+      "reduced": 156
+     },
+     {
+      "c": 13,
+      "F_c": 82,
+      "S_c": 23,
+      "R_c": 17,
+      "H": 21,
+      "len": 158,
+      "reduced": 158
+     },
+     {
+      "c": 14,
+      "F_c": 80,
+      "S_c": 20,
+      "R_c": 16,
+      "H": 20,
+      "len": 156,
+      "reduced": 156
+     },
+     {
+      "c": 15,
+      "F_c": 82,
+      "S_c": 23,
+      "R_c": 15,
+      "H": 19,
+      "len": 156,
+      "reduced": 156
+     },
+     {
+      "c": 16,
+      "F_c": 80,
+      "S_c": 20,
+      "R_c": 16,
+      "H": 18,
+      "len": 156,
+      "reduced": 156
+     },
+     {
+      "c": 17,
+      "F_c": 82,
+      "S_c": 23,
+      "R_c": 17,
+      "H": 17,
+      "len": 158,
+      "reduced": 158
+     }
+    ]
+   },
+   "26": {
+    "pi": "5i+6 mod 26",
+    "perm": [
+     6,
+     11,
+     16,
+     21,
+     0,
+     5,
+     10,
+     15,
+     20,
+     25,
+     4,
+     9,
+     14,
+     19,
+     24,
+     3,
+     8,
+     13,
+     18,
+     23,
+     2,
+     7,
+     12,
+     17,
+     22,
+     1
+    ],
+    "B_n": 325,
+    "min_len": 328,
+    "excess": 3,
+    "min_reduced": 324,
+    "reduced_excess": -1,
+    "rows": null
+   },
+   "27": {
+    "pi": "8i+3 mod 27",
+    "perm": [
+     3,
+     11,
+     19,
+     0,
+     8,
+     16,
+     24,
+     5,
+     13,
+     21,
+     2,
+     10,
+     18,
+     26,
+     7,
+     15,
+     23,
+     4,
+     12,
+     20,
+     1,
+     9,
+     17,
+     25,
+     6,
+     14,
+     22
+    ],
+    "B_n": 351,
+    "min_len": 355,
+    "excess": 4,
+    "min_reduced": 353,
+    "reduced_excess": 2,
+    "rows": null
+   },
+   "28": {
+    "pi": "11i+20 mod 28",
+    "perm": [
+     20,
+     3,
+     14,
+     25,
+     8,
+     19,
+     2,
+     13,
+     24,
+     7,
+     18,
+     1,
+     12,
+     23,
+     6,
+     17,
+     0,
+     11,
+     22,
+     5,
+     16,
+     27,
+     10,
+     21,
+     4,
+     15,
+     26,
+     9
+    ],
+    "B_n": 378,
+    "min_len": 383,
+    "excess": 5,
+    "min_reduced": 379,
+    "reduced_excess": 1,
+    "rows": null
+   }
+  }
+ },
+ "D_reflections": {
+  "4": {
+   "B_n": 6,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "3": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "5": {
+   "B_n": 10,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "3": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "6": {
+   "B_n": 15,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "5": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 1
+  },
+  "7": {
+   "B_n": 21,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "5": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "8": {
+   "B_n": 28,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "5": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": -1
+    },
+    "7": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "9": {
+   "B_n": 36,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "5": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "7": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "10": {
+   "B_n": 45,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "7": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 1
+    },
+    "9": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 1
+  },
+  "11": {
+   "B_n": 55,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "7": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "9": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "12": {
+   "B_n": 66,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "7": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": -1
+    },
+    "9": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": -1
+    },
+    "11": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "13": {
+   "B_n": 78,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "7": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "9": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "11": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "14": {
+   "B_n": 91,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "9": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 1
+    },
+    "11": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 1
+    },
+    "13": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 1
+  },
+  "15": {
+   "B_n": 105,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "9": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "11": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "13": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "16": {
+   "B_n": 120,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "9": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": -1
+    },
+    "11": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": -1
+    },
+    "13": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": -1
+    },
+    "15": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "17": {
+   "B_n": 136,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "9": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "11": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "13": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "15": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "16": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "18": {
+   "B_n": 153,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "9": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "11": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 1
+    },
+    "13": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 1
+    },
+    "15": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "16": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 1
+    },
+    "17": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 1
+  },
+  "19": {
+   "B_n": 171,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "9": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "11": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "13": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 0
+    },
+    "15": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 0
+    },
+    "16": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "17": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "18": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "20": {
+   "B_n": 190,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "9": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "11": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": -1
+    },
+    "13": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": -1
+    },
+    "15": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "16": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": -1
+    },
+    "17": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "18": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": -1
+    },
+    "19": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "21": {
+   "B_n": 210,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "9": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "11": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "13": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "15": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 0
+    },
+    "16": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "17": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 0
+    },
+    "18": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "19": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "20": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "22": {
+   "B_n": 231,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "9": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "11": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "13": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 1
+    },
+    "15": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "16": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 1
+    },
+    "17": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "18": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 1
+    },
+    "19": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "20": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 1
+    },
+    "21": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 1
+  },
+  "23": {
+   "B_n": 253,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "9": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "11": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "13": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "15": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "16": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 0
+    },
+    "17": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "18": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "19": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 0
+    },
+    "20": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "21": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "22": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "24": {
+   "B_n": 276,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "9": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "11": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "13": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": -1
+    },
+    "15": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "16": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": -1
+    },
+    "17": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "18": {
+     "min_len_minus_B": -7,
+     "min_reduced_minus_B": -7,
+     "theorem_A_bound_minus_B": -1
+    },
+    "19": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "20": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": -1
+    },
+    "21": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "22": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": -1
+    },
+    "23": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "25": {
+   "B_n": 300,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "9": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "11": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "13": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "15": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "16": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "17": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 0
+    },
+    "18": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "19": {
+     "min_len_minus_B": -7,
+     "min_reduced_minus_B": -7,
+     "theorem_A_bound_minus_B": 0
+    },
+    "20": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "21": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 0
+    },
+    "22": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "23": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "24": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "26": {
+   "B_n": 325,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "9": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "11": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "13": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "15": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "16": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 1
+    },
+    "17": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "18": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 1
+    },
+    "19": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "20": {
+     "min_len_minus_B": -7,
+     "min_reduced_minus_B": -7,
+     "theorem_A_bound_minus_B": 1
+    },
+    "21": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "22": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 1
+    },
+    "23": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "24": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 1
+    },
+    "25": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 1
+  },
+  "27": {
+   "B_n": 351,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "9": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "11": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "13": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "15": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "16": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "17": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "18": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 0
+    },
+    "19": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "20": {
+     "min_len_minus_B": -7,
+     "min_reduced_minus_B": -7,
+     "theorem_A_bound_minus_B": 0
+    },
+    "21": {
+     "min_len_minus_B": -7,
+     "min_reduced_minus_B": -7,
+     "theorem_A_bound_minus_B": 0
+    },
+    "22": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "23": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 0
+    },
+    "24": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "25": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "26": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "28": {
+   "B_n": 378,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "9": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "11": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "13": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": -1
+    },
+    "15": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "16": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": -1
+    },
+    "17": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "18": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": -1
+    },
+    "19": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "20": {
+     "min_len_minus_B": -7,
+     "min_reduced_minus_B": -7,
+     "theorem_A_bound_minus_B": -1
+    },
+    "21": {
+     "min_len_minus_B": -8,
+     "min_reduced_minus_B": -8,
+     "theorem_A_bound_minus_B": 0
+    },
+    "22": {
+     "min_len_minus_B": -7,
+     "min_reduced_minus_B": -7,
+     "theorem_A_bound_minus_B": -1
+    },
+    "23": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "24": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": -1
+    },
+    "25": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "26": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": -1
+    },
+    "27": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "29": {
+   "B_n": 406,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "9": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "11": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "13": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "15": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 0
+    },
+    "16": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "17": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "18": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "19": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 0
+    },
+    "20": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "21": {
+     "min_len_minus_B": -7,
+     "min_reduced_minus_B": -7,
+     "theorem_A_bound_minus_B": 0
+    },
+    "22": {
+     "min_len_minus_B": -8,
+     "min_reduced_minus_B": -8,
+     "theorem_A_bound_minus_B": 0
+    },
+    "23": {
+     "min_len_minus_B": -7,
+     "min_reduced_minus_B": -7,
+     "theorem_A_bound_minus_B": 0
+    },
+    "24": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "25": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 0
+    },
+    "26": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "27": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 0
+    },
+    "28": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 0
+  },
+  "30": {
+   "B_n": 435,
+   "per_h": {
+    "0": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "1": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "2": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "3": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "4": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "5": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "6": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "7": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "8": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "9": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "10": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "11": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "12": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "13": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "14": {
+     "min_len_minus_B": 1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "15": {
+     "min_len_minus_B": 0,
+     "min_reduced_minus_B": 0,
+     "theorem_A_bound_minus_B": 0
+    },
+    "16": {
+     "min_len_minus_B": -1,
+     "min_reduced_minus_B": -1,
+     "theorem_A_bound_minus_B": 1
+    },
+    "17": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    },
+    "18": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 1
+    },
+    "19": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "20": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 1
+    },
+    "21": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "22": {
+     "min_len_minus_B": -7,
+     "min_reduced_minus_B": -7,
+     "theorem_A_bound_minus_B": 1
+    },
+    "23": {
+     "min_len_minus_B": -8,
+     "min_reduced_minus_B": -8,
+     "theorem_A_bound_minus_B": 0
+    },
+    "24": {
+     "min_len_minus_B": -7,
+     "min_reduced_minus_B": -7,
+     "theorem_A_bound_minus_B": 1
+    },
+    "25": {
+     "min_len_minus_B": -6,
+     "min_reduced_minus_B": -6,
+     "theorem_A_bound_minus_B": 0
+    },
+    "26": {
+     "min_len_minus_B": -5,
+     "min_reduced_minus_B": -5,
+     "theorem_A_bound_minus_B": 1
+    },
+    "27": {
+     "min_len_minus_B": -4,
+     "min_reduced_minus_B": -4,
+     "theorem_A_bound_minus_B": 0
+    },
+    "28": {
+     "min_len_minus_B": -3,
+     "min_reduced_minus_B": -3,
+     "theorem_A_bound_minus_B": 1
+    },
+    "29": {
+     "min_len_minus_B": -2,
+     "min_reduced_minus_B": -2,
+     "theorem_A_bound_minus_B": 0
+    }
+   },
+   "max_min_len_minus_B": 1
+  }
+ },
+ "E_zigzag": {
+  "8": {
+   "cycle": [
+    0,
+    1,
+    6,
+    7,
+    4,
+    5,
+    2,
+    3
+   ],
+   "k": 8,
+   "M": 3,
+   "t": 4,
+   "E": 0,
+   "F": 16,
+   "S": 5,
+   "S_minus_k": -3
+  },
+  "10": {
+   "cycle": [
+    0,
+    1,
+    8,
+    9,
+    6,
+    7,
+    4,
+    5,
+    2,
+    3
+   ],
+   "k": 10,
+   "M": 3,
+   "t": 5,
+   "E": 0,
+   "F": 20,
+   "S": 5,
+   "S_minus_k": -5
+  },
+  "12": {
+   "cycle": [
+    0,
+    1,
+    10,
+    11,
+    8,
+    9,
+    6,
+    7,
+    4,
+    5,
+    2,
+    3
+   ],
+   "k": 12,
+   "M": 3,
+   "t": 6,
+   "E": 0,
+   "F": 24,
+   "S": 5,
+   "S_minus_k": -7
+  },
+  "14": {
+   "cycle": [
+    0,
+    1,
+    12,
+    13,
+    10,
+    11,
+    8,
+    9,
+    6,
+    7,
+    4,
+    5,
+    2,
+    3
+   ],
+   "k": 14,
+   "M": 3,
+   "t": 7,
+   "E": 0,
+   "F": 28,
+   "S": 5,
+   "S_minus_k": -9
+  },
+  "16": {
+   "cycle": [
+    0,
+    1,
+    14,
+    15,
+    12,
+    13,
+    10,
+    11,
+    8,
+    9,
+    6,
+    7,
+    4,
+    5,
+    2,
+    3
+   ],
+   "k": 16,
+   "M": 3,
+   "t": 8,
+   "E": 0,
+   "F": 32,
+   "S": 5,
+   "S_minus_k": -11
+  },
+  "18": {
+   "cycle": [
+    0,
+    1,
+    16,
+    17,
+    14,
+    15,
+    12,
+    13,
+    10,
+    11,
+    8,
+    9,
+    6,
+    7,
+    4,
+    5,
+    2,
+    3
+   ],
+   "k": 18,
+   "M": 3,
+   "t": 9,
+   "E": 0,
+   "F": 36,
+   "S": 5,
+   "S_minus_k": -13
+  },
+  "20": {
+   "cycle": [
+    0,
+    1,
+    18,
+    19,
+    16,
+    17,
+    14,
+    15,
+    12,
+    13,
+    10,
+    11,
+    8,
+    9,
+    6,
+    7,
+    4,
+    5,
+    2,
+    3
+   ],
+   "k": 20,
+   "M": 3,
+   "t": 10,
+   "E": 0,
+   "F": 40,
+   "S": 5,
+   "S_minus_k": -15
+  }
+ },
+ "G_walk_certificate": {
+  "[9, 2, 5, 0, 1, 8, 7, 6, 3, 4]": {
+   "n": 10,
+   "shifts_checked": 10
+  },
+  "[16, 3, 8, 13, 0, 5, 10, 15, 2, 7, 12, 17, 4, 9, 14, 1, 6, 11]": {
+   "n": 18,
+   "shifts_checked": 18
+  },
+  "[6, 11, 16, 21, 0, 5, 10, 15, 20, 25, 4, 9, 14, 19, 24, 3, 8, 13, 18, 23, 2, 7, 12, 17, 22, 1]": {
+   "n": 26,
+   "shifts_checked": 26
+  },
+  "[3, 11, 19, 0, 8, 16, 24, 5, 13, 21, 2, 10, 18, 26, 7, 15, 23, 4, 12, 20, 1, 9, 17, 25, 6, 14, 22]": {
+   "n": 27,
+   "shifts_checked": 27
+  },
+  "[20, 3, 14, 25, 8, 19, 2, 13, 24, 7, 18, 1, 12, 23, 6, 17, 0, 11, 22, 5, 16, 27, 10, 21, 4, 15, 26, 9]": {
+   "n": 28,
+   "shifts_checked": 28
+  }
+ },
+ "F_all_cycles": {
+  "4": {
+   "cycles": 20,
+   "min_S_minus_k": 1,
+   "witness": [
+    0,
+    1
+   ]
+  },
+  "5": {
+   "cycles": 84,
+   "min_S_minus_k": 1,
+   "witness": [
+    0,
+    1
+   ]
+  },
+  "6": {
+   "cycles": 409,
+   "min_S_minus_k": -1,
+   "witness": [
+    0,
+    3,
+    2,
+    5,
+    4,
+    1
+   ]
+  },
+  "7": {
+   "cycles": 2365,
+   "min_S_minus_k": -1,
+   "witness": [
+    0,
+    1,
+    5,
+    6,
+    3,
+    4,
+    2
+   ]
+  },
+  "8": {
+   "cycles": 16064,
+   "min_S_minus_k": -3,
+   "witness": [
+    0,
+    1,
+    6,
+    7,
+    4,
+    5,
+    2,
+    3
+   ]
+  },
+  "9": {
+   "cycles": 125664,
+   "min_S_minus_k": -3,
+   "witness": [
+    0,
+    1,
+    6,
+    7,
+    4,
+    5,
+    2,
+    3
+   ]
+  }
+ },
+ "total_seconds": 10.66,
+ "result": "PASS (all checks of the session-4 verdict hold)"
+}

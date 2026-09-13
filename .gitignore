@@ -3,3 +3,5 @@ data/tables/dist_n12.bin
 exact/bfs_fast
 __pycache__/
 *.pyc
+checks/check_C27_fast
+experiments/search_C27

@@ -1,0 +1,55 @@
+affine family: max min_c = 66 (= B_n +0) at pi(i) = 11*i + 1
+new best 67 (= B_n +1) at pi = 5 2 3 9 1 0 7 10 4 8 11 6
+n=12 B_n=66 restarts=2000 best=67 excess=+1 hits=3 time=3.0s SAMPLED
+witness: 5 2 3 9 1 0 7 10 4 8 11 6
+affine family: max min_c = 78 (= B_n +0) at pi(i) = 12*i + 1
+n=13 B_n=78 restarts=2000 best=78 excess=+0 hits=1 time=3.9s SAMPLED
+witness: 1 0 12 11 10 9 8 7 6 5 4 3 2
+affine family: max min_c = 92 (= B_n +1) at pi(i) = 3*i + 0
+n=14 B_n=91 restarts=2000 best=92 excess=+1 hits=1 time=6.0s SAMPLED
+witness: 0 3 6 9 12 1 4 7 10 13 2 5 8 11
+affine family: max min_c = 105 (= B_n +0) at pi(i) = 14*i + 1
+n=15 B_n=105 restarts=2000 best=105 excess=+0 hits=1 time=7.3s SAMPLED
+witness: 1 0 14 13 12 11 10 9 8 7 6 5 4 3 2
+affine family: max min_c = 120 (= B_n +0) at pi(i) = 15*i + 1
+n=16 B_n=120 restarts=2000 best=120 excess=+0 hits=1 time=10.8s SAMPLED
+witness: 1 0 15 14 13 12 11 10 9 8 7 6 5 4 3 2
+affine family: max min_c = 137 (= B_n +1) at pi(i) = 4*i + 1
+n=17 B_n=136 restarts=2000 best=137 excess=+1 hits=1 time=12.7s SAMPLED
+witness: 1 5 9 13 0 4 8 12 16 3 7 11 15 2 6 10 14
+affine family: max min_c = 156 (= B_n +3) at pi(i) = 5*i + 16
+n=18 B_n=153 restarts=2000 best=156 excess=+3 hits=1 time=18.1s SAMPLED
+witness: 16 3 8 13 0 5 10 15 2 7 12 17 4 9 14 1 6 11
+affine family: max min_c = 171 (= B_n +0) at pi(i) = 7*i + 3
+n=19 B_n=171 restarts=2000 best=171 excess=+0 hits=1 time=21.2s SAMPLED
+witness: 3 10 17 5 12 0 7 14 2 9 16 4 11 18 6 13 1 8 15
+affine family: max min_c = 190 (= B_n +0) at pi(i) = 19*i + 1
+n=20 B_n=190 restarts=2000 best=190 excess=+0 hits=1 time=29.1s SAMPLED
+witness: 1 0 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2
+affine family: max min_c = 210 (= B_n +0) at pi(i) = 4*i + 18
+n=21 B_n=210 restarts=2000 best=210 excess=+0 hits=1 time=33.4s SAMPLED
+witness: 18 1 5 9 13 17 0 4 8 12 16 20 3 7 11 15 19 2 6 10 14
+affine family: max min_c = 232 (= B_n +1) at pi(i) = 21*i + 2
+n=22 B_n=231 restarts=2000 best=232 excess=+1 hits=1 time=45.6s SAMPLED
+witness: 2 1 0 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3
+affine family: max min_c = 253 (= B_n +0) at pi(i) = 22*i + 1
+n=23 B_n=253 restarts=2000 best=253 excess=+0 hits=1 time=51.7s SAMPLED
+witness: 1 0 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2
+affine family: max min_c = 276 (= B_n +0) at pi(i) = 23*i + 1
+n=24 B_n=276 restarts=2000 best=276 excess=+0 hits=1 time=68.9s SAMPLED
+witness: 1 0 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2
+affine family: max min_c = 301 (= B_n +1) at pi(i) = 7*i + 4
+n=25 B_n=300 restarts=2000 best=301 excess=+1 hits=1 time=75.5s SAMPLED
+witness: 4 11 18 0 7 14 21 3 10 17 24 6 13 20 2 9 16 23 5 12 19 1 8 15 22
+affine family: max min_c = 328 (= B_n +3) at pi(i) = 5*i + 6
+n=26 B_n=325 restarts=2000 best=328 excess=+3 hits=1 time=101.1s SAMPLED
+witness: 6 11 16 21 0 5 10 15 20 25 4 9 14 19 24 3 8 13 18 23 2 7 12 17 22 1
+affine family: max min_c = 355 (= B_n +4) at pi(i) = 8*i + 3
+n=27 B_n=351 restarts=2000 best=355 excess=+4 hits=1 time=109.5s SAMPLED
+witness: 3 11 19 0 8 16 24 5 13 21 2 10 18 26 7 15 23 4 12 20 1 9 17 25 6 14 22
+affine family: max min_c = 383 (= B_n +5) at pi(i) = 11*i + 20
+n=28 B_n=378 restarts=2000 best=383 excess=+5 hits=1 time=144.3s SAMPLED
+witness: 20 3 14 25 8 19 2 13 24 7 18 1 12 23 6 17 0 11 22 5 16 27 10 21 4 15 26 9
+affine family: max min_c = 406 (= B_n +0) at pi(i) = 12*i + 0
+n=29 B_n=406 restarts=2000 best=406 excess=+0 hits=1 time=156.7s SAMPLED
+witness: 0 12 24 7 19 2 14 26 9 21 4 16 28 11 23 6 18 1 13 25 8 20 3 15 27 10 22 5 17
