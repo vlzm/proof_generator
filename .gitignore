@@ -3,3 +3,4 @@ data/tables/dist_n12.bin
 exact/bfs_fast
 __pycache__/
 *.pyc
+data/runs/check_C27/checkpoint_n10.json
