@@ -1,0 +1,22 @@
+{
+  "4": {
+    "checked": 24,
+    "mismatches": 0,
+    "seconds": 0.007
+  },
+  "5": {
+    "checked": 120,
+    "mismatches": 0,
+    "seconds": 0.049
+  },
+  "6": {
+    "checked": 720,
+    "mismatches": 0,
+    "seconds": 0.392
+  },
+  "7": {
+    "checked": 5040,
+    "mismatches": 0,
+    "seconds": 3.804
+  }
+}
