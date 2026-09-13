@@ -44,7 +44,7 @@ first such edge; if neither direction has anything within the window, fall
 back to the same score over the full remaining range (1..n-1) in each
 direction (i.e. the total gain reachable on that side divided by the distance
 to its first opportunity there).  Ties keep the current direction.  Session 6
-(data/runs/head_policy/): this one rule reproduces N1's short oscillations on
+(data/runs/sweep_eval/): this one rule reproduces N1's short oscillations on
 reflections (the local window already finds the next productive edge) and the
 geodesics' long sweeps on affine inputs (the fallback favours the side with
 more remaining work) -- exhaustively over all pi at 4 <= n <= 9 the length
