@@ -3,3 +3,9 @@ data/tables/dist_n12.bin
 exact/bfs_fast
 __pycache__/
 *.pyc
+
+# live output of the in-progress sweep_eval background run (session 6, H12);
+# untracked while running, the finished report.log/report.md/*.json are
+# committed explicitly once the run completes.
+data/runs/sweep_eval/report.log
+data/runs/sweep_eval/run_h12_session6.out
