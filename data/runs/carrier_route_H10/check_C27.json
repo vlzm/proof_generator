@@ -127,6 +127,137 @@
    ],
    "minimality": "exhaustive for 4 <= n <= 9 (C27v, session 3) and unique among the 3 628 800 permutations of S_10 (check_C27_fast 10)"
   },
+  "C27a_minimal": {
+   "n": 12,
+   "pi": [
+    1,
+    5,
+    3,
+    10,
+    2,
+    0,
+    7,
+    11,
+    9,
+    4,
+    8,
+    6
+   ],
+   "B_n": 66,
+   "min_len": 69,
+   "min_reduced": 65,
+   "rows": [
+    {
+     "c": 0,
+     "F_c": 36,
+     "S_c": 15,
+     "R_c": 12,
+     "H": 12,
+     "len": 69,
+     "reduced": 69
+    },
+    {
+     "c": 1,
+     "F_c": 36,
+     "S_c": 14,
+     "R_c": 11,
+     "H": 11,
+     "len": 69,
+     "reduced": 69
+    },
+    {
+     "c": 2,
+     "F_c": 36,
+     "S_c": 15,
+     "R_c": 12,
+     "H": 12,
+     "len": 69,
+     "reduced": 69
+    },
+    {
+     "c": 3,
+     "F_c": 36,
+     "S_c": 14,
+     "R_c": 11,
+     "H": 13,
+     "len": 69,
+     "reduced": 69
+    },
+    {
+     "c": 4,
+     "F_c": 36,
+     "S_c": 15,
+     "R_c": 12,
+     "H": 14,
+     "len": 69,
+     "reduced": 67
+    },
+    {
+     "c": 5,
+     "F_c": 36,
+     "S_c": 12,
+     "R_c": 9,
+     "H": 15,
+     "len": 69,
+     "reduced": 67
+    },
+    {
+     "c": 6,
+     "F_c": 36,
+     "S_c": 15,
+     "R_c": 12,
+     "H": 16,
+     "len": 69,
+     "reduced": 65
+    },
+    {
+     "c": 7,
+     "F_c": 36,
+     "S_c": 14,
+     "R_c": 11,
+     "H": 15,
+     "len": 69,
+     "reduced": 69
+    },
+    {
+     "c": 8,
+     "F_c": 36,
+     "S_c": 15,
+     "R_c": 12,
+     "H": 14,
+     "len": 69,
+     "reduced": 69
+    },
+    {
+     "c": 9,
+     "F_c": 36,
+     "S_c": 14,
+     "R_c": 11,
+     "H": 13,
+     "len": 69,
+     "reduced": 69
+    },
+    {
+     "c": 10,
+     "F_c": 36,
+     "S_c": 15,
+     "R_c": 12,
+     "H": 12,
+     "len": 69,
+     "reduced": 69
+    },
+    {
+     "c": 11,
+     "F_c": 36,
+     "S_c": 12,
+     "R_c": 11,
+     "H": 11,
+     "len": 71,
+     "reduced": 71
+    }
+   ],
+   "minimality": "exhaustive for 4 <= n <= 11 (max excess +1); at n = 12 exactly 17 of 479 001 600 permutations exceed B_n + 1, two of them by 3 (the other is (6,4,11,3,1,8,0,10,5,9,7,2))"
+  },
   "C27a": {
    "18": {
     "pi": "5i+16 mod 18",
@@ -3077,6 +3208,10 @@
    "n": 10,
    "shifts_checked": 10
   },
+  "[1, 5, 3, 10, 2, 0, 7, 11, 9, 4, 8, 6]": {
+   "n": 12,
+   "shifts_checked": 12
+  },
   "[16, 3, 8, 13, 0, 5, 10, 15, 2, 7, 12, 17, 4, 9, 14, 1, 6, 11]": {
    "n": 18,
    "shifts_checked": 18
@@ -3165,6 +3300,6 @@
    ]
   }
  },
- "total_seconds": 10.66,
+ "total_seconds": 10.62,
  "result": "PASS (all checks of the session-4 verdict hold)"
 }

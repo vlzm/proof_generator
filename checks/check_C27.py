@@ -17,8 +17,9 @@ around it:
   B  the minimal counterexample to (b): n = 10, pi = (9,2,5,0,1,8,7,6,3,4) --
      every shift gives a word of length >= B_n + 1 which free reduction does
      not shorten below B_n + 1.
-  C  a counterexample to (a): n = 18, pi(i) = 5i + 16 (min over c equals
-     B_n + 3), plus the affine witnesses at n = 26, 27, 28.
+  C  the minimal counterexample to (a): n = 12, pi = (1,5,3,10,2,0,7,11,9,4,8,6)
+     with min over c equal to B_12 + 3 and F_c = P at every shift; plus the
+     affine witnesses n = 18 (5i+16), 26, 27, 28, where the excess grows.
   D  Theorem A of the proof document (reflections pi(i) = h - i): the closed
      forms F_c, S_c by parity, and the bound reached at c in {0,1}
      (<= B_n for odd n and n = 0 mod 4, <= B_n + 1 for n = 2 mod 4, with
@@ -140,7 +141,21 @@ def run_counterexamples():
                            "rows": rows,
                            "minimality": "exhaustive for 4 <= n <= 9 (C27v, session 3) and unique among "
                                          "the 3 628 800 permutations of S_10 (check_C27_fast 10)"}
-    # C: counterexamples to part (a)
+    # C0: minimal counterexample to part (a) -- n = 12 (not affine)
+    n = 12
+    pi = (1, 5, 3, 10, 2, 0, 7, 11, 9, 4, 8, 6)
+    Bn = known.target_diameter(n)
+    rows = table(pi)
+    mlen = min(r["len"] for r in rows)
+    mred = min(r["reduced"] for r in rows)
+    check(mlen == Bn + 3, "n=12 minimal counterexample to C27(a)", (mlen, Bn))
+    check(all(r["F_c"] == known.P(n) for r in rows), "F_c = P at every shift", rows)
+    res["C27a_minimal"] = {"n": n, "pi": list(pi), "B_n": Bn, "min_len": mlen, "min_reduced": mred,
+                           "rows": rows,
+                           "minimality": "exhaustive for 4 <= n <= 11 (max excess +1); at n = 12 exactly "
+                                         "17 of 479 001 600 permutations exceed B_n + 1, two of them by 3 "
+                                         "(the other is (6,4,11,3,1,8,0,10,5,9,7,2))"}
+    # C: further counterexamples to part (a), affine family (excess grows with n)
     res["C27a"] = {}
     for n, a, b, expect in ((18, 5, 16, 3), (26, 5, 6, 3), (27, 8, 3, 4), (28, 11, 20, 5)):
         pi = tuple((a * i + b) % n for i in range(n))
@@ -296,13 +311,14 @@ def main():
           f"({time.time() - t:.1f} s)", flush=True)
     report["B_C_counterexamples"] = run_counterexamples()
     print("B: n=10 pi=(9,2,5,0,1,8,7,6,3,4): min_c len = min_c reduced = B_10 + 1 = 46", flush=True)
-    print("C: affine counterexamples to C27(a): n=18 +3, n=26 +3, n=27 +4, n=28 +5", flush=True)
+    print("C: minimal counterexample to C27(a): n=12 pi=(1,5,3,10,2,0,7,11,9,4,8,6), min_c = B_12 + 3; "
+          "affine: n=18 +3, n=26 +3, n=27 +4, n=28 +5", flush=True)
     report["D_reflections"] = run_reflections(args.reflection_max_n)
     print("D: Theorem A verified for all reflections, 4 <= n <=", args.reflection_max_n, flush=True)
     report["E_zigzag"] = run_zigzag(args.zigzag_max_n)
     print("E: zigzag cycles refute S(C) >= |C|:",
           {n: v["S_minus_k"] for n, v in report["E_zigzag"].items()}, flush=True)
-    ce = [(9, 2, 5, 0, 1, 8, 7, 6, 3, 4)]
+    ce = [(9, 2, 5, 0, 1, 8, 7, 6, 3, 4), (1, 5, 3, 10, 2, 0, 7, 11, 9, 4, 8, 6)]
     ce += [tuple((a * i + b) % n for i in range(n)) for n, a, b in ((18, 5, 16), (26, 5, 6), (27, 8, 3), (28, 11, 20))]
     report["G_walk_certificate"] = run_walk_certificate(ce)
     print("G: R_c of every shift of the counterexamples equals the BFS shortest walk", flush=True)
