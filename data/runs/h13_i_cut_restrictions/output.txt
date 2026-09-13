@@ -1,0 +1,6 @@
+n=3: max I=1 bound=1 diagonal_cuts_fail=2/6 position_only_fail=0/6 time=0.0s
+n=4: max I=2 bound=2 diagonal_cuts_fail=9/24 position_only_fail=0/24 time=0.0s
+n=5: max I=4 bound=4 diagonal_cuts_fail=22/120 position_only_fail=0/120 time=0.0s
+n=6: max I=6 bound=6 diagonal_cuts_fail=126/720 position_only_fail=0/720 time=0.1s
+n=7: max I=9 bound=9 diagonal_cuts_fail=536/5040 position_only_fail=7/5040 time=1.5s
+n=8: max I=12 bound=12 diagonal_cuts_fail=4543/40320 position_only_fail=16/40320 time=16.7s
