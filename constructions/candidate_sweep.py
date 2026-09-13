@@ -31,12 +31,33 @@ unproductive edge) the head walks towards the nearest edge where a swap with
 gain >= thr is possible in the current configuration (ties keep the current
 direction).  On sigma_n this reproduces the short oscillations of the
 geodesics; mode "pass" reproduces the two long sweeps of the geodesics on
-affine inputs.  best_sweep takes the shortest word over both modes.
+affine inputs.  Both lose to N1 or to the geodesics in the other regime
+(session 5, docs/notes/geodesic_structure.md): "nearest" matches the
+geodesics' N_X everywhere but overshoots N_rot on reflections; "pass" is
+quadratically wasteful on reflections (rule 9 of AGENTS.md).
+
+Mode "horizon" (sweep-1.2, H12(a) unified head policy): a single rule that
+needs no branch on the input family.  After each swap (or on an unproductive
+edge), score each direction d by "route cost + gain": the total gain >= thr
+reachable within `window` steps (default 3), divided by the distance to the
+first such edge; if neither direction has anything within the window, fall
+back to the same score over the full remaining range (1..n-1) in each
+direction (i.e. the total gain reachable on that side divided by the distance
+to its first opportunity there).  Ties keep the current direction.  Session 6
+(data/runs/head_policy/): this one rule reproduces N1's short oscillations on
+reflections (the local window already finds the next productive edge) and the
+geodesics' long sweeps on affine inputs (the fallback favours the side with
+more remaining work) -- exhaustively over all pi at 4 <= n <= 9 the length
+equals the certified diameter exactly (excess 0, stronger than <= B_n), and
+on reflections, sigma_n and its rotations, rev_n and the affine family up to
+n = 60 it is <= B_n at every case tried (mostly == B_n).  window = 1 is not
+enough (n = 8 has an input with excess +2); window = 2 or 3 closes it in
+every case tried so far.
 
 `sweep_word(pi, c, dir, thr)` returns the word and rule-15 statistics and
 asserts with the reference moves that the word sorts pi.  `best_sweep(pi)`
-minimises the (unreduced) length over c, dir and thr in {1, 2}.
-This module never reads distance tables.
+minimises the (unreduced) length over c, dir, thr in {1, 2} and mode
+(window = 3 for "horizon").  This module never reads distance tables.
 """
 
 import os
@@ -47,7 +68,7 @@ sys.path.insert(0, os.path.join(ROOT, "oracle"))
 
 from moves import apply_word, freely_reduce, identity, delta, CORE_VERSION  # noqa: E402
 
-CANDIDATE_VERSION = "sweep-1.1"
+CANDIDATE_VERSION = "sweep-1.2"
 
 
 class ConstructionError(Exception):
@@ -73,10 +94,38 @@ def _productive_ahead(circle, target, head, d, n, thr, rem):
     return None
 
 
-def sweep_word(pi, c, dirn=1, thr=1, mode="pass", max_passes=None):
+def _horizon_score(circle, target, head, d, n, thr, rem, window):
+    """Sum of gain >= thr reachable within `window` steps in direction d (capped at
+    n - 1), and the distance to the first such edge (None if none in range)."""
+    total = 0
+    first = None
+    limit = min(window, n - 1)
+    for k in range(1, limit + 1):
+        h = (head + d * k) % n
+        a, b = h, (h + 1) % n
+        ra, rb = rem(a), rem(b)
+        g = (ra > 0) + (rb < 0) - (ra < 0) - (rb > 0)
+        if g >= thr:
+            total += g
+            if first is None:
+                first = k
+    return total, first
+
+
+def sweep_word(pi, c, dirn=1, thr=1, mode="pass", max_passes=None, window=3):
     """mode="pass": alternating full passes (sweep-1.0).  mode="nearest": after each
     swap (or when the current edge is unproductive) the head goes towards the
-    nearest productive edge, ties keep the current direction (sweep-1.1)."""
+    nearest productive edge, ties keep the current direction (sweep-1.1).
+    mode="horizon" (sweep-1.2, H12(a)): after each swap (or on an unproductive
+    edge) score each direction d by the total gain >= thr reachable within
+    `window` steps divided by the distance to the first such edge ("route cost
+    + gain"); if neither direction has a productive edge within the window,
+    fall back to the same score over the full remaining range (1..n-1) in each
+    direction, i.e. total reachable gain on that side divided by distance to
+    its first opportunity.  Ties keep the current direction.  This one rule
+    reproduces N1's short oscillations on reflections (local window suffices)
+    and the geodesics' two long sweeps on affine inputs (fallback picks the
+    richer side) without branching on the input family."""
     n = len(pi)
     c %= n
     if max_passes is None:
@@ -148,6 +197,39 @@ def sweep_word(pi, c, dirn=1, thr=1, mode="pass", max_passes=None):
             d = nd
             head = (head + d) % n
             word.append("L" if d > 0 else "R")
+    elif mode == "horizon":
+        d = dirn
+        guard = 0
+        while phi > 0:
+            guard += 1
+            if guard > 8 * n * n:
+                raise ConstructionError(f"horizon mode does not terminate: {pi} c={c}")
+            a, b = head, (head + 1) % n
+            ra, rb = rem(a), rem(b)
+            gain = (ra > 0) + (rb < 0) - (ra < 0) - (rb > 0)
+            if gain >= thr:
+                circle[a], circle[b] = circle[b], circle[a]
+                word.append("X")
+                phi = sum(delta(i, target[circle[i]], n) for i in range(n))
+                continue
+            gf, kf = _horizon_score(circle, target, head, 1, n, thr, rem, window)
+            gb, kb = _horizon_score(circle, target, head, -1, n, thr, rem, window)
+            if kf is None and kb is None:
+                gf, kf = _horizon_score(circle, target, head, 1, n, thr, rem, n - 1)
+                gb, kb = _horizon_score(circle, target, head, -1, n, thr, rem, n - 1)
+                if kf is None and kb is None:
+                    raise ConstructionError(f"no productive edge: {pi} c={c} thr={thr}")
+            sf = -1 if kf is None else gf / kf
+            sb = -1 if kb is None else gb / kb
+            if sf > sb or (sf == sb and d > 0):
+                nd = 1
+            else:
+                nd = -1
+            if nd != d:
+                passes += 1
+            d = nd
+            head = (head + d) % n
+            word.append("L" if d > 0 else "R")
     else:
         raise ValueError(mode)
     # go to c by the shorter arc
@@ -162,23 +244,27 @@ def sweep_word(pi, c, dirn=1, thr=1, mode="pass", max_passes=None):
     nx = w.count("X")
     return {"word": w, "len": len(w), "N_X": nx, "N_rot": len(w) - nx,
             "reduced_len": len(freely_reduce(w)), "passes": passes,
-            "c": c, "dir": dirn, "thr": thr, "mode": mode}
+            "c": c, "dir": dirn, "thr": thr, "mode": mode, "window": window}
 
 
-def best_sweep(pi, thrs=(1, 2), modes=("pass", "nearest")):
-    """Shortest sweep word over c, dir, thr, mode (ties: first found)."""
+def best_sweep(pi, thrs=(1, 2), modes=("pass", "nearest", "horizon"), windows=(3,)):
+    """Shortest sweep word over c, dir, thr, mode (and window, for mode="horizon";
+    ties: first found)."""
     n = len(pi)
     best = None
     for mode in modes:
         for c in range(n):
             for dirn in (1, -1):
                 for thr in thrs:
-                    try:
-                        r = sweep_word(pi, c, dirn, thr, mode)
-                    except ConstructionError:
-                        continue
-                    if best is None or r["len"] < best["len"]:
-                        best = r
+                    for window in (windows if mode == "horizon" else (3,)):
+                        try:
+                            r = sweep_word(pi, c, dirn, thr, mode, window=window)
+                        except ConstructionError:
+                            continue
+                        if best is None or r["len"] < best["len"]:
+                            best = r
+                        if mode != "horizon":
+                            break
     if best is None:
         raise ConstructionError(f"no sweep word for {pi}")
     return best
