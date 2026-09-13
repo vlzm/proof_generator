@@ -1,4 +1,4 @@
-# check_C37 — PASS (6.2 s)
+# check_C37 — PASS (6.3 s)
 
 Part A (Theorem A + lemmas 1-3): exhaustive n=2: 0 errors, n=3: 0 errors, n=4: 0 errors, n=5: 0 errors, n=6: 0 errors; random n=7: 0 errors, n=8: 0 errors, n=9: 0 errors, n=10: 0 errors, n=11: 0 errors, n=12: 0 errors
 
