@@ -1,0 +1,7 @@
+sigma_n: d=45 geodesics=4320 N_X={'20': 4320} shifts={'1': 96, '3': 56, '5': 6, '7': 55, '9': 87} N1 best c=1 len=45 min_cross=8 (0.23 s)
+reflection h=2: d=44 geodesics=1200 N_X={'20': 1200} shifts={'0': 110, '2': 73, '4': 25, '6': 30, '8': 62} N1 best c=0 len=46 min_cross=8 (0.1 s)
+affine a=3 b=4 (min_c len_R - B_n = 1, - d = 12, d = 34): d=34 geodesics=14 N_X={'14': 14} shifts={'0': 300} N1 best c=2 len=46 min_cross=6 (0.03 s)
+affine a=7 b=2 (min_c len_R - B_n = 1, - d = 12, d = 34): d=34 geodesics=14 N_X={'14': 14} shifts={'0': 300} N1 best c=2 len=46 min_cross=6 (0.03 s)
+affine a=3 b=1 (min_c len_R - B_n = 0, - d = 10, d = 35): d=35 geodesics=54 N_X={'14': 54} shifts={'1': 85, '3': 215} N1 best c=3 len=45 min_cross=6 (0.03 s)
+C27 part-2 counterexample (9,2,5,0,1,8,7,6,3,4): d=36 geodesics=20 N_X={'15': 20} shifts={'5': 129, '7': 171} N1 best c=0 len=46 min_cross=7 (0.03 s)
+done 0.5 s

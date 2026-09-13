@@ -1,0 +1,6 @@
+sigma_n: d=36 geodesics=576 N_X={'16': 576} shifts={'0': 46, '1': 51, '2': 30, '3': 33, '4': 7, '5': 11, '6': 38, '7': 28, '8': 56} N1 best c=1 len=36 min_cross=6 (0.07 s)
+reflection h=2: d=35 geodesics=160 N_X={'16': 160} shifts={'0': 57, '1': 50, '2': 38, '3': 16, '4': 13, '5': 17, '6': 11, '7': 57, '8': 41} N1 best c=1 len=36 min_cross=6 (0.04 s)
+affine a=2 b=2 (min_c len_R - B_n = -2, - d = 8, d = 26): d=26 geodesics=16 N_X={'10': 16} shifts={'2': 300} N1 best c=0 len=34 min_cross=4 (0.02 s)
+affine a=5 b=8 (min_c len_R - B_n = -2, - d = 8, d = 26): d=26 geodesics=16 N_X={'10': 16} shifts={'7': 300} N1 best c=0 len=34 min_cross=4 (0.02 s)
+affine a=2 b=1 (min_c len_R - B_n = -3, - d = 8, d = 25): d=25 geodesics=8 N_X={'10': 8} shifts={'3': 300} N1 best c=1 len=33 min_cross=4 (0.02 s)
+done 0.2 s
