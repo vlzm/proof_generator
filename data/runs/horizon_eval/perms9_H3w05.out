@@ -1,0 +1,3 @@
+== horizon_eval-1.0 sweep-1.2 oracle-1.0 args={'perms': 9, 'perms_from': 9, 'families': 0, 'samples': 0, 'seed': 1, 'workers': 4, 'horizon': 3, 'weight': 0.5, 'thrs': '1,2', 'tag': 'H3w0.5_perms9', 'large': ''}
+n=9: 362880 perms, 6562 s; horizon: max len-B_n = 0 (1 inputs), max len-d = 8; portfolio (only inputs with len >= B_n-1): max -B_n = 0; wins there {'tie': 3, 'n1': 6, 'horizon': 1}
+written /home/user/proof_generator/experiments/../data/runs/horizon_eval/report_H3w0.5_perms9.json

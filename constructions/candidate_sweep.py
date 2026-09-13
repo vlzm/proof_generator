@@ -33,6 +33,29 @@ direction).  On sigma_n this reproduces the short oscillations of the
 geodesics; mode "pass" reproduces the two long sweeps of the geodesics on
 affine inputs.  best_sweep takes the shortest word over both modes.
 
+Mode "horizon" (sweep-1.2, H12 candidate (a)): at every decision point the
+head chooses between the two directions by a bounded look-ahead.  A branch
+walks to the nearest productive edge (gain >= thr) in its direction, swaps
+there, and recurses; after `horizon` swaps (or Phi = 0) the leaf is scored
+    f = rotations + swaps so far + weight * Phi_leaf
+(Phi_leaf/2 is a lower bound on the remaining swaps; weight 1 charges one
+rotation per remaining swap as well).  The first step of the best branch is
+executed; ties keep the current direction.  horizon = 1 with weight 0 is
+mode "nearest".
+
+Deadlock (sweep-1.3, `fallback=True`): under a fixed shift c a cycle whose
+elements all travel in the same direction along their shortest arcs has no
+edge with gain >= 1 (e.g. n = 7, pi = (0,1,3,6,4,5,2), c = 0, cycle (2 3 6):
+steps +1, +3, +3).  Without the fallback the (c, dir, thr) attempt raises
+ConstructionError and best_sweep relies on another shift (at n = 6, 7 more
+than half of all (pi, c) pairs are dead).  With fallback=True, when no edge
+with gain >= thr exists in either direction, the displaced element with the
+largest |rem| is marked as travelling the long way round (its direction of
+travel is fixed to the opposite sign, a persistent flag: the role of N1's
+carrier; extra distance n - 2|rem|), and
+the look-ahead continues with the modified rem.  Gain-0 swaps are never
+used (they oscillate).  fallback=False reproduces sweep-1.2 exactly.
+
 `sweep_word(pi, c, dir, thr)` returns the word and rule-15 statistics and
 asserts with the reference moves that the word sorts pi.  `best_sweep(pi)`
 minimises the (unreduced) length over c, dir and thr in {1, 2}.
@@ -47,7 +70,7 @@ sys.path.insert(0, os.path.join(ROOT, "oracle"))
 
 from moves import apply_word, freely_reduce, identity, delta, CORE_VERSION  # noqa: E402
 
-CANDIDATE_VERSION = "sweep-1.1"
+CANDIDATE_VERSION = "sweep-1.3"
 
 
 class ConstructionError(Exception):
@@ -73,7 +96,8 @@ def _productive_ahead(circle, target, head, d, n, thr, rem):
     return None
 
 
-def sweep_word(pi, c, dirn=1, thr=1, mode="pass", max_passes=None):
+def sweep_word(pi, c, dirn=1, thr=1, mode="pass", max_passes=None, horizon=3, weight=1.0,
+               fallback=False):
     """mode="pass": alternating full passes (sweep-1.0).  mode="nearest": after each
     swap (or when the current edge is unproductive) the head goes towards the
     nearest productive edge, ties keep the current direction (sweep-1.1)."""
@@ -93,6 +117,7 @@ def sweep_word(pi, c, dirn=1, thr=1, mode="pass", max_passes=None):
         return signed_step(pos, target[circle[pos]], n)
 
     passes = 0
+    flips = 0
     if mode == "pass":
         while phi > 0:
             if passes >= max_passes:
@@ -148,6 +173,86 @@ def sweep_word(pi, c, dirn=1, thr=1, mode="pass", max_passes=None):
             d = nd
             head = (head + d) % n
             word.append("L" if d > 0 else "R")
+    elif mode == "horizon":
+        d = dirn
+        guard = 0
+        H = max(1, int(horizon))
+        flips = 0
+
+        long_arc = {}   # element -> forced direction (+1/-1) of travel (fallback)
+
+        def rem_of(circ, pos):
+            e = circ[pos]
+            sgn = long_arc.get(e)
+            if sgn is None:
+                return signed_step(pos, target[e], n)
+            if sgn > 0:
+                return (target[e] - pos) % n
+            return -((pos - target[e]) % n)
+
+        def phi_of(circ):
+            return sum(abs(rem_of(circ, i)) for i in range(n))
+
+        def nearest_edge(circ, hd, dd):
+            for k in range(0, n):
+                h = (hd + dd * k) % n
+                ra, rb = rem_of(circ, h), rem_of(circ, (h + 1) % n)
+                if (ra > 0) + (rb < 0) - (ra < 0) - (rb > 0) >= thr:
+                    return k
+            return None
+
+        def search(circ, hd, ph, depth, cost, cur_d):
+            """Best f over branches of remaining depth; returns (f, first_step)."""
+            if ph == 0 or depth == 0:
+                return cost + weight * ph, None
+            best = None
+            for dd in (cur_d, -cur_d):
+                k = nearest_edge(circ, hd, dd)
+                if k is None:
+                    continue
+                h = (hd + dd * k) % n
+                c2 = list(circ)
+                a, b = h, (h + 1) % n
+                c2[a], c2[b] = c2[b], c2[a]
+                ph2 = phi_of(c2)
+                nd = dd if k > 0 else cur_d
+                f, _ = search(c2, h, ph2, depth - 1, cost + k + 1, nd)
+                if best is None or f < best[0]:
+                    best = (f, dd, k)
+            if best is None:
+                return cost + weight * ph, None
+            return best[0], (best[1], best[2])
+
+        while phi > 0:
+            guard += 1
+            if guard > 8 * n * n:
+                raise ConstructionError(f"horizon mode does not terminate: {pi} c={c}")
+            f, step = search(circle, head, phi, H, 0, d)
+            if step is None:
+                if not fallback:
+                    raise ConstructionError(f"no productive edge: {pi} c={c} thr={thr}")
+                # deadlock: route the most displaced element the long way round
+                cand = [(abs(rem_of(circle, i)), i) for i in range(n)
+                        if rem_of(circle, i) != 0 and circle[i] not in long_arc]
+                if not cand:
+                    raise ConstructionError(f"deadlock without candidates: {pi} c={c} thr={thr}")
+                pos = max(cand)[1]
+                long_arc[circle[pos]] = -1 if rem_of(circle, pos) > 0 else 1
+                phi = phi_of(circle)
+                flips += 1
+                continue
+            dd, k = step
+            if k == 0:
+                a, b = head, (head + 1) % n
+                circle[a], circle[b] = circle[b], circle[a]
+                word.append("X")
+                phi = phi_of(circle)
+                continue
+            if dd != d:
+                passes += 1
+            d = dd
+            head = (head + d) % n
+            word.append("L" if d > 0 else "R")
     else:
         raise ValueError(mode)
     # go to c by the shorter arc
@@ -162,19 +267,26 @@ def sweep_word(pi, c, dirn=1, thr=1, mode="pass", max_passes=None):
     nx = w.count("X")
     return {"word": w, "len": len(w), "N_X": nx, "N_rot": len(w) - nx,
             "reduced_len": len(freely_reduce(w)), "passes": passes,
-            "c": c, "dir": dirn, "thr": thr, "mode": mode}
+            "c": c, "dir": dirn, "thr": thr, "mode": mode,
+            "horizon": horizon if mode == "horizon" else None,
+            "weight": weight if mode == "horizon" else None,
+            "fallback": fallback if mode == "horizon" else None,
+            "long_arc_flips": flips}
 
 
-def best_sweep(pi, thrs=(1, 2), modes=("pass", "nearest")):
-    """Shortest sweep word over c, dir, thr, mode (ties: first found)."""
+def best_sweep(pi, thrs=(1, 2), modes=("pass", "nearest"), horizon=3, weight=1.0, cs=None,
+               fallback=False):
+    """Shortest sweep word over c, dir, thr, mode (ties: first found).
+    cs: iterable of shifts to try (default all)."""
     n = len(pi)
     best = None
     for mode in modes:
-        for c in range(n):
+        for c in (range(n) if cs is None else cs):
             for dirn in (1, -1):
                 for thr in thrs:
                     try:
-                        r = sweep_word(pi, c, dirn, thr, mode)
+                        r = sweep_word(pi, c, dirn, thr, mode, horizon=horizon, weight=weight,
+                                       fallback=fallback)
                     except ConstructionError:
                         continue
                     if best is None or r["len"] < best["len"]:
