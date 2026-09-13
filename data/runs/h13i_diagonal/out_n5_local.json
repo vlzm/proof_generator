@@ -1,0 +1,6 @@
+{"n": 5, "count": 120, "M": 4,
+ "shift0": {"max": 4, "argmax_rank": 19, "count_exceeds_M": 0},
+ "fixedc": {"max": 4, "argmax_rank": 11, "count_exceeds_M": 0},
+ "minqA": {"max_numerator_times_n": 30, "max_value": 6.000000, "argmax_rank": 23, "count_exceeds_M": 115},
+ "local_transposition": {"count_stuck_below_M": 10, "examples": [{"pi": [0,2,4,1,3], "I": 3}, {"pi": [0,3,1,4,2], "I": 3}, {"pi": [1,3,0,2,4], "I": 3}, {"pi": [1,4,2,0,3], "I": 3}, {"pi": [2,0,3,1,4], "I": 3}]}
+}

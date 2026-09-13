@@ -1,0 +1,5 @@
+{"n": 9, "count": 362880, "M": 16,
+ "shift0": {"max": 17, "argmax_rank": 28498, "count_exceeds_M": 162},
+ "fixedc": {"max": 17, "argmax_rank": 9207, "count_exceeds_M": 162},
+ "minqA": {"max_numerator_times_n": 204, "max_value": 22.666667, "argmax_rank": 40319, "count_exceeds_M": 356364}
+}

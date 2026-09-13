@@ -1,0 +1,6 @@
+{"n": 4, "count": 24, "M": 2,
+ "shift0": {"max": 2, "argmax_rank": 4, "count_exceeds_M": 0},
+ "fixedc": {"max": 2, "argmax_rank": 3, "count_exceeds_M": 0},
+ "minqA": {"max_numerator_times_n": 14, "max_value": 3.500000, "argmax_rank": 5, "count_exceeds_M": 24},
+ "local_transposition": {"count_stuck_below_M": 0, "examples": []}
+}
