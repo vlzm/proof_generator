@@ -1,0 +1,1077 @@
+{
+ "meta": {
+  "core": "oracle-1.0",
+  "construction": "strict_upper-1.0",
+  "command": "checks/check_H10_reflections.py --exhaustive-max 80 --lemma-bc-max 150",
+  "python": "3.11.15"
+ },
+ "lemma_BC": {
+  "range": "4<=n<=150",
+  "pairs": 11319,
+  "seconds": 10.8,
+  "sample_ns": [
+   150,
+   200,
+   201,
+   202,
+   203,
+   500,
+   501,
+   502,
+   503,
+   998,
+   999,
+   1000,
+   1001
+  ],
+  "sample_pairs": 78,
+  "sample_seconds": 1.6
+ },
+ "theorem_exhaustive": {
+  "4": {
+   "n_h_checked": 4,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 2,
+    "0": 2
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.001
+  },
+  "5": {
+   "n_h_checked": 5,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 5
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.001
+  },
+  "6": {
+   "n_h_checked": 6,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 3,
+    "0": 3
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.001
+  },
+  "7": {
+   "n_h_checked": 7,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 7
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.001
+  },
+  "8": {
+   "n_h_checked": 8,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 4,
+    "0": 4
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.002
+  },
+  "9": {
+   "n_h_checked": 9,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 9
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.002
+  },
+  "10": {
+   "n_h_checked": 10,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 5,
+    "0": 5
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.002
+  },
+  "11": {
+   "n_h_checked": 11,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 11
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.003
+  },
+  "12": {
+   "n_h_checked": 12,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 6,
+    "0": 6
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.004
+  },
+  "13": {
+   "n_h_checked": 13,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 13
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.005
+  },
+  "14": {
+   "n_h_checked": 14,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 7,
+    "0": 7
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.006
+  },
+  "15": {
+   "n_h_checked": 15,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 15
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.007
+  },
+  "16": {
+   "n_h_checked": 16,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 8,
+    "0": 8
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.008
+  },
+  "17": {
+   "n_h_checked": 17,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 17
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.009
+  },
+  "18": {
+   "n_h_checked": 18,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 9,
+    "0": 9
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.011
+  },
+  "19": {
+   "n_h_checked": 19,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 19
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.012
+  },
+  "20": {
+   "n_h_checked": 20,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 10,
+    "0": 10
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.015
+  },
+  "21": {
+   "n_h_checked": 21,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 21
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.017
+  },
+  "22": {
+   "n_h_checked": 22,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 11,
+    "0": 11
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.019
+  },
+  "23": {
+   "n_h_checked": 23,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 23
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.022
+  },
+  "24": {
+   "n_h_checked": 24,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 12,
+    "0": 12
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.024
+  },
+  "25": {
+   "n_h_checked": 25,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 25
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.027
+  },
+  "26": {
+   "n_h_checked": 26,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 13,
+    "0": 13
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.029
+  },
+  "27": {
+   "n_h_checked": 27,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 27
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.033
+  },
+  "28": {
+   "n_h_checked": 28,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 14,
+    "0": 14
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.037
+  },
+  "29": {
+   "n_h_checked": 29,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 29
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.039
+  },
+  "30": {
+   "n_h_checked": 30,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 15,
+    "0": 15
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.043
+  },
+  "31": {
+   "n_h_checked": 31,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 31
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.048
+  },
+  "32": {
+   "n_h_checked": 32,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 16,
+    "0": 16
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.053
+  },
+  "33": {
+   "n_h_checked": 33,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 33
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.057
+  },
+  "34": {
+   "n_h_checked": 34,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 17,
+    "0": 17
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.061
+  },
+  "35": {
+   "n_h_checked": 35,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 35
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.068
+  },
+  "36": {
+   "n_h_checked": 36,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 18,
+    "0": 18
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.076
+  },
+  "37": {
+   "n_h_checked": 37,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 37
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.085
+  },
+  "38": {
+   "n_h_checked": 38,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 19,
+    "0": 19
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.084
+  },
+  "39": {
+   "n_h_checked": 39,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 39
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.091
+  },
+  "40": {
+   "n_h_checked": 40,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 20,
+    "0": 20
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.104
+  },
+  "41": {
+   "n_h_checked": 41,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 41
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.108
+  },
+  "42": {
+   "n_h_checked": 42,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 21,
+    "0": 21
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.114
+  },
+  "43": {
+   "n_h_checked": 43,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 43
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.122
+  },
+  "44": {
+   "n_h_checked": 44,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 22,
+    "0": 22
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.131
+  },
+  "45": {
+   "n_h_checked": 45,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 45
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.139
+  },
+  "46": {
+   "n_h_checked": 46,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 23,
+    "0": 23
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.148
+  },
+  "47": {
+   "n_h_checked": 47,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 47
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.157
+  },
+  "48": {
+   "n_h_checked": 48,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 24,
+    "0": 24
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.17
+  },
+  "49": {
+   "n_h_checked": 49,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 49
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.185
+  },
+  "50": {
+   "n_h_checked": 50,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 25,
+    "0": 25
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.19
+  },
+  "51": {
+   "n_h_checked": 51,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 51
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.202
+  },
+  "52": {
+   "n_h_checked": 52,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 26,
+    "0": 26
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.215
+  },
+  "53": {
+   "n_h_checked": 53,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 53
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.227
+  },
+  "54": {
+   "n_h_checked": 54,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 27,
+    "0": 27
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.239
+  },
+  "55": {
+   "n_h_checked": 55,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 55
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.254
+  },
+  "56": {
+   "n_h_checked": 56,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 28,
+    "0": 28
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.273
+  },
+  "57": {
+   "n_h_checked": 57,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 57
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.288
+  },
+  "58": {
+   "n_h_checked": 58,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 29,
+    "0": 29
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.301
+  },
+  "59": {
+   "n_h_checked": 59,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 59
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.317
+  },
+  "60": {
+   "n_h_checked": 60,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 30,
+    "0": 30
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.348
+  },
+  "61": {
+   "n_h_checked": 61,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 61
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.367
+  },
+  "62": {
+   "n_h_checked": 62,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 31,
+    "0": 31
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.392
+  },
+  "63": {
+   "n_h_checked": 63,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 63
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.411
+  },
+  "64": {
+   "n_h_checked": 64,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 32,
+    "0": 32
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.43
+  },
+  "65": {
+   "n_h_checked": 65,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 65
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.52
+  },
+  "66": {
+   "n_h_checked": 66,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 33,
+    "0": 33
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.482
+  },
+  "67": {
+   "n_h_checked": 67,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 67
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.506
+  },
+  "68": {
+   "n_h_checked": 68,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 34,
+    "0": 34
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.535
+  },
+  "69": {
+   "n_h_checked": 69,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 69
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.555
+  },
+  "70": {
+   "n_h_checked": 70,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 35,
+    "0": 35
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.579
+  },
+  "71": {
+   "n_h_checked": 71,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 71
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.605
+  },
+  "72": {
+   "n_h_checked": 72,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 36,
+    "0": 36
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.638
+  },
+  "73": {
+   "n_h_checked": 73,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 73
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.662
+  },
+  "74": {
+   "n_h_checked": 74,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 37,
+    "0": 37
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.696
+  },
+  "75": {
+   "n_h_checked": 75,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 75
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.716
+  },
+  "76": {
+   "n_h_checked": 76,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 38,
+    "0": 38
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.753
+  },
+  "77": {
+   "n_h_checked": 77,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 77
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.784
+  },
+  "78": {
+   "n_h_checked": 78,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "1": 39,
+    "0": 39
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.816
+  },
+  "79": {
+   "n_h_checked": 79,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "0": 79
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.864
+  },
+  "80": {
+   "n_h_checked": 80,
+   "coverage": "all h",
+   "excess_hist_H_route": {
+    "-1": 40,
+    "0": 40
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.892
+  }
+ },
+ "theorem_sample": {
+  "150": {
+   "n_h_checked": 5,
+   "coverage": "structured sample",
+   "excess_hist_H_route": {
+    "1": 2,
+    "0": 3
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.28
+  },
+  "200": {
+   "n_h_checked": 5,
+   "coverage": "structured sample",
+   "excess_hist_H_route": {
+    "-1": 2,
+    "0": 3
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.586
+  },
+  "201": {
+   "n_h_checked": 5,
+   "coverage": "structured sample",
+   "excess_hist_H_route": {
+    "0": 5
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.582
+  },
+  "202": {
+   "n_h_checked": 5,
+   "coverage": "structured sample",
+   "excess_hist_H_route": {
+    "1": 2,
+    "0": 3
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 0.591
+  },
+  "203": {
+   "n_h_checked": 5,
+   "coverage": "structured sample",
+   "excess_hist_H_route": {
+    "0": 5
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 0.594
+  },
+  "500": {
+   "n_h_checked": 5,
+   "coverage": "structured sample",
+   "excess_hist_H_route": {
+    "-1": 2,
+    "0": 3
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 6.8
+  },
+  "501": {
+   "n_h_checked": 5,
+   "coverage": "structured sample",
+   "excess_hist_H_route": {
+    "0": 5
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 6.689
+  },
+  "502": {
+   "n_h_checked": 5,
+   "coverage": "structured sample",
+   "excess_hist_H_route": {
+    "1": 2,
+    "0": 3
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 6.919
+  },
+  "503": {
+   "n_h_checked": 5,
+   "coverage": "structured sample",
+   "excess_hist_H_route": {
+    "0": 5
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 6.843
+  },
+  "998": {
+   "n_h_checked": 5,
+   "coverage": "structured sample",
+   "excess_hist_H_route": {
+    "1": 2,
+    "0": 3
+   },
+   "max_excess_H_route": 1,
+   "max_excess_R": 1,
+   "seconds": 60.568
+  },
+  "999": {
+   "n_h_checked": 5,
+   "coverage": "structured sample",
+   "excess_hist_H_route": {
+    "0": 5
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 62.295
+  },
+  "1000": {
+   "n_h_checked": 5,
+   "coverage": "structured sample",
+   "excess_hist_H_route": {
+    "-1": 2,
+    "0": 3
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 62.623
+  },
+  "1001": {
+   "n_h_checked": 5,
+   "coverage": "structured sample",
+   "excess_hist_H_route": {
+    "0": 5
+   },
+   "max_excess_H_route": 0,
+   "max_excess_R": 0,
+   "seconds": 63.426
+  }
+ },
+ "log": [
+  "check_H10_reflections; core oracle-1.0, construction strict_upper-1.0",
+  "Lemma B/C: exhaustive 4<=n<=150, all w -> 11319 (n,w) pairs OK, 9.2 s",
+  "Lemma B/C: structured sample at n = [150, 200, 201, 202, 203, 500, 501, 502, 503, 998, 999, 1000, 1001] -> 78 (n,w) pairs OK, 1.6 s",
+  "n=4: 4 h (exhaustive), max excess H-route 0, max excess R 0, 0.001 s",
+  "n=5: 5 h (exhaustive), max excess H-route 0, max excess R 0, 0.001 s",
+  "n=6: 6 h (exhaustive), max excess H-route 1, max excess R 1, 0.001 s",
+  "n=7: 7 h (exhaustive), max excess H-route 0, max excess R 0, 0.001 s",
+  "n=8: 8 h (exhaustive), max excess H-route 0, max excess R 0, 0.002 s",
+  "n=9: 9 h (exhaustive), max excess H-route 0, max excess R 0, 0.002 s",
+  "n=10: 10 h (exhaustive), max excess H-route 1, max excess R 1, 0.002 s",
+  "n=11: 11 h (exhaustive), max excess H-route 0, max excess R 0, 0.003 s",
+  "n=12: 12 h (exhaustive), max excess H-route 0, max excess R 0, 0.004 s",
+  "n=13: 13 h (exhaustive), max excess H-route 0, max excess R 0, 0.005 s",
+  "n=14: 14 h (exhaustive), max excess H-route 1, max excess R 1, 0.006 s",
+  "n=15: 15 h (exhaustive), max excess H-route 0, max excess R 0, 0.007 s",
+  "n=16: 16 h (exhaustive), max excess H-route 0, max excess R 0, 0.008 s",
+  "n=17: 17 h (exhaustive), max excess H-route 0, max excess R 0, 0.009 s",
+  "n=18: 18 h (exhaustive), max excess H-route 1, max excess R 1, 0.011 s",
+  "n=19: 19 h (exhaustive), max excess H-route 0, max excess R 0, 0.012 s",
+  "n=20: 20 h (exhaustive), max excess H-route 0, max excess R 0, 0.015 s",
+  "n=21: 21 h (exhaustive), max excess H-route 0, max excess R 0, 0.017 s",
+  "n=22: 22 h (exhaustive), max excess H-route 1, max excess R 1, 0.019 s",
+  "n=23: 23 h (exhaustive), max excess H-route 0, max excess R 0, 0.022 s",
+  "n=24: 24 h (exhaustive), max excess H-route 0, max excess R 0, 0.024 s",
+  "n=25: 25 h (exhaustive), max excess H-route 0, max excess R 0, 0.027 s",
+  "n=26: 26 h (exhaustive), max excess H-route 1, max excess R 1, 0.029 s",
+  "n=27: 27 h (exhaustive), max excess H-route 0, max excess R 0, 0.033 s",
+  "n=28: 28 h (exhaustive), max excess H-route 0, max excess R 0, 0.037 s",
+  "n=29: 29 h (exhaustive), max excess H-route 0, max excess R 0, 0.039 s",
+  "n=30: 30 h (exhaustive), max excess H-route 1, max excess R 1, 0.043 s",
+  "n=31: 31 h (exhaustive), max excess H-route 0, max excess R 0, 0.048 s",
+  "n=32: 32 h (exhaustive), max excess H-route 0, max excess R 0, 0.053 s",
+  "n=33: 33 h (exhaustive), max excess H-route 0, max excess R 0, 0.057 s",
+  "n=34: 34 h (exhaustive), max excess H-route 1, max excess R 1, 0.061 s",
+  "n=35: 35 h (exhaustive), max excess H-route 0, max excess R 0, 0.068 s",
+  "n=36: 36 h (exhaustive), max excess H-route 0, max excess R 0, 0.076 s",
+  "n=37: 37 h (exhaustive), max excess H-route 0, max excess R 0, 0.085 s",
+  "n=38: 38 h (exhaustive), max excess H-route 1, max excess R 1, 0.084 s",
+  "n=39: 39 h (exhaustive), max excess H-route 0, max excess R 0, 0.091 s",
+  "n=40: 40 h (exhaustive), max excess H-route 0, max excess R 0, 0.104 s",
+  "n=41: 41 h (exhaustive), max excess H-route 0, max excess R 0, 0.108 s",
+  "n=42: 42 h (exhaustive), max excess H-route 1, max excess R 1, 0.114 s",
+  "n=43: 43 h (exhaustive), max excess H-route 0, max excess R 0, 0.122 s",
+  "n=44: 44 h (exhaustive), max excess H-route 0, max excess R 0, 0.131 s",
+  "n=45: 45 h (exhaustive), max excess H-route 0, max excess R 0, 0.139 s",
+  "n=46: 46 h (exhaustive), max excess H-route 1, max excess R 1, 0.148 s",
+  "n=47: 47 h (exhaustive), max excess H-route 0, max excess R 0, 0.157 s",
+  "n=48: 48 h (exhaustive), max excess H-route 0, max excess R 0, 0.17 s",
+  "n=49: 49 h (exhaustive), max excess H-route 0, max excess R 0, 0.185 s",
+  "n=50: 50 h (exhaustive), max excess H-route 1, max excess R 1, 0.19 s",
+  "n=51: 51 h (exhaustive), max excess H-route 0, max excess R 0, 0.202 s",
+  "n=52: 52 h (exhaustive), max excess H-route 0, max excess R 0, 0.215 s",
+  "n=53: 53 h (exhaustive), max excess H-route 0, max excess R 0, 0.227 s",
+  "n=54: 54 h (exhaustive), max excess H-route 1, max excess R 1, 0.239 s",
+  "n=55: 55 h (exhaustive), max excess H-route 0, max excess R 0, 0.254 s",
+  "n=56: 56 h (exhaustive), max excess H-route 0, max excess R 0, 0.273 s",
+  "n=57: 57 h (exhaustive), max excess H-route 0, max excess R 0, 0.288 s",
+  "n=58: 58 h (exhaustive), max excess H-route 1, max excess R 1, 0.301 s",
+  "n=59: 59 h (exhaustive), max excess H-route 0, max excess R 0, 0.317 s",
+  "n=60: 60 h (exhaustive), max excess H-route 0, max excess R 0, 0.348 s",
+  "n=61: 61 h (exhaustive), max excess H-route 0, max excess R 0, 0.367 s",
+  "n=62: 62 h (exhaustive), max excess H-route 1, max excess R 1, 0.392 s",
+  "n=63: 63 h (exhaustive), max excess H-route 0, max excess R 0, 0.411 s",
+  "n=64: 64 h (exhaustive), max excess H-route 0, max excess R 0, 0.43 s",
+  "n=65: 65 h (exhaustive), max excess H-route 0, max excess R 0, 0.52 s",
+  "n=66: 66 h (exhaustive), max excess H-route 1, max excess R 1, 0.482 s",
+  "n=67: 67 h (exhaustive), max excess H-route 0, max excess R 0, 0.506 s",
+  "n=68: 68 h (exhaustive), max excess H-route 0, max excess R 0, 0.535 s",
+  "n=69: 69 h (exhaustive), max excess H-route 0, max excess R 0, 0.555 s",
+  "n=70: 70 h (exhaustive), max excess H-route 1, max excess R 1, 0.579 s",
+  "n=71: 71 h (exhaustive), max excess H-route 0, max excess R 0, 0.605 s",
+  "n=72: 72 h (exhaustive), max excess H-route 0, max excess R 0, 0.638 s",
+  "n=73: 73 h (exhaustive), max excess H-route 0, max excess R 0, 0.662 s",
+  "n=74: 74 h (exhaustive), max excess H-route 1, max excess R 1, 0.696 s",
+  "n=75: 75 h (exhaustive), max excess H-route 0, max excess R 0, 0.716 s",
+  "n=76: 76 h (exhaustive), max excess H-route 0, max excess R 0, 0.753 s",
+  "n=77: 77 h (exhaustive), max excess H-route 0, max excess R 0, 0.784 s",
+  "n=78: 78 h (exhaustive), max excess H-route 1, max excess R 1, 0.816 s",
+  "n=79: 79 h (exhaustive), max excess H-route 0, max excess R 0, 0.864 s",
+  "n=80: 80 h (exhaustive), max excess H-route 0, max excess R 0, 0.892 s",
+  "n=150: 5 h (sample), max excess H-route 1, max excess R 1, 0.28 s",
+  "n=200: 5 h (sample), max excess H-route 0, max excess R 0, 0.586 s",
+  "n=201: 5 h (sample), max excess H-route 0, max excess R 0, 0.582 s",
+  "n=202: 5 h (sample), max excess H-route 1, max excess R 1, 0.591 s",
+  "n=203: 5 h (sample), max excess H-route 0, max excess R 0, 0.594 s",
+  "n=500: 5 h (sample), max excess H-route 0, max excess R 0, 6.8 s",
+  "n=501: 5 h (sample), max excess H-route 0, max excess R 0, 6.689 s",
+  "n=502: 5 h (sample), max excess H-route 1, max excess R 1, 6.919 s",
+  "n=503: 5 h (sample), max excess H-route 0, max excess R 0, 6.843 s",
+  "n=998: 5 h (sample), max excess H-route 1, max excess R 1, 60.568 s",
+  "n=999: 5 h (sample), max excess H-route 0, max excess R 0, 62.295 s",
+  "n=1000: 5 h (sample), max excess H-route 0, max excess R 0, 62.623 s",
+  "n=1001: 5 h (sample), max excess H-route 0, max excess R 0, 63.426 s"
+ ],
+ "seconds_total": 307.0,
+ "result": "PASS"
+}
