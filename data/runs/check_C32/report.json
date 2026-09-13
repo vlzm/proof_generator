@@ -1,0 +1,86 @@
+{
+ "claim": "C32",
+ "core": "oracle-1.0",
+ "candidate": "sweep-1.3",
+ "cfg": {
+  "horizon": 3,
+  "weight": 0.5,
+  "thrs": [
+   1,
+   2
+  ]
+ },
+ "exhaustive_range": "4<=n<=30, all h in Z_n",
+ "exhaustive_instances": 459,
+ "exhaustive_seconds": 138.0,
+ "large_sampled": [
+  {
+   "n": 50,
+   "h_sampled": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    12,
+    13,
+    16,
+    25,
+    26,
+    28,
+    30,
+    31,
+    36,
+    48,
+    49
+   ],
+   "seconds": 53.0
+  },
+  {
+   "n": 60,
+   "h_sampled": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    13,
+    15,
+    16,
+    24,
+    30,
+    31,
+    41,
+    50,
+    58,
+    59
+   ],
+   "seconds": 75.1
+  },
+  {
+   "n": 80,
+   "h_sampled": [
+    0,
+    1,
+    2,
+    3,
+    13,
+    20,
+    21,
+    29,
+    34,
+    40,
+    41,
+    55,
+    57,
+    77,
+    78,
+    79
+   ],
+   "seconds": 183.6
+  }
+ ],
+ "result": "PASS (numeric evidence only, not a proof - see docs/notes/h12_verdict.md)"
+}
