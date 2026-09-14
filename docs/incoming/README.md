@@ -7,8 +7,8 @@
 | Файл | Что содержит | Статус аудита |
 |---|---|---|
 | `LRX_STRICT_PROOF_RU-1.md` (N1) | Самодостаточное доказательство C16/C17 | Аудит выполнен: `docs/notes/strict_proof_audit.md`; чекер `checks/check_C16.py`. sha256 `bcdc725b…1ddfc` |
-| `lrx_2n3_proof_checked.md` | Базовая конструкция C1 | не аудирован; `checks/check_C1.py` не создан |
-| `lrx_2n3_check.py` | Код проверки C1 | не запускался |
+| `lrx_2n3_proof_checked.md` | Базовая конструкция C1 | Аудит выполнен 14.09.2026: `docs/notes/audit_C1.md`; чекер `checks/check_C1.py` PASS. C1 -> PROVED |
+| `lrx_2n3_check.py` | Код проверки C1 | Не редактировался; используется в `checks/check_C1.py` как вторая независимая конструкция для сверки длин слов (не как источник истины) |
 | `lrx_gap_improvement.md` | Улучшения C4/C10/C11 | не аудирован; `checks/check_gap_T1.py` не создан |
 | `verify_lrx.py`, `verification.json` | Код и отчёт из N1 §12 | отсутствуют; заменены независимым `check_C16.py`, не выдаваемым за оригинал |
 
