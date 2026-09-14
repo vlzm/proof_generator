@@ -4,3 +4,4 @@ exact/bfs_fast
 __pycache__/
 *.pyc
 data/runs/line_profile/I_n*.bin
+data/runs/check_C37/line_imax

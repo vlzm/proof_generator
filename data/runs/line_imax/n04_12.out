@@ -1,0 +1,9 @@
+{"version": "line_imax-1.0", "n": 4, "representatives": 6, "bound_floor_(n-1)^2/4": 2, "max_I": 2, "argmax_count": 1, "violations": 0, "seconds": 0.00, "first_argmax": [0, 3, 2, 1]}
+{"version": "line_imax-1.0", "n": 5, "representatives": 24, "bound_floor_(n-1)^2/4": 4, "max_I": 4, "argmax_count": 1, "violations": 0, "seconds": 0.00, "first_argmax": [0, 4, 3, 2, 1]}
+{"version": "line_imax-1.0", "n": 6, "representatives": 120, "bound_floor_(n-1)^2/4": 6, "max_I": 6, "argmax_count": 1, "violations": 0, "seconds": 0.00, "first_argmax": [0, 5, 4, 3, 2, 1]}
+{"version": "line_imax-1.0", "n": 7, "representatives": 720, "bound_floor_(n-1)^2/4": 9, "max_I": 9, "argmax_count": 1, "violations": 0, "seconds": 0.00, "first_argmax": [0, 6, 5, 4, 3, 2, 1]}
+{"version": "line_imax-1.0", "n": 8, "representatives": 5040, "bound_floor_(n-1)^2/4": 12, "max_I": 12, "argmax_count": 1, "violations": 0, "seconds": 0.00, "first_argmax": [0, 7, 6, 5, 4, 3, 2, 1]}
+{"version": "line_imax-1.0", "n": 9, "representatives": 40320, "bound_floor_(n-1)^2/4": 16, "max_I": 16, "argmax_count": 1, "violations": 0, "seconds": 0.01, "first_argmax": [0, 8, 7, 6, 5, 4, 3, 2, 1]}
+{"version": "line_imax-1.0", "n": 10, "representatives": 362880, "bound_floor_(n-1)^2/4": 20, "max_I": 20, "argmax_count": 1, "violations": 0, "seconds": 0.06, "first_argmax": [0, 9, 8, 7, 6, 5, 4, 3, 2, 1]}
+{"version": "line_imax-1.0", "n": 11, "representatives": 3628800, "bound_floor_(n-1)^2/4": 25, "max_I": 25, "argmax_count": 1, "violations": 0, "seconds": 0.71, "first_argmax": [0, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]}
+{"version": "line_imax-1.0", "n": 12, "representatives": 39916800, "bound_floor_(n-1)^2/4": 30, "max_I": 30, "argmax_count": 1, "violations": 0, "seconds": 7.77, "first_argmax": [0, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]}

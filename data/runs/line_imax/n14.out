@@ -1,0 +1,13 @@
+# progress 500000000  maxI=41  viol=0  179.6s
+# progress 1000000000  maxI=41  viol=0  360.4s
+# progress 1500000000  maxI=41  viol=0  541.8s
+# progress 2000000000  maxI=41  viol=0  724.1s
+# progress 2500000000  maxI=41  viol=0  907.6s
+# progress 3000000000  maxI=41  viol=0  1091.1s
+# progress 3500000000  maxI=41  viol=0  1275.0s
+# progress 4000000000  maxI=41  viol=0  1458.9s
+# progress 4500000000  maxI=41  viol=0  1642.2s
+# progress 5000000000  maxI=41  viol=0  1823.9s
+# progress 5500000000  maxI=41  viol=0  2004.8s
+# progress 6000000000  maxI=41  viol=0  2183.9s
+{"version": "line_imax-1.0", "n": 14, "representatives": 6227020800, "bound_floor_(n-1)^2/4": 42, "max_I": 42, "argmax_count": 1, "violations": 0, "seconds": 2264.81, "first_argmax": [0, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]}

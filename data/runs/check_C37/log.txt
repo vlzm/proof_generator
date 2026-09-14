@@ -1,0 +1,23 @@
+check_C37-1.0: checking C37 (docs/proofs/C37_inversion_spearman.md)
+A-D: identity, corollaries, constant, equivalence with H13-I
+  A-D ok for n=4: 6 representatives, 0.0s
+  A-D ok for n=5: 24 representatives, 0.0s
+  A-D ok for n=6: 120 representatives, 0.1s
+  A-D ok for n=7: 720 representatives, 0.7s
+  A-D ok for n=8: 5040 representatives, 7.0s
+E: reflections
+  E ok for reflections, 4 <= n <= 60 (equality in C37.7 at every n)
+F: H13-I by brute force and via experiments/line_imax.c
+  F python: n=4 max I = 2 <= 2, argmax (0, 3, 2, 1)
+  F python: n=5 max I = 4 <= 4, argmax (0, 4, 3, 2, 1)
+  F python: n=6 max I = 6 <= 6, argmax (0, 5, 4, 3, 2, 1)
+  F python: n=7 max I = 9 <= 9, argmax (0, 6, 5, 4, 3, 2, 1)
+  F python: n=8 max I = 12 <= 12, argmax (0, 7, 6, 5, 4, 3, 2, 1)
+  F line_imax: n=4 max I = 2 (bound 2), unique class: True, 0.0s
+  F line_imax: n=5 max I = 4 (bound 4), unique class: True, 0.0s
+  F line_imax: n=6 max I = 6 (bound 6), unique class: True, 0.0s
+  F line_imax: n=7 max I = 9 (bound 9), unique class: True, 0.0s
+  F line_imax: n=8 max I = 12 (bound 12), unique class: True, 0.0s
+  F line_imax: n=9 max I = 16 (bound 16), unique class: True, 0.01s
+  F line_imax: n=10 max I = 20 (bound 20), unique class: True, 0.09s
+PASS in 9.7s
