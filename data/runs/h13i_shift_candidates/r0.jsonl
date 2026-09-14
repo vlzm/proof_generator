@@ -1,0 +1,7 @@
+--- exhaustive-r0 (nmin=4 nmax=9) ---
+{"mode": "exhaustive-r0", "n": 4, "rset": null, "bound": 2, "worst": 2, "excess": 0, "exceed_count": 0, "checked": 24, "worst_pi": [0, 2, 3, 1], "seconds": 0.0}
+{"mode": "exhaustive-r0", "n": 5, "rset": null, "bound": 4, "worst": 4, "excess": 0, "exceed_count": 0, "checked": 120, "worst_pi": [0, 2, 4, 3, 1], "seconds": 0.0}
+{"mode": "exhaustive-r0", "n": 6, "rset": null, "bound": 6, "worst": 6, "excess": 0, "exceed_count": 0, "checked": 720, "worst_pi": [0, 2, 4, 5, 3, 1], "seconds": 0.01}
+{"mode": "exhaustive-r0", "n": 7, "rset": null, "bound": 9, "worst": 10, "excess": 1, "exceed_count": 7, "checked": 5040, "worst_pi": [0, 5, 4, 3, 2, 1, 6], "seconds": 0.11}
+{"mode": "exhaustive-r0", "n": 8, "rset": null, "bound": 12, "worst": 13, "excess": 1, "exceed_count": 16, "checked": 40320, "worst_pi": [0, 6, 5, 3, 4, 2, 1, 7], "seconds": 1.11}
+{"mode": "exhaustive-r0", "n": 9, "rset": null, "bound": 16, "worst": 17, "excess": 1, "exceed_count": 162, "checked": 362880, "worst_pi": [0, 2, 7, 6, 5, 4, 3, 8, 1], "seconds": 12.85}

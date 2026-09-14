@@ -1,0 +1,6 @@
+--- exhaustive-diag (nmin=4 nmax=8) ---
+{"mode": "exhaustive-diag", "n": 4, "rset": null, "bound": 2, "worst": 3, "excess": 1, "exceed_count": 4, "checked": 24, "worst_pi": [0, 3, 2, 1], "seconds": 0.0}
+{"mode": "exhaustive-diag", "n": 5, "rset": null, "bound": 4, "worst": 6, "excess": 2, "exceed_count": 5, "checked": 120, "worst_pi": [0, 4, 3, 2, 1], "seconds": 0.0}
+{"mode": "exhaustive-diag", "n": 6, "rset": null, "bound": 6, "worst": 10, "excess": 4, "exceed_count": 6, "checked": 720, "worst_pi": [0, 5, 4, 3, 2, 1], "seconds": 0.01}
+{"mode": "exhaustive-diag", "n": 7, "rset": null, "bound": 9, "worst": 15, "excess": 6, "exceed_count": 56, "checked": 5040, "worst_pi": [0, 6, 5, 4, 3, 2, 1], "seconds": 0.11}
+{"mode": "exhaustive-diag", "n": 8, "rset": null, "bound": 12, "worst": 21, "excess": 9, "exceed_count": 552, "checked": 40320, "worst_pi": [0, 7, 6, 5, 4, 3, 2, 1], "seconds": 1.08}

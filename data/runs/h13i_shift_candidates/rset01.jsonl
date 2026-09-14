@@ -1,0 +1,7 @@
+--- exhaustive-rset 0,1 (nmin=4 nmax=9) ---
+{"mode": "exhaustive-rset", "n": 4, "rset": [0, 1], "bound": 2, "worst": 2, "excess": 0, "exceed_count": 0, "checked": 24, "worst_pi": [0, 3, 2, 1], "seconds": 0.0}
+{"mode": "exhaustive-rset", "n": 5, "rset": [0, 1], "bound": 4, "worst": 4, "excess": 0, "exceed_count": 0, "checked": 120, "worst_pi": [0, 4, 3, 2, 1], "seconds": 0.0}
+{"mode": "exhaustive-rset", "n": 6, "rset": [0, 1], "bound": 6, "worst": 6, "excess": 0, "exceed_count": 0, "checked": 720, "worst_pi": [0, 5, 4, 3, 2, 1], "seconds": 0.02}
+{"mode": "exhaustive-rset", "n": 7, "rset": [0, 1], "bound": 9, "worst": 9, "excess": 0, "exceed_count": 0, "checked": 5040, "worst_pi": [0, 6, 5, 4, 3, 2, 1], "seconds": 0.23}
+{"mode": "exhaustive-rset", "n": 8, "rset": [0, 1], "bound": 12, "worst": 12, "excess": 0, "exceed_count": 0, "checked": 40320, "worst_pi": [0, 7, 6, 5, 4, 3, 2, 1], "seconds": 2.38}
+{"mode": "exhaustive-rset", "n": 9, "rset": [0, 1], "bound": 16, "worst": 16, "excess": 0, "exceed_count": 0, "checked": 362880, "worst_pi": [0, 1, 7, 6, 5, 4, 3, 8, 2], "seconds": 27.2}
