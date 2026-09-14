@@ -1,0 +1,187 @@
+{
+  "version": "check_C37-1.0",
+  "elapsed_sec": 5.581793546676636,
+  "part_a_recurrence": {
+    "ok": true,
+    "checked_pairs": 574488,
+    "coverage": [
+      [
+        "exhaustive",
+        4
+      ],
+      [
+        "exhaustive",
+        5
+      ],
+      [
+        "exhaustive",
+        6
+      ],
+      [
+        "exhaustive",
+        7
+      ],
+      [
+        "random",
+        8,
+        30
+      ],
+      [
+        "random",
+        9,
+        30
+      ],
+      [
+        "random",
+        10,
+        30
+      ],
+      [
+        "random",
+        11,
+        30
+      ]
+    ]
+  },
+  "part_b_restricted_families": [
+    {
+      "n": 4,
+      "target": 2,
+      "total_perms": 24,
+      "a0_only": {
+        "worst": 2,
+        "worst_perm": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "exceeding": 0
+      },
+      "diagonal_only": {
+        "worst": 3,
+        "worst_perm": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "exceeding": 4
+      }
+    },
+    {
+      "n": 5,
+      "target": 4,
+      "total_perms": 120,
+      "a0_only": {
+        "worst": 4,
+        "worst_perm": [
+          0,
+          2,
+          4,
+          3,
+          1
+        ],
+        "exceeding": 0
+      },
+      "diagonal_only": {
+        "worst": 6,
+        "worst_perm": [
+          0,
+          4,
+          3,
+          2,
+          1
+        ],
+        "exceeding": 5
+      }
+    },
+    {
+      "n": 6,
+      "target": 6,
+      "total_perms": 720,
+      "a0_only": {
+        "worst": 6,
+        "worst_perm": [
+          0,
+          2,
+          4,
+          5,
+          3,
+          1
+        ],
+        "exceeding": 0
+      },
+      "diagonal_only": {
+        "worst": 10,
+        "worst_perm": [
+          0,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "exceeding": 6
+      }
+    },
+    {
+      "n": 7,
+      "target": 9,
+      "total_perms": 5040,
+      "a0_only": {
+        "worst": 10,
+        "worst_perm": [
+          0,
+          5,
+          4,
+          3,
+          2,
+          1,
+          6
+        ],
+        "exceeding": 7
+      },
+      "diagonal_only": {
+        "worst": 15,
+        "worst_perm": [
+          0,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "exceeding": 56
+      }
+    }
+  ],
+  "part_c_full_search_sanity": [
+    {
+      "n": 4,
+      "target": 2,
+      "worst_full_search": 2,
+      "ok": true
+    },
+    {
+      "n": 5,
+      "target": 4,
+      "worst_full_search": 4,
+      "ok": true
+    },
+    {
+      "n": 6,
+      "target": 6,
+      "worst_full_search": 6,
+      "ok": true
+    },
+    {
+      "n": 7,
+      "target": 9,
+      "worst_full_search": 9,
+      "ok": true
+    }
+  ],
+  "overall": "PASS"
+}
