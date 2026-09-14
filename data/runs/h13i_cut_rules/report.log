@@ -1,0 +1,45 @@
+=== ruleA ===
+ruleA n=4 threshold=2 total=24 fail=4 worst=3 worst_rank=5
+ruleA n=5 threshold=4 total=120 fail=5 worst=6 worst_rank=23
+ruleA n=6 threshold=6 total=720 fail=6 worst=10 worst_rank=119
+ruleA n=7 threshold=9 total=5040 fail=56 worst=15 worst_rank=719
+ruleA n=8 threshold=12 total=40320 fail=552 worst=21 worst_rank=5039
+ruleA n=9 threshold=16 total=362880 fail=2025 worst=28 worst_rank=40319
+ruleA n=10 threshold=20 total=3628800 fail=14870 worst=36 worst_rank=362879
+=== rule1d ===
+rule1d n=4 threshold=2 total=24 fail=0 fail_reflections=0 worst=-1 worst_rank=-1
+rule1d n=5 threshold=4 total=120 fail=0 fail_reflections=0 worst=-1 worst_rank=-1
+rule1d n=6 threshold=6 total=720 fail=0 fail_reflections=0 worst=-1 worst_rank=-1
+rule1d n=7 threshold=9 total=5040 fail=7 fail_reflections=0 worst=10 worst_rank=566
+rule1d n=8 threshold=12 total=40320 fail=16 fail_reflections=0 worst=13 worst_rank=4142
+rule1d n=9 threshold=16 total=362880 fail=162 fail_reflections=0 worst=17 worst_rank=9207
+rule1d n=10 threshold=20 total=3628800 fail=1250 fail_reflections=0 worst=23 worst_rank=310735
+=== ihist (top values only, full output kept in log) ===
+-- n=6 --
+I=1 count=36
+I=2 count=126
+I=3 count=264
+I=4 count=246
+I=5 count=36
+I=6 count=6
+-- n=7 --
+I=4 count=1078
+I=5 count=1519
+I=6 count=1190
+I=7 count=406
+I=8 count=49
+I=9 count=7
+-- n=8 --
+I=7 count=11200
+I=8 count=8208
+I=9 count=2504
+I=10 count=288
+I=11 count=72
+I=12 count=8
+-- n=9 --
+I=11 count=45414
+I=12 count=16092
+I=13 count=3105
+I=14 count=423
+I=15 count=81
+I=16 count=9
