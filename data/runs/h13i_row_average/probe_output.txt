@@ -1,0 +1,36 @@
+== part 1: gradient identities ==
+  n=4: exhaustive (24 perms), mismatches=0
+  n=5: exhaustive (120 perms), mismatches=0
+  n=6: exhaustive (720 perms), mismatches=0
+  n=7: exhaustive (5040 perms), mismatches=0
+  n=8: sampled (300 random perms), mismatches=0
+  n=9: sampled (300 random perms), mismatches=0
+== part 2: closed form for I(q) vs brute force ==
+  n=4: exhaustive (24 perms), mismatches=0
+  n=5: exhaustive (120 perms), mismatches=0
+  n=6: exhaustive (720 perms), mismatches=0
+  n=7: exhaustive (5040 perms), mismatches=0
+  n=8: sampled (200 random perms), mismatches=0
+  n=9: sampled (200 random perms), mismatches=0
+== part 3: sum_q I(q) <= n * floor((n-1)^2/4) [python, small n] ==
+  n=4: bound=2, n*bound=8, checked=24, violations=0, worst_sum=8, worst_pi=(0, 3, 2, 1)
+  n=5: bound=4, n*bound=20, checked=120, violations=0, worst_sum=20, worst_pi=(0, 4, 3, 2, 1)
+  n=6: bound=6, n*bound=36, checked=720, violations=0, worst_sum=36, worst_pi=(0, 5, 4, 3, 2, 1)
+  n=7: bound=9, n*bound=63, checked=5040, violations=0, worst_sum=63, worst_pi=(0, 6, 5, 4, 3, 2, 1)
+  n=8: bound=12, n*bound=96, checked=40320, violations=0, worst_sum=96, worst_pi=(0, 7, 6, 5, 4, 3, 2, 1)
+== part 4: explicit non-adaptive families (all fail) ==
+  n=4 (a) diagonal s=q+t: universal t for ALL pi = set(); perms with NO working t = 4/24
+  n=4 (b) start=0 family: violations=4/24, worst_sum=12 (n*bound=8), worst_pi=(0, 3, 2, 1)
+  n=4 (c) single column: violations=24/24, worst_min_col_sum=14 (n*bound=8), worst_pi=(0, 3, 2, 1)
+  n=5 (a) diagonal s=q+t: universal t for ALL pi = set(); perms with NO working t = 40/120
+  n=5 (b) start=0 family: violations=30/120, worst_sum=30 (n*bound=20), worst_pi=(0, 4, 3, 2, 1)
+  n=5 (c) single column: violations=115/120, worst_min_col_sum=30 (n*bound=20), worst_pi=(0, 4, 3, 2, 1)
+  n=6 (a) diagonal s=q+t: universal t for ALL pi = set(); perms with NO working t = 270/720
+  n=6 (b) start=0 family: violations=114/720, worst_sum=60 (n*bound=36), worst_pi=(0, 5, 4, 3, 2, 1)
+  n=6 (c) single column: violations=714/720, worst_min_col_sum=55 (n*bound=36), worst_pi=(0, 5, 4, 3, 2, 1)
+  n=7 (a) diagonal s=q+t: universal t for ALL pi = set(); perms with NO working t = 1701/5040
+  n=7 (b) start=0 family: violations=987/5040, worst_sum=105 (n*bound=63), worst_pi=(0, 6, 5, 4, 3, 2, 1)
+  n=7 (c) single column: violations=4984/5040, worst_min_col_sum=91 (n*bound=63), worst_pi=(0, 6, 5, 4, 3, 2, 1)
+  n=8 (a) diagonal s=q+t: universal t for ALL pi = set(); perms with NO working t = 11312/40320
+  n=8 (b) start=0 family: violations=7656/40320, worst_sum=168 (n*bound=96), worst_pi=(0, 7, 6, 5, 4, 3, 2, 1)
+  n=8 (c) single column: violations=39832/40320, worst_min_col_sum=140 (n*bound=96), worst_pi=(0, 7, 6, 5, 4, 3, 2, 1)

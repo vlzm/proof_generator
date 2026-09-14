@@ -1,0 +1,8 @@
+{"n": 4, "bound": 2, "n_times_bound": 8, "checked": 24, "violations": 0, "worst_excess": 0, "worst_pi": [0,3,2,1]}
+{"n": 5, "bound": 4, "n_times_bound": 20, "checked": 120, "violations": 0, "worst_excess": 0, "worst_pi": [0,4,3,2,1]}
+{"n": 6, "bound": 6, "n_times_bound": 36, "checked": 720, "violations": 0, "worst_excess": 0, "worst_pi": [0,5,4,3,2,1]}
+{"n": 7, "bound": 9, "n_times_bound": 63, "checked": 5040, "violations": 0, "worst_excess": 0, "worst_pi": [0,6,5,4,3,2,1]}
+{"n": 8, "bound": 12, "n_times_bound": 96, "checked": 40320, "violations": 0, "worst_excess": 0, "worst_pi": [0,7,6,5,4,3,2,1]}
+{"n": 9, "bound": 16, "n_times_bound": 144, "checked": 362880, "violations": 0, "worst_excess": 0, "worst_pi": [0,8,7,6,5,4,3,2,1]}
+{"n": 10, "bound": 20, "n_times_bound": 200, "checked": 3628800, "violations": 0, "worst_excess": 0, "worst_pi": [0,9,8,7,6,5,4,3,2,1]}
+{"n": 11, "bound": 25, "n_times_bound": 275, "checked": 39916800, "violations": 0, "worst_excess": 0, "worst_pi": [0,10,9,8,7,6,5,4,3,2,1]}
