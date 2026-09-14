@@ -1,0 +1,8 @@
+== h13i_toric-1.0 oracle-1.0 args={'nmin': 4, 'nmax': 9, 'duality_nmax': 8, 'recursion_trials': 500}
+recursion check: 500/500 random (pi,s,t) triples, both single-step formulas exact
+n=4: I_full max = 2 (T=2) at (0, 3, 2, 1); single-shift max = 2 (within T) at (0, 2, 3, 1); duality checked on 24 pi, holds: True; sigma_n avg inv = 3.5000 (pred 3.5000); 0 s
+n=5: I_full max = 4 (T=4) at (0, 4, 3, 2, 1); single-shift max = 4 (within T) at (0, 2, 4, 3, 1); duality checked on 120 pi, holds: True; sigma_n avg inv = 6.0000 (pred 6.0000); 0 s
+n=6: I_full max = 6 (T=6) at (0, 5, 4, 3, 2, 1); single-shift max = 6 (within T) at (0, 2, 4, 5, 3, 1); duality checked on 720 pi, holds: True; sigma_n avg inv = 9.1667 (pred 9.1667); 0 s
+n=7: I_full max = 9 (T=9) at (0, 6, 5, 4, 3, 2, 1); single-shift max = 10 (EXCEEDS T) at (0, 5, 4, 3, 2, 1, 6); duality checked on 5040 pi, holds: True; sigma_n avg inv = 13.0000 (pred 13.0000); 2 s
+n=8: I_full max = 12 (T=12) at (0, 7, 6, 5, 4, 3, 2, 1); single-shift max = 13 (EXCEEDS T) at (0, 6, 5, 3, 4, 2, 1, 7); duality checked on 40320 pi, holds: True; sigma_n avg inv = 17.5000 (pred 17.5000); 19 s
+n=9: I_full max = 16 (T=16) at (0, 8, 7, 6, 5, 4, 3, 2, 1); single-shift max = 17 (EXCEEDS T) at (0, 2, 7, 6, 5, 4, 3, 8, 1); duality checked on 0 pi, holds: True; sigma_n avg inv = 22.6667 (pred 22.6667); 135 s
