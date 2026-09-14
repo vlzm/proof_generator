@@ -1,0 +1,130 @@
+{
+  "version": "h13i_toric-1.0",
+  "elapsed_s": 0.3974759578704834,
+  "formula_identity": [
+    {
+      "n": 3,
+      "ok": true,
+      "checked": 300
+    },
+    {
+      "n": 4,
+      "ok": true,
+      "checked": 300
+    },
+    {
+      "n": 5,
+      "ok": true,
+      "checked": 300
+    },
+    {
+      "n": 6,
+      "ok": true,
+      "checked": 300
+    },
+    {
+      "n": 7,
+      "ok": true,
+      "checked": 300
+    },
+    {
+      "n": 8,
+      "ok": true,
+      "checked": 300
+    },
+    {
+      "n": 9,
+      "ok": true,
+      "checked": 300
+    }
+  ],
+  "families": {
+    "single_a (b=0 fixed)": [
+      {
+        "n": 3,
+        "target": 1,
+        "max_over_pi": 1,
+        "sufficient": true,
+        "worst_pi": null
+      },
+      {
+        "n": 4,
+        "target": 2,
+        "max_over_pi": 2,
+        "sufficient": true,
+        "worst_pi": null
+      },
+      {
+        "n": 5,
+        "target": 4,
+        "max_over_pi": 4,
+        "sufficient": true,
+        "worst_pi": null
+      },
+      {
+        "n": 6,
+        "target": 6,
+        "max_over_pi": 6,
+        "sufficient": true,
+        "worst_pi": null
+      },
+      {
+        "n": 7,
+        "target": 9,
+        "max_over_pi": 10,
+        "sufficient": false,
+        "worst_pi": [
+          0,
+          5,
+          4,
+          3,
+          2,
+          1,
+          6
+        ]
+      }
+    ],
+    "a_then_avg (best a, pigeonhole on b)": [
+      {
+        "n": 3,
+        "target": 1,
+        "max_over_pi": 1,
+        "sufficient": true,
+        "worst_pi": null
+      },
+      {
+        "n": 4,
+        "target": 2,
+        "max_over_pi": 3,
+        "sufficient": false,
+        "worst_pi": [
+          0,
+          1,
+          3,
+          2
+        ]
+      }
+    ],
+    "vertex_cut (best data point as origin)": [
+      {
+        "n": 3,
+        "target": 1,
+        "max_over_pi": 1,
+        "sufficient": true,
+        "worst_pi": null
+      },
+      {
+        "n": 4,
+        "target": 2,
+        "max_over_pi": 3,
+        "sufficient": false,
+        "worst_pi": [
+          0,
+          3,
+          2,
+          1
+        ]
+      }
+    ]
+  }
+}
