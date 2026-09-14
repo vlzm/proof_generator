@@ -1,0 +1,386 @@
+{
+  "version": "h13i_candidates-1.0",
+  "core_version": "oracle-1.0",
+  "goal": "test two O(n)-cut candidate rules for H13-I against exhaustive brute-force I(pi)",
+  "command": "python3 experiments/h13i_candidates.py --nmax 8",
+  "nmax": 8,
+  "coverage": "exhaustive (all permutations) per n",
+  "elapsed_s": 10.460201978683472,
+  "results": {
+    "3": {
+      "checked": 6,
+      "target": 1,
+      "worst_full": 1,
+      "worst_diagonal": 1,
+      "worst_mode_shift": 1,
+      "diagonal_exceeds_target": false,
+      "mode_shift_exceeds_target": false,
+      "examples": {
+        "diagonal": [],
+        "mode_shift": []
+      }
+    },
+    "4": {
+      "checked": 24,
+      "target": 2,
+      "worst_full": 2,
+      "worst_diagonal": 3,
+      "worst_mode_shift": 3,
+      "diagonal_exceeds_target": true,
+      "mode_shift_exceeds_target": true,
+      "examples": {
+        "diagonal": [
+          {
+            "pi": [
+              0,
+              3,
+              2,
+              1
+            ],
+            "I_diagonal": 3,
+            "I_true": 2
+          },
+          {
+            "pi": [
+              1,
+              0,
+              3,
+              2
+            ],
+            "I_diagonal": 3,
+            "I_true": 2
+          },
+          {
+            "pi": [
+              2,
+              1,
+              0,
+              3
+            ],
+            "I_diagonal": 3,
+            "I_true": 2
+          }
+        ],
+        "mode_shift": [
+          {
+            "pi": [
+              0,
+              3,
+              2,
+              1
+            ],
+            "I_mode_shift": 3,
+            "I_true": 2
+          },
+          {
+            "pi": [
+              1,
+              0,
+              3,
+              2
+            ],
+            "I_mode_shift": 3,
+            "I_true": 2
+          },
+          {
+            "pi": [
+              2,
+              1,
+              0,
+              3
+            ],
+            "I_mode_shift": 3,
+            "I_true": 2
+          }
+        ]
+      }
+    },
+    "5": {
+      "checked": 120,
+      "target": 4,
+      "worst_full": 4,
+      "worst_diagonal": 6,
+      "worst_mode_shift": 4,
+      "diagonal_exceeds_target": true,
+      "mode_shift_exceeds_target": false,
+      "examples": {
+        "diagonal": [
+          {
+            "pi": [
+              0,
+              4,
+              3,
+              2,
+              1
+            ],
+            "I_diagonal": 6,
+            "I_true": 4
+          },
+          {
+            "pi": [
+              1,
+              0,
+              4,
+              3,
+              2
+            ],
+            "I_diagonal": 6,
+            "I_true": 4
+          },
+          {
+            "pi": [
+              2,
+              1,
+              0,
+              4,
+              3
+            ],
+            "I_diagonal": 6,
+            "I_true": 4
+          }
+        ],
+        "mode_shift": []
+      }
+    },
+    "6": {
+      "checked": 720,
+      "target": 6,
+      "worst_full": 6,
+      "worst_diagonal": 10,
+      "worst_mode_shift": 7,
+      "diagonal_exceeds_target": true,
+      "mode_shift_exceeds_target": true,
+      "examples": {
+        "diagonal": [
+          {
+            "pi": [
+              0,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "I_diagonal": 10,
+            "I_true": 6
+          },
+          {
+            "pi": [
+              1,
+              0,
+              5,
+              4,
+              3,
+              2
+            ],
+            "I_diagonal": 10,
+            "I_true": 6
+          },
+          {
+            "pi": [
+              2,
+              1,
+              0,
+              5,
+              4,
+              3
+            ],
+            "I_diagonal": 10,
+            "I_true": 6
+          }
+        ],
+        "mode_shift": [
+          {
+            "pi": [
+              0,
+              4,
+              5,
+              3,
+              2,
+              1
+            ],
+            "I_mode_shift": 7,
+            "I_true": 5
+          },
+          {
+            "pi": [
+              0,
+              5,
+              3,
+              4,
+              2,
+              1
+            ],
+            "I_mode_shift": 7,
+            "I_true": 5
+          },
+          {
+            "pi": [
+              0,
+              5,
+              4,
+              2,
+              3,
+              1
+            ],
+            "I_mode_shift": 7,
+            "I_true": 5
+          }
+        ]
+      }
+    },
+    "7": {
+      "checked": 5040,
+      "target": 9,
+      "worst_full": 9,
+      "worst_diagonal": 15,
+      "worst_mode_shift": 9,
+      "diagonal_exceeds_target": true,
+      "mode_shift_exceeds_target": false,
+      "examples": {
+        "diagonal": [
+          {
+            "pi": [
+              0,
+              1,
+              6,
+              5,
+              4,
+              3,
+              2
+            ],
+            "I_diagonal": 10,
+            "I_true": 8
+          },
+          {
+            "pi": [
+              0,
+              5,
+              4,
+              3,
+              2,
+              1,
+              6
+            ],
+            "I_diagonal": 10,
+            "I_true": 8
+          },
+          {
+            "pi": [
+              0,
+              5,
+              6,
+              4,
+              3,
+              2,
+              1
+            ],
+            "I_diagonal": 10,
+            "I_true": 8
+          }
+        ],
+        "mode_shift": []
+      }
+    },
+    "8": {
+      "checked": 40320,
+      "target": 12,
+      "worst_full": 12,
+      "worst_diagonal": 21,
+      "worst_mode_shift": 15,
+      "diagonal_exceeds_target": true,
+      "mode_shift_exceeds_target": true,
+      "examples": {
+        "diagonal": [
+          {
+            "pi": [
+              0,
+              1,
+              6,
+              7,
+              4,
+              5,
+              3,
+              2
+            ],
+            "I_diagonal": 13,
+            "I_true": 9
+          },
+          {
+            "pi": [
+              0,
+              1,
+              6,
+              7,
+              5,
+              3,
+              4,
+              2
+            ],
+            "I_diagonal": 13,
+            "I_true": 9
+          },
+          {
+            "pi": [
+              0,
+              1,
+              6,
+              7,
+              5,
+              4,
+              2,
+              3
+            ],
+            "I_diagonal": 13,
+            "I_true": 9
+          }
+        ],
+        "mode_shift": [
+          {
+            "pi": [
+              0,
+              2,
+              6,
+              5,
+              4,
+              1,
+              7,
+              3
+            ],
+            "I_mode_shift": 13,
+            "I_true": 7
+          },
+          {
+            "pi": [
+              0,
+              2,
+              7,
+              3,
+              1,
+              6,
+              5,
+              4
+            ],
+            "I_mode_shift": 13,
+            "I_true": 7
+          },
+          {
+            "pi": [
+              0,
+              3,
+              6,
+              1,
+              2,
+              7,
+              5,
+              4
+            ],
+            "I_mode_shift": 13,
+            "I_true": 8
+          }
+        ]
+      }
+    }
+  },
+  "conclusion": "worst_full == target for all n (cross-checks H13-I / C33 on this range); worst_diagonal exceeds target starting at n=4; worst_mode_shift exceeds target starting at n=4 for even n (n=3,5,7 pass, n=4,6,8 fail); neither O(n)-cut rule suffices, an O(n^2) search (or a proof) is needed"
+}

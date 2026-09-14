@@ -1,0 +1,8 @@
+n=4 checked=24 target=2 max_I=2 rank_of_argmax=6 argmax=(0,3,2,1) ok
+n=5 checked=120 target=4 max_I=4 rank_of_argmax=24 argmax=(0,4,3,2,1) ok
+n=6 checked=720 target=6 max_I=6 rank_of_argmax=120 argmax=(0,5,4,3,2,1) ok
+n=7 checked=5040 target=9 max_I=9 rank_of_argmax=720 argmax=(0,6,5,4,3,2,1) ok
+n=8 checked=40320 target=12 max_I=12 rank_of_argmax=5040 argmax=(0,7,6,5,4,3,2,1) ok
+n=9 checked=362880 target=16 max_I=16 rank_of_argmax=40320 argmax=(0,8,7,6,5,4,3,2,1) ok
+n=10 checked=3628800 target=20 max_I=20 rank_of_argmax=362880 argmax=(0,9,8,7,6,5,4,3,2,1) ok
+n=11 checked=39916800 target=25 max_I=25 rank_of_argmax=3628800 argmax=(0,10,9,8,7,6,5,4,3,2,1) ok

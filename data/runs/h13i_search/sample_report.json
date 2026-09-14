@@ -1,0 +1,1144 @@
+{
+  "version": "h13i_sample-1.0",
+  "core_version": "oracle-1.0",
+  "goal": "SAMPLED evidence for H13-I (I(pi) <= floor((n-1)^2/4)) beyond exhaustive n",
+  "command": "python3 experiments/h13i_sample.py --nlist 11,12,15,20,25,30,40,50,60,80,100,150,200 --seed 42",
+  "coverage": "SAMPLED: reflections, identity, affine family, half-block reversal, 8 random permutations per n",
+  "seed": 42,
+  "elapsed_s": 21.431264638900757,
+  "results": {
+    "11": {
+      "target": 25,
+      "worst_observed": 25,
+      "bad": false,
+      "entries": [
+        {
+          "name": "reflection_h=0",
+          "I": 25
+        },
+        {
+          "name": "reflection_h=2",
+          "I": 25
+        },
+        {
+          "name": "reflection_h=5",
+          "I": 25
+        },
+        {
+          "name": "reflection_h=10",
+          "I": 25
+        },
+        {
+          "name": "identity",
+          "I": 0
+        },
+        {
+          "name": "affine_a=2,b=0",
+          "I": 15
+        },
+        {
+          "name": "affine_a=2,b=3",
+          "I": 15
+        },
+        {
+          "name": "affine_a=3,b=0",
+          "I": 18
+        },
+        {
+          "name": "affine_a=3,b=3",
+          "I": 18
+        },
+        {
+          "name": "affine_a=6,b=0",
+          "I": 15
+        },
+        {
+          "name": "affine_a=6,b=3",
+          "I": 15
+        },
+        {
+          "name": "half_block_reversed",
+          "I": 10
+        },
+        {
+          "name": "random#0",
+          "I": 14
+        },
+        {
+          "name": "random#1",
+          "I": 15
+        },
+        {
+          "name": "random#2",
+          "I": 10
+        },
+        {
+          "name": "random#3",
+          "I": 13
+        },
+        {
+          "name": "random#4",
+          "I": 13
+        },
+        {
+          "name": "random#5",
+          "I": 14
+        },
+        {
+          "name": "random#6",
+          "I": 14
+        },
+        {
+          "name": "random#7",
+          "I": 14
+        }
+      ]
+    },
+    "12": {
+      "target": 30,
+      "worst_observed": 30,
+      "bad": false,
+      "entries": [
+        {
+          "name": "reflection_h=0",
+          "I": 30
+        },
+        {
+          "name": "reflection_h=3",
+          "I": 30
+        },
+        {
+          "name": "reflection_h=6",
+          "I": 30
+        },
+        {
+          "name": "reflection_h=11",
+          "I": 30
+        },
+        {
+          "name": "identity",
+          "I": 0
+        },
+        {
+          "name": "affine_a=2,b=0",
+          "I": 21
+        },
+        {
+          "name": "affine_a=2,b=4",
+          "I": 21
+        },
+        {
+          "name": "affine_a=3,b=0",
+          "I": 30
+        },
+        {
+          "name": "affine_a=3,b=4",
+          "I": 30
+        },
+        {
+          "name": "affine_a=7,b=0",
+          "I": 26
+        },
+        {
+          "name": "affine_a=7,b=4",
+          "I": 26
+        },
+        {
+          "name": "half_block_reversed",
+          "I": 15
+        },
+        {
+          "name": "random#0",
+          "I": 17
+        },
+        {
+          "name": "random#1",
+          "I": 20
+        },
+        {
+          "name": "random#2",
+          "I": 18
+        },
+        {
+          "name": "random#3",
+          "I": 18
+        },
+        {
+          "name": "random#4",
+          "I": 19
+        },
+        {
+          "name": "random#5",
+          "I": 13
+        },
+        {
+          "name": "random#6",
+          "I": 20
+        },
+        {
+          "name": "random#7",
+          "I": 21
+        }
+      ]
+    },
+    "15": {
+      "target": 49,
+      "worst_observed": 49,
+      "bad": false,
+      "entries": [
+        {
+          "name": "reflection_h=0",
+          "I": 49
+        },
+        {
+          "name": "reflection_h=3",
+          "I": 49
+        },
+        {
+          "name": "reflection_h=7",
+          "I": 49
+        },
+        {
+          "name": "reflection_h=14",
+          "I": 49
+        },
+        {
+          "name": "identity",
+          "I": 0
+        },
+        {
+          "name": "affine_a=2,b=0",
+          "I": 28
+        },
+        {
+          "name": "affine_a=2,b=5",
+          "I": 28
+        },
+        {
+          "name": "affine_a=3,b=0",
+          "I": 45
+        },
+        {
+          "name": "affine_a=3,b=5",
+          "I": 45
+        },
+        {
+          "name": "affine_a=8,b=0",
+          "I": 28
+        },
+        {
+          "name": "affine_a=8,b=5",
+          "I": 28
+        },
+        {
+          "name": "half_block_reversed",
+          "I": 21
+        },
+        {
+          "name": "random#0",
+          "I": 30
+        },
+        {
+          "name": "random#1",
+          "I": 32
+        },
+        {
+          "name": "random#2",
+          "I": 31
+        },
+        {
+          "name": "random#3",
+          "I": 35
+        },
+        {
+          "name": "random#4",
+          "I": 33
+        },
+        {
+          "name": "random#5",
+          "I": 24
+        },
+        {
+          "name": "random#6",
+          "I": 25
+        },
+        {
+          "name": "random#7",
+          "I": 20
+        }
+      ]
+    },
+    "20": {
+      "target": 90,
+      "worst_observed": 90,
+      "bad": false,
+      "entries": [
+        {
+          "name": "reflection_h=0",
+          "I": 90
+        },
+        {
+          "name": "reflection_h=5",
+          "I": 90
+        },
+        {
+          "name": "reflection_h=10",
+          "I": 90
+        },
+        {
+          "name": "reflection_h=19",
+          "I": 90
+        },
+        {
+          "name": "identity",
+          "I": 0
+        },
+        {
+          "name": "affine_a=2,b=0",
+          "I": 55
+        },
+        {
+          "name": "affine_a=2,b=6",
+          "I": 55
+        },
+        {
+          "name": "affine_a=3,b=0",
+          "I": 63
+        },
+        {
+          "name": "affine_a=3,b=6",
+          "I": 63
+        },
+        {
+          "name": "affine_a=11,b=0",
+          "I": 74
+        },
+        {
+          "name": "affine_a=11,b=6",
+          "I": 74
+        },
+        {
+          "name": "half_block_reversed",
+          "I": 45
+        },
+        {
+          "name": "random#0",
+          "I": 56
+        },
+        {
+          "name": "random#1",
+          "I": 64
+        },
+        {
+          "name": "random#2",
+          "I": 58
+        },
+        {
+          "name": "random#3",
+          "I": 64
+        },
+        {
+          "name": "random#4",
+          "I": 53
+        },
+        {
+          "name": "random#5",
+          "I": 57
+        },
+        {
+          "name": "random#6",
+          "I": 58
+        },
+        {
+          "name": "random#7",
+          "I": 56
+        }
+      ]
+    },
+    "25": {
+      "target": 144,
+      "worst_observed": 144,
+      "bad": false,
+      "entries": [
+        {
+          "name": "reflection_h=0",
+          "I": 144
+        },
+        {
+          "name": "reflection_h=6",
+          "I": 144
+        },
+        {
+          "name": "reflection_h=12",
+          "I": 144
+        },
+        {
+          "name": "reflection_h=24",
+          "I": 144
+        },
+        {
+          "name": "identity",
+          "I": 0
+        },
+        {
+          "name": "affine_a=2,b=0",
+          "I": 78
+        },
+        {
+          "name": "affine_a=2,b=8",
+          "I": 78
+        },
+        {
+          "name": "affine_a=3,b=0",
+          "I": 100
+        },
+        {
+          "name": "affine_a=3,b=8",
+          "I": 100
+        },
+        {
+          "name": "affine_a=13,b=0",
+          "I": 78
+        },
+        {
+          "name": "affine_a=13,b=8",
+          "I": 78
+        },
+        {
+          "name": "half_block_reversed",
+          "I": 66
+        },
+        {
+          "name": "random#0",
+          "I": 96
+        },
+        {
+          "name": "random#1",
+          "I": 81
+        },
+        {
+          "name": "random#2",
+          "I": 98
+        },
+        {
+          "name": "random#3",
+          "I": 99
+        },
+        {
+          "name": "random#4",
+          "I": 107
+        },
+        {
+          "name": "random#5",
+          "I": 93
+        },
+        {
+          "name": "random#6",
+          "I": 97
+        },
+        {
+          "name": "random#7",
+          "I": 99
+        }
+      ]
+    },
+    "30": {
+      "target": 210,
+      "worst_observed": 210,
+      "bad": false,
+      "entries": [
+        {
+          "name": "reflection_h=0",
+          "I": 210
+        },
+        {
+          "name": "reflection_h=7",
+          "I": 210
+        },
+        {
+          "name": "reflection_h=15",
+          "I": 210
+        },
+        {
+          "name": "reflection_h=29",
+          "I": 210
+        },
+        {
+          "name": "identity",
+          "I": 0
+        },
+        {
+          "name": "affine_a=2,b=0",
+          "I": 120
+        },
+        {
+          "name": "affine_a=2,b=10",
+          "I": 120
+        },
+        {
+          "name": "affine_a=3,b=0",
+          "I": 165
+        },
+        {
+          "name": "affine_a=3,b=10",
+          "I": 165
+        },
+        {
+          "name": "affine_a=16,b=0",
+          "I": 176
+        },
+        {
+          "name": "affine_a=16,b=10",
+          "I": 176
+        },
+        {
+          "name": "half_block_reversed",
+          "I": 105
+        },
+        {
+          "name": "random#0",
+          "I": 151
+        },
+        {
+          "name": "random#1",
+          "I": 151
+        },
+        {
+          "name": "random#2",
+          "I": 147
+        },
+        {
+          "name": "random#3",
+          "I": 140
+        },
+        {
+          "name": "random#4",
+          "I": 159
+        },
+        {
+          "name": "random#5",
+          "I": 141
+        },
+        {
+          "name": "random#6",
+          "I": 119
+        },
+        {
+          "name": "random#7",
+          "I": 137
+        }
+      ]
+    },
+    "40": {
+      "target": 380,
+      "worst_observed": 380,
+      "bad": false,
+      "entries": [
+        {
+          "name": "reflection_h=0",
+          "I": 380
+        },
+        {
+          "name": "reflection_h=10",
+          "I": 380
+        },
+        {
+          "name": "reflection_h=20",
+          "I": 380
+        },
+        {
+          "name": "reflection_h=39",
+          "I": 380
+        },
+        {
+          "name": "identity",
+          "I": 0
+        },
+        {
+          "name": "affine_a=2,b=0",
+          "I": 210
+        },
+        {
+          "name": "affine_a=2,b=13",
+          "I": 210
+        },
+        {
+          "name": "affine_a=3,b=0",
+          "I": 260
+        },
+        {
+          "name": "affine_a=3,b=13",
+          "I": 260
+        },
+        {
+          "name": "affine_a=21,b=0",
+          "I": 299
+        },
+        {
+          "name": "affine_a=21,b=13",
+          "I": 299
+        },
+        {
+          "name": "half_block_reversed",
+          "I": 190
+        },
+        {
+          "name": "random#0",
+          "I": 287
+        },
+        {
+          "name": "random#1",
+          "I": 257
+        },
+        {
+          "name": "random#2",
+          "I": 234
+        },
+        {
+          "name": "random#3",
+          "I": 276
+        },
+        {
+          "name": "random#4",
+          "I": 287
+        },
+        {
+          "name": "random#5",
+          "I": 264
+        },
+        {
+          "name": "random#6",
+          "I": 272
+        },
+        {
+          "name": "random#7",
+          "I": 305
+        }
+      ]
+    },
+    "50": {
+      "target": 600,
+      "worst_observed": 600,
+      "bad": false,
+      "entries": [
+        {
+          "name": "reflection_h=0",
+          "I": 600
+        },
+        {
+          "name": "reflection_h=12",
+          "I": 600
+        },
+        {
+          "name": "reflection_h=25",
+          "I": 600
+        },
+        {
+          "name": "reflection_h=49",
+          "I": 600
+        },
+        {
+          "name": "identity",
+          "I": 0
+        },
+        {
+          "name": "affine_a=2,b=0",
+          "I": 325
+        },
+        {
+          "name": "affine_a=2,b=16",
+          "I": 325
+        },
+        {
+          "name": "affine_a=3,b=0",
+          "I": 408
+        },
+        {
+          "name": "affine_a=3,b=16",
+          "I": 408
+        },
+        {
+          "name": "affine_a=26,b=0",
+          "I": 481
+        },
+        {
+          "name": "affine_a=26,b=16",
+          "I": 481
+        },
+        {
+          "name": "half_block_reversed",
+          "I": 300
+        },
+        {
+          "name": "random#0",
+          "I": 407
+        },
+        {
+          "name": "random#1",
+          "I": 450
+        },
+        {
+          "name": "random#2",
+          "I": 433
+        },
+        {
+          "name": "random#3",
+          "I": 400
+        },
+        {
+          "name": "random#4",
+          "I": 386
+        },
+        {
+          "name": "random#5",
+          "I": 413
+        },
+        {
+          "name": "random#6",
+          "I": 444
+        },
+        {
+          "name": "random#7",
+          "I": 469
+        }
+      ]
+    },
+    "60": {
+      "target": 870,
+      "worst_observed": 870,
+      "bad": false,
+      "entries": [
+        {
+          "name": "reflection_h=0",
+          "I": 870
+        },
+        {
+          "name": "reflection_h=15",
+          "I": 870
+        },
+        {
+          "name": "reflection_h=30",
+          "I": 870
+        },
+        {
+          "name": "reflection_h=59",
+          "I": 870
+        },
+        {
+          "name": "identity",
+          "I": 0
+        },
+        {
+          "name": "affine_a=2,b=0",
+          "I": 465
+        },
+        {
+          "name": "affine_a=2,b=20",
+          "I": 465
+        },
+        {
+          "name": "affine_a=3,b=0",
+          "I": 630
+        },
+        {
+          "name": "affine_a=3,b=20",
+          "I": 630
+        },
+        {
+          "name": "affine_a=31,b=0",
+          "I": 674
+        },
+        {
+          "name": "affine_a=31,b=20",
+          "I": 674
+        },
+        {
+          "name": "half_block_reversed",
+          "I": 435
+        },
+        {
+          "name": "random#0",
+          "I": 704
+        },
+        {
+          "name": "random#1",
+          "I": 657
+        },
+        {
+          "name": "random#2",
+          "I": 642
+        },
+        {
+          "name": "random#3",
+          "I": 660
+        },
+        {
+          "name": "random#4",
+          "I": 626
+        },
+        {
+          "name": "random#5",
+          "I": 673
+        },
+        {
+          "name": "random#6",
+          "I": 625
+        },
+        {
+          "name": "random#7",
+          "I": 651
+        }
+      ]
+    },
+    "80": {
+      "target": 1560,
+      "worst_observed": 1560,
+      "bad": false,
+      "entries": [
+        {
+          "name": "reflection_h=0",
+          "I": 1560
+        },
+        {
+          "name": "reflection_h=20",
+          "I": 1560
+        },
+        {
+          "name": "reflection_h=40",
+          "I": 1560
+        },
+        {
+          "name": "reflection_h=79",
+          "I": 1560
+        },
+        {
+          "name": "identity",
+          "I": 0
+        },
+        {
+          "name": "affine_a=2,b=0",
+          "I": 820
+        },
+        {
+          "name": "affine_a=2,b=26",
+          "I": 820
+        },
+        {
+          "name": "affine_a=3,b=0",
+          "I": 1053
+        },
+        {
+          "name": "affine_a=3,b=26",
+          "I": 1053
+        },
+        {
+          "name": "affine_a=41,b=0",
+          "I": 1199
+        },
+        {
+          "name": "affine_a=41,b=26",
+          "I": 1199
+        },
+        {
+          "name": "half_block_reversed",
+          "I": 780
+        },
+        {
+          "name": "random#0",
+          "I": 1241
+        },
+        {
+          "name": "random#1",
+          "I": 1278
+        },
+        {
+          "name": "random#2",
+          "I": 1268
+        },
+        {
+          "name": "random#3",
+          "I": 1160
+        },
+        {
+          "name": "random#4",
+          "I": 1206
+        },
+        {
+          "name": "random#5",
+          "I": 1202
+        },
+        {
+          "name": "random#6",
+          "I": 1256
+        },
+        {
+          "name": "random#7",
+          "I": 1221
+        }
+      ]
+    },
+    "100": {
+      "target": 2450,
+      "worst_observed": 2450,
+      "bad": false,
+      "entries": [
+        {
+          "name": "reflection_h=0",
+          "I": 2450
+        },
+        {
+          "name": "reflection_h=25",
+          "I": 2450
+        },
+        {
+          "name": "reflection_h=50",
+          "I": 2450
+        },
+        {
+          "name": "reflection_h=99",
+          "I": 2450
+        },
+        {
+          "name": "identity",
+          "I": 0
+        },
+        {
+          "name": "affine_a=2,b=0",
+          "I": 1275
+        },
+        {
+          "name": "affine_a=2,b=33",
+          "I": 1275
+        },
+        {
+          "name": "affine_a=3,b=0",
+          "I": 1650
+        },
+        {
+          "name": "affine_a=3,b=33",
+          "I": 1650
+        },
+        {
+          "name": "affine_a=51,b=0",
+          "I": 1874
+        },
+        {
+          "name": "affine_a=51,b=33",
+          "I": 1874
+        },
+        {
+          "name": "half_block_reversed",
+          "I": 1225
+        },
+        {
+          "name": "random#0",
+          "I": 1902
+        },
+        {
+          "name": "random#1",
+          "I": 2018
+        },
+        {
+          "name": "random#2",
+          "I": 1935
+        },
+        {
+          "name": "random#3",
+          "I": 1976
+        },
+        {
+          "name": "random#4",
+          "I": 1941
+        },
+        {
+          "name": "random#5",
+          "I": 1969
+        },
+        {
+          "name": "random#6",
+          "I": 1828
+        },
+        {
+          "name": "random#7",
+          "I": 1856
+        }
+      ]
+    },
+    "150": {
+      "target": 5550,
+      "worst_observed": 5550,
+      "bad": false,
+      "entries": [
+        {
+          "name": "reflection_h=0",
+          "I": 5550
+        },
+        {
+          "name": "reflection_h=37",
+          "I": 5550
+        },
+        {
+          "name": "reflection_h=75",
+          "I": 5550
+        },
+        {
+          "name": "reflection_h=149",
+          "I": 5550
+        },
+        {
+          "name": "identity",
+          "I": 0
+        },
+        {
+          "name": "affine_a=2,b=0",
+          "I": 2850
+        },
+        {
+          "name": "affine_a=2,b=50",
+          "I": 2850
+        },
+        {
+          "name": "affine_a=3,b=0",
+          "I": 3825
+        },
+        {
+          "name": "affine_a=3,b=50",
+          "I": 3825
+        },
+        {
+          "name": "affine_a=76,b=0",
+          "I": 4256
+        },
+        {
+          "name": "affine_a=76,b=50",
+          "I": 4256
+        },
+        {
+          "name": "half_block_reversed",
+          "I": 2775
+        },
+        {
+          "name": "random#0",
+          "I": 4650
+        },
+        {
+          "name": "random#1",
+          "I": 4599
+        },
+        {
+          "name": "random#2",
+          "I": 4595
+        },
+        {
+          "name": "random#3",
+          "I": 4559
+        },
+        {
+          "name": "random#4",
+          "I": 4541
+        },
+        {
+          "name": "random#5",
+          "I": 4673
+        },
+        {
+          "name": "random#6",
+          "I": 4650
+        },
+        {
+          "name": "random#7",
+          "I": 4633
+        }
+      ]
+    },
+    "200": {
+      "target": 9900,
+      "worst_observed": 9900,
+      "bad": false,
+      "entries": [
+        {
+          "name": "reflection_h=0",
+          "I": 9900
+        },
+        {
+          "name": "reflection_h=50",
+          "I": 9900
+        },
+        {
+          "name": "reflection_h=100",
+          "I": 9900
+        },
+        {
+          "name": "reflection_h=199",
+          "I": 9900
+        },
+        {
+          "name": "identity",
+          "I": 0
+        },
+        {
+          "name": "affine_a=2,b=0",
+          "I": 5050
+        },
+        {
+          "name": "affine_a=2,b=66",
+          "I": 5050
+        },
+        {
+          "name": "affine_a=3,b=0",
+          "I": 6633
+        },
+        {
+          "name": "affine_a=3,b=66",
+          "I": 6633
+        },
+        {
+          "name": "affine_a=101,b=0",
+          "I": 7499
+        },
+        {
+          "name": "affine_a=101,b=66",
+          "I": 7499
+        },
+        {
+          "name": "half_block_reversed",
+          "I": 4950
+        },
+        {
+          "name": "random#0",
+          "I": 8059
+        },
+        {
+          "name": "random#1",
+          "I": 8172
+        },
+        {
+          "name": "random#2",
+          "I": 8180
+        },
+        {
+          "name": "random#3",
+          "I": 8397
+        },
+        {
+          "name": "random#4",
+          "I": 8279
+        },
+        {
+          "name": "random#5",
+          "I": 8090
+        },
+        {
+          "name": "random#6",
+          "I": 8727
+        },
+        {
+          "name": "random#7",
+          "I": 8227
+        }
+      ]
+    }
+  },
+  "any_counterexample": false,
+  "conclusion": "no counterexample found; reflections achieve I(pi) == target exactly at every n tested (consistent with C33's finite data: reflections are the extremal family)"
+}
