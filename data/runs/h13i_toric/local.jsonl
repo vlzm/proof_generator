@@ -1,0 +1,18 @@
+{"mode": "local", "n": 5, "depth": 0, "target": 4, "lines": 120, "lines_satisfying": 29, "max_inv": 4, "sufficient": true, "argmax": [1, 0, 4, 3, 2]}
+{"mode": "local", "n": 5, "depth": 1, "target": 4, "lines": 120, "lines_satisfying": 27, "max_inv": 4, "sufficient": true, "argmax": [1, 0, 4, 3, 2]}
+{"mode": "local", "n": 5, "depth": 2, "target": 4, "lines": 120, "lines_satisfying": 27, "max_inv": 4, "sufficient": true, "argmax": [1, 0, 4, 3, 2]}
+{"mode": "local", "n": 6, "depth": 0, "target": 6, "lines": 720, "lines_satisfying": 93, "max_inv": 6, "sufficient": true, "argmax": [0, 4, 3, 2, 1, 5]}
+{"mode": "local", "n": 6, "depth": 1, "target": 6, "lines": 720, "lines_satisfying": 74, "max_inv": 6, "sufficient": true, "argmax": [2, 1, 0, 5, 4, 3]}
+{"mode": "local", "n": 6, "depth": 2, "target": 6, "lines": 720, "lines_satisfying": 69, "max_inv": 6, "sufficient": true, "argmax": [2, 1, 0, 5, 4, 3]}
+{"mode": "local", "n": 7, "depth": 0, "target": 9, "lines": 5040, "lines_satisfying": 707, "max_inv": 10, "sufficient": false, "argmax": [0, 5, 4, 3, 2, 1, 6]}
+{"mode": "local", "n": 7, "depth": 1, "target": 9, "lines": 5040, "lines_satisfying": 569, "max_inv": 9, "sufficient": true, "argmax": [2, 1, 0, 6, 5, 4, 3]}
+{"mode": "local", "n": 7, "depth": 2, "target": 9, "lines": 5040, "lines_satisfying": 535, "max_inv": 9, "sufficient": true, "argmax": [2, 1, 0, 6, 5, 4, 3]}
+{"mode": "local", "n": 8, "depth": 0, "target": 12, "lines": 40320, "lines_satisfying": 3453, "max_inv": 12, "sufficient": true, "argmax": [0, 5, 4, 3, 2, 7, 1, 6]}
+{"mode": "local", "n": 8, "depth": 1, "target": 12, "lines": 40320, "lines_satisfying": 2656, "max_inv": 12, "sufficient": true, "argmax": [3, 2, 1, 0, 7, 6, 5, 4]}
+{"mode": "local", "n": 8, "depth": 2, "target": 12, "lines": 40320, "lines_satisfying": 2195, "max_inv": 12, "sufficient": true, "argmax": [3, 2, 1, 0, 7, 6, 5, 4]}
+{"mode": "local", "n": 9, "depth": 0, "target": 16, "lines": 362880, "lines_satisfying": 33581, "max_inv": 17, "sufficient": false, "argmax": [0, 6, 5, 4, 3, 2, 8, 1, 7]}
+{"mode": "local", "n": 9, "depth": 1, "target": 16, "lines": 362880, "lines_satisfying": 25620, "max_inv": 16, "sufficient": true, "argmax": [1, 0, 7, 6, 5, 4, 3, 2, 8]}
+{"mode": "local", "n": 9, "depth": 2, "target": 16, "lines": 362880, "lines_satisfying": 21714, "max_inv": 16, "sufficient": true, "argmax": [3, 2, 1, 0, 8, 7, 6, 5, 4]}
+{"mode": "local", "n": 10, "depth": 0, "target": 20, "lines": 3628800, "lines_satisfying": 223011, "max_inv": 22, "sufficient": false, "argmax": [0, 7, 6, 5, 4, 3, 2, 1, 9, 8]}
+{"mode": "local", "n": 10, "depth": 1, "target": 20, "lines": 3628800, "lines_satisfying": 164703, "max_inv": 21, "sufficient": false, "argmax": [0, 1, 8, 7, 6, 5, 4, 3, 2, 9]}
+{"mode": "local", "n": 10, "depth": 2, "target": 20, "lines": 3628800, "lines_satisfying": 131937, "max_inv": 20, "sufficient": true, "argmax": [4, 3, 2, 1, 0, 9, 8, 7, 6, 5]}

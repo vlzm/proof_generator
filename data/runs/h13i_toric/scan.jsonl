@@ -1,0 +1,20 @@
+{"mode": "verify", "n": 5, "perms_checked": 120, "mismatches": 0}
+{"mode": "verify", "n": 6, "perms_checked": 720, "mismatches": 0}
+{"mode": "verify", "n": 7, "perms_checked": 5040, "mismatches": 0}
+{"mode": "verify", "n": 8, "perms_checked": 40320, "mismatches": 0}
+{"mode": "verify", "n": 10, "perms_checked": 200, "mismatches": 0}
+{"mode": "verify", "n": 12, "perms_checked": 200, "mismatches": 0}
+{"mode": "verify", "n": 16, "perms_checked": 200, "mismatches": 0}
+{"mode": "verify", "n": 20, "perms_checked": 200, "mismatches": 0}
+{"mode": "exhaust", "n": 4, "perms": 24, "target_floor_(n-1)^2/4": 2, "max_I": 2, "argmax_count": 4, "first_argmax": [0, 3, 2, 1], "min_T": 40, "rearrangement_bound_n^2(n^2-1)/6": 40, "averaging_bound_violations": 0, "min_averaging_slack": 24, "averaging_bound_value_floor": 3}
+{"mode": "exhaust", "n": 5, "perms": 120, "target_floor_(n-1)^2/4": 4, "max_I": 4, "argmax_count": 5, "first_argmax": [0, 4, 3, 2, 1], "min_T": 100, "rearrangement_bound_n^2(n^2-1)/6": 100, "averaging_bound_violations": 0, "min_averaging_slack": 50, "averaging_bound_value_floor": 6}
+{"mode": "exhaust", "n": 6, "perms": 720, "target_floor_(n-1)^2/4": 6, "max_I": 6, "argmax_count": 6, "first_argmax": [0, 5, 4, 3, 2, 1], "min_T": 210, "rearrangement_bound_n^2(n^2-1)/6": 210, "averaging_bound_violations": 0, "min_averaging_slack": 114, "averaging_bound_value_floor": 9}
+{"mode": "exhaust", "n": 7, "perms": 5040, "target_floor_(n-1)^2/4": 9, "max_I": 9, "argmax_count": 7, "first_argmax": [0, 6, 5, 4, 3, 2, 1], "min_T": 392, "rearrangement_bound_n^2(n^2-1)/6": 392, "averaging_bound_violations": 0, "min_averaging_slack": 196, "averaging_bound_value_floor": 13}
+{"mode": "exhaust", "n": 8, "perms": 40320, "target_floor_(n-1)^2/4": 12, "max_I": 12, "argmax_count": 8, "first_argmax": [0, 7, 6, 5, 4, 3, 2, 1], "min_T": 672, "rearrangement_bound_n^2(n^2-1)/6": 672, "averaging_bound_violations": 0, "min_averaging_slack": 224, "averaging_bound_value_floor": 17}
+{"mode": "exhaust", "n": 9, "perms": 362880, "target_floor_(n-1)^2/4": 16, "max_I": 16, "argmax_count": 9, "first_argmax": [0, 8, 7, 6, 5, 4, 3, 2, 1], "min_T": 1080, "rearrangement_bound_n^2(n^2-1)/6": 1080, "averaging_bound_violations": 0, "min_averaging_slack": 432, "averaging_bound_value_floor": 22}
+{"mode": "free", "n": 4, "perms": 24, "target": 2, "max_I": 2, "max_free_min": 2, "perms_with_I_gt_free": 0, "max_gap": 0, "gap_pi": [0, 0, 0, 0]}
+{"mode": "free", "n": 5, "perms": 120, "target": 4, "max_I": 4, "max_free_min": 4, "perms_with_I_gt_free": 0, "max_gap": 0, "gap_pi": [0, 0, 0, 0, 0]}
+{"mode": "free", "n": 6, "perms": 720, "target": 6, "max_I": 6, "max_free_min": 6, "perms_with_I_gt_free": 0, "max_gap": 0, "gap_pi": [0, 0, 0, 0, 0, 0]}
+{"mode": "free", "n": 7, "perms": 5040, "target": 9, "max_I": 9, "max_free_min": 9, "perms_with_I_gt_free": 0, "max_gap": 0, "gap_pi": [0, 0, 0, 0, 0, 0, 0]}
+{"mode": "free", "n": 8, "perms": 40320, "target": 12, "max_I": 12, "max_free_min": 12, "perms_with_I_gt_free": 208, "max_gap": 3, "gap_pi": [0, 5, 2, 7, 4, 1, 6, 3]}
+{"mode": "free", "n": 9, "perms": 362880, "target": 16, "max_I": 16, "max_free_min": 16, "perms_with_I_gt_free": 2232, "max_gap": 2, "gap_pi": [0, 1, 6, 3, 8, 5, 2, 7, 4]}
