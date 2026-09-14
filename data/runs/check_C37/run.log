@@ -1,0 +1,24 @@
+part 1: cut convention (q,c) vs (u,v), all pi, 4 <= n <= 6
+  n=4 ok
+  n=5 ok
+  n=6 ok
+part 1b: corollaries 3 (discrepancy) and 4 (mixed difference), all pi, 4 <= n <= 6
+  n=4 ok
+  n=5 ok
+  n=6 ok
+part 2: exhaustive ladder (all pi with pi(0)=0 = all toric classes)
+  n= 4 classes=     6  maxI=2 (bound 2, attained 1 times)  maxRA=8 (n*bound 8, attained 1)  max n^2*Ibar=56 = reflection value
+  n= 5 classes=    24  maxI=4 (bound 4, attained 1 times)  maxRA=20 (n*bound 20, attained 1)  max n^2*Ibar=150 = reflection value
+  n= 6 classes=   120  maxI=6 (bound 6, attained 1 times)  maxRA=36 (n*bound 36, attained 1)  max n^2*Ibar=330 = reflection value
+  n= 7 classes=   720  maxI=9 (bound 9, attained 1 times)  maxRA=63 (n*bound 63, attained 1)  max n^2*Ibar=637 = reflection value
+  n= 8 classes=  5040  maxI=12 (bound 12, attained 1 times)  maxRA=96 (n*bound 96, attained 1)  max n^2*Ibar=1120 = reflection value
+part 3: samples up to n=40 (lemmas 1-5 and the theorem)
+  n=16 ok, max I on samples = 56 (bound 56)
+  n=24 ok, max I on samples = 132 (bound 132)
+  n=32 ok, max I on samples = 240 (bound 240)
+  n=40 ok, max I on samples = 380 (bound 380)
+PASS  (2.5 s)
+
+real	0m2.539s
+user	0m2.534s
+sys	0m0.005s
