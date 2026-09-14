@@ -1,0 +1,153 @@
+{
+  "identity": {
+    "exhaustive": {
+      "4": {
+        "permutations": 24,
+        "pairs_checked": 96
+      },
+      "5": {
+        "permutations": 120,
+        "pairs_checked": 600
+      },
+      "6": {
+        "permutations": 720,
+        "pairs_checked": 4320
+      },
+      "7": {
+        "permutations": 5040,
+        "pairs_checked": 35280
+      },
+      "8": {
+        "permutations": 40320,
+        "pairs_checked": 322560
+      }
+    },
+    "sampled": {
+      "20": {
+        "trials": 500
+      },
+      "50": {
+        "trials": 500
+      },
+      "100": {
+        "trials": 500
+      }
+    }
+  },
+  "strategy_failures": {
+    "4": {
+      "bound_floor_n_1_sq_4": 2,
+      "max_q0_only": 2,
+      "max_combo_q0_or_c0": 2,
+      "q0_only_fails": false,
+      "combo_fails": false,
+      "min_n_witness_q0_only": null,
+      "min_n_witness_combo": null,
+      "seconds": 0.0
+    },
+    "5": {
+      "bound_floor_n_1_sq_4": 4,
+      "max_q0_only": 4,
+      "max_combo_q0_or_c0": 4,
+      "q0_only_fails": false,
+      "combo_fails": false,
+      "min_n_witness_q0_only": null,
+      "min_n_witness_combo": null,
+      "seconds": 0.0
+    },
+    "6": {
+      "bound_floor_n_1_sq_4": 6,
+      "max_q0_only": 6,
+      "max_combo_q0_or_c0": 6,
+      "q0_only_fails": false,
+      "combo_fails": false,
+      "min_n_witness_q0_only": null,
+      "min_n_witness_combo": null,
+      "seconds": 0.0
+    },
+    "7": {
+      "bound_floor_n_1_sq_4": 9,
+      "max_q0_only": 10,
+      "max_combo_q0_or_c0": 10,
+      "q0_only_fails": true,
+      "combo_fails": true,
+      "min_n_witness_q0_only": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1,
+        6
+      ],
+      "min_n_witness_combo": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1,
+        6
+      ],
+      "seconds": 0.1
+    },
+    "8": {
+      "bound_floor_n_1_sq_4": 12,
+      "max_q0_only": 13,
+      "max_combo_q0_or_c0": 13,
+      "q0_only_fails": true,
+      "combo_fails": true,
+      "min_n_witness_q0_only": [
+        0,
+        6,
+        5,
+        3,
+        4,
+        2,
+        1,
+        7
+      ],
+      "min_n_witness_combo": [
+        0,
+        6,
+        5,
+        3,
+        4,
+        2,
+        1,
+        7
+      ],
+      "seconds": 1.1
+    },
+    "9": {
+      "bound_floor_n_1_sq_4": 16,
+      "max_q0_only": 17,
+      "max_combo_q0_or_c0": 17,
+      "q0_only_fails": true,
+      "combo_fails": true,
+      "min_n_witness_q0_only": [
+        0,
+        2,
+        7,
+        6,
+        5,
+        4,
+        3,
+        8,
+        1
+      ],
+      "min_n_witness_combo": [
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        8,
+        1,
+        7
+      ],
+      "seconds": 14.0
+    }
+  }
+}
