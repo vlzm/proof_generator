@@ -1,4 +1,4 @@
-# H3 induction reduction — report (session 10, 14.09.2026)
+# H3 induction reduction — report (sessions 10-11, 14.09.2026)
 
 Goal: test the H3 induction hypothesis (PLAN.md S4.3.3 / S8) — a
 "delete one array element, relabel" reduction of pi in S_n to pi' in
@@ -77,8 +77,40 @@ it doubles from +1 (n=8,10,11) to +2 (n=12). This mirrors the earlier H10/H11
 finding (independent per-cycle processing loses Theta(n)) and the H13-I
 finding (single-coordinate/averaged cut selection is insufficient): every
 attempt so far to decompose the problem into independent smaller pieces
-loses exactly where O(1) precision is needed. Next steps (not attempted
-this session): remove a whole cycle instead of one element (same
-independence risk as H11), a two-level induction step, a non-zero-slack
-recurrence (informative but not a C15 proof by itself), or pivot to the
-S1/C8 lower-bound audit as an alternative front.
+loses exactly where O(1) precision is needed. Session 11 tested the
+two-level induction step (remove a PAIR of elements at once, see below);
+it too was refuted, closing H3's 2-session budget.
+
+## Session 11: two-element removal (k=2)
+
+`experiments/h3_reduction_pair.c` (h3_reduction_pair-1.0): remove a pair
+of values {v1,v2} at once (C(n,2) choices, no rotation), compare
+d_n(pi) to d_{n-2}(reduced); target is the two-step telescoped budget
+2n-3 = (n-1)+(n-2).
+
+| n | target = 2n-3 | worst | verdict |
+|---|---|---|---|
+| 6 | 9 | 9 | ok (exact) |
+| 7 | 11 | 11 | ok (exact) |
+| 8 | 13 | 13 | ok (exact) |
+| 9 | 15 | 15 | ok (exact) |
+| 10 | 17 | 17 | ok (exact) |
+| 11 | 19 | 19 | ok (exact) |
+| 12 | 21 | 22 | **EXCEEDS (+1)** |
+
+Logs: `pair_n6_10.log`, `pair_n11.log`, `pair_n12.log`. Notably, 6 <= n <=
+11 hit the target EXACTLY (not just below) — a much cleaner run than k=1
+ever produced — before breaking at n=12 with counterexample
+`pi=(4,3,6,5,0,11,2,1,8,7,10,9)` (cycle type: two 2-cycles, one 6-cycle,
+two fixed points; worst=22>21).
+
+## Final conclusion (H3 closed)
+
+Both k=1 (session 10) and k=2 (session 11) "delete k elements, best
+choice, no rotation cost" reductions fail eventually: k=1 at n=8, k=2 at
+n=12. Larger k buys more room before the first counterexample, but this
+is not a path to C15 with a *fixed* k — the proof needs to work at every
+n, and letting k grow with n degenerates the induction into the original
+unsolved problem. Registry: C38 (k=1), C39 (k=2). H3's 2-session budget
+is spent (AGENTS.md rule 12); next front is auditing the S1 lower bound
+(C8, PLAN S3.2), per `docs/notes/h3_induction.md` S7.

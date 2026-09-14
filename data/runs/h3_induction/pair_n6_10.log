@@ -1,0 +1,5 @@
+n=6 target=2n-3=9 worst=9 rank=23 argmax=(0,1,5,4,3,2) ok
+n=7 target=2n-3=11 worst=11 rank=119 argmax=(0,1,6,5,4,3,2) ok
+n=8 target=2n-3=13 worst=13 rank=719 argmax=(0,1,7,6,5,4,3,2) ok
+n=9 target=2n-3=15 worst=15 rank=5039 argmax=(0,1,8,7,6,5,4,3,2) ok
+n=10 target=2n-3=17 worst=17 rank=40319 argmax=(0,1,9,8,7,6,5,4,3,2) ok
