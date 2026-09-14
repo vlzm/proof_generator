@@ -47,15 +47,18 @@ realistically have to beat).
 | 5 | 4 | 4 | 4 | ok |
 | 6 | 5 | 5 | 5 | ok |
 | 7 | 6 | 7 | 6 | ok |
-| 8 | 7 | 9 | 8 | **EXCEEDS** |
+| 8 | 7 | 9 | 8 | **EXCEEDS (+1)** |
 | 9 | 8 | 10 | 8 | ok |
-| 10 | 9 | 12 | 10 | **EXCEEDS** |
-| 11 | 10 | 12 | 11 | **EXCEEDS** |
-| 12 | 11 | — | — | launched in background (~38 CPU-min estimated, O(n^4) per permutation), not awaited -- not needed, three counterexamples (n=8,10,11) already settle the verdict |
+| 10 | 9 | 12 | 10 | **EXCEEDS (+1)** |
+| 11 | 10 | 12 | 11 | **EXCEEDS (+1)** |
+| 12 | 11 | 15 | 13 | **EXCEEDS (+2)** |
 
-Logs: `reduction_n5_10.log`, `reduction_n11.log`. Reproduce n = 12 with
-`./bfs_fast 12 dist_n12.bin && ./h3_reduction 12 <dir with n=11,12 tables>`
-if a future session wants that extra data point.
+Logs: `reduction_n5_10.log`, `reduction_n11.log`, `reduction_n12.log`. The
+n=12 run (44 CPU-min, O(n^4) per permutation) was launched in the
+background and not originally awaited when this report's verdict was
+first written; it finished afterward and is folded in here as a same-day
+addendum. It matters: the excess is not flat at +1, it grows to +2 at
+n=12.
 
 Smallest counterexample (n, then lexicographic rank — AGENTS.md rule 6):
 n = 8, pi = (3,6,0,7,4,5,2,1), d_8(pi) = 23; best achievable via any
@@ -69,7 +72,8 @@ The "delete one array element" reduction family (any choice of element,
 any rotation of the result, rotation cost uncharged — the most generous
 version) cannot satisfy the zero-slack recurrence needed for a clean
 induction proof of C15: it fails starting at n = 8 and again at n = 10,
-11 (not an isolated small-n artifact). This mirrors the earlier H10/H11
+11, 12 (not an isolated small-n artifact), and the excess is not flat —
+it doubles from +1 (n=8,10,11) to +2 (n=12). This mirrors the earlier H10/H11
 finding (independent per-cycle processing loses Theta(n)) and the H13-I
 finding (single-coordinate/averaged cut selection is insufficient): every
 attempt so far to decompose the problem into independent smaller pieces
