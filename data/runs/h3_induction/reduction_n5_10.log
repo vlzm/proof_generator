@@ -1,0 +1,6 @@
+n=5 target=4 worst_no_rotation=4 worst_with_free_rotation=4 rank_norot=5 rank_rot=29 argmax_rot=(1,0,4,3,2) ok
+n=6 target=5 worst_no_rotation=5 worst_with_free_rotation=5 rank_norot=16 rank_rot=130 argmax_rot=(1,0,3,5,2,4) ok
+n=7 target=6 worst_no_rotation=7 worst_with_free_rotation=6 rank_norot=4533 rank_rot=839 argmax_rot=(1,0,6,5,4,3,2) ok
+n=8 target=7 worst_no_rotation=9 worst_with_free_rotation=8 rank_norot=12168 rank_rot=18833 argmax_rot=(3,6,0,7,4,5,2,1) EXCEEDS
+n=9 target=8 worst_no_rotation=10 worst_with_free_rotation=8 rank_norot=314348 rank_rot=475 argmax_rot=(0,1,2,6,8,7,3,5,4) ok
+n=10 target=9 worst_no_rotation=12 worst_with_free_rotation=10 rank_norot=12018 rank_rot=12018 argmax_rot=(0,1,4,5,8,2,9,3,6,7) EXCEEDS
