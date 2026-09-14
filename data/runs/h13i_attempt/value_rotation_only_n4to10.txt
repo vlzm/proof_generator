@@ -1,0 +1,7 @@
+n=4 bound=2 max_over_all_pi=2 excess=0 count_pi_over_bound=0 example=0 2 3 1 
+n=5 bound=4 max_over_all_pi=4 excess=0 count_pi_over_bound=0 example=0 2 4 3 1 
+n=6 bound=6 max_over_all_pi=6 excess=0 count_pi_over_bound=0 example=0 2 4 5 3 1 
+n=7 bound=9 max_over_all_pi=10 excess=1 count_pi_over_bound=7 example=0 5 4 3 2 1 6 
+n=8 bound=12 max_over_all_pi=13 excess=1 count_pi_over_bound=16 example=0 6 5 3 4 2 1 7 
+n=9 bound=16 max_over_all_pi=17 excess=1 count_pi_over_bound=162 example=0 2 7 6 5 4 3 8 1 
+n=10 bound=20 max_over_all_pi=23 excess=3 count_pi_over_bound=1250 example=0 8 6 5 4 3 2 1 9 7 
