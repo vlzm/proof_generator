@@ -1,0 +1,48 @@
+{
+ "version": "check_C37-1.0",
+ "args": {
+  "trials": 200,
+  "nmax": 9,
+  "seed": 1
+ },
+ "ab_triples_checked": 7128,
+ "part_c": [
+  {
+   "n": 4,
+   "max_I": 2,
+   "bound": 2,
+   "seconds": 0.0
+  },
+  {
+   "n": 5,
+   "max_I": 4,
+   "bound": 4,
+   "seconds": 0.0
+  },
+  {
+   "n": 6,
+   "max_I": 6,
+   "bound": 6,
+   "seconds": 0.01
+  },
+  {
+   "n": 7,
+   "max_I": 9,
+   "bound": 9,
+   "seconds": 0.06
+  },
+  {
+   "n": 8,
+   "max_I": 12,
+   "bound": 12,
+   "seconds": 0.59
+  },
+  {
+   "n": 9,
+   "max_I": 16,
+   "bound": 16,
+   "seconds": 6.23
+  }
+ ],
+ "verdict": "PASS"
+}

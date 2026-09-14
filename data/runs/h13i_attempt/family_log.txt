@@ -1,0 +1,22 @@
+=== structured families (experiments/torus_cut.c family), n = 20,50,100,101,200,500,1000 ===
+n=20 bound=90 reflections(step=1) max_I=90 OK
+n=20 bound=90 affine max_I=90 at a=19 b=0 OK
+n=20 bound=90 random(2000 samples) max_I=70 OK
+n=50 bound=600 reflections(step=1) max_I=600 OK
+n=50 bound=600 affine max_I=600 at a=49 b=0 OK
+n=50 bound=600 random(2000 samples) max_I=499 OK
+n=100 bound=2450 reflections(step=1) max_I=2450 OK
+n=100 bound=2450 affine max_I=2450 at a=99 b=0 OK
+n=100 bound=2450 random(2000 samples) max_I=2119 OK
+n=101 bound=2500 reflections(step=1) max_I=2500 OK
+n=101 bound=2500 affine max_I=2500 at a=100 b=0 OK
+n=101 bound=2500 random(2000 samples) max_I=2165 OK
+n=200 bound=9900 reflections(step=1) max_I=9900 OK
+n=200 bound=9900 affine max_I=9900 at a=199 b=0 OK
+n=200 bound=9900 random(2000 samples) max_I=8866 OK
+n=500 bound=62250 reflections(step=1) max_I=62250 OK
+n=500 bound=62250 affine max_I=62250 at a=499 b=0 OK
+n=500 bound=62250 random(2000 samples) max_I=57927 OK
+n=1000 bound=249500 reflections(step=1) max_I=249500 OK
+n=1000 bound=249500 affine max_I=249500 at a=999 b=0 OK
+n=1000 bound=249500 random(200 samples) max_I=237093 OK

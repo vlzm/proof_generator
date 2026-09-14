@@ -1,6 +1,7 @@
 data/tables/dist_n11.bin
 data/tables/dist_n12.bin
 exact/bfs_fast
+experiments/torus_cut
 __pycache__/
 *.pyc
 data/runs/line_profile/I_n*.bin

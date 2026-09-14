@@ -1,0 +1,213 @@
+{
+ "version": "h13i_heuristics-1.0",
+ "args": {
+  "nmax": 8
+ },
+ "rows": [
+  {
+   "n": 4,
+   "bound": 2,
+   "seconds": 0.0,
+   "H1_fixed_a0": {
+    "worst": 2,
+    "witness": [
+     0,
+     2,
+     3,
+     1
+    ],
+    "exceeds_bound": false
+   },
+   "H2_greedy_two_step": {
+    "worst": 2,
+    "witness": [
+     0,
+     3,
+     2,
+     1
+    ],
+    "exceeds_bound": false
+   },
+   "H3_canonical_b": {
+    "worst": 3,
+    "witness": [
+     0,
+     3,
+     2,
+     1
+    ],
+    "exceeds_bound": true
+   }
+  },
+  {
+   "n": 5,
+   "bound": 4,
+   "seconds": 0.0,
+   "H1_fixed_a0": {
+    "worst": 4,
+    "witness": [
+     0,
+     2,
+     4,
+     3,
+     1
+    ],
+    "exceeds_bound": false
+   },
+   "H2_greedy_two_step": {
+    "worst": 4,
+    "witness": [
+     0,
+     4,
+     3,
+     2,
+     1
+    ],
+    "exceeds_bound": false
+   },
+   "H3_canonical_b": {
+    "worst": 6,
+    "witness": [
+     0,
+     4,
+     3,
+     2,
+     1
+    ],
+    "exceeds_bound": true
+   }
+  },
+  {
+   "n": 6,
+   "bound": 6,
+   "seconds": 0.04,
+   "H1_fixed_a0": {
+    "worst": 6,
+    "witness": [
+     0,
+     2,
+     4,
+     5,
+     3,
+     1
+    ],
+    "exceeds_bound": false
+   },
+   "H2_greedy_two_step": {
+    "worst": 6,
+    "witness": [
+     0,
+     4,
+     3,
+     2,
+     1,
+     5
+    ],
+    "exceeds_bound": false
+   },
+   "H3_canonical_b": {
+    "worst": 10,
+    "witness": [
+     0,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "exceeds_bound": true
+   }
+  },
+  {
+   "n": 7,
+   "bound": 9,
+   "seconds": 0.31,
+   "H1_fixed_a0": {
+    "worst": 10,
+    "witness": [
+     0,
+     5,
+     4,
+     3,
+     2,
+     1,
+     6
+    ],
+    "exceeds_bound": true
+   },
+   "H2_greedy_two_step": {
+    "worst": 10,
+    "witness": [
+     0,
+     5,
+     4,
+     3,
+     2,
+     1,
+     6
+    ],
+    "exceeds_bound": true
+   },
+   "H3_canonical_b": {
+    "worst": 15,
+    "witness": [
+     0,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "exceeds_bound": true
+   }
+  },
+  {
+   "n": 8,
+   "bound": 12,
+   "seconds": 3.39,
+   "H1_fixed_a0": {
+    "worst": 13,
+    "witness": [
+     0,
+     6,
+     5,
+     3,
+     4,
+     2,
+     1,
+     7
+    ],
+    "exceeds_bound": true
+   },
+   "H2_greedy_two_step": {
+    "worst": 12,
+    "witness": [
+     0,
+     5,
+     4,
+     3,
+     2,
+     7,
+     1,
+     6
+    ],
+    "exceeds_bound": false
+   },
+   "H3_canonical_b": {
+    "worst": 21,
+    "witness": [
+     0,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "exceeds_bound": true
+   }
+  }
+ ]
+}

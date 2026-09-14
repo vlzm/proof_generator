@@ -1,0 +1,14 @@
+=== simulated annealing search for a counterexample (experiments/torus_cut.c search) ===
+n=13 bound=36 SA_best=36 iters=30000 restarts=4 seed=9013 OK
+n=16 bound=56 SA_best=56 iters=30000 restarts=4 seed=9016 OK
+n=20 bound=90 SA_best=79 iters=30000 restarts=4 seed=9020 OK
+n=25 bound=144 SA_best=125 iters=30000 restarts=4 seed=9025 OK
+n=30 bound=210 SA_best=184 iters=30000 restarts=4 seed=9030 OK
+n=40 bound=380 SA_best=333 iters=30000 restarts=4 seed=9040 OK
+n=50 bound=600 SA_best=534 iters=30000 restarts=4 seed=9050 OK
+n=60 bound=870 SA_best=784 iters=30000 restarts=4 seed=9060 OK
+n=80 bound=1560 SA_best=1415 iters=30000 restarts=4 seed=9080 OK
+n=100 bound=2450 SA_best=2242 iters=30000 restarts=4 seed=9100 OK
+n=150 bound=5550 SA_best=5159 iters=30000 restarts=4 seed=9150 OK
+n=200 bound=9900 SA_best=9261 iters=30000 restarts=4 seed=9200 OK
+n=300 bound=22350 SA_best=21150 iters=30000 restarts=4 seed=9300 OK
