@@ -1,0 +1,195 @@
+{
+  "version": "h13_averaging_bound-1.0",
+  "core_version": "oracle-1.0",
+  "elapsed_seconds": 8.0,
+  "part1_decomposition_ok": true,
+  "part1_checked_samples": 75,
+  "part2_pigeonhole_all_H_zero": true,
+  "part2_rows": [
+    {
+      "n": 4,
+      "H_all_zero": true,
+      "E_direct": 14,
+      "E_formula": 14,
+      "threshold": 2,
+      "pigeonhole_bound": 3.5,
+      "gap": 1.5,
+      "gap_formula_n2_minus_1_over_12": 1.25
+    },
+    {
+      "n": 5,
+      "H_all_zero": true,
+      "E_direct": 30,
+      "E_formula": 30,
+      "threshold": 4,
+      "pigeonhole_bound": 6.0,
+      "gap": 2.0,
+      "gap_formula_n2_minus_1_over_12": 2.0
+    },
+    {
+      "n": 6,
+      "H_all_zero": true,
+      "E_direct": 55,
+      "E_formula": 55,
+      "threshold": 6,
+      "pigeonhole_bound": 9.166666666666666,
+      "gap": 3.166666666666666,
+      "gap_formula_n2_minus_1_over_12": 2.9166666666666665
+    },
+    {
+      "n": 7,
+      "H_all_zero": true,
+      "E_direct": 91,
+      "E_formula": 91,
+      "threshold": 9,
+      "pigeonhole_bound": 13.0,
+      "gap": 4.0,
+      "gap_formula_n2_minus_1_over_12": 4.0
+    },
+    {
+      "n": 8,
+      "H_all_zero": true,
+      "E_direct": 140,
+      "E_formula": 140,
+      "threshold": 12,
+      "pigeonhole_bound": 17.5,
+      "gap": 5.5,
+      "gap_formula_n2_minus_1_over_12": 5.25
+    },
+    {
+      "n": 9,
+      "H_all_zero": true,
+      "E_direct": 204,
+      "E_formula": 204,
+      "threshold": 16,
+      "pigeonhole_bound": 22.666666666666668,
+      "gap": 6.666666666666668,
+      "gap_formula_n2_minus_1_over_12": 6.666666666666667
+    },
+    {
+      "n": 10,
+      "H_all_zero": true,
+      "E_direct": 285,
+      "E_formula": 285,
+      "threshold": 20,
+      "pigeonhole_bound": 28.5,
+      "gap": 8.5,
+      "gap_formula_n2_minus_1_over_12": 8.25
+    }
+  ],
+  "part3_exhaustive_fixed_pair_0_3": [
+    {
+      "n": 4,
+      "threshold": 2,
+      "worst": 2,
+      "excess": 0,
+      "fails": 0,
+      "argworst": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "n": 5,
+      "threshold": 4,
+      "worst": 4,
+      "excess": 0,
+      "fails": 0,
+      "argworst": [
+        0,
+        2,
+        4,
+        3,
+        1
+      ]
+    },
+    {
+      "n": 6,
+      "threshold": 6,
+      "worst": 6,
+      "excess": 0,
+      "fails": 0,
+      "argworst": [
+        0,
+        4,
+        3,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "n": 7,
+      "threshold": 9,
+      "worst": 9,
+      "excess": 0,
+      "fails": 0,
+      "argworst": [
+        0,
+        3,
+        6,
+        5,
+        2,
+        4,
+        1
+      ]
+    },
+    {
+      "n": 8,
+      "threshold": 12,
+      "worst": 12,
+      "excess": 0,
+      "fails": 0,
+      "argworst": [
+        0,
+        3,
+        6,
+        5,
+        2,
+        7,
+        4,
+        1
+      ]
+    }
+  ],
+  "part3_hillclimb": {
+    "n": 20,
+    "a_list": [
+      0,
+      3
+    ],
+    "threshold": 90,
+    "best_found": 92,
+    "excess": 2,
+    "witness_pi": [
+      1,
+      7,
+      15,
+      14,
+      12,
+      9,
+      6,
+      5,
+      2,
+      0,
+      4,
+      19,
+      18,
+      17,
+      13,
+      11,
+      16,
+      10,
+      8,
+      3
+    ],
+    "method": "hill-climbing (local search, NOT exhaustive; a lower bound on the true worst case)",
+    "iters": 1500,
+    "restarts": 6,
+    "seed": 42,
+    "witness_verified": true
+  },
+  "verdict": "H13-I NOT proved. Part 2 shows the pigeonhole/averaging bound suggested by the algebraic hint fails on reflections by a gap growing like (n^2-1)/12, for every choice of a -- a proved dead end, not just a small-n observation. Part 3 shows the natural 'fixed small family of a' idea (exhaustively sufficient up to n=11 for {0,3}) breaks at n=20 (hill-climbing counterexample, excess 2) -- consistent with session 8's rejection of restricted-cut families: no O(1)-size, pi-independent set of position-cuts suffices in general."
+}
