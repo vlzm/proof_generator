@@ -1,4 +1,6 @@
-=== exhaustive n=4..12 (experiments/torus_cut.c, torus_cut-1.0) ===
+=== exhaustive n=4..13 (experiments/torus_cut.c, torus_cut-1.0; n=13 via an
+    equivalent prototype, scratchpad/exhaustive_I.c, byte-identical results
+    to torus_cut.c on n=4..9) ===
 n=4 total_perms=24 bound=2 best_I=2 OK   [time: .004091043 s]
 n=5 total_perms=120 bound=4 best_I=4 OK   [time: .004285806 s]
 n=6 total_perms=720 bound=6 best_I=6 OK   [time: .004226382 s]
@@ -8,3 +10,4 @@ n=9 total_perms=362880 bound=16 best_I=16 OK   [time: .061387333 s]
 n=10 total_perms=3628800 bound=20 best_I=20 OK   [time: .758187819 s]
 n=11 total_perms=39916800 bound=25 best_I=25 OK   [time: 9.325754182 s]
 n=12 total_perms=479001600 bound=30 best_I=30 OK   [time: 139.514475029 s]
+n=13 total_perms=6227020800 bound=36 best_I=36 OK   [time: ~2290 s (background prototype run)]
