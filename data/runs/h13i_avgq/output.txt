@@ -1,0 +1,18 @@
+=== exhaustive ===
+exhaustive n=3 checked=6 bound_n=3 worst_sum=3 exceeds=no avg=1.0000 target_per_q=1 worst_perm=0,2,1
+exhaustive n=4 checked=24 bound_n=8 worst_sum=8 exceeds=no avg=2.0000 target_per_q=2 worst_perm=0,3,2,1
+exhaustive n=5 checked=120 bound_n=20 worst_sum=20 exceeds=no avg=4.0000 target_per_q=4 worst_perm=0,4,3,2,1
+exhaustive n=6 checked=720 bound_n=36 worst_sum=36 exceeds=no avg=6.0000 target_per_q=6 worst_perm=0,5,4,3,2,1
+exhaustive n=7 checked=5040 bound_n=63 worst_sum=63 exceeds=no avg=9.0000 target_per_q=9 worst_perm=0,6,5,4,3,2,1
+exhaustive n=8 checked=40320 bound_n=96 worst_sum=96 exceeds=no avg=12.0000 target_per_q=12 worst_perm=0,7,6,5,4,3,2,1
+exhaustive n=9 checked=362880 bound_n=144 worst_sum=144 exceeds=no avg=16.0000 target_per_q=16 worst_perm=0,8,7,6,5,4,3,2,1
+exhaustive n=10 checked=3628800 bound_n=200 worst_sum=200 exceeds=no avg=20.0000 target_per_q=20 worst_perm=0,9,8,7,6,5,4,3,2,1
+=== sample (structured + 300 random) ===
+sample n=15 trials=300 bound_n=735 worst_sum=735 exceeds=no avg=49.0000 target_per_q=49
+sample n=20 trials=300 bound_n=1800 worst_sum=1800 exceeds=no avg=90.0000 target_per_q=90
+sample n=30 trials=300 bound_n=6300 worst_sum=6300 exceeds=no avg=210.0000 target_per_q=210
+sample n=50 trials=300 bound_n=30000 worst_sum=30000 exceeds=no avg=600.0000 target_per_q=600
+sample n=80 trials=300 bound_n=124800 worst_sum=124800 exceeds=no avg=1560.0000 target_per_q=1560
+sample n=120 trials=300 bound_n=424800 worst_sum=424800 exceeds=no avg=3540.0000 target_per_q=3540
+sample n=200 trials=300 bound_n=1980000 worst_sum=1980000 exceeds=no avg=9900.0000 target_per_q=9900
+sample n=300 trials=300 bound_n=6705000 worst_sum=6705000 exceeds=no avg=22350.0000 target_per_q=22350
