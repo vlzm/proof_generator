@@ -1,0 +1,13 @@
+n=11: budget=f(n)-f(n-3)=13, worst sampled excess=13 (reflection h=0) -> OK (within budget)
+n=12: budget=f(n)-f(n-3)=14, worst sampled excess=14 (reflection h=0) -> OK (within budget)
+n=13: budget=f(n)-f(n-3)=16, worst sampled excess=17 (affine a=6) -> VIOLATION
+n=14: budget=f(n)-f(n-3)=17, worst sampled excess=17 (reflection h=0) -> OK (within budget)
+n=15: budget=f(n)-f(n-3)=19, worst sampled excess=20 (affine a=7) -> VIOLATION
+n=16: budget=f(n)-f(n-3)=20, worst sampled excess=21 (affine a=7) -> VIOLATION
+n=18: budget=f(n)-f(n-3)=23, worst sampled excess=25 (affine a=7) -> VIOLATION
+n=20: budget=f(n)-f(n-3)=26, worst sampled excess=27 (affine a=9) -> VIOLATION
+
+Command: python3 experiments/h13i_reduction_sample.py --nmin 11 --nmax 20
+(n = 17, 19 skipped in this run for time; not required to establish the trend)
+Coverage: SAMPLED per n -- all n reflections, all n coprime affine maps
+a*i mod n, and 30 random permutations (seed 12345). Real time 3m42s.
