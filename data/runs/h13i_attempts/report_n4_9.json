@@ -1,0 +1,212 @@
+{
+ "version": "h13i_attempts-1.0",
+ "rows": [
+  {
+   "n": 4,
+   "count": 24,
+   "floor_(n-1)^2/4": 2,
+   "seconds": 0.0,
+   "full_I_max": 2,
+   "full_I_argmax": [
+    0,
+    3,
+    2,
+    1
+   ],
+   "single_param_I_max": 2,
+   "single_param_I_argmax": [
+    0,
+    2,
+    3,
+    1
+   ],
+   "anchored_I_max": 3,
+   "anchored_I_argmax": [
+    0,
+    3,
+    2,
+    1
+   ]
+  },
+  {
+   "n": 5,
+   "count": 120,
+   "floor_(n-1)^2/4": 4,
+   "seconds": 0.0,
+   "full_I_max": 4,
+   "full_I_argmax": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "single_param_I_max": 4,
+   "single_param_I_argmax": [
+    0,
+    2,
+    4,
+    3,
+    1
+   ],
+   "anchored_I_max": 6,
+   "anchored_I_argmax": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ]
+  },
+  {
+   "n": 6,
+   "count": 720,
+   "floor_(n-1)^2/4": 6,
+   "seconds": 0.1,
+   "full_I_max": 6,
+   "full_I_argmax": [
+    0,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "single_param_I_max": 6,
+   "single_param_I_argmax": [
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "anchored_I_max": 10,
+   "anchored_I_argmax": [
+    0,
+    5,
+    4,
+    3,
+    2,
+    1
+   ]
+  },
+  {
+   "n": 7,
+   "count": 5040,
+   "floor_(n-1)^2/4": 9,
+   "seconds": 1.0,
+   "full_I_max": 9,
+   "full_I_argmax": [
+    0,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "single_param_I_max": 10,
+   "single_param_I_argmax": [
+    0,
+    5,
+    4,
+    3,
+    2,
+    1,
+    6
+   ],
+   "anchored_I_max": 15,
+   "anchored_I_argmax": [
+    0,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ]
+  },
+  {
+   "n": 8,
+   "count": 40320,
+   "floor_(n-1)^2/4": 12,
+   "seconds": 11.4,
+   "full_I_max": 12,
+   "full_I_argmax": [
+    0,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "single_param_I_max": 13,
+   "single_param_I_argmax": [
+    0,
+    6,
+    5,
+    3,
+    4,
+    2,
+    1,
+    7
+   ],
+   "anchored_I_max": 21,
+   "anchored_I_argmax": [
+    0,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ]
+  },
+  {
+   "n": 9,
+   "count": 362880,
+   "floor_(n-1)^2/4": 16,
+   "seconds": 148.0,
+   "full_I_max": 16,
+   "full_I_argmax": [
+    0,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "single_param_I_max": 17,
+   "single_param_I_argmax": [
+    0,
+    2,
+    7,
+    6,
+    5,
+    4,
+    3,
+    8,
+    1
+   ],
+   "anchored_I_max": 28,
+   "anchored_I_argmax": [
+    0,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ]
+  }
+ ]
+}
