@@ -1,0 +1,227 @@
+{
+  "version": "h13i_averaging_scan-1.0",
+  "nmax": 9,
+  "sample_n": [
+    9,
+    10,
+    12
+  ],
+  "samples": 20000,
+  "seed": 1,
+  "exhaustive": [
+    {
+      "n": 4,
+      "bound": 2,
+      "total": 24,
+      "fail_full2d": 24,
+      "worst_full2d": 3.5,
+      "worst_full2d_pi": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "fail_bestq_avgc": 24,
+      "worst_bestq_avgc": 3.5,
+      "worst_bestq_avgc_pi": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "seconds": 0.0009210109710693359,
+      "coverage": "exhaustive"
+    },
+    {
+      "n": 5,
+      "bound": 4,
+      "total": 120,
+      "fail_full2d": 115,
+      "worst_full2d": 6.0,
+      "worst_full2d_pi": [
+        0,
+        4,
+        3,
+        2,
+        1
+      ],
+      "fail_bestq_avgc": 115,
+      "worst_bestq_avgc": 6.0,
+      "worst_bestq_avgc_pi": [
+        0,
+        4,
+        3,
+        2,
+        1
+      ],
+      "seconds": 0.00796365737915039,
+      "coverage": "exhaustive"
+    },
+    {
+      "n": 6,
+      "bound": 6,
+      "total": 720,
+      "fail_full2d": 714,
+      "worst_full2d": 9.166666666666666,
+      "worst_full2d_pi": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "fail_bestq_avgc": 714,
+      "worst_bestq_avgc": 9.166666666666666,
+      "worst_bestq_avgc_pi": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "seconds": 0.08697319030761719,
+      "coverage": "exhaustive"
+    },
+    {
+      "n": 7,
+      "bound": 9,
+      "total": 5040,
+      "fail_full2d": 4984,
+      "worst_full2d": 13.0,
+      "worst_full2d_pi": [
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "fail_bestq_avgc": 4984,
+      "worst_bestq_avgc": 13.0,
+      "worst_bestq_avgc_pi": [
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "seconds": 0.9248712062835693,
+      "coverage": "exhaustive"
+    },
+    {
+      "n": 8,
+      "bound": 12,
+      "total": 40320,
+      "fail_full2d": 39832,
+      "worst_full2d": 17.5,
+      "worst_full2d_pi": [
+        0,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "fail_bestq_avgc": 39832,
+      "worst_bestq_avgc": 17.5,
+      "worst_bestq_avgc_pi": [
+        0,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "seconds": 10.372048377990723,
+      "coverage": "exhaustive"
+    },
+    {
+      "n": 9,
+      "bound": 16,
+      "total": 362880,
+      "fail_full2d": 356364,
+      "worst_full2d": 22.666666666666668,
+      "worst_full2d_pi": [
+        0,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "fail_bestq_avgc": 356364,
+      "worst_bestq_avgc": 22.666666666666668,
+      "worst_bestq_avgc_pi": [
+        0,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "seconds": 130.5703420639038,
+      "coverage": "exhaustive"
+    }
+  ],
+  "sampled": [
+    {
+      "n": 9,
+      "bound": 16,
+      "total": 20000,
+      "fail_full2d": 19662,
+      "worst_full2d": 22.666666666666668,
+      "fail_bestq_avgc": 19662,
+      "worst_bestq_avgc": 22.666666666666668,
+      "seconds": 7.17799973487854,
+      "coverage": "random sample, 20000 uniform pi (seed=1)"
+    },
+    {
+      "n": 10,
+      "bound": 20,
+      "total": 20000,
+      "fail_full2d": 19811,
+      "worst_full2d": 27.1,
+      "fail_bestq_avgc": 19811,
+      "worst_bestq_avgc": 27.1,
+      "seconds": 10.07865834236145,
+      "coverage": "random sample, 20000 uniform pi (seed=1)"
+    },
+    {
+      "n": 12,
+      "bound": 30,
+      "total": 20000,
+      "fail_full2d": 19746,
+      "worst_full2d": 39.0,
+      "fail_bestq_avgc": 19746,
+      "worst_bestq_avgc": 39.0,
+      "seconds": 18.10884928703308,
+      "coverage": "random sample, 20000 uniform pi (seed=1)"
+    }
+  ],
+  "log": [
+    "n=4 bound=2: (A) full-2D-avg fails on 24/24 (worst 3.500 at (0, 3, 2, 1)); (B) best-q avg-c fails on 24/24 (worst 3.500 at (0, 3, 2, 1))  [0.0s]",
+    "n=5 bound=4: (A) full-2D-avg fails on 115/120 (worst 6.000 at (0, 4, 3, 2, 1)); (B) best-q avg-c fails on 115/120 (worst 6.000 at (0, 4, 3, 2, 1))  [0.0s]",
+    "n=6 bound=6: (A) full-2D-avg fails on 714/720 (worst 9.167 at (0, 5, 4, 3, 2, 1)); (B) best-q avg-c fails on 714/720 (worst 9.167 at (0, 5, 4, 3, 2, 1))  [0.1s]",
+    "n=7 bound=9: (A) full-2D-avg fails on 4984/5040 (worst 13.000 at (0, 6, 5, 4, 3, 2, 1)); (B) best-q avg-c fails on 4984/5040 (worst 13.000 at (0, 6, 5, 4, 3, 2, 1))  [0.9s]",
+    "n=8 bound=12: (A) full-2D-avg fails on 39832/40320 (worst 17.500 at (0, 7, 6, 5, 4, 3, 2, 1)); (B) best-q avg-c fails on 39832/40320 (worst 17.500 at (0, 7, 6, 5, 4, 3, 2, 1))  [10.4s]",
+    "n=9 bound=16: (A) full-2D-avg fails on 356364/362880 (worst 22.667 at (0, 8, 7, 6, 5, 4, 3, 2, 1)); (B) best-q avg-c fails on 356364/362880 (worst 22.667 at (0, 8, 7, 6, 5, 4, 3, 2, 1))  [130.6s]",
+    "n=9 bound=16 [SAMPLE 20000]: (A) fails on 19662/20000 (worst 22.667); (B) fails on 19662/20000 (worst 22.667)  [7.2s]",
+    "n=10 bound=20 [SAMPLE 20000]: (A) fails on 19811/20000 (worst 27.100); (B) fails on 19811/20000 (worst 27.100)  [10.1s]",
+    "n=12 bound=30 [SAMPLE 20000]: (A) fails on 19746/20000 (worst 39.000); (B) fails on 19746/20000 (worst 39.000)  [18.1s]"
+  ]
+}

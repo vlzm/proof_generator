@@ -1,0 +1,22 @@
+{
+  "version": "check_C37-1.0",
+  "nmax": 12,
+  "pmax": 8,
+  "randn": 60,
+  "trials": 300,
+  "seed": 1,
+  "part1_pass": true,
+  "part1_checked": 2004,
+  "part1_seconds": 0.03336763381958008,
+  "part2_pass": true,
+  "part2_checked": 46224,
+  "part2_seconds": 11.511056184768677,
+  "part4_pass": true,
+  "part4_checked": 46224,
+  "part4_seconds": 11.286463975906372,
+  "part3_pass": true,
+  "part3_checked": 900,
+  "part3_seconds": 48.72728252410889,
+  "overall_pass": true,
+  "log": []
+}
