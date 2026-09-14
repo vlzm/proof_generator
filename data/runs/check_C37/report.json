@@ -1,0 +1,33 @@
+{
+  "version": "check_C37-1.0",
+  "parts": {
+    "lemma0_block_identity": {
+      "range": "1<=n<=2000",
+      "fails": [],
+      "pass": true
+    },
+    "lemma2_formula": {
+      "range": "2<=n<=300, all s",
+      "fails": [],
+      "n_fails": 0,
+      "pass": true
+    },
+    "lemma1_invariance": {
+      "range": "2<=n<=9, random pi, all t",
+      "checked": 1320,
+      "fails": [],
+      "n_fails": 0,
+      "pass": true
+    },
+    "final_bound": {
+      "range": "2<=n<=45, all h",
+      "fails": [],
+      "pass": true,
+      "equality_checked_against_line_profile": 0,
+      "equality_mismatches": [],
+      "equality_pass": true
+    }
+  },
+  "elapsed_s": 75.75848126411438,
+  "overall_pass": true
+}
