@@ -1,0 +1,24 @@
+{
+ "version": "h3_induction_probe4-1.0",
+ "rows": [
+  {
+   "n": 9,
+   "count": 362880,
+   "budget_n_minus_1": 8,
+   "seconds": 583.9,
+   "max_gap": 0,
+   "argmax": [
+    1,
+    0,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2
+   ],
+   "fail_count": 0
+  }
+ ]
+}

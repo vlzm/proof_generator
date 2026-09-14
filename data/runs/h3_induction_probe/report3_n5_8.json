@@ -1,0 +1,71 @@
+{
+ "version": "h3_induction_probe3-1.0",
+ "rows": [
+  {
+   "n": 5,
+   "count": 120,
+   "budget_n_minus_1": 4,
+   "seconds": 0.0,
+   "max_gap": 3,
+   "argmax": [
+    2,
+    4,
+    0,
+    3,
+    1
+   ],
+   "fail_count": 62
+  },
+  {
+   "n": 6,
+   "count": 720,
+   "budget_n_minus_1": 5,
+   "seconds": 0.0,
+   "max_gap": 4,
+   "argmax": [
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "fail_count": 480
+  },
+  {
+   "n": 7,
+   "count": 5040,
+   "budget_n_minus_1": 6,
+   "seconds": 0.4,
+   "max_gap": 5,
+   "argmax": [
+    2,
+    4,
+    5,
+    0,
+    3,
+    6,
+    1
+   ],
+   "fail_count": 3462
+  },
+  {
+   "n": 8,
+   "count": 40320,
+   "budget_n_minus_1": 7,
+   "seconds": 5.0,
+   "max_gap": 6,
+   "argmax": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    4,
+    0,
+    1
+   ],
+   "fail_count": 29296
+  }
+ ]
+}
