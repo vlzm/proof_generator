@@ -1,0 +1,789 @@
+{
+ "version": "check_C37-1.0",
+ "seed": 1,
+ "result": "PASS",
+ "seconds": 8.4,
+ "partA_lemmas": {
+  "ok": true,
+  "rows": [
+   {
+    "n": 4,
+    "coverage": "exhaustive",
+    "permutations": 24,
+    "seconds": 0.0
+   },
+   {
+    "n": 5,
+    "coverage": "exhaustive",
+    "permutations": 120,
+    "seconds": 0.03
+   },
+   {
+    "n": 6,
+    "coverage": "exhaustive",
+    "permutations": 720,
+    "seconds": 0.31
+   },
+   {
+    "n": 7,
+    "coverage": "exhaustive",
+    "permutations": 5040,
+    "seconds": 3.27
+   },
+   {
+    "n": 8,
+    "coverage": "sampled",
+    "permutations": 200,
+    "seconds": 0.2
+   },
+   {
+    "n": 9,
+    "coverage": "sampled",
+    "permutations": 200,
+    "seconds": 0.28
+   },
+   {
+    "n": 10,
+    "coverage": "sampled",
+    "permutations": 200,
+    "seconds": 0.39
+   },
+   {
+    "n": 11,
+    "coverage": "sampled",
+    "permutations": 200,
+    "seconds": 0.52
+   }
+  ]
+ },
+ "partB_reflections": {
+  "ok": true,
+  "nmax": 24,
+  "rows": [
+   {
+    "n": 4,
+    "argmin_diagonals_per_h": [
+     3
+    ],
+    "seconds": 0.0
+   },
+   {
+    "n": 5,
+    "argmin_diagonals_per_h": [
+     3,
+     4
+    ],
+    "seconds": 0.0
+   },
+   {
+    "n": 6,
+    "argmin_diagonals_per_h": [
+     4
+    ],
+    "seconds": 0.0
+   },
+   {
+    "n": 7,
+    "argmin_diagonals_per_h": [
+     4,
+     5
+    ],
+    "seconds": 0.0
+   },
+   {
+    "n": 8,
+    "argmin_diagonals_per_h": [
+     5
+    ],
+    "seconds": 0.0
+   },
+   {
+    "n": 9,
+    "argmin_diagonals_per_h": [
+     5,
+     6
+    ],
+    "seconds": 0.0
+   },
+   {
+    "n": 10,
+    "argmin_diagonals_per_h": [
+     6
+    ],
+    "seconds": 0.0
+   },
+   {
+    "n": 11,
+    "argmin_diagonals_per_h": [
+     6,
+     7
+    ],
+    "seconds": 0.01
+   },
+   {
+    "n": 12,
+    "argmin_diagonals_per_h": [
+     7
+    ],
+    "seconds": 0.01
+   },
+   {
+    "n": 13,
+    "argmin_diagonals_per_h": [
+     7,
+     8
+    ],
+    "seconds": 0.01
+   },
+   {
+    "n": 14,
+    "argmin_diagonals_per_h": [
+     8
+    ],
+    "seconds": 0.02
+   },
+   {
+    "n": 15,
+    "argmin_diagonals_per_h": [
+     8,
+     9
+    ],
+    "seconds": 0.02
+   },
+   {
+    "n": 16,
+    "argmin_diagonals_per_h": [
+     9
+    ],
+    "seconds": 0.03
+   },
+   {
+    "n": 17,
+    "argmin_diagonals_per_h": [
+     9,
+     10
+    ],
+    "seconds": 0.04
+   },
+   {
+    "n": 18,
+    "argmin_diagonals_per_h": [
+     10
+    ],
+    "seconds": 0.05
+   },
+   {
+    "n": 19,
+    "argmin_diagonals_per_h": [
+     10,
+     11
+    ],
+    "seconds": 0.06
+   },
+   {
+    "n": 20,
+    "argmin_diagonals_per_h": [
+     11
+    ],
+    "seconds": 0.08
+   },
+   {
+    "n": 21,
+    "argmin_diagonals_per_h": [
+     11,
+     12
+    ],
+    "seconds": 0.1
+   },
+   {
+    "n": 22,
+    "argmin_diagonals_per_h": [
+     12
+    ],
+    "seconds": 0.12
+   },
+   {
+    "n": 23,
+    "argmin_diagonals_per_h": [
+     12,
+     13
+    ],
+    "seconds": 0.14
+   },
+   {
+    "n": 24,
+    "argmin_diagonals_per_h": [
+     13
+    ],
+    "seconds": 0.16
+   }
+  ]
+ },
+ "partC_C38": {
+  "ok": true,
+  "rows": [
+   {
+    "n": 4,
+    "representatives": 6,
+    "bound": 8,
+    "max_sum": 8,
+    "argmax": [
+     [
+      0,
+      3,
+      2,
+      1
+     ]
+    ],
+    "max_I": 2,
+    "grid": "definition",
+    "seconds": 0.0
+   },
+   {
+    "n": 5,
+    "representatives": 24,
+    "bound": 20,
+    "max_sum": 20,
+    "argmax": [
+     [
+      0,
+      4,
+      3,
+      2,
+      1
+     ]
+    ],
+    "max_I": 4,
+    "grid": "definition",
+    "seconds": 0.0
+   },
+   {
+    "n": 6,
+    "representatives": 120,
+    "bound": 36,
+    "max_sum": 36,
+    "argmax": [
+     [
+      0,
+      5,
+      4,
+      3,
+      2,
+      1
+     ]
+    ],
+    "max_I": 6,
+    "grid": "definition",
+    "seconds": 0.01
+   },
+   {
+    "n": 7,
+    "representatives": 720,
+    "bound": 63,
+    "max_sum": 63,
+    "argmax": [
+     [
+      0,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+     ]
+    ],
+    "max_I": 9,
+    "grid": "lemma 2 formula",
+    "seconds": 0.01
+   },
+   {
+    "n": 8,
+    "representatives": 5040,
+    "bound": 96,
+    "max_sum": 96,
+    "argmax": [
+     [
+      0,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+     ]
+    ],
+    "max_I": 12,
+    "grid": "lemma 2 formula",
+    "seconds": 0.13
+   }
+  ],
+  "external_scan": [
+   {
+    "n": 4,
+    "M": 2,
+    "nM": 8,
+    "reps": 6,
+    "maxI": 2,
+    "count_maxI": 1,
+    "arg_maxI": [
+     0,
+     3,
+     2,
+     1
+    ],
+    "maxS": 8,
+    "count_maxS": 1,
+    "arg_maxS": [
+     0,
+     3,
+     2,
+     1
+    ],
+    "fail_H13I": 0,
+    "fail_C37": 0,
+    "seconds": 0.0
+   },
+   {
+    "n": 5,
+    "M": 4,
+    "nM": 20,
+    "reps": 24,
+    "maxI": 4,
+    "count_maxI": 1,
+    "arg_maxI": [
+     0,
+     4,
+     3,
+     2,
+     1
+    ],
+    "maxS": 20,
+    "count_maxS": 1,
+    "arg_maxS": [
+     0,
+     4,
+     3,
+     2,
+     1
+    ],
+    "fail_H13I": 0,
+    "fail_C37": 0,
+    "seconds": 0.0
+   },
+   {
+    "n": 6,
+    "M": 6,
+    "nM": 36,
+    "reps": 120,
+    "maxI": 6,
+    "count_maxI": 1,
+    "arg_maxI": [
+     0,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "maxS": 36,
+    "count_maxS": 1,
+    "arg_maxS": [
+     0,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "fail_H13I": 0,
+    "fail_C37": 0,
+    "seconds": 0.0
+   },
+   {
+    "n": 7,
+    "M": 9,
+    "nM": 63,
+    "reps": 720,
+    "maxI": 9,
+    "count_maxI": 1,
+    "arg_maxI": [
+     0,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "maxS": 63,
+    "count_maxS": 1,
+    "arg_maxS": [
+     0,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "fail_H13I": 0,
+    "fail_C37": 0,
+    "seconds": 0.0
+   },
+   {
+    "n": 8,
+    "M": 12,
+    "nM": 96,
+    "reps": 5040,
+    "maxI": 12,
+    "count_maxI": 1,
+    "arg_maxI": [
+     0,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "maxS": 96,
+    "count_maxS": 1,
+    "arg_maxS": [
+     0,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "fail_H13I": 0,
+    "fail_C37": 0,
+    "seconds": 0.0
+   },
+   {
+    "n": 9,
+    "M": 16,
+    "nM": 144,
+    "reps": 40320,
+    "maxI": 16,
+    "count_maxI": 1,
+    "arg_maxI": [
+     0,
+     8,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "maxS": 144,
+    "count_maxS": 1,
+    "arg_maxS": [
+     0,
+     8,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "fail_H13I": 0,
+    "fail_C37": 0,
+    "seconds": 0.04
+   },
+   {
+    "n": 10,
+    "M": 20,
+    "nM": 200,
+    "reps": 362880,
+    "maxI": 20,
+    "count_maxI": 1,
+    "arg_maxI": [
+     0,
+     9,
+     8,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "maxS": 200,
+    "count_maxS": 1,
+    "arg_maxS": [
+     0,
+     9,
+     8,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "fail_H13I": 0,
+    "fail_C37": 0,
+    "seconds": 0.44
+   },
+   {
+    "n": 11,
+    "M": 25,
+    "nM": 275,
+    "reps": 3628800,
+    "maxI": 25,
+    "count_maxI": 1,
+    "arg_maxI": [
+     0,
+     10,
+     9,
+     8,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "maxS": 275,
+    "count_maxS": 1,
+    "arg_maxS": [
+     0,
+     10,
+     9,
+     8,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "fail_H13I": 0,
+    "fail_C37": 0,
+    "seconds": 5.77
+   },
+   {
+    "n": 12,
+    "M": 30,
+    "nM": 360,
+    "reps": 39916800,
+    "maxI": 30,
+    "count_maxI": 1,
+    "arg_maxI": [
+     0,
+     11,
+     10,
+     9,
+     8,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "maxS": 360,
+    "count_maxS": 1,
+    "arg_maxS": [
+     0,
+     11,
+     10,
+     9,
+     8,
+     7,
+     6,
+     5,
+     4,
+     3,
+     2,
+     1
+    ],
+    "fail_H13I": 0,
+    "fail_C37": 0,
+    "seconds": 79.78
+   }
+  ]
+ },
+ "partD_C39": {
+  "ok": true,
+  "rows": [
+   {
+    "n": 4,
+    "max_cs": 2,
+    "M": 2,
+    "num_cs_lt_I": 0,
+    "lex_first": null,
+    "max_gap": 0,
+    "seconds": 0.0
+   },
+   {
+    "n": 5,
+    "max_cs": 4,
+    "M": 4,
+    "num_cs_lt_I": 0,
+    "lex_first": null,
+    "max_gap": 0,
+    "seconds": 0.0
+   },
+   {
+    "n": 6,
+    "max_cs": 6,
+    "M": 6,
+    "num_cs_lt_I": 0,
+    "lex_first": null,
+    "max_gap": 0,
+    "seconds": 0.01
+   },
+   {
+    "n": 7,
+    "max_cs": 9,
+    "M": 9,
+    "num_cs_lt_I": 0,
+    "lex_first": null,
+    "max_gap": 0,
+    "seconds": 0.1
+   },
+   {
+    "n": 8,
+    "max_cs": 12,
+    "M": 12,
+    "num_cs_lt_I": 16,
+    "lex_first": [
+     [
+      0,
+      3,
+      6,
+      1,
+      4,
+      7,
+      2,
+      5
+     ],
+     8,
+     9
+    ],
+    "max_gap": 3,
+    "seconds": 1.0
+   }
+  ]
+ },
+ "partE_candidates": {
+  "ok": true,
+  "smallest": {
+   "diag": [
+    4,
+    [
+     0,
+     3,
+     2,
+     1
+    ],
+    "3",
+    2
+   ],
+   "anti": [
+    5,
+    [
+     0,
+     1,
+     2,
+     4,
+     3
+    ],
+    "21/5",
+    4
+   ],
+   "T1": [
+    5,
+    [
+     0,
+     1,
+     4,
+     3,
+     2
+    ],
+    "21",
+    20
+   ],
+   "T2": [
+    5,
+    [
+     0,
+     1,
+     4,
+     3,
+     2
+    ],
+    "21",
+    20
+   ],
+   "T3": [
+    5,
+    [
+     0,
+     1,
+     4,
+     3,
+     2
+    ],
+    "21",
+    20
+   ],
+   "linear": [
+    5,
+    [
+     0,
+     2,
+     1,
+     4,
+     3
+    ],
+    "22/5",
+    4
+   ],
+   "rowmax": [
+    7,
+    [
+     0,
+     1,
+     6,
+     5,
+     4,
+     3,
+     2
+    ],
+    "10",
+    9
+   ],
+   "T4": [
+    8,
+    [
+     0,
+     1,
+     7,
+     6,
+     4,
+     5,
+     3,
+     2
+    ],
+    "26",
+    24
+   ]
+  }
+ }
+}
