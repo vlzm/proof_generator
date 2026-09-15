@@ -1,0 +1,5 @@
+{"version": "toric_inv-1.0", "n": 4, "normalised_perms": 6, "all_perms": 24, "max_I": 2, "target": 2, "holds": true, "count_I_gt_target": 0, "count_I_eq_max_normalised": 1, "count_I_eq_max_all": 4, "argmax_all_reflections": true, "verify": false,
+ "argmax_examples": [[0, 3, 2, 1]],
+ "max_I_by_omega": {"1": 0, "2": 1, "3": 2},
+ "hist_I_normalised": {"0": 1, "1": 4, "2": 1},
+ "seconds": 0.00}

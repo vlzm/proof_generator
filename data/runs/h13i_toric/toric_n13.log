@@ -1,0 +1,6 @@
+n = 13: normalised perms = 479001600 (= n! / n), max I = 36, target floor((n-1)^2/4) = 36, H13-I HOLDS
+  perms with I > target: 0
+  normalised perms with I = max: 1 (all perms: 13); all reflections: yes
+  argmax[0]: 0 12 11 10 9 8 7 6 5 4 3 2 1
+  max I by omega: 1:0 2:21 3:26 4:30 5:31 6:33 7:31 8:32 9:33 10:34 11:35 12:36
+  time 212.08 s

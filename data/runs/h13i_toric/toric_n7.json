@@ -1,0 +1,5 @@
+{"version": "toric_inv-1.0", "n": 7, "normalised_perms": 720, "all_perms": 5040, "max_I": 9, "target": 9, "holds": true, "count_I_gt_target": 0, "count_I_eq_max_normalised": 1, "count_I_eq_max_all": 7, "argmax_all_reflections": true, "verify": false,
+ "argmax_examples": [[0, 6, 5, 4, 3, 2, 1]],
+ "max_I_by_omega": {"1": 0, "2": 6, "3": 7, "4": 7, "5": 8, "6": 9},
+ "hist_I_normalised": {"0": 1, "1": 7, "2": 28, "3": 77, "4": 154, "5": 217, "6": 170, "7": 58, "8": 7, "9": 1},
+ "seconds": 0.00}
