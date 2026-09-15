@@ -1,0 +1,254 @@
+{
+  "version": "toric_cut_peak-1.0",
+  "claim": "H13-I: I(pi) <= floor((n-1)^2/4) for all pi in S_n",
+  "candidate_rule": "peaks of prefix sum of e_i=2pi(i)-(n-1); best value-shift per peak",
+  "per_n": [
+    {
+      "n": 4,
+      "bound": 2,
+      "total_permutations": 24,
+      "worst_peak_construction": 2,
+      "worst_pi": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "fails_peak_construction": 0,
+      "fails_global_argmax_only": 0,
+      "cross_check_full_I_le_bound": null,
+      "time_seconds": 0.0
+    },
+    {
+      "n": 5,
+      "bound": 4,
+      "total_permutations": 120,
+      "worst_peak_construction": 4,
+      "worst_pi": [
+        0,
+        4,
+        3,
+        2,
+        1
+      ],
+      "fails_peak_construction": 0,
+      "fails_global_argmax_only": 0,
+      "cross_check_full_I_le_bound": null,
+      "time_seconds": 0.001
+    },
+    {
+      "n": 6,
+      "bound": 6,
+      "total_permutations": 720,
+      "worst_peak_construction": 6,
+      "worst_pi": [
+        0,
+        4,
+        3,
+        2,
+        1,
+        5
+      ],
+      "fails_peak_construction": 0,
+      "fails_global_argmax_only": 0,
+      "cross_check_full_I_le_bound": null,
+      "time_seconds": 0.008
+    },
+    {
+      "n": 7,
+      "bound": 9,
+      "total_permutations": 5040,
+      "worst_peak_construction": 9,
+      "worst_pi": [
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "fails_peak_construction": 0,
+      "fails_global_argmax_only": 0,
+      "cross_check_full_I_le_bound": null,
+      "time_seconds": 0.078
+    },
+    {
+      "n": 8,
+      "bound": 12,
+      "total_permutations": 40320,
+      "worst_peak_construction": 12,
+      "worst_pi": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        7,
+        1,
+        6
+      ],
+      "fails_peak_construction": 0,
+      "fails_global_argmax_only": 0,
+      "cross_check_full_I_le_bound": null,
+      "time_seconds": 0.644
+    },
+    {
+      "n": 9,
+      "bound": 16,
+      "total_permutations": 362880,
+      "worst_peak_construction": 16,
+      "worst_pi": [
+        0,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "fails_peak_construction": 0,
+      "fails_global_argmax_only": 9,
+      "cross_check_full_I_le_bound": null,
+      "time_seconds": 8.073
+    },
+    {
+      "n": 10,
+      "bound": 20,
+      "total_permutations": 3628800,
+      "worst_peak_construction": 20,
+      "worst_pi": [
+        0,
+        6,
+        5,
+        4,
+        3,
+        9,
+        2,
+        1,
+        8,
+        7
+      ],
+      "fails_peak_construction": 0,
+      "fails_global_argmax_only": 20,
+      "cross_check_full_I_le_bound": null,
+      "time_seconds": 81.666
+    }
+  ],
+  "counterexamples_global_argmax_only": [
+    {
+      "n": 9,
+      "pi": [
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        8,
+        1,
+        7
+      ],
+      "global_argmax_vals": [
+        17,
+        17
+      ],
+      "all_peak_vals": [
+        [
+          0,
+          17
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          7,
+          17
+        ]
+      ],
+      "bound": 16
+    },
+    {
+      "n": 9,
+      "pi": [
+        1,
+        7,
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        8
+      ],
+      "global_argmax_vals": [
+        17,
+        17
+      ],
+      "all_peak_vals": [
+        [
+          0,
+          17
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          6,
+          15
+        ]
+      ],
+      "bound": 16
+    },
+    {
+      "n": 9,
+      "pi": [
+        2,
+        8,
+        1,
+        7,
+        0,
+        6,
+        5,
+        4,
+        3
+      ],
+      "global_argmax_vals": [
+        17,
+        17
+      ],
+      "all_peak_vals": [
+        [
+          2,
+          17
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          8,
+          15
+        ]
+      ],
+      "bound": 16
+    }
+  ],
+  "conclusion": "peak-construction (all peaks, best of each) matches the bound exactly (no failures) for every pi at 4<=n<=10; the restricted global-argmax-only version fails at n in {9, 10} (see counterexamples); no general-n proof found this session"
+}
