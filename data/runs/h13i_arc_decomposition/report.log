@@ -1,0 +1,17 @@
+== h13i_arc_decomposition-1.0 oracle-1.0 args={'identity_nmax': 6, 'nmax': 8}
+n=4: identity inv(q,t)=N1(q)+beta(t)-2*Gamma(q,t) OK (exhaustive)
+n=5: identity inv(q,t)=N1(q)+beta(t)-2*Gamma(q,t) OK (exhaustive)
+n=6: identity inv(q,t)=N1(q)+beta(t)-2*Gamma(q,t) OK (exhaustive)
+n=4: floor((n-1)^2/4)=2 max_I=2 max(strategy min-N1-then-t)=2 worst_witness=(0, 3, 2, 1) fails=0 (0.0s)
+n=5: floor((n-1)^2/4)=4 max_I=4 max(strategy min-N1-then-t)=4 worst_witness=(0, 4, 3, 2, 1) fails=0 (0.0s)
+n=6: floor((n-1)^2/4)=6 max_I=6 max(strategy min-N1-then-t)=6 worst_witness=(0, 4, 3, 2, 1, 5) fails=0 (0.1s)
+n=7: floor((n-1)^2/4)=9 max_I=9 max(strategy min-N1-then-t)=10 worst_witness=(1, 6, 0, 5, 4, 3, 2) fails=3 (1.1s)
+n=8: floor((n-1)^2/4)=12 max_I=12 max(strategy min-N1-then-t)=12 worst_witness=(0, 5, 4, 3, 2, 7, 1, 6) fails=0 (14.1s)
+== h13i_arc_decomposition-1.0 oracle-1.0 args={'identity_nmax': 4, 'nmax': 9}
+n=4: identity inv(q,t)=N1(q)+beta(t)-2*Gamma(q,t) OK (exhaustive)
+n=4: floor((n-1)^2/4)=2 max_I=2 max(strategy min-N1-then-t)=2 worst_witness=(0, 3, 2, 1) fails=0 (0.0s)
+n=5: floor((n-1)^2/4)=4 max_I=4 max(strategy min-N1-then-t)=4 worst_witness=(0, 4, 3, 2, 1) fails=0 (0.0s)
+n=6: floor((n-1)^2/4)=6 max_I=6 max(strategy min-N1-then-t)=6 worst_witness=(0, 4, 3, 2, 1, 5) fails=0 (0.1s)
+n=7: floor((n-1)^2/4)=9 max_I=9 max(strategy min-N1-then-t)=10 worst_witness=(1, 6, 0, 5, 4, 3, 2) fails=3 (1.2s)
+n=8: floor((n-1)^2/4)=12 max_I=12 max(strategy min-N1-then-t)=12 worst_witness=(0, 5, 4, 3, 2, 7, 1, 6) fails=0 (13.9s)
+n=9: floor((n-1)^2/4)=16 max_I=16 max(strategy min-N1-then-t)=17 worst_witness=(0, 6, 5, 4, 3, 2, 8, 1, 7) fails=25 (177.6s)

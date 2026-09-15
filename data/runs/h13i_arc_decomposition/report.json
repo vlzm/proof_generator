@@ -1,0 +1,195 @@
+{
+ "version": "h13i_arc_decomposition-1.0",
+ "core": "oracle-1.0",
+ "rows": [
+  {
+   "n": 4,
+   "threshold": 2,
+   "max_I": 2,
+   "max_strategy_min_N1_then_t": 2,
+   "strategy_worst_witness": [
+    0,
+    3,
+    2,
+    1
+   ],
+   "strategy_fail_count": 0,
+   "strategy_fail_examples": [],
+   "seconds": 0.0
+  },
+  {
+   "n": 5,
+   "threshold": 4,
+   "max_I": 4,
+   "max_strategy_min_N1_then_t": 4,
+   "strategy_worst_witness": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "strategy_fail_count": 0,
+   "strategy_fail_examples": [],
+   "seconds": 0.0
+  },
+  {
+   "n": 6,
+   "threshold": 6,
+   "max_I": 6,
+   "max_strategy_min_N1_then_t": 6,
+   "strategy_worst_witness": [
+    0,
+    4,
+    3,
+    2,
+    1,
+    5
+   ],
+   "strategy_fail_count": 0,
+   "strategy_fail_examples": [],
+   "seconds": 0.1
+  },
+  {
+   "n": 7,
+   "threshold": 9,
+   "max_I": 9,
+   "max_strategy_min_N1_then_t": 10,
+   "strategy_worst_witness": [
+    1,
+    6,
+    0,
+    5,
+    4,
+    3,
+    2
+   ],
+   "strategy_fail_count": 3,
+   "strategy_fail_examples": [
+    [
+     1,
+     6,
+     0,
+     5,
+     4,
+     3,
+     2
+    ],
+    [
+     2,
+     1,
+     6,
+     0,
+     5,
+     4,
+     3
+    ],
+    [
+     6,
+     0,
+     5,
+     4,
+     3,
+     2,
+     1
+    ]
+   ],
+   "seconds": 1.2
+  },
+  {
+   "n": 8,
+   "threshold": 12,
+   "max_I": 12,
+   "max_strategy_min_N1_then_t": 12,
+   "strategy_worst_witness": [
+    0,
+    5,
+    4,
+    3,
+    2,
+    7,
+    1,
+    6
+   ],
+   "strategy_fail_count": 0,
+   "strategy_fail_examples": [],
+   "seconds": 13.9
+  },
+  {
+   "n": 9,
+   "threshold": 16,
+   "max_I": 16,
+   "max_strategy_min_N1_then_t": 17,
+   "strategy_worst_witness": [
+    0,
+    6,
+    5,
+    4,
+    3,
+    2,
+    8,
+    1,
+    7
+   ],
+   "strategy_fail_count": 25,
+   "strategy_fail_examples": [
+    [
+     0,
+     6,
+     5,
+     4,
+     3,
+     2,
+     8,
+     1,
+     7
+    ],
+    [
+     1,
+     7,
+     0,
+     6,
+     5,
+     4,
+     3,
+     2,
+     8
+    ],
+    [
+     1,
+     8,
+     0,
+     7,
+     2,
+     6,
+     5,
+     4,
+     3
+    ],
+    [
+     1,
+     8,
+     0,
+     7,
+     5,
+     4,
+     3,
+     2,
+     6
+    ],
+    [
+     1,
+     8,
+     2,
+     0,
+     7,
+     6,
+     5,
+     4,
+     3
+    ]
+   ],
+   "seconds": 177.6
+  }
+ ]
+}
