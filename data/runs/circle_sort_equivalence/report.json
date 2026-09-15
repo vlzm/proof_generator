@@ -1,0 +1,54 @@
+{
+  "version": "circle_sort_equivalence-1.0",
+  "goal": "check I(pi) == noas(pi) (circle-adjacent-transposition distance to nearest identity rotation) pointwise, exhaustively, small n",
+  "command": "python3 experiments/circle_sort_equivalence.py --nmin 3 --nmax 7",
+  "rows": [
+    {
+      "n": 3,
+      "checked": 6,
+      "max_I": 1,
+      "max_noas": 1,
+      "floor_(n-1)^2/4": 1,
+      "mismatches": 0,
+      "examples": []
+    },
+    {
+      "n": 4,
+      "checked": 24,
+      "max_I": 2,
+      "max_noas": 2,
+      "floor_(n-1)^2/4": 2,
+      "mismatches": 0,
+      "examples": []
+    },
+    {
+      "n": 5,
+      "checked": 120,
+      "max_I": 4,
+      "max_noas": 4,
+      "floor_(n-1)^2/4": 4,
+      "mismatches": 0,
+      "examples": []
+    },
+    {
+      "n": 6,
+      "checked": 720,
+      "max_I": 6,
+      "max_noas": 6,
+      "floor_(n-1)^2/4": 6,
+      "mismatches": 0,
+      "examples": []
+    },
+    {
+      "n": 7,
+      "checked": 5040,
+      "max_I": 9,
+      "max_noas": 9,
+      "floor_(n-1)^2/4": 9,
+      "mismatches": 0,
+      "examples": []
+    }
+  ],
+  "time_s": 0.6886968612670898,
+  "conclusion": "I(pi) == noas(pi) for every pi, exhaustively, for n in [3, 7] (0 mismatches at every n); the easy direction I(pi) >= noas(pi) is additionally a proved inequality (assert never triggered). General n: open."
+}

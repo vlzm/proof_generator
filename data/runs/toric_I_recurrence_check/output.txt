@@ -1,0 +1,1 @@
+all checks passed (s-recurrence, t-recurrence, pair formula f(a,b)); permutations tested: 5912 for n in [2, 7]

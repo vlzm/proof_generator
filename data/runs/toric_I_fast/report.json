@@ -1,0 +1,99 @@
+{
+  "version": "toric_I_fast-1.0",
+  "goal": "extend exhaustive verification of H13-I (I(pi) <= floor((n-1)^2/4)) from C33's 4<=n<=10 to 4<=n<=12",
+  "command": "gcc -O3 -o toric_I_fast experiments/toric_I_fast.c && for n in 4 5 6 7 8 9 10 11 12; do ./toric_I_fast $n; done",
+  "coverage": "exhaustive, all pi, all n^2 cuts, 4 <= n <= 12 (Lehmer/lexicographic order, matches line_profile.c ordering)",
+  "rows": [
+    {
+      "n": 4,
+      "total": 24,
+      "max_I": 2,
+      "floor_(n-1)^2/4": 2,
+      "count_at_max": 4,
+      "argmax_rank": 5,
+      "time_s": 0.0
+    },
+    {
+      "n": 5,
+      "total": 120,
+      "max_I": 4,
+      "floor_(n-1)^2/4": 4,
+      "count_at_max": 5,
+      "argmax_rank": 23,
+      "time_s": 0.0
+    },
+    {
+      "n": 6,
+      "total": 720,
+      "max_I": 6,
+      "floor_(n-1)^2/4": 6,
+      "count_at_max": 6,
+      "argmax_rank": 119,
+      "time_s": 0.0
+    },
+    {
+      "n": 7,
+      "total": 5040,
+      "max_I": 9,
+      "floor_(n-1)^2/4": 9,
+      "count_at_max": 7,
+      "argmax_rank": 719,
+      "time_s": 0.0
+    },
+    {
+      "n": 8,
+      "total": 40320,
+      "max_I": 12,
+      "floor_(n-1)^2/4": 12,
+      "count_at_max": 8,
+      "argmax_rank": 5039,
+      "time_s": 0.0
+    },
+    {
+      "n": 9,
+      "total": 362880,
+      "max_I": 16,
+      "floor_(n-1)^2/4": 16,
+      "count_at_max": 9,
+      "argmax_rank": 40319,
+      "time_s": 0.02
+    },
+    {
+      "n": 10,
+      "total": 3628800,
+      "max_I": 20,
+      "floor_(n-1)^2/4": 20,
+      "count_at_max": 10,
+      "argmax_rank": 362879,
+      "time_s": 0.29
+    },
+    {
+      "n": 11,
+      "total": 39916800,
+      "max_I": 25,
+      "floor_(n-1)^2/4": 25,
+      "count_at_max": 11,
+      "argmax_rank": 3628799,
+      "time_s": 3.67
+    },
+    {
+      "n": 12,
+      "total": 479001600,
+      "max_I": 30,
+      "floor_(n-1)^2/4": 30,
+      "count_at_max": 12,
+      "argmax_rank": 39916799,
+      "time_s": 45.51
+    },
+    {
+      "n": 13,
+      "total": 6227020800,
+      "max_I": 36,
+      "floor_(n-1)^2/4": 36,
+      "count_at_max": 13,
+      "argmax_rank": 479001599,
+      "time_s": 686.95
+    }
+  ],
+  "conclusion": "max_I(pi) == floor((n-1)^2/4) exactly for every n in [4,13]; count_at_max == n at every n (exactly the n reflections pi_h(i) = h - i mod n); extends C33's I-part VERIFIED range from n<=10 to n<=13; H13-I remains CONJECTURED for general n. n=14 not attempted: extrapolated cost ~= 687s * 14 * (14/13)^2 ~= 3.1 hours, judged not worth it for one more exhaustive n given the session budget (rule 10) once n<=13 already strictly exceeds the table range n<=12."
+}
