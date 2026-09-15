@@ -1,0 +1,5 @@
+n=4 bound=2 perms=24 A: worst_avg=3.500 ok=False B: worst_avg=3.500 ok=False C: worst=3 ok=False (0.0s)
+n=5 bound=4 perms=120 A: worst_avg=6.000 ok=False B: worst_avg=6.000 ok=False C: worst=6 ok=False (0.0s)
+n=6 bound=6 perms=720 A: worst_avg=9.167 ok=False B: worst_avg=9.167 ok=False C: worst=10 ok=False (0.0s)
+n=7 bound=9 perms=5040 A: worst_avg=13.000 ok=False B: worst_avg=13.000 ok=False C: worst=15 ok=False (0.2s)
+n=8 bound=12 perms=40320 A: worst_avg=17.500 ok=False B: worst_avg=17.500 ok=False C: worst=21 ok=False (2.2s)
