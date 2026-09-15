@@ -1,0 +1,427 @@
+{
+ "version": "h3_glue_probe-1.0",
+ "core": "oracle-1.0",
+ "rows": [
+  {
+   "n": 3,
+   "D_n": 2,
+   "B_n": 3,
+   "seconds": 0.0
+  },
+  {
+   "n": 4,
+   "D_n": 6,
+   "B_n": 6,
+   "detour_any": 0,
+   "arg_detour_any": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "max_through_any": 6,
+   "through_any_fits": true,
+   "any_glued_states": 20,
+   "S_any": 1,
+   "R_any": 4,
+   "arg_R_any": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "R_any_fits": false,
+   "R_any_minus_budget": 1,
+   "glued_states": 8,
+   "S": 3,
+   "arg_S": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "E": 2,
+   "arg_E": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "S_plus_E": 5,
+   "budget": 3,
+   "crude_fits": false,
+   "U": 4,
+   "arg_U": [
+    0,
+    1,
+    3,
+    2
+   ],
+   "U_minus_Bn": -2,
+   "U_fits": true,
+   "max_loss_vs_d": 0,
+   "arg_loss": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "R": 5,
+   "arg_R": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "R_fits": false,
+   "R_minus_budget": 2,
+   "seconds": 0.0
+  },
+  {
+   "n": 5,
+   "D_n": 10,
+   "B_n": 10,
+   "detour_any": 0,
+   "arg_detour_any": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "max_through_any": 10,
+   "through_any_fits": true,
+   "any_glued_states": 80,
+   "S_any": 3,
+   "R_any": 4,
+   "arg_R_any": [
+    0,
+    2,
+    4,
+    1,
+    3
+   ],
+   "R_any_fits": true,
+   "R_any_minus_budget": 0,
+   "glued_states": 30,
+   "S": 4,
+   "arg_S": [
+    1,
+    2,
+    0,
+    3,
+    4
+   ],
+   "E": 4,
+   "arg_E": [
+    2,
+    4,
+    0,
+    3,
+    1
+   ],
+   "S_plus_E": 8,
+   "budget": 4,
+   "crude_fits": false,
+   "U": 8,
+   "arg_U": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "U_minus_Bn": -2,
+   "U_fits": true,
+   "max_loss_vs_d": 0,
+   "arg_loss": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "R": 6,
+   "arg_R": [
+    0,
+    2,
+    4,
+    3,
+    1
+   ],
+   "R_fits": false,
+   "R_minus_budget": 2,
+   "seconds": 0.0
+  },
+  {
+   "n": 6,
+   "D_n": 15,
+   "B_n": 15,
+   "detour_any": 0,
+   "arg_detour_any": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "max_through_any": 15,
+   "through_any_fits": true,
+   "any_glued_states": 504,
+   "S_any": 3,
+   "R_any": 5,
+   "arg_R_any": [
+    0,
+    2,
+    4,
+    1,
+    5,
+    3
+   ],
+   "R_any_fits": true,
+   "R_any_minus_budget": 0,
+   "glued_states": 144,
+   "S": 5,
+   "arg_S": [
+    1,
+    2,
+    0,
+    3,
+    5,
+    4
+   ],
+   "E": 6,
+   "arg_E": [
+    0,
+    3,
+    4,
+    1,
+    2,
+    5
+   ],
+   "S_plus_E": 11,
+   "budget": 5,
+   "crude_fits": false,
+   "U": 12,
+   "arg_U": [
+    0,
+    1,
+    5,
+    4,
+    3,
+    2
+   ],
+   "U_minus_Bn": -3,
+   "U_fits": true,
+   "max_loss_vs_d": 0,
+   "arg_loss": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "R": 8,
+   "arg_R": [
+    1,
+    2,
+    0,
+    3,
+    5,
+    4
+   ],
+   "R_fits": false,
+   "R_minus_budget": 3,
+   "seconds": 0.01
+  },
+  {
+   "n": 7,
+   "D_n": 21,
+   "B_n": 21,
+   "detour_any": 0,
+   "arg_detour_any": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "max_through_any": 21,
+   "through_any_fits": true,
+   "any_glued_states": 3437,
+   "S_any": 5,
+   "R_any": 6,
+   "arg_R_any": [
+    0,
+    1,
+    5,
+    3,
+    6,
+    2,
+    4
+   ],
+   "R_any_fits": true,
+   "R_any_minus_budget": 0,
+   "glued_states": 840,
+   "S": 6,
+   "arg_S": [
+    1,
+    2,
+    0,
+    3,
+    4,
+    6,
+    5
+   ],
+   "E": 7,
+   "arg_E": [
+    1,
+    3,
+    2,
+    6,
+    0,
+    4,
+    5
+   ],
+   "S_plus_E": 13,
+   "budget": 6,
+   "crude_fits": false,
+   "U": 17,
+   "arg_U": [
+    0,
+    1,
+    5,
+    6,
+    4,
+    3,
+    2
+   ],
+   "U_minus_Bn": -4,
+   "U_fits": true,
+   "max_loss_vs_d": 0,
+   "arg_loss": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "R": 10,
+   "arg_R": [
+    0,
+    5,
+    1,
+    2,
+    6,
+    3,
+    4
+   ],
+   "R_fits": false,
+   "R_minus_budget": 4,
+   "seconds": 0.06
+  },
+  {
+   "n": 8,
+   "D_n": 28,
+   "B_n": 28,
+   "detour_any": 0,
+   "arg_detour_any": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "max_through_any": 28,
+   "through_any_fits": true,
+   "any_glued_states": 27320,
+   "S_any": 5,
+   "R_any": 8,
+   "arg_R_any": [
+    0,
+    3,
+    5,
+    7,
+    2,
+    6,
+    4,
+    1
+   ],
+   "R_any_fits": false,
+   "R_any_minus_budget": 1,
+   "glued_states": 5760,
+   "S": 8,
+   "arg_S": [
+    1,
+    2,
+    3,
+    0,
+    4,
+    5,
+    7,
+    6
+   ],
+   "E": 9,
+   "arg_E": [
+    0,
+    2,
+    5,
+    6,
+    1,
+    4,
+    3,
+    7
+   ],
+   "S_plus_E": 17,
+   "budget": 7,
+   "crude_fits": false,
+   "U": 23,
+   "arg_U": [
+    0,
+    1,
+    6,
+    7,
+    5,
+    4,
+    3,
+    2
+   ],
+   "U_minus_Bn": -5,
+   "U_fits": true,
+   "max_loss_vs_d": 0,
+   "arg_loss": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "R": 13,
+   "arg_R": [
+    1,
+    2,
+    3,
+    0,
+    4,
+    7,
+    5,
+    6
+   ],
+   "R_fits": false,
+   "R_minus_budget": 6,
+   "seconds": 0.57
+  }
+ ]
+}

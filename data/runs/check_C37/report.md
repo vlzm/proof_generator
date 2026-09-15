@@ -1,18 +1,18 @@
 # check_C37 — PASS
 
-Версия check_C37-1.0, seed 1, 8.4 с.
+Версия check_C37-1.0, seed 1, 8.6 с.
 
 ```
 check_C37-1.0  seed=1
 part A: lemmas 0-5 (C37)
   A n=4 exhaustive 24 permutations, 0.00 s
   A n=5 exhaustive 120 permutations, 0.03 s
-  A n=6 exhaustive 720 permutations, 0.31 s
-  A n=7 exhaustive 5040 permutations, 3.27 s
+  A n=6 exhaustive 720 permutations, 0.32 s
+  A n=7 exhaustive 5040 permutations, 3.41 s
   A n=8 sampled 200 permutations, 0.20 s
   A n=9 sampled 200 permutations, 0.28 s
   A n=10 sampled 200 permutations, 0.39 s
-  A n=11 sampled 200 permutations, 0.52 s
+  A n=11 sampled 200 permutations, 0.53 s
 part B: lemma 6, reflection grid (C37)
   B reflections checked for 4 <= n <= 24
 part C: C38, sum_b min_a F(a,b) <= n*M

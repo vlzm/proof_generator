@@ -2,7 +2,7 @@
  "version": "check_C37-1.0",
  "seed": 1,
  "result": "PASS",
- "seconds": 8.4,
+ "seconds": 8.6,
  "partA_lemmas": {
   "ok": true,
   "rows": [
@@ -22,13 +22,13 @@
     "n": 6,
     "coverage": "exhaustive",
     "permutations": 720,
-    "seconds": 0.31
+    "seconds": 0.32
    },
    {
     "n": 7,
     "coverage": "exhaustive",
     "permutations": 5040,
-    "seconds": 3.27
+    "seconds": 3.41
    },
    {
     "n": 8,
@@ -52,7 +52,7 @@
     "n": 11,
     "coverage": "sampled",
     "permutations": 200,
-    "seconds": 0.52
+    "seconds": 0.53
    }
   ]
  },
@@ -193,7 +193,7 @@
      11,
      12
     ],
-    "seconds": 0.1
+    "seconds": 0.09
    },
    {
     "n": 22,
@@ -208,14 +208,14 @@
      12,
      13
     ],
-    "seconds": 0.14
+    "seconds": 0.15
    },
    {
     "n": 24,
     "argmin_diagonals_per_h": [
      13
     ],
-    "seconds": 0.16
+    "seconds": 0.17
    }
   ]
  },
@@ -294,7 +294,7 @@
     ],
     "max_I": 9,
     "grid": "lemma 2 formula",
-    "seconds": 0.01
+    "seconds": 0.02
    },
    {
     "n": 8,
@@ -677,7 +677,7 @@
      9
     ],
     "max_gap": 3,
-    "seconds": 1.0
+    "seconds": 1.01
    }
   ]
  },
