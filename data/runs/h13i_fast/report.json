@@ -1,0 +1,154 @@
+{
+  "version": "h13i_fast-1.0",
+  "started": "2026-09-15 02:12:41",
+  "runs": [
+    {
+      "mode": "exhaustive",
+      "n": 4,
+      "bound": 2,
+      "count": 24,
+      "time_s": 0.0,
+      "max_I": 2,
+      "max_I_witness": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "mode": "exhaustive",
+      "n": 5,
+      "bound": 4,
+      "count": 120,
+      "time_s": 0.0,
+      "max_I": 4,
+      "max_I_witness": [
+        0,
+        4,
+        3,
+        2,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "mode": "exhaustive",
+      "n": 6,
+      "bound": 6,
+      "count": 720,
+      "time_s": 0.0,
+      "max_I": 6,
+      "max_I_witness": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "mode": "exhaustive",
+      "n": 7,
+      "bound": 9,
+      "count": 5040,
+      "time_s": 0.0,
+      "max_I": 9,
+      "max_I_witness": [
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "mode": "exhaustive",
+      "n": 8,
+      "bound": 12,
+      "count": 40320,
+      "time_s": 0.4,
+      "max_I": 12,
+      "max_I_witness": [
+        0,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "mode": "exhaustive",
+      "n": 9,
+      "bound": 16,
+      "count": 362880,
+      "time_s": 4.6,
+      "max_I": 16,
+      "max_I_witness": [
+        0,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "mode": "exhaustive",
+      "n": 10,
+      "bound": 20,
+      "count": 3628800,
+      "time_s": 53.9,
+      "max_I": 20,
+      "max_I_witness": [
+        0,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "ok": true
+    },
+    {
+      "mode": "exhaustive",
+      "n": 11,
+      "bound": 25,
+      "count": 39916800,
+      "time_s": 667.8,
+      "max_I": 25,
+      "max_I_witness": [
+        0,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "ok": true
+    }
+  ]
+}

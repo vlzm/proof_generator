@@ -1,0 +1,731 @@
+{
+  "version": "h13i_search-1.0",
+  "started": "2026-09-15 02:07:18",
+  "per_n": [
+    {
+      "n": 4,
+      "bound": 2,
+      "time_s": 0.0,
+      "candidate_A_fixed_diagonal": {
+        "I_max": 2,
+        "I_max_witness": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "I_max_ok": true,
+        "per_k_worst": [
+          {
+            "k": 0,
+            "worst": 4,
+            "ok": false,
+            "witness": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "k": 1,
+            "worst": 4,
+            "ok": false,
+            "witness": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "k": 2,
+            "worst": 4,
+            "ok": false,
+            "witness": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "k": 3,
+            "worst": 4,
+            "ok": false,
+            "witness": [
+              3,
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      "candidate_B_adjacent_chain": {
+        "total": 24,
+        "no_short_chain": 8,
+        "examples": [
+          [
+            0,
+            2,
+            1,
+            3
+          ],
+          [
+            0,
+            3,
+            1,
+            2
+          ],
+          [
+            1,
+            0,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            2,
+            0
+          ],
+          [
+            2,
+            0,
+            3,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "n": 5,
+      "bound": 4,
+      "time_s": 0.01,
+      "candidate_A_fixed_diagonal": {
+        "I_max": 4,
+        "I_max_witness": [
+          0,
+          4,
+          3,
+          2,
+          1
+        ],
+        "I_max_ok": true,
+        "per_k_worst": [
+          {
+            "k": 0,
+            "worst": 6,
+            "ok": false,
+            "witness": [
+              2,
+              3,
+              4,
+              0,
+              1
+            ]
+          },
+          {
+            "k": 1,
+            "worst": 6,
+            "ok": false,
+            "witness": [
+              1,
+              2,
+              3,
+              4,
+              0
+            ]
+          },
+          {
+            "k": 2,
+            "worst": 6,
+            "ok": false,
+            "witness": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "k": 3,
+            "worst": 6,
+            "ok": false,
+            "witness": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "k": 4,
+            "worst": 6,
+            "ok": false,
+            "witness": [
+              3,
+              4,
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      "candidate_B_adjacent_chain": {
+        "total": 120,
+        "no_short_chain": 80,
+        "examples": [
+          [
+            0,
+            1,
+            3,
+            2,
+            4
+          ],
+          [
+            0,
+            1,
+            3,
+            4,
+            2
+          ],
+          [
+            0,
+            1,
+            4,
+            3,
+            2
+          ],
+          [
+            0,
+            2,
+            1,
+            3,
+            4
+          ],
+          [
+            0,
+            2,
+            1,
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "n": 6,
+      "bound": 6,
+      "time_s": 0.1,
+      "candidate_A_fixed_diagonal": {
+        "I_max": 6,
+        "I_max_witness": [
+          0,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "I_max_ok": true,
+        "per_k_worst": [
+          {
+            "k": 0,
+            "worst": 10,
+            "ok": false,
+            "witness": [
+              2,
+              5,
+              4,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "k": 1,
+            "worst": 10,
+            "ok": false,
+            "witness": [
+              1,
+              4,
+              3,
+              0,
+              5,
+              2
+            ]
+          },
+          {
+            "k": 2,
+            "worst": 10,
+            "ok": false,
+            "witness": [
+              0,
+              3,
+              2,
+              5,
+              4,
+              1
+            ]
+          },
+          {
+            "k": 3,
+            "worst": 10,
+            "ok": false,
+            "witness": [
+              1,
+              0,
+              3,
+              2,
+              5,
+              4
+            ]
+          },
+          {
+            "k": 4,
+            "worst": 10,
+            "ok": false,
+            "witness": [
+              0,
+              5,
+              2,
+              1,
+              4,
+              3
+            ]
+          },
+          {
+            "k": 5,
+            "worst": 10,
+            "ok": false,
+            "witness": [
+              3,
+              0,
+              5,
+              2,
+              1,
+              4
+            ]
+          }
+        ]
+      },
+      "candidate_B_adjacent_chain": {
+        "total": 720,
+        "no_short_chain": 660,
+        "examples": [
+          [
+            0,
+            1,
+            2,
+            4,
+            3,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            4,
+            5,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            5,
+            4,
+            3
+          ],
+          [
+            0,
+            1,
+            3,
+            2,
+            4,
+            5
+          ],
+          [
+            0,
+            1,
+            3,
+            2,
+            5,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "n": 7,
+      "bound": 9,
+      "time_s": 1.2,
+      "candidate_A_fixed_diagonal": {
+        "I_max": 9,
+        "I_max_witness": [
+          0,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "I_max_ok": true,
+        "per_k_worst": [
+          {
+            "k": 0,
+            "worst": 12,
+            "ok": false,
+            "witness": [
+              2,
+              3,
+              6,
+              5,
+              1,
+              0,
+              4
+            ]
+          },
+          {
+            "k": 1,
+            "worst": 12,
+            "ok": false,
+            "witness": [
+              1,
+              2,
+              5,
+              4,
+              0,
+              6,
+              3
+            ]
+          },
+          {
+            "k": 2,
+            "worst": 12,
+            "ok": false,
+            "witness": [
+              0,
+              1,
+              4,
+              3,
+              6,
+              5,
+              2
+            ]
+          },
+          {
+            "k": 3,
+            "worst": 12,
+            "ok": false,
+            "witness": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "k": 4,
+            "worst": 12,
+            "ok": false,
+            "witness": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "k": 5,
+            "worst": 12,
+            "ok": false,
+            "witness": [
+              0,
+              1,
+              6,
+              3,
+              2,
+              5,
+              4
+            ]
+          },
+          {
+            "k": 6,
+            "worst": 12,
+            "ok": false,
+            "witness": [
+              3,
+              0,
+              5,
+              6,
+              2,
+              1,
+              4
+            ]
+          }
+        ]
+      },
+      "candidate_B_adjacent_chain": {
+        "total": 5040,
+        "no_short_chain": 4725,
+        "examples": [
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4,
+            6
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6,
+            4
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            6,
+            5,
+            4
+          ],
+          [
+            0,
+            1,
+            2,
+            4,
+            3,
+            5,
+            6
+          ],
+          [
+            0,
+            1,
+            2,
+            4,
+            3,
+            6,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "n": 8,
+      "bound": 12,
+      "time_s": 13.95,
+      "candidate_A_fixed_diagonal": {
+        "I_max": 12,
+        "I_max_witness": [
+          0,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "I_max_ok": true,
+        "per_k_worst": [
+          {
+            "k": 0,
+            "worst": 17,
+            "ok": false,
+            "witness": [
+              2,
+              5,
+              4,
+              7,
+              6,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "k": 1,
+            "worst": 17,
+            "ok": false,
+            "witness": [
+              1,
+              4,
+              3,
+              6,
+              5,
+              0,
+              7,
+              2
+            ]
+          },
+          {
+            "k": 2,
+            "worst": 17,
+            "ok": false,
+            "witness": [
+              0,
+              3,
+              2,
+              5,
+              4,
+              7,
+              6,
+              1
+            ]
+          },
+          {
+            "k": 3,
+            "worst": 17,
+            "ok": false,
+            "witness": [
+              0,
+              2,
+              4,
+              3,
+              5,
+              7,
+              6,
+              1
+            ]
+          },
+          {
+            "k": 4,
+            "worst": 17,
+            "ok": false,
+            "witness": [
+              0,
+              2,
+              1,
+              3,
+              5,
+              4,
+              7,
+              6
+            ]
+          },
+          {
+            "k": 5,
+            "worst": 17,
+            "ok": false,
+            "witness": [
+              0,
+              7,
+              1,
+              3,
+              2,
+              4,
+              6,
+              5
+            ]
+          },
+          {
+            "k": 6,
+            "worst": 17,
+            "ok": false,
+            "witness": [
+              0,
+              7,
+              2,
+              1,
+              4,
+              3,
+              6,
+              5
+            ]
+          },
+          {
+            "k": 7,
+            "worst": 17,
+            "ok": false,
+            "witness": [
+              3,
+              6,
+              5,
+              0,
+              7,
+              2,
+              1,
+              4
+            ]
+          }
+        ]
+      },
+      "candidate_B_adjacent_chain": {
+        "total": 40320,
+        "no_short_chain": 39824,
+        "examples": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            5,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            6,
+            5
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4,
+            6,
+            7
+          ],
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4,
+            7,
+            6
+          ]
+        ]
+      }
+    }
+  ]
+}
