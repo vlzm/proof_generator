@@ -1,0 +1,26 @@
+{"version": "h13i_negative_results-1.0", "rows": [
+  {"n": 4, "bound_n": 2, "checked": 24,
+   "testA_fixed_domain_max_gap": 0, "testA_fails": 0, "testA_argmax": [0, 2, 3, 1],
+   "testB_pair_removal_budget": null, "testB_max_needed": null, "testB_fails": null, "testB_argmax": null
+  },
+  {"n": 5, "bound_n": 4, "checked": 120,
+   "testA_fixed_domain_max_gap": 0, "testA_fails": 0, "testA_argmax": [0, 2, 4, 3, 1],
+   "testB_pair_removal_budget": null, "testB_max_needed": null, "testB_fails": null, "testB_argmax": null
+  },
+  {"n": 6, "bound_n": 6, "checked": 720,
+   "testA_fixed_domain_max_gap": 0, "testA_fails": 0, "testA_argmax": [0, 2, 4, 5, 3, 1],
+   "testB_pair_removal_budget": 4, "testB_max_needed": 4, "testB_fails": 0, "testB_argmax": [0, 1, 4, 5, 2, 3]
+  },
+  {"n": 7, "bound_n": 9, "checked": 5040,
+   "testA_fixed_domain_max_gap": 1, "testA_fails": 7, "testA_argmax": [0, 5, 4, 3, 2, 1, 6],
+   "testB_pair_removal_budget": 5, "testB_max_needed": 5, "testB_fails": 0, "testB_argmax": [0, 1, 2, 5, 6, 4, 3]
+  },
+  {"n": 8, "bound_n": 12, "checked": 40320,
+   "testA_fixed_domain_max_gap": 1, "testA_fails": 16, "testA_argmax": [0, 6, 5, 3, 4, 2, 1, 7],
+   "testB_pair_removal_budget": 6, "testB_max_needed": 7, "testB_fails": 16, "testB_argmax": [0, 3, 6, 1, 4, 7, 2, 5]
+  },
+  {"n": 9, "bound_n": 16, "checked": 362880,
+   "testA_fixed_domain_max_gap": 1, "testA_fails": 162, "testA_argmax": [0, 2, 7, 6, 5, 4, 3, 8, 1],
+   "testB_pair_removal_budget": 7, "testB_max_needed": 8, "testB_fails": 1908, "testB_argmax": [0, 1, 6, 3, 8, 5, 2, 7, 4]
+  }
+]}
