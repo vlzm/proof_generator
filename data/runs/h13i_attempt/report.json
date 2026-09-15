@@ -1,0 +1,349 @@
+{
+  "recurrence": {
+    "4": "OK",
+    "5": "OK",
+    "6": "OK",
+    "7": "OK",
+    "8": "OK"
+  },
+  "families": {
+    "4": {
+      "bound_I": 2,
+      "per_family_max_min": {
+        "diag": 3,
+        "a0": 2,
+        "b0": 2,
+        "a0_or_b0": 2,
+        "abdiag": 4
+      },
+      "per_family_worst_pi": {
+        "diag": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "a0": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "b0": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "a0_or_b0": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "abdiag": [
+          2,
+          3,
+          0,
+          1
+        ]
+      },
+      "all_families_sufficient": false
+    },
+    "5": {
+      "bound_I": 4,
+      "per_family_max_min": {
+        "diag": 6,
+        "a0": 4,
+        "b0": 4,
+        "a0_or_b0": 4,
+        "abdiag": 6
+      },
+      "per_family_worst_pi": {
+        "diag": [
+          0,
+          4,
+          3,
+          2,
+          1
+        ],
+        "a0": [
+          0,
+          2,
+          4,
+          3,
+          1
+        ],
+        "b0": [
+          0,
+          4,
+          1,
+          3,
+          2
+        ],
+        "a0_or_b0": [
+          0,
+          4,
+          3,
+          2,
+          1
+        ],
+        "abdiag": [
+          2,
+          3,
+          4,
+          0,
+          1
+        ]
+      },
+      "all_families_sufficient": false
+    },
+    "6": {
+      "bound_I": 6,
+      "per_family_max_min": {
+        "diag": 10,
+        "a0": 6,
+        "b0": 6,
+        "a0_or_b0": 6,
+        "abdiag": 10
+      },
+      "per_family_worst_pi": {
+        "diag": [
+          0,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "a0": [
+          0,
+          2,
+          4,
+          5,
+          3,
+          1
+        ],
+        "b0": [
+          0,
+          4,
+          3,
+          2,
+          1,
+          5
+        ],
+        "a0_or_b0": [
+          0,
+          4,
+          3,
+          2,
+          1,
+          5
+        ],
+        "abdiag": [
+          2,
+          5,
+          4,
+          1,
+          0,
+          3
+        ]
+      },
+      "all_families_sufficient": false
+    },
+    "7": {
+      "bound_I": 9,
+      "per_family_max_min": {
+        "diag": 15,
+        "a0": 10,
+        "b0": 10,
+        "a0_or_b0": 10,
+        "abdiag": 12
+      },
+      "per_family_worst_pi": {
+        "diag": [
+          0,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "a0": [
+          0,
+          5,
+          4,
+          3,
+          2,
+          1,
+          6
+        ],
+        "b0": [
+          0,
+          5,
+          4,
+          3,
+          2,
+          1,
+          6
+        ],
+        "a0_or_b0": [
+          0,
+          5,
+          4,
+          3,
+          2,
+          1,
+          6
+        ],
+        "abdiag": [
+          2,
+          3,
+          6,
+          5,
+          1,
+          0,
+          4
+        ]
+      },
+      "all_families_sufficient": false
+    },
+    "8": {
+      "bound_I": 12,
+      "per_family_max_min": {
+        "diag": 21,
+        "a0": 13,
+        "b0": 13,
+        "a0_or_b0": 13,
+        "abdiag": 17
+      },
+      "per_family_worst_pi": {
+        "diag": [
+          0,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "a0": [
+          0,
+          6,
+          5,
+          3,
+          4,
+          2,
+          1,
+          7
+        ],
+        "b0": [
+          0,
+          6,
+          5,
+          3,
+          4,
+          2,
+          1,
+          7
+        ],
+        "a0_or_b0": [
+          0,
+          6,
+          5,
+          3,
+          4,
+          2,
+          1,
+          7
+        ],
+        "abdiag": [
+          2,
+          5,
+          4,
+          7,
+          6,
+          1,
+          0,
+          3
+        ]
+      },
+      "all_families_sufficient": false
+    }
+  },
+  "rms": {
+    "4": {
+      "bound_R": 4,
+      "worst_margin": -1.0845240525773496,
+      "worst_pi": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "rms_bound_sufficient": false
+    },
+    "5": {
+      "bound_R": 6,
+      "worst_margin": -1.4392982996034478,
+      "worst_pi": [
+        0,
+        4,
+        3,
+        2,
+        1
+      ],
+      "rms_bound_sufficient": false
+    },
+    "6": {
+      "bound_R": 9,
+      "worst_margin": -2.4298655518576586,
+      "worst_pi": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "rms_bound_sufficient": false
+    },
+    "7": {
+      "bound_R": 12,
+      "worst_margin": -3.055728090000841,
+      "worst_pi": [
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "rms_bound_sufficient": false
+    },
+    "8": {
+      "bound_R": 16,
+      "worst_margin": -4.316678554452077,
+      "worst_pi": [
+        0,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "rms_bound_sufficient": false
+    }
+  },
+  "sample_large_recurrence": {
+    "9": "30/30 OK",
+    "10": "30/30 OK",
+    "12": "30/30 OK",
+    "15": "30/30 OK"
+  }
+}
