@@ -1,0 +1,261 @@
+{
+ "version": "h3_reduction-1.0",
+ "core": "oracle-1.0",
+ "args": {
+  "nmax": 8,
+  "sample_from": 9,
+  "sample": 100000,
+  "prep_max": 8,
+  "seed": 20260915
+ },
+ "n": {
+  "5": {
+   "coverage": "exhaustive",
+   "states": 120,
+   "worst_excess": 5,
+   "worst_p": [
+    0,
+    1,
+    2,
+    4,
+    3
+   ],
+   "budget": 4,
+   "histogram": {
+    "0": 1,
+    "1": 9,
+    "2": 17,
+    "3": 20,
+    "4": 44,
+    "5": 29
+   },
+   "fixed_rule_max": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "min_slack": 0,
+   "min_slack_p": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "negative_slack_states": 0,
+   "prep_rescued": 0,
+   "prep_unrescued": 0,
+   "prep_unrescued_examples": []
+  },
+  "6": {
+   "coverage": "exhaustive",
+   "states": 720,
+   "worst_excess": 8,
+   "worst_p": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    3
+   ],
+   "budget": 5,
+   "histogram": {
+    "0": 1,
+    "1": 10,
+    "2": 28,
+    "3": 62,
+    "4": 131,
+    "5": 238,
+    "6": 204,
+    "7": 30,
+    "8": 16
+   },
+   "fixed_rule_max": [
+    7,
+    7,
+    8,
+    8,
+    8,
+    8
+   ],
+   "min_slack": 0,
+   "min_slack_p": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3
+   ],
+   "negative_slack_states": 0,
+   "prep_rescued": 0,
+   "prep_unrescued": 0,
+   "prep_unrescued_examples": []
+  },
+  "7": {
+   "coverage": "exhaustive",
+   "states": 5040,
+   "worst_excess": 9,
+   "worst_p": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    3,
+    6
+   ],
+   "budget": 6,
+   "histogram": {
+    "0": 1,
+    "1": 13,
+    "2": 72,
+    "3": 84,
+    "4": 514,
+    "5": 1088,
+    "6": 1639,
+    "7": 1166,
+    "8": 459,
+    "9": 4
+   },
+   "fixed_rule_max": [
+    8,
+    8,
+    8,
+    9,
+    8,
+    9,
+    8
+   ],
+   "min_slack": -1,
+   "min_slack_p": [
+    6,
+    1,
+    4,
+    5,
+    2,
+    3,
+    0
+   ],
+   "negative_slack_states": 1,
+   "prep_rescued": 1,
+   "prep_unrescued": 0,
+   "prep_unrescued_examples": []
+  },
+  "8": {
+   "coverage": "exhaustive",
+   "states": 40320,
+   "worst_excess": 11,
+   "worst_p": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    4
+   ],
+   "budget": 7,
+   "histogram": {
+    "0": 1,
+    "1": 14,
+    "2": 94,
+    "3": 247,
+    "4": 919,
+    "5": 3052,
+    "6": 8987,
+    "7": 10946,
+    "8": 9792,
+    "9": 5732,
+    "10": 492,
+    "11": 44
+   },
+   "fixed_rule_max": [
+    10,
+    10,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11
+   ],
+   "min_slack": -2,
+   "min_slack_p": [
+    2,
+    3,
+    7,
+    4,
+    0,
+    1,
+    5,
+    6
+   ],
+   "negative_slack_states": 62,
+   "prep_rescued": 62,
+   "prep_unrescued": 0,
+   "prep_unrescued_examples": []
+  },
+  "9": {
+   "coverage": "random sample of 100000",
+   "states": 100000,
+   "worst_excess": 12,
+   "worst_p": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    4,
+    8,
+    0
+   ],
+   "budget": 8,
+   "histogram": {
+    "0": 1,
+    "1": 5,
+    "2": 67,
+    "3": 120,
+    "4": 630,
+    "5": 3577,
+    "6": 7695,
+    "7": 20081,
+    "8": 25791,
+    "9": 26961,
+    "10": 11562,
+    "11": 3507,
+    "12": 3
+   },
+   "fixed_rule_max": [
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    12,
+    12,
+    11
+   ],
+   "min_slack": -2,
+   "min_slack_p": [
+    8,
+    1,
+    4,
+    6,
+    7,
+    2,
+    3,
+    5,
+    0
+   ],
+   "negative_slack_states": 19
+  }
+ },
+ "verdict": "obstruction"
+}

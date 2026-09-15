@@ -1,0 +1,52 @@
+# check_C37 — точность константы H13-I и запреты усреднений
+
+Команда: `python3 checks/check_C37.py --amax-a 20 --amax-t 7 --amax-eq 8 --amax-d 12`. Версия: check_C37-1.0.
+
+```text
+== check_C37-1.0 args={'amax_a': 20, 'amax_t': 7, 'amax_eq': 8, 'amax_d': 12, 'seed': 20260915}
+part A n=4: all 4 reflections, all 16 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 2, I = 2, 0.0 s
+part A n=5: all 5 reflections, all 25 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 4, I = 4, 0.0 s
+part A n=6: all 6 reflections, all 36 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 6, I = 6, 0.0 s
+part A n=7: all 7 reflections, all 49 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 9, I = 9, 0.0 s
+part A n=8: all 8 reflections, all 64 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 12, I = 12, 0.0 s
+part A n=9: all 9 reflections, all 81 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 16, I = 16, 0.0 s
+part A n=10: all 10 reflections, all 100 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 20, I = 20, 0.0 s
+part A n=11: all 11 reflections, all 121 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 25, I = 25, 0.0 s
+part A n=12: all 12 reflections, all 144 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 30, I = 30, 0.0 s
+part A n=13: all 13 reflections, all 169 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 36, I = 36, 0.0 s
+part A n=14: all 14 reflections, all 196 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 42, I = 42, 0.0 s
+part A n=15: all 15 reflections, all 225 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 49, I = 49, 0.0 s
+part A n=16: all 16 reflections, all 256 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 56, I = 56, 0.0 s
+part A n=17: all 17 reflections, all 289 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 64, I = 64, 0.0 s
+part A n=18: all 18 reflections, all 324 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 72, I = 72, 0.1 s
+part A n=19: all 19 reflections, all 361 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 81, I = 81, 0.1 s
+part A n=20: all 20 reflections, all 400 cuts: inv = C(n,2)-(t+1)(n-1-t) >= 90, I = 90, 0.1 s
+part B n=4: exhaustive, T invariant under both generators, (n-2)I >= T, T = C(n,3) exactly on reflections, 0.0 s
+part B n=5: exhaustive, T invariant under both generators, (n-2)I >= T, T = C(n,3) exactly on reflections, 0.0 s
+part B n=6: exhaustive, T invariant under both generators, (n-2)I >= T, T = C(n,3) exactly on reflections, 0.1 s
+part B n=7: exhaustive, T invariant under both generators, (n-2)I >= T, T = C(n,3) exactly on reflections, 0.7 s
+part B n=4: exhaustive, I <= 2 and equality exactly on the 4 reflections, 0.0 s
+part B n=5: exhaustive, I <= 4 and equality exactly on the 5 reflections, 0.0 s
+part B n=6: exhaustive, I <= 6 and equality exactly on the 6 reflections, 0.0 s
+part B n=7: exhaustive, I <= 9 and equality exactly on the 7 reflections, 0.0 s
+part B n=8: exhaustive, I <= 12 and equality exactly on the 8 reflections, 0.4 s
+part C n=4: exhaustive: per-pair cut count and mean formula hold
+part C n=5: exhaustive: per-pair cut count and mean formula hold
+part C n=6: exhaustive: per-pair cut count and mean formula hold
+part C n=7: sample of 207: per-pair cut count and mean formula hold
+part C n=8: sample of 208: per-pair cut count and mean formula hold
+part C: reflection mean = C(n,2) - (n^2-1)/6 (4 <= n <= 9 direct), mean - floor((n-1)^2/4) >= (n^2-1)/12 in exact arithmetic (4 <= n <= 200)
+part D n=4: 8 affine inputs: inv depends only on r, each r from exactly n cuts, anchored family attains I(pi)
+part D n=5: 20 affine inputs: inv depends only on r, each r from exactly n cuts, anchored family attains I(pi)
+part D n=6: 12 affine inputs: inv depends only on r, each r from exactly n cuts, anchored family attains I(pi)
+part D n=7: 42 affine inputs: inv depends only on r, each r from exactly n cuts, anchored family attains I(pi)
+part D n=8: 32 affine inputs: inv depends only on r, each r from exactly n cuts, anchored family attains I(pi)
+part D n=9: 54 affine inputs: inv depends only on r, each r from exactly n cuts, anchored family attains I(pi)
+part D n=10: 40 affine inputs: inv depends only on r, each r from exactly n cuts, anchored family attains I(pi)
+part D n=11: 110 affine inputs: inv depends only on r, each r from exactly n cuts, anchored family attains I(pi)
+part D n=12: 48 affine inputs: inv depends only on r, each r from exactly n cuts, anchored family attains I(pi)
+part D witness n=5 pi=(0, 1, 4, 3, 2): best anchored family average = 21/5 > floor((n-1)^2/4) = 4 -> family insufficient (as claimed) (true I(pi) = 3)
+part D witness n=7 pi=(0, 2, 1, 6, 5, 4, 3): best anchored family average = 67/7 > floor((n-1)^2/4) = 9 -> family insufficient (as claimed) (true I(pi) = 7)
+part D witness n=8 pi=(5, 7, 6, 4, 3, 0, 2, 1): best anchored family average = 25/2 > floor((n-1)^2/4) = 12 -> family insufficient (as claimed) (true I(pi) = 8)
+verdict: PASS (3.3 s)
+```
