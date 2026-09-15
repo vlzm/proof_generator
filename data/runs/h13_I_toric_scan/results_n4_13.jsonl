@@ -1,0 +1,10 @@
+{"n": 4, "count": 24, "bound_floor_(n-1)^2/4": 2, "max_I": 2, "exceeds_count": 0, "argmax_rank": 5, "argmax_pi": [0,3,2,1], "elapsed_s": 0}
+{"n": 5, "count": 120, "bound_floor_(n-1)^2/4": 4, "max_I": 4, "exceeds_count": 0, "argmax_rank": 23, "argmax_pi": [0,4,3,2,1], "elapsed_s": 0}
+{"n": 6, "count": 720, "bound_floor_(n-1)^2/4": 6, "max_I": 6, "exceeds_count": 0, "argmax_rank": 119, "argmax_pi": [0,5,4,3,2,1], "elapsed_s": 0}
+{"n": 7, "count": 5040, "bound_floor_(n-1)^2/4": 9, "max_I": 9, "exceeds_count": 0, "argmax_rank": 719, "argmax_pi": [0,6,5,4,3,2,1], "elapsed_s": 0}
+{"n": 8, "count": 40320, "bound_floor_(n-1)^2/4": 12, "max_I": 12, "exceeds_count": 0, "argmax_rank": 5039, "argmax_pi": [0,7,6,5,4,3,2,1], "elapsed_s": 0}
+{"n": 9, "count": 362880, "bound_floor_(n-1)^2/4": 16, "max_I": 16, "exceeds_count": 0, "argmax_rank": 40319, "argmax_pi": [0,8,7,6,5,4,3,2,1], "elapsed_s": 0}
+{"n": 10, "count": 3628800, "bound_floor_(n-1)^2/4": 20, "max_I": 20, "exceeds_count": 0, "argmax_rank": 362879, "argmax_pi": [0,9,8,7,6,5,4,3,2,1], "elapsed_s": 1}
+{"n": 11, "count": 39916800, "bound_floor_(n-1)^2/4": 25, "max_I": 25, "exceeds_count": 0, "argmax_rank": 3628799, "argmax_pi": [0,10,9,8,7,6,5,4,3,2,1], "elapsed_s": 5}
+{"n": 12, "count": 479001600, "bound_floor_(n-1)^2/4": 30, "max_I": 30, "exceeds_count": 0, "argmax_rank": 39916799, "argmax_pi": [0,11,10,9,8,7,6,5,4,3,2,1], "elapsed_s": 76}
+{"n": 13, "count": 6227020800, "bound_floor_(n-1)^2/4": 36, "max_I": 36, "exceeds_count": 0, "argmax_rank": 479001599, "argmax_pi": [0,12,11,10,9,8,7,6,5,4,3,2,1], "elapsed_s": 1114}
