@@ -1,0 +1,68 @@
+n=2..30: fact 5 (C(n,2) - floor(n^2/4) = floor((n-1)^2/4)) OK
+n=4: fact 1 (coordinate change (q,c) <-> (a,b)) OK, all pi, all q, c
+n=4: fact 2 (quadrant concordant/discordant counts per pair) OK, all pi, all pairs
+n=4: fact 3 (row/column step identities) OK, 200 random (pi, a, b), a,b up to 3n (wraparound exercised)
+n=4: fact 4 (closed form F(a,b) = F(a,0)+F(0,b)-F(0,0)+2ab-2nR(a,b)) OK, 300 random (pi, a, b), 0<=a,b<=n
+n=5: fact 1 (coordinate change (q,c) <-> (a,b)) OK, all pi, all q, c
+n=5: fact 2 (quadrant concordant/discordant counts per pair) OK, all pi, all pairs
+n=5: fact 3 (row/column step identities) OK, 200 random (pi, a, b), a,b up to 3n (wraparound exercised)
+n=5: fact 4 (closed form F(a,b) = F(a,0)+F(0,b)-F(0,0)+2ab-2nR(a,b)) OK, 300 random (pi, a, b), 0<=a,b<=n
+n=6: fact 1 (coordinate change (q,c) <-> (a,b)) OK, all pi, all q, c
+n=6: fact 2 (quadrant concordant/discordant counts per pair) OK, all pi, all pairs
+n=6: fact 3 (row/column step identities) OK, 200 random (pi, a, b), a,b up to 3n (wraparound exercised)
+n=6: fact 4 (closed form F(a,b) = F(a,0)+F(0,b)-F(0,0)+2ab-2nR(a,b)) OK, 300 random (pi, a, b), 0<=a,b<=n
+n=7: fact 1 (coordinate change (q,c) <-> (a,b)) OK, all pi, all q, c
+n=7: fact 2 (quadrant concordant/discordant counts per pair) OK, all pi, all pairs
+n=7: fact 3 (row/column step identities) OK, 200 random (pi, a, b), a,b up to 3n (wraparound exercised)
+n=7: fact 4 (closed form F(a,b) = F(a,0)+F(0,b)-F(0,0)+2ab-2nR(a,b)) OK, 300 random (pi, a, b), 0<=a,b<=n
+n=8: fact 1 (coordinate change (q,c) <-> (a,b)) OK, all pi, all q, c
+n=8: fact 2 (quadrant concordant/discordant counts per pair) OK, all pi, all pairs
+n=8: fact 3 (row/column step identities) OK, 200 random (pi, a, b), a,b up to 3n (wraparound exercised)
+n=8: fact 4 (closed form F(a,b) = F(a,0)+F(0,b)-F(0,0)+2ab-2nR(a,b)) OK, 300 random (pi, a, b), 0<=a,b<=n
+all facts 1-5 PASS; 33 s
+n=2..30: fact 5 (C(n,2) - floor(n^2/4) = floor((n-1)^2/4)) OK
+n=4: fact 1 (coordinate change (q,c) <-> (a,b)) OK, all pi, all q, c
+n=4: fact 2 (quadrant concordant/discordant counts per pair) OK, all pi, all pairs
+n=4: fact 3 (row/column step identities) OK, 200 random (pi, a, b), a,b up to 3n (wraparound exercised)
+n=4: fact 4 (closed form F(a,b) = F(a,0)+F(0,b)-F(0,0)+2ab-2nR(a,b)) OK, 300 random (pi, a, b), 0<=a,b<=n
+n=5: fact 1 (coordinate change (q,c) <-> (a,b)) OK, all pi, all q, c
+n=5: fact 2 (quadrant concordant/discordant counts per pair) OK, all pi, all pairs
+n=5: fact 3 (row/column step identities) OK, 200 random (pi, a, b), a,b up to 3n (wraparound exercised)
+n=5: fact 4 (closed form F(a,b) = F(a,0)+F(0,b)-F(0,0)+2ab-2nR(a,b)) OK, 300 random (pi, a, b), 0<=a,b<=n
+all facts 1-5 PASS; 0 s
+n=2..30: fact 5 (C(n,2) - floor(n^2/4) = floor((n-1)^2/4)) OK
+n=4: fact 1 (coordinate change (q,c) <-> (a,b)) OK, all pi, all q, c
+n=4: fact 2 (quadrant concordant/discordant counts per pair) OK, all pi, all pairs
+n=4: fact 3 (row/column step identities) OK, 200 random (pi, a, b), a,b up to 3n (wraparound exercised)
+n=4: fact 4 (closed form F(a,b) = F(a,0)+F(0,b)-F(0,0)+2ab-2nR(a,b)) OK, 300 random (pi, a, b), 0<=a,b<=n
+n=5: fact 1 (coordinate change (q,c) <-> (a,b)) OK, all pi, all q, c
+n=5: fact 2 (quadrant concordant/discordant counts per pair) OK, all pi, all pairs
+n=5: fact 3 (row/column step identities) OK, 200 random (pi, a, b), a,b up to 3n (wraparound exercised)
+n=5: fact 4 (closed form F(a,b) = F(a,0)+F(0,b)-F(0,0)+2ab-2nR(a,b)) OK, 300 random (pi, a, b), 0<=a,b<=n
+n=6: fact 1 (coordinate change (q,c) <-> (a,b)) OK, all pi, all q, c
+n=6: fact 2 (quadrant concordant/discordant counts per pair) OK, all pi, all pairs
+n=6: fact 3 (row/column step identities) OK, 200 random (pi, a, b), a,b up to 3n (wraparound exercised)
+n=6: fact 4 (closed form F(a,b) = F(a,0)+F(0,b)-F(0,0)+2ab-2nR(a,b)) OK, 300 random (pi, a, b), 0<=a,b<=n
+n=7: fact 1 (coordinate change (q,c) <-> (a,b)) OK, all pi, all q, c
+n=7: fact 2 (quadrant concordant/discordant counts per pair) OK, all pi, all pairs
+n=7: fact 3 (row/column step identities) OK, 200 random (pi, a, b), a,b up to 3n (wraparound exercised)
+n=7: fact 4 (closed form F(a,b) = F(a,0)+F(0,b)-F(0,0)+2ab-2nR(a,b)) OK, 300 random (pi, a, b), 0<=a,b<=n
+n=8: fact 1 (coordinate change (q,c) <-> (a,b)) OK, all pi, all q, c
+n=8: fact 2 (quadrant concordant/discordant counts per pair) OK, all pi, all pairs
+n=8: fact 3 (row/column step identities) OK, 200 random (pi, a, b), a,b up to 3n (wraparound exercised)
+n=8: fact 4 (closed form F(a,b) = F(a,0)+F(0,b)-F(0,0)+2ab-2nR(a,b)) OK, 300 random (pi, a, b), 0<=a,b<=n
+all facts 1-5 PASS; 32 s
+n=2..30: fact 5 (C(n,2) - floor(n^2/4) = floor((n-1)^2/4)) OK
+n=4: fact 1 (coordinate change (q,c) <-> (a,b)) OK, all pi, all q, c
+n=4: fact 2 (quadrant concordant/discordant counts per pair) OK, all pi, all pairs
+n=4: fact 3 (row/column step identities) OK, 200 random (pi, a, b), a,b up to 3n (wraparound exercised)
+n=4: fact 4 (closed form F(a,b) = F(a,0)+F(0,b)-F(0,0)+2ab-2nR(a,b)) OK, 300 random (pi, a, b), 0<=a,b<=n
+n=5: fact 1 (coordinate change (q,c) <-> (a,b)) OK, all pi, all q, c
+n=5: fact 2 (quadrant concordant/discordant counts per pair) OK, all pi, all pairs
+n=5: fact 3 (row/column step identities) OK, 200 random (pi, a, b), a,b up to 3n (wraparound exercised)
+n=5: fact 4 (closed form F(a,b) = F(a,0)+F(0,b)-F(0,0)+2ab-2nR(a,b)) OK, 300 random (pi, a, b), 0<=a,b<=n
+n=6: fact 1 (coordinate change (q,c) <-> (a,b)) OK, all pi, all q, c
+n=6: fact 2 (quadrant concordant/discordant counts per pair) OK, all pi, all pairs
+n=6: fact 3 (row/column step identities) OK, 200 random (pi, a, b), a,b up to 3n (wraparound exercised)
+n=6: fact 4 (closed form F(a,b) = F(a,0)+F(0,b)-F(0,0)+2ab-2nR(a,b)) OK, 300 random (pi, a, b), 0<=a,b<=n
+all facts 1-5 PASS; 0 s
