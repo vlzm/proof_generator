@@ -1,0 +1,9 @@
+{"version":"h13i_avg-1.0","n":4,"bound_per_p0":2,"bound_times_n":8,"worst_sum":8,"worst_avg":2.000000,"count":24,"time_s":0.00,"status":"OK","worst_pi":[0,3,2,1]}
+{"version":"h13i_avg-1.0","n":5,"bound_per_p0":4,"bound_times_n":20,"worst_sum":20,"worst_avg":4.000000,"count":120,"time_s":0.00,"status":"OK","worst_pi":[0,4,3,2,1]}
+{"version":"h13i_avg-1.0","n":6,"bound_per_p0":6,"bound_times_n":36,"worst_sum":36,"worst_avg":6.000000,"count":720,"time_s":0.00,"status":"OK","worst_pi":[0,5,4,3,2,1]}
+{"version":"h13i_avg-1.0","n":7,"bound_per_p0":9,"bound_times_n":63,"worst_sum":63,"worst_avg":9.000000,"count":5040,"time_s":0.00,"status":"OK","worst_pi":[0,6,5,4,3,2,1]}
+{"version":"h13i_avg-1.0","n":8,"bound_per_p0":12,"bound_times_n":96,"worst_sum":96,"worst_avg":12.000000,"count":40320,"time_s":0.04,"status":"OK","worst_pi":[0,7,6,5,4,3,2,1]}
+{"version":"h13i_avg-1.0","n":9,"bound_per_p0":16,"bound_times_n":144,"worst_sum":144,"worst_avg":16.000000,"count":362880,"time_s":0.49,"status":"OK","worst_pi":[0,8,7,6,5,4,3,2,1]}
+{"version":"h13i_avg-1.0","n":10,"bound_per_p0":20,"bound_times_n":200,"worst_sum":200,"worst_avg":20.000000,"count":3628800,"time_s":6.39,"status":"OK","worst_pi":[0,9,8,7,6,5,4,3,2,1]}
+{"version":"h13i_avg-1.0","n":11,"bound_per_p0":25,"bound_times_n":275,"worst_sum":275,"worst_avg":25.000000,"count":39916800,"time_s":87.56,"status":"OK","worst_pi":[0,10,9,8,7,6,5,4,3,2,1]}
+{"version":"h13i_avg-1.0","n":12,"bound_per_p0":30,"bound_times_n":360,"worst_sum":360,"worst_avg":30.000000,"count":479001600,"time_s":1202.97,"status":"OK","worst_pi":[0,11,10,9,8,7,6,5,4,3,2,1]}
