@@ -1,0 +1,15 @@
+# f(d,e) formula spot-check
+n=4: f(d,e) formula OK (100 random pairs)
+n=5: f(d,e) formula OK (100 random pairs)
+n=6: f(d,e) formula OK (100 random pairs)
+n=7: f(d,e) formula OK (100 random pairs)
+n=8: f(d,e) formula OK (100 random pairs)
+n=9: f(d,e) formula OK (100 random pairs)
+
+# exhaustive checks, 4 <= n <= 8
+ n   T=floor((n-1)^2/4)  max I(pi)  #argmax  max rot-only  max front-pivot  max row-avg-bound fails
+ 4                    2          2        4             2                3                       20
+ 5                    4          4        5             4                6                       65
+ 6                    6          6        6             6               10                      606
+ 7                    9          9        7            10               15                     4053
+ 8                   12         12        8            13               21                    37464
