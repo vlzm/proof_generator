@@ -1,0 +1,20 @@
+{
+  "mode": "raw_no_rotation",
+  "results": [
+    {
+      "n": 7,
+      "sum": 91,
+      "n_times_bound": 63
+    },
+    {
+      "n": 8,
+      "sum": 140,
+      "n_times_bound": 96
+    },
+    {
+      "n": 20,
+      "sum": 2470,
+      "n_times_bound": 1800
+    }
+  ]
+}

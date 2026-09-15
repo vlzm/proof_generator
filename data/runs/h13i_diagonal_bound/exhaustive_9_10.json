@@ -1,0 +1,48 @@
+{
+  "mode": "exhaustive",
+  "results": [
+    {
+      "n": 9,
+      "count": 362880,
+      "bound": 16,
+      "n_times_bound": 144,
+      "fails": 0,
+      "equal_to_bound_count": 9,
+      "worst_sum": 144,
+      "worst_pi": [
+        0,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "seconds": 16.6
+    },
+    {
+      "n": 10,
+      "count": 3628800,
+      "bound": 20,
+      "n_times_bound": 200,
+      "fails": 0,
+      "equal_to_bound_count": 10,
+      "worst_sum": 200,
+      "worst_pi": [
+        0,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "seconds": 207.2
+    }
+  ]
+}

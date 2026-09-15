@@ -1,0 +1,325 @@
+{
+  "mode": "sample",
+  "results": [
+    {
+      "n": 20,
+      "label": "sigma_n (h=1)",
+      "sum": 1800,
+      "n_times_bound": 1800,
+      "bound": 90,
+      "ok": true
+    },
+    {
+      "n": 20,
+      "label": "reflection h=0",
+      "sum": 1800,
+      "n_times_bound": 1800,
+      "bound": 90,
+      "ok": true
+    },
+    {
+      "n": 20,
+      "label": "rev_n",
+      "sum": 1800,
+      "n_times_bound": 1800,
+      "bound": 90,
+      "ok": true
+    },
+    {
+      "n": 20,
+      "label": "id_n",
+      "sum": 0,
+      "n_times_bound": 1800,
+      "bound": 90,
+      "ok": true
+    },
+    {
+      "n": 20,
+      "label": "affine a=7,b=11",
+      "sum": 1260,
+      "n_times_bound": 1800,
+      "bound": 90,
+      "ok": true
+    },
+    {
+      "n": 20,
+      "label": "random#0",
+      "sum": 1379,
+      "n_times_bound": 1800,
+      "bound": 90,
+      "ok": true
+    },
+    {
+      "n": 20,
+      "label": "random#1",
+      "sum": 1391,
+      "n_times_bound": 1800,
+      "bound": 90,
+      "ok": true
+    },
+    {
+      "n": 20,
+      "label": "random#2",
+      "sum": 1205,
+      "n_times_bound": 1800,
+      "bound": 90,
+      "ok": true
+    },
+    {
+      "n": 50,
+      "label": "sigma_n (h=1)",
+      "sum": 30000,
+      "n_times_bound": 30000,
+      "bound": 600,
+      "ok": true
+    },
+    {
+      "n": 50,
+      "label": "reflection h=0",
+      "sum": 30000,
+      "n_times_bound": 30000,
+      "bound": 600,
+      "ok": true
+    },
+    {
+      "n": 50,
+      "label": "rev_n",
+      "sum": 30000,
+      "n_times_bound": 30000,
+      "bound": 600,
+      "ok": true
+    },
+    {
+      "n": 50,
+      "label": "id_n",
+      "sum": 0,
+      "n_times_bound": 30000,
+      "bound": 600,
+      "ok": true
+    },
+    {
+      "n": 50,
+      "label": "affine a=7,b=11",
+      "sum": 26250,
+      "n_times_bound": 30000,
+      "bound": 600,
+      "ok": true
+    },
+    {
+      "n": 50,
+      "label": "random#0",
+      "sum": 25236,
+      "n_times_bound": 30000,
+      "bound": 600,
+      "ok": true
+    },
+    {
+      "n": 50,
+      "label": "random#1",
+      "sum": 25383,
+      "n_times_bound": 30000,
+      "bound": 600,
+      "ok": true
+    },
+    {
+      "n": 50,
+      "label": "random#2",
+      "sum": 25836,
+      "n_times_bound": 30000,
+      "bound": 600,
+      "ok": true
+    },
+    {
+      "n": 100,
+      "label": "sigma_n (h=1)",
+      "sum": 245000,
+      "n_times_bound": 245000,
+      "bound": 2450,
+      "ok": true
+    },
+    {
+      "n": 100,
+      "label": "reflection h=0",
+      "sum": 245000,
+      "n_times_bound": 245000,
+      "bound": 2450,
+      "ok": true
+    },
+    {
+      "n": 100,
+      "label": "rev_n",
+      "sum": 245000,
+      "n_times_bound": 245000,
+      "bound": 2450,
+      "ok": true
+    },
+    {
+      "n": 100,
+      "label": "id_n",
+      "sum": 0,
+      "n_times_bound": 245000,
+      "bound": 2450,
+      "ok": true
+    },
+    {
+      "n": 100,
+      "label": "affine a=7,b=11",
+      "sum": 210700,
+      "n_times_bound": 245000,
+      "bound": 2450,
+      "ok": true
+    },
+    {
+      "n": 100,
+      "label": "random#0",
+      "sum": 212269,
+      "n_times_bound": 245000,
+      "bound": 2450,
+      "ok": true
+    },
+    {
+      "n": 100,
+      "label": "random#1",
+      "sum": 212426,
+      "n_times_bound": 245000,
+      "bound": 2450,
+      "ok": true
+    },
+    {
+      "n": 100,
+      "label": "random#2",
+      "sum": 219403,
+      "n_times_bound": 245000,
+      "bound": 2450,
+      "ok": true
+    },
+    {
+      "n": 101,
+      "label": "sigma_n (h=1)",
+      "sum": 252500,
+      "n_times_bound": 252500,
+      "bound": 2500,
+      "ok": true
+    },
+    {
+      "n": 101,
+      "label": "reflection h=0",
+      "sum": 252500,
+      "n_times_bound": 252500,
+      "bound": 2500,
+      "ok": true
+    },
+    {
+      "n": 101,
+      "label": "rev_n",
+      "sum": 252500,
+      "n_times_bound": 252500,
+      "bound": 2500,
+      "ok": true
+    },
+    {
+      "n": 101,
+      "label": "id_n",
+      "sum": 0,
+      "n_times_bound": 252500,
+      "bound": 2500,
+      "ok": true
+    },
+    {
+      "n": 101,
+      "label": "affine a=7,b=11",
+      "sum": 214221,
+      "n_times_bound": 252500,
+      "bound": 2500,
+      "ok": true
+    },
+    {
+      "n": 101,
+      "label": "random#0",
+      "sum": 222826,
+      "n_times_bound": 252500,
+      "bound": 2500,
+      "ok": true
+    },
+    {
+      "n": 101,
+      "label": "random#1",
+      "sum": 220889,
+      "n_times_bound": 252500,
+      "bound": 2500,
+      "ok": true
+    },
+    {
+      "n": 101,
+      "label": "random#2",
+      "sum": 223293,
+      "n_times_bound": 252500,
+      "bound": 2500,
+      "ok": true
+    },
+    {
+      "n": 200,
+      "label": "sigma_n (h=1)",
+      "sum": 1980000,
+      "n_times_bound": 1980000,
+      "bound": 9900,
+      "ok": true
+    },
+    {
+      "n": 200,
+      "label": "reflection h=0",
+      "sum": 1980000,
+      "n_times_bound": 1980000,
+      "bound": 9900,
+      "ok": true
+    },
+    {
+      "n": 200,
+      "label": "rev_n",
+      "sum": 1980000,
+      "n_times_bound": 1980000,
+      "bound": 9900,
+      "ok": true
+    },
+    {
+      "n": 200,
+      "label": "id_n",
+      "sum": 0,
+      "n_times_bound": 1980000,
+      "bound": 9900,
+      "ok": true
+    },
+    {
+      "n": 200,
+      "label": "affine a=7,b=11",
+      "sum": 1705600,
+      "n_times_bound": 1980000,
+      "bound": 9900,
+      "ok": true
+    },
+    {
+      "n": 200,
+      "label": "random#0",
+      "sum": 1783780,
+      "n_times_bound": 1980000,
+      "bound": 9900,
+      "ok": true
+    },
+    {
+      "n": 200,
+      "label": "random#1",
+      "sum": 1826803,
+      "n_times_bound": 1980000,
+      "bound": 9900,
+      "ok": true
+    },
+    {
+      "n": 200,
+      "label": "random#2",
+      "sum": 1822803,
+      "n_times_bound": 1980000,
+      "bound": 9900,
+      "ok": true
+    }
+  ]
+}

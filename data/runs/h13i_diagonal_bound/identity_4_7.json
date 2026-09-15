@@ -1,0 +1,25 @@
+{
+  "mode": "identity_sum_S_t",
+  "results": [
+    {
+      "n": 4,
+      "checked": 24,
+      "bad": 0
+    },
+    {
+      "n": 5,
+      "checked": 120,
+      "bad": 0
+    },
+    {
+      "n": 6,
+      "checked": 720,
+      "bad": 0
+    },
+    {
+      "n": 7,
+      "checked": 5040,
+      "bad": 0
+    }
+  ]
+}

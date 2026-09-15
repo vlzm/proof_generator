@@ -1,0 +1,45 @@
+{
+  "mode": "heuristic_cut_after_max",
+  "results": [
+    {
+      "n": 4,
+      "bound": 2,
+      "n_times_bound": 8,
+      "fails": 4,
+      "total": 24,
+      "worst": 12
+    },
+    {
+      "n": 5,
+      "bound": 4,
+      "n_times_bound": 20,
+      "fails": 30,
+      "total": 120,
+      "worst": 30
+    },
+    {
+      "n": 6,
+      "bound": 6,
+      "n_times_bound": 36,
+      "fails": 114,
+      "total": 720,
+      "worst": 60
+    },
+    {
+      "n": 7,
+      "bound": 9,
+      "n_times_bound": 63,
+      "fails": 987,
+      "total": 5040,
+      "worst": 105
+    },
+    {
+      "n": 8,
+      "bound": 12,
+      "n_times_bound": 96,
+      "fails": 7656,
+      "total": 40320,
+      "worst": 168
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "mode": "exhaustive",
+  "results": [
+    {
+      "n": 4,
+      "count": 24,
+      "bound": 2,
+      "n_times_bound": 8,
+      "fails": 0,
+      "equal_to_bound_count": 4,
+      "worst_sum": 8,
+      "worst_pi": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "seconds": 0.0
+    },
+    {
+      "n": 5,
+      "count": 120,
+      "bound": 4,
+      "n_times_bound": 20,
+      "fails": 0,
+      "equal_to_bound_count": 5,
+      "worst_sum": 20,
+      "worst_pi": [
+        0,
+        4,
+        3,
+        2,
+        1
+      ],
+      "seconds": 0.0
+    },
+    {
+      "n": 6,
+      "count": 720,
+      "bound": 6,
+      "n_times_bound": 36,
+      "fails": 0,
+      "equal_to_bound_count": 6,
+      "worst_sum": 36,
+      "worst_pi": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "seconds": 0.1
+    },
+    {
+      "n": 7,
+      "count": 5040,
+      "bound": 9,
+      "n_times_bound": 63,
+      "fails": 0,
+      "equal_to_bound_count": 7,
+      "worst_sum": 63,
+      "worst_pi": [
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "seconds": 0.9
+    },
+    {
+      "n": 8,
+      "count": 40320,
+      "bound": 12,
+      "n_times_bound": 96,
+      "fails": 0,
+      "equal_to_bound_count": 8,
+      "worst_sum": 96,
+      "worst_pi": [
+        0,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "seconds": 1.4
+    }
+  ]
+}
