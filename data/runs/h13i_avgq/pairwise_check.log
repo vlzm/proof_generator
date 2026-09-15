@@ -1,0 +1,7 @@
+n=2: 2 permutations, formula matches sum_q inv(v^(q)) exactly
+n=3: 6 permutations, formula matches sum_q inv(v^(q)) exactly
+n=4: 24 permutations, formula matches sum_q inv(v^(q)) exactly
+n=5: 120 permutations, formula matches sum_q inv(v^(q)) exactly
+n=6: 720 permutations, formula matches sum_q inv(v^(q)) exactly
+n=7: 5040 permutations, formula matches sum_q inv(v^(q)) exactly
+n=8: 40320 permutations, formula matches sum_q inv(v^(q)) exactly

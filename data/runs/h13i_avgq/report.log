@@ -1,0 +1,17 @@
+n=3 mode=avgq bound=1 max_avg_q_M=1.000000 (=3/3) argmax_rank=1 violations=0 total_perms=6
+n=4 mode=avgq bound=2 max_avg_q_M=2.000000 (=8/4) argmax_rank=5 violations=0 total_perms=24
+n=5 mode=avgq bound=4 max_avg_q_M=4.000000 (=20/5) argmax_rank=23 violations=0 total_perms=120
+n=6 mode=avgq bound=6 max_avg_q_M=6.000000 (=36/6) argmax_rank=119 violations=0 total_perms=720
+n=7 mode=avgq bound=9 max_avg_q_M=9.000000 (=63/7) argmax_rank=719 violations=0 total_perms=5040
+n=8 mode=avgq bound=12 max_avg_q_M=12.000000 (=96/8) argmax_rank=5039 violations=0 total_perms=40320
+n=9 mode=avgq bound=16 max_avg_q_M=16.000000 (=144/9) argmax_rank=40319 violations=0 total_perms=362880
+n=10 mode=avgq bound=20 max_avg_q_M=20.000000 (=200/10) argmax_rank=362879 violations=0 total_perms=3628800
+n=11 mode=avgq bound=25 max_avg_q_M=25.000000 (=275/11) argmax_rank=3628799 violations=0 total_perms=39916800
+n=3 mode=singleq bound=1 max_M=1 argmax_rank=1 violations=0 total_perms=6 avg_M=0.500000
+n=4 mode=singleq bound=2 max_M=2 argmax_rank=3 violations=0 total_perms=24 avg_M=1.166667
+n=5 mode=singleq bound=4 max_M=4 argmax_rank=11 violations=0 total_perms=120 avg_M=2.333333
+n=6 mode=singleq bound=6 max_M=6 argmax_rank=41 violations=0 total_perms=720 avg_M=3.766667
+n=7 mode=singleq bound=9 max_M=10 argmax_rank=566 violations=7 total_perms=5040 avg_M=5.700000
+n=8 mode=singleq bound=12 max_M=13 argmax_rank=4142 violations=16 total_perms=40320 avg_M=7.928571
+n=9 mode=singleq bound=16 max_M=17 argmax_rank=9207 violations=162 total_perms=362880 avg_M=10.657143
+n=10 mode=singleq bound=20 max_M=23 argmax_rank=310735 violations=1250 total_perms=3628800 avg_M=13.714286
