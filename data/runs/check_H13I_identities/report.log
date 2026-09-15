@@ -1,0 +1,101 @@
+== check_H13I_identities-1.0 oracle-1.0 args={'nx': 7, 'ns': 40, 'samples': 200}
+n=4: exhaustive, 24 perms, fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.0s
+n=5: exhaustive, 120 perms, fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.0s
+n=6: exhaustive, 720 perms, fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.4s
+n=7: exhaustive, 5040 perms, fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 3.5s
+n=8: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.2s
+n=9: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.3s
+n=10: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.5s
+n=11: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.7s
+n=12: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 1.0s
+n=13: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 1.3s
+n=14: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 1.7s
+n=15: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 1.8s
+n=16: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 2.2s
+n=17: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 2.7s
+n=18: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 3.1s
+n=19: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 3.8s
+n=20: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 4.7s
+n=21: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 5.7s
+n=22: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 5.3s
+n=23: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 6.2s
+n=24: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 7.3s
+n=25: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 8.4s
+n=26: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 11.1s
+n=27: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 12.1s
+n=28: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 12.5s
+n=29: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 14.9s
+n=30: sampled (200 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 15.8s
+== check_H13I_identities-1.0 oracle-1.0 args={'nx': 6, 'ns': 15, 'samples': 50}
+n=4: exhaustive, 24 perms, fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.0s
+n=5: exhaustive, 120 perms, fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.0s
+n=6: exhaustive, 720 perms, fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.4s
+n=7: sampled (50 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.0s
+n=8: sampled (50 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.1s
+n=9: sampled (50 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.1s
+n=10: sampled (50 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.1s
+n=11: sampled (50 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.2s
+n=12: sampled (50 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.3s
+n=13: sampled (50 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.3s
+n=14: sampled (50 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.4s
+n=15: sampled (50 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.5s
+n=4: avg(sigma_n)=3.50 avg(rev_n)=3.50 bound=2 -> averaging FAILS; c=0 family worst-case min = 4
+n=5: avg(sigma_n)=6.00 avg(rev_n)=6.00 bound=4 -> averaging FAILS; c=0 family worst-case min = 6
+n=6: avg(sigma_n)=9.17 avg(rev_n)=9.17 bound=6 -> averaging FAILS; c=0 family worst-case min = 10
+n=7: avg(sigma_n)=13.00 avg(rev_n)=13.00 bound=9 -> averaging FAILS; c=0 family worst-case min = 12
+n=8: avg(sigma_n)=17.50 avg(rev_n)=17.50 bound=12 -> averaging FAILS; c=0 family worst-case min = 17
+n=9: avg(sigma_n)=22.67 avg(rev_n)=22.67 bound=16 -> averaging FAILS; c=0 family worst-case min = None
+n=10: avg(sigma_n)=28.50 avg(rev_n)=28.50 bound=20 -> averaging FAILS; c=0 family worst-case min = None
+TOTAL: PASS (4 s)
+== check_H13I_identities-1.0 oracle-1.0 args={'nx': 7, 'ns': 40, 'samples': 300}
+n=4: exhaustive, 24 perms, fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.0s
+n=5: exhaustive, 120 perms, fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.0s
+n=6: exhaustive, 720 perms, fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.4s
+n=7: exhaustive, 5040 perms, fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 4.0s
+n=8: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.4s
+n=9: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.5s
+n=10: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.7s
+n=11: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 1.1s
+n=12: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 1.6s
+n=13: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 2.1s
+n=14: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 2.5s
+n=15: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 2.7s
+n=16: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 3.5s
+n=17: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 4.1s
+n=18: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 4.9s
+n=19: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 5.9s
+n=20: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 7.2s
+n=21: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 8.7s
+n=22: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 8.8s
+n=23: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 11.3s
+n=24: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 12.0s
+n=25: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 13.5s
+n=26: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 17.5s
+n=27: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 19.5s
+n=28: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 20.4s
+n=29: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 24.7s
+n=30: sampled (300 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 28.4s
+== check_H13I_identities-1.0 oracle-1.0 args={'nx': 7, 'ns': 18, 'samples': 60}
+n=4: exhaustive, 24 perms, fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.0s
+n=5: exhaustive, 120 perms, fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.0s
+n=6: exhaustive, 720 perms, fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.4s
+n=7: exhaustive, 5040 perms, fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 3.8s
+n=8: sampled (60 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.1s
+n=9: sampled (60 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.1s
+n=10: sampled (60 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.2s
+n=11: sampled (60 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.2s
+n=12: sampled (60 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.3s
+n=13: sampled (60 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.4s
+n=14: sampled (60 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.5s
+n=15: sampled (60 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.6s
+n=16: sampled (60 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.7s
+n=17: sampled (60 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 0.9s
+n=18: sampled (60 random + sigma_n, rev_n), fails={'c_shift': 0, 'q_shift': 0, 'duality': 0, 'double_counting': 0}, 1.0s
+n=4: avg(sigma_n)=3.50 avg(rev_n)=3.50 bound=2 -> averaging FAILS; c=0 family worst-case min = 4
+n=5: avg(sigma_n)=6.00 avg(rev_n)=6.00 bound=4 -> averaging FAILS; c=0 family worst-case min = 6
+n=6: avg(sigma_n)=9.17 avg(rev_n)=9.17 bound=6 -> averaging FAILS; c=0 family worst-case min = 10
+n=7: avg(sigma_n)=13.00 avg(rev_n)=13.00 bound=9 -> averaging FAILS; c=0 family worst-case min = 12
+n=8: avg(sigma_n)=17.50 avg(rev_n)=17.50 bound=12 -> averaging FAILS; c=0 family worst-case min = 17
+n=9: avg(sigma_n)=22.67 avg(rev_n)=22.67 bound=16 -> averaging FAILS; c=0 family worst-case min = None
+n=10: avg(sigma_n)=28.50 avg(rev_n)=28.50 bound=20 -> averaging FAILS; c=0 family worst-case min = None
+TOTAL: PASS (10 s)

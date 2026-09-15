@@ -1,0 +1,8 @@
+== h3_embed_probe-1.0 oracle-1.0 args={'n0max': 9}
+n0=4: len(word)=6 N_rot=4 patch=4 budget=4 OK total=10 B_n=10
+n0=5: len(word)=10 N_rot=6 patch=7 budget=5 EXCEEDS total=17 B_n=15
+n0=6: len(word)=15 N_rot=9 patch=7 budget=6 EXCEEDS total=22 B_n=21
+n0=7: len(word)=21 N_rot=12 patch=7 budget=7 OK total=28 B_n=28
+n0=8: len(word)=28 N_rot=16 patch=10 budget=8 EXCEEDS total=38 B_n=36
+n0=9: len(word)=36 N_rot=20 patch=13 budget=9 EXCEEDS total=49 B_n=45
+TOTAL: 6 probes, 4 exceed the n-1 budget (11.9 s)

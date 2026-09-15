@@ -1,0 +1,75 @@
+{
+ "version": "h3_embed_probe-1.0",
+ "core": "oracle-1.0",
+ "args": {
+  "n0max": 9
+ },
+ "rows": [
+  {
+   "n0": 4,
+   "n": 5,
+   "len_word": 6,
+   "N_rot_word": 4,
+   "patch_cost": 4,
+   "budget_n_minus_1": 4,
+   "within_budget": true,
+   "total_len": 10,
+   "B_n": 10
+  },
+  {
+   "n0": 5,
+   "n": 6,
+   "len_word": 10,
+   "N_rot_word": 6,
+   "patch_cost": 7,
+   "budget_n_minus_1": 5,
+   "within_budget": false,
+   "total_len": 17,
+   "B_n": 15
+  },
+  {
+   "n0": 6,
+   "n": 7,
+   "len_word": 15,
+   "N_rot_word": 9,
+   "patch_cost": 7,
+   "budget_n_minus_1": 6,
+   "within_budget": false,
+   "total_len": 22,
+   "B_n": 21
+  },
+  {
+   "n0": 7,
+   "n": 8,
+   "len_word": 21,
+   "N_rot_word": 12,
+   "patch_cost": 7,
+   "budget_n_minus_1": 7,
+   "within_budget": true,
+   "total_len": 28,
+   "B_n": 28
+  },
+  {
+   "n0": 8,
+   "n": 9,
+   "len_word": 28,
+   "N_rot_word": 16,
+   "patch_cost": 10,
+   "budget_n_minus_1": 8,
+   "within_budget": false,
+   "total_len": 38,
+   "B_n": 36
+  },
+  {
+   "n0": 9,
+   "n": 10,
+   "len_word": 36,
+   "N_rot_word": 20,
+   "patch_cost": 13,
+   "budget_n_minus_1": 9,
+   "within_budget": false,
+   "total_len": 49,
+   "B_n": 45
+  }
+ ]
+}
