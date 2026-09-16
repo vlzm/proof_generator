@@ -1,0 +1,5 @@
+{"version": "line_toric_scan-1.1", "n": 4, "classes_scanned": 6,
+ "max_I": 2, "floor((n-1)^2/4)": 2, "argmax_count": 1,
+ "argmax_examples": [[0,3,2,1]],
+ "H13S_weak_failures": 0, "H13S_strong_failures": 0,
+ "hist_I": {"0": 1, "1": 4, "2": 1}}
