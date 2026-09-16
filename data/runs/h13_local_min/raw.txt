@@ -1,0 +1,19 @@
+== R=1 ==
+n=4 bound=2 R=1 worst_localmin=2 (rank 5) count=24
+n=5 bound=4 R=1 worst_localmin=4 (rank 3) count=120
+n=6 bound=6 R=1 worst_localmin=7 (rank 25) count=720
+n=7 bound=9 R=1 worst_localmin=11 (rank 131) count=5040
+n=8 bound=12 R=1 worst_localmin=16 (rank 1619) count=40320
+n=9 bound=16 R=1 worst_localmin=22 (rank 10847) count=362880
+n=10 bound=20 R=1 worst_localmin=29 (rank 132047) count=3628800
+== R=2 ==
+n=4 bound=2 R=2 worst_localmin=2 (rank 5) count=24
+n=5 bound=4 R=2 worst_localmin=4 (rank 23) count=120
+n=6 bound=6 R=2 worst_localmin=6 (rank 119) count=720
+n=7 bound=9 R=2 worst_localmin=9 (rank 719) count=5040
+n=8 bound=12 R=2 worst_localmin=12 (rank 1663) count=40320
+n=9 bound=16 R=2 worst_localmin=16 (rank 1678) count=362880
+n=10 bound=20 R=2 worst_localmin=21 (rank 14638) count=3628800
+n=10 bound=20 R=3 worst_localmin=20 (rank 362879) count=3628800
+n=11 bound=25 R=1 worst_localmin=37 (rank 1174559) count=39916800
+n=11 bound=25 R=2 worst_localmin=29 (rank 1088141) count=39916800
