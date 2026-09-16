@@ -1,0 +1,12 @@
+{"version": "toric_degree-1.1", "n": 8, "mode": "exhaustive", "seed": 20260916,
+ "permutations": 40320, "bound_H13I": 12, "max_I": 12, "count_max_I": 8,
+ "violations_H13I": 0, "deg_bound_L": 3,
+ "max_deg_over_all_optimal_cuts": 5, "max_over_pi_of_min_over_optimal_cuts_deg": 5,
+ "violations_L_at_some_optimal_cut": 208, "violations_L_at_every_optimal_cut": 16,
+ "min_S": 672, "S_reflection_n2_n2m1_over6": 672, "count_min_S": 8,
+ "averaging_suffices_count": 488,
+ "argmin_S": [0, 7, 6, 5, 4, 3, 2, 1],
+ "argmax_I": [0, 7, 6, 5, 4, 3, 2, 1],
+ "example_L_fails_at_some_optimal_cut": [0, 1, 2, 6, 7, 5, 3, 4],
+ "example_L_fails_at_every_optimal_cut": [0, 3, 6, 1, 4, 7, 2, 5],
+ "seconds": 0.02}

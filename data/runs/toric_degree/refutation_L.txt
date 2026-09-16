@@ -1,0 +1,68 @@
+# Независимая перепроверка опровержения гипотезы L (Python, сессия 9).
+# Код: см. ниже (сохранён вместе с выводом), запуск: python3 refutation_L.py
+
+pi = (0, 3, 6, 1, 4, 7, 2, 5)  I = 9  bound = 12  #optimal cuts = 16
+   cut (0, 0) line (0, 3, 6, 1, 4, 7, 2, 5) deg [0, 2, 4, 2, 2, 2, 4, 2] max deg 4 h [7, 3, -1, 3, 3, 3, -1, 3]
+   cut (0, 6) line (2, 5, 0, 3, 6, 1, 4, 7) deg [2, 4, 2, 2, 2, 4, 2, 0] max deg 4 h [3, -1, 3, 3, 3, -1, 3, 7]
+   cut (1, 1) line (2, 5, 0, 3, 6, 1, 4, 7) deg [2, 4, 2, 2, 2, 4, 2, 0] max deg 4 h [3, -1, 3, 3, 3, -1, 3, 7]
+   cut (1, 3) line (0, 3, 6, 1, 4, 7, 2, 5) deg [0, 2, 4, 2, 2, 2, 4, 2] max deg 4 h [7, 3, -1, 3, 3, 3, -1, 3]
+   cut (2, 4) line (2, 5, 0, 3, 6, 1, 4, 7) deg [2, 4, 2, 2, 2, 4, 2, 0] max deg 4 h [3, -1, 3, 3, 3, -1, 3, 7]
+   cut (2, 6) line (0, 3, 6, 1, 4, 7, 2, 5) deg [0, 2, 4, 2, 2, 2, 4, 2] max deg 4 h [7, 3, -1, 3, 3, 3, -1, 3]
+   cut (3, 1) line (0, 3, 6, 1, 4, 7, 2, 5) deg [0, 2, 4, 2, 2, 2, 4, 2] max deg 4 h [7, 3, -1, 3, 3, 3, -1, 3]
+   cut (3, 7) line (2, 5, 0, 3, 6, 1, 4, 7) deg [2, 4, 2, 2, 2, 4, 2, 0] max deg 4 h [3, -1, 3, 3, 3, -1, 3, 7]
+   cut (4, 2) line (2, 5, 0, 3, 6, 1, 4, 7) deg [2, 4, 2, 2, 2, 4, 2, 0] max deg 4 h [3, -1, 3, 3, 3, -1, 3, 7]
+   cut (4, 4) line (0, 3, 6, 1, 4, 7, 2, 5) deg [0, 2, 4, 2, 2, 2, 4, 2] max deg 4 h [7, 3, -1, 3, 3, 3, -1, 3]
+   cut (5, 5) line (2, 5, 0, 3, 6, 1, 4, 7) deg [2, 4, 2, 2, 2, 4, 2, 0] max deg 4 h [3, -1, 3, 3, 3, -1, 3, 7]
+   cut (5, 7) line (0, 3, 6, 1, 4, 7, 2, 5) deg [0, 2, 4, 2, 2, 2, 4, 2] max deg 4 h [7, 3, -1, 3, 3, 3, -1, 3]
+   cut (6, 0) line (2, 5, 0, 3, 6, 1, 4, 7) deg [2, 4, 2, 2, 2, 4, 2, 0] max deg 4 h [3, -1, 3, 3, 3, -1, 3, 7]
+   cut (6, 2) line (0, 3, 6, 1, 4, 7, 2, 5) deg [0, 2, 4, 2, 2, 2, 4, 2] max deg 4 h [7, 3, -1, 3, 3, 3, -1, 3]
+   cut (7, 3) line (2, 5, 0, 3, 6, 1, 4, 7) deg [2, 4, 2, 2, 2, 4, 2, 0] max deg 4 h [3, -1, 3, 3, 3, -1, 3, 7]
+   cut (7, 5) line (0, 3, 6, 1, 4, 7, 2, 5) deg [0, 2, 4, 2, 2, 2, 4, 2] max deg 4 h [7, 3, -1, 3, 3, 3, -1, 3]
+pi = (0, 1, 2, 6, 7, 5, 3, 4)  I = 8  bound = 12  #optimal cuts = 8
+   cut (0, 0) line (0, 1, 2, 6, 7, 5, 3, 4) deg [0, 0, 0, 3, 3, 4, 3, 3] max deg 4 h [7, 7, 7, 1, 1, -1, 1, 1]
+   cut (0, 6) line (2, 3, 4, 0, 1, 7, 5, 6) deg [2, 2, 2, 3, 3, 2, 1, 1] max deg 3 h [3, 3, 3, 1, 1, 3, 5, 5]
+   cut (1, 1) line (0, 1, 5, 6, 4, 2, 3, 7) deg [0, 0, 3, 3, 4, 3, 3, 0] max deg 4 h [7, 7, 1, 1, -1, 1, 1, 7]
+   cut (2, 2) line (0, 4, 5, 3, 1, 2, 6, 7) deg [0, 3, 3, 4, 3, 3, 0, 0] max deg 4 h [7, 1, 1, -1, 1, 1, 7, 7]
+   cut (3, 3) line (3, 4, 2, 0, 1, 5, 6, 7) deg [3, 3, 4, 3, 3, 0, 0, 0] max deg 4 h [1, 1, -1, 1, 1, 7, 7, 7]
+   cut (3, 5) line (1, 2, 0, 6, 7, 3, 4, 5) deg [1, 1, 2, 3, 3, 2, 2, 2] max deg 3 h [5, 5, 3, 1, 1, 3, 3, 3]
+   cut (5, 3) line (2, 0, 1, 5, 6, 7, 3, 4) deg [2, 1, 1, 2, 2, 2, 3, 3] max deg 3 h [3, 5, 5, 3, 3, 3, 1, 1]
+   cut (6, 0) line (3, 4, 0, 1, 2, 6, 7, 5) deg [3, 3, 2, 2, 2, 1, 1, 2] max deg 3 h [1, 1, 3, 3, 3, 5, 5, 3]
+
+----- исходник -----
+"""Independent check of the refutation of conjecture L at n = 8."""
+from itertools import permutations
+
+
+def inv(w):
+    n = len(w)
+    return sum(1 for i in range(n) for j in range(i + 1, n) if w[i] > w[j])
+
+
+def invdeg(w):
+    n = len(w)
+    d = [0] * n
+    for i in range(n):
+        for j in range(i + 1, n):
+            if w[i] > w[j]:
+                d[i] += 1
+                d[j] += 1
+    return d
+
+
+def cut(w, a, b):
+    n = len(w)
+    return tuple((w[(a + j) % n] - b) % n for j in range(n))
+
+
+for pi in [(0, 3, 6, 1, 4, 7, 2, 5), (0, 1, 2, 6, 7, 5, 3, 4)]:
+    n = len(pi)
+    prof = {(a, b): inv(cut(pi, a, b)) for a in range(n) for b in range(n)}
+    I = min(prof.values())
+    opt = [k for k, v in prof.items() if v == I]
+    print("pi =", pi, " I =", I, " bound =", (n - 1) ** 2 // 4,
+          " #optimal cuts =", len(opt))
+    for k in opt:
+        w = cut(pi, *k)
+        d = invdeg(w)
+        print("   cut", k, "line", w, "deg", d, "max deg", max(d),
+              "h", [(n - 1) - 2 * x for x in d])
