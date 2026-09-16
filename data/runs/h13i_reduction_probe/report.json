@@ -1,0 +1,217 @@
+{
+  "version": "h13i_reduction_probe-1.0",
+  "core_version": "oracle-1.0",
+  "runs": [
+    {
+      "n": 4,
+      "bound_floor_np1_sq_4": 2,
+      "max_I": 2,
+      "H13_I_holds": true,
+      "corner_cut": {
+        "max_I_corner": 3,
+        "fails_vs_bound": 4,
+        "total": 24
+      },
+      "pair_removal_induction": {
+        "budget_n_minus_2": 2,
+        "max_gap": 2,
+        "num_fails": 0,
+        "fails": []
+      },
+      "elapsed_s": 0.0011544227600097656
+    },
+    {
+      "n": 5,
+      "bound_floor_np1_sq_4": 4,
+      "max_I": 4,
+      "H13_I_holds": true,
+      "corner_cut": {
+        "max_I_corner": 6,
+        "fails_vs_bound": 5,
+        "total": 120
+      },
+      "pair_removal_induction": {
+        "budget_n_minus_2": 3,
+        "max_gap": 3,
+        "num_fails": 0,
+        "fails": []
+      },
+      "elapsed_s": 0.014394998550415039
+    },
+    {
+      "n": 6,
+      "bound_floor_np1_sq_4": 6,
+      "max_I": 6,
+      "H13_I_holds": true,
+      "corner_cut": {
+        "max_I_corner": 10,
+        "fails_vs_bound": 6,
+        "total": 720
+      },
+      "pair_removal_induction": {
+        "budget_n_minus_2": 4,
+        "max_gap": 4,
+        "num_fails": 0,
+        "fails": []
+      },
+      "elapsed_s": 0.22000789642333984
+    },
+    {
+      "n": 7,
+      "bound_floor_np1_sq_4": 9,
+      "max_I": 9,
+      "H13_I_holds": true,
+      "corner_cut": {
+        "max_I_corner": 15,
+        "fails_vs_bound": 56,
+        "total": 5040
+      },
+      "pair_removal_induction": {
+        "budget_n_minus_2": 5,
+        "max_gap": 5,
+        "num_fails": 0,
+        "fails": []
+      },
+      "elapsed_s": 3.6754515171051025
+    },
+    {
+      "n": 8,
+      "bound_floor_np1_sq_4": 12,
+      "max_I": 12,
+      "H13_I_holds": true,
+      "corner_cut": {
+        "max_I_corner": 21,
+        "fails_vs_bound": 552,
+        "total": 40320
+      },
+      "pair_removal_induction": {
+        "budget_n_minus_2": 6,
+        "max_gap": 7,
+        "num_fails": 8,
+        "fails": [
+          {
+            "pi": [
+              0,
+              5,
+              2,
+              7,
+              4,
+              1,
+              6,
+              3
+            ],
+            "I": 11,
+            "best_reduced_I": 4,
+            "gap": 7
+          },
+          {
+            "pi": [
+              1,
+              6,
+              3,
+              0,
+              5,
+              2,
+              7,
+              4
+            ],
+            "I": 11,
+            "best_reduced_I": 4,
+            "gap": 7
+          },
+          {
+            "pi": [
+              2,
+              7,
+              4,
+              1,
+              6,
+              3,
+              0,
+              5
+            ],
+            "I": 11,
+            "best_reduced_I": 4,
+            "gap": 7
+          },
+          {
+            "pi": [
+              3,
+              0,
+              5,
+              2,
+              7,
+              4,
+              1,
+              6
+            ],
+            "I": 11,
+            "best_reduced_I": 4,
+            "gap": 7
+          },
+          {
+            "pi": [
+              4,
+              1,
+              6,
+              3,
+              0,
+              5,
+              2,
+              7
+            ],
+            "I": 11,
+            "best_reduced_I": 4,
+            "gap": 7
+          },
+          {
+            "pi": [
+              5,
+              2,
+              7,
+              4,
+              1,
+              6,
+              3,
+              0
+            ],
+            "I": 11,
+            "best_reduced_I": 4,
+            "gap": 7
+          },
+          {
+            "pi": [
+              6,
+              3,
+              0,
+              5,
+              2,
+              7,
+              4,
+              1
+            ],
+            "I": 11,
+            "best_reduced_I": 4,
+            "gap": 7
+          },
+          {
+            "pi": [
+              7,
+              4,
+              1,
+              6,
+              3,
+              0,
+              5,
+              2
+            ],
+            "I": 11,
+            "best_reduced_I": 4,
+            "gap": 7
+          }
+        ]
+      },
+      "elapsed_s": 68.9413549900055
+    }
+  ]
+}
