@@ -1,0 +1,28 @@
+n=4: exhaustive OK, 24 permutations
+n=5: exhaustive OK, 120 permutations
+n=6: exhaustive OK, 720 permutations
+n=7: exhaustive OK, 5040 permutations
+n=8: sampled OK, 100 random permutations, seed=1
+n=9: sampled OK, 100 random permutations, seed=1
+n=10: sampled OK, 100 random permutations, seed=1
+n=11: sampled OK, 100 random permutations, seed=1
+n=12: sampled OK, 100 random permutations, seed=1
+n=13: sampled OK, 100 random permutations, seed=1
+n=14: sampled OK, 100 random permutations, seed=1
+n=15: sampled OK, 100 random permutations, seed=1
+n=16: sampled OK, 100 random permutations, seed=1
+n=17: sampled OK, 100 random permutations, seed=1
+n=18: sampled OK, 100 random permutations, seed=1
+n=19: sampled OK, 100 random permutations, seed=1
+n=20: sampled OK, 100 random permutations, seed=1
+n=21: sampled OK, 100 random permutations, seed=1
+n=22: sampled OK, 100 random permutations, seed=1
+n=23: sampled OK, 100 random permutations, seed=1
+n=24: sampled OK, 100 random permutations, seed=1
+n=25: sampled OK, 100 random permutations, seed=1
+n=26: sampled OK, 100 random permutations, seed=1
+n=27: sampled OK, 100 random permutations, seed=1
+n=28: sampled OK, 100 random permutations, seed=1
+n=29: sampled OK, 100 random permutations, seed=1
+n=30: sampled OK, 100 random permutations, seed=1
+identity verified independently (session 9); matches the prior turn's report
