@@ -1,0 +1,10 @@
+rule=min_inv0 n=4 target=2 worst_achieved=2 pi=(0, 3, 1, 2) PASS=True
+rule=min_S n=4 target=2 worst_achieved=2 pi=(0, 3, 1, 2) PASS=True
+rule=min_inv0 n=5 target=4 worst_achieved=4 pi=(0, 4, 1, 3, 2) PASS=True
+rule=min_S n=5 target=4 worst_achieved=4 pi=(0, 4, 1, 3, 2) PASS=True
+rule=min_inv0 n=6 target=6 worst_achieved=6 pi=(0, 1, 5, 4, 3, 2) PASS=True
+rule=min_S n=6 target=6 worst_achieved=6 pi=(0, 1, 5, 4, 3, 2) PASS=True
+rule=min_inv0 n=7 target=9 worst_achieved=10 pi=(0, 5, 6, 4, 3, 2, 1) PASS=False
+rule=min_S n=7 target=9 worst_achieved=10 pi=(0, 1, 6, 5, 4, 3, 2) PASS=False
+rule=min_inv0 n=8 target=12 worst_achieved=13 pi=(0, 6, 7, 5, 4, 2, 3, 1) PASS=False
+rule=min_S n=8 target=12 worst_achieved=13 pi=(0, 1, 7, 6, 4, 5, 3, 2) PASS=False
