@@ -1,0 +1,9 @@
+n=2: checked all 2! permutations, mismatches so far: 0
+n=3: checked all 3! permutations, mismatches so far: 0
+n=4: checked all 4! permutations, mismatches so far: 0
+n=5: checked all 5! permutations, mismatches so far: 0
+n=6: checked all 6! permutations, mismatches so far: 0
+n=7: checked all 7! permutations, mismatches so far: 0
+n=8: checked all 8! permutations, mismatches so far: 0
+TOTAL: 46232 permutations checked, 0 mismatches
+PASS

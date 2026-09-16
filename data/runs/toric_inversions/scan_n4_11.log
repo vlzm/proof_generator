@@ -1,0 +1,16 @@
+n=4 bound=2 worst=2 OK
+worst_perm: 0 3 2 1
+n=5 bound=4 worst=4 OK
+worst_perm: 0 4 3 2 1
+n=6 bound=6 worst=6 OK
+worst_perm: 0 5 4 3 2 1
+n=7 bound=9 worst=9 OK
+worst_perm: 0 6 5 4 3 2 1
+n=8 bound=12 worst=12 OK
+worst_perm: 0 7 6 5 4 3 2 1
+n=9 bound=16 worst=16 OK
+worst_perm: 0 8 7 6 5 4 3 2 1
+n=10 bound=20 worst=20 OK
+worst_perm: 0 9 8 7 6 5 4 3 2 1
+n=11 bound=25 worst=25 OK
+worst_perm: 0 10 9 8 7 6 5 4 3 2 1
