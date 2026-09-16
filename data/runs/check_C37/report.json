@@ -1,0 +1,179 @@
+{
+ "amax": 8,
+ "identities_exhaustive": {
+  "4": true,
+  "5": true,
+  "6": true
+ },
+ "identities_sample_size": 300,
+ "identities_sampled": {
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "idmax": 6,
+ "negative": {
+  "adapted_family": [
+   {
+    "best_sum": 8,
+    "fails": true,
+    "n": 5,
+    "perm": [
+     0,
+     1,
+     4,
+     3,
+     2
+    ],
+    "target": 10
+   },
+   {
+    "best_sum": 13,
+    "fails": true,
+    "n": 7,
+    "perm": [
+     0,
+     2,
+     1,
+     6,
+     5,
+     4,
+     3
+    ],
+    "target": 21
+   }
+  ],
+  "deletion": {
+   "I": 11,
+   "max_I_after_1_deletion": 6,
+   "max_I_after_2_deletions": 4,
+   "ok_1": false,
+   "ok_2": false,
+   "perm": [
+    0,
+    5,
+    2,
+    7,
+    4,
+    1,
+    6,
+    3
+   ],
+   "step_needed_1": 3,
+   "step_needed_2": 6
+  },
+  "linear_family": [
+   {
+    "best_sum": 6,
+    "fails": true,
+    "n": 5,
+    "perm": [
+     0,
+     2,
+     1,
+     4,
+     3
+    ],
+    "target": 10
+   },
+   {
+    "best_sum": 11,
+    "fails": true,
+    "n": 7,
+    "perm": [
+     0,
+     2,
+     4,
+     1,
+     6,
+     5,
+     3
+    ],
+    "target": 21
+   }
+  ],
+  "one_cut_excess_exhaustive": {
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 1,
+   "9": 1
+  },
+  "one_cut_excess_witnesses": {
+   "10": 3,
+   "11": 3,
+   "12": 3,
+   "13": 5
+  },
+  "one_cut_unbounded": true,
+  "separable_excess_4_7": {
+   "4": 0,
+   "5": 1,
+   "6": 1,
+   "7": 2
+  },
+  "separable_fails": true,
+  "separable_witness_n8": {
+   "bound": 12,
+   "min_G": 16,
+   "perm": [
+    0,
+    5,
+    2,
+    7,
+    4,
+    1,
+    6,
+    3
+   ]
+  }
+ },
+ "reflection_value_4_20": true,
+ "result": "PASS",
+ "row_sum": [
+  {
+   "equality_count": 4,
+   "equality_is_reflections": true,
+   "max": 8,
+   "n": 4,
+   "ok": true,
+   "target": 8
+  },
+  {
+   "equality_count": 5,
+   "equality_is_reflections": true,
+   "max": 20,
+   "n": 5,
+   "ok": true,
+   "target": 20
+  },
+  {
+   "equality_count": 6,
+   "equality_is_reflections": true,
+   "max": 36,
+   "n": 6,
+   "ok": true,
+   "target": 36
+  },
+  {
+   "equality_count": 7,
+   "equality_is_reflections": true,
+   "max": 63,
+   "n": 7,
+   "ok": true,
+   "target": 63
+  },
+  {
+   "equality_count": 8,
+   "equality_is_reflections": true,
+   "max": 96,
+   "n": 8,
+   "ok": true,
+   "target": 96
+  }
+ ],
+ "seconds": 21.2,
+ "version": "check_C37-1.0"
+}

@@ -1,0 +1,10 @@
+{"n":4,"bound":2,"line_max":2,"excess":0,"count_y0_0":2,"scanned":6,"arg":[0,2,3,1],"seconds":0.0}
+{"n":5,"bound":4,"line_max":4,"excess":0,"count_y0_0":3,"scanned":24,"arg":[0,2,4,3,1],"seconds":0.0}
+{"n":6,"bound":6,"line_max":6,"excess":0,"count_y0_0":9,"scanned":120,"arg":[0,2,4,5,3,1],"seconds":0.0}
+{"n":7,"bound":9,"line_max":10,"excess":1,"count_y0_0":1,"scanned":720,"arg":[0,5,4,3,2,1,6],"seconds":0.0}
+{"n":8,"bound":12,"line_max":13,"excess":1,"count_y0_0":2,"scanned":5040,"arg":[0,6,5,3,4,2,1,7],"seconds":0.0}
+{"n":9,"bound":16,"line_max":17,"excess":1,"count_y0_0":18,"scanned":40320,"arg":[0,2,7,6,5,4,3,8,1],"seconds":0.0}
+{"n":10,"bound":20,"line_max":23,"excess":3,"count_y0_0":1,"scanned":362880,"arg":[0,8,6,5,4,3,2,1,9,7],"seconds":0.0}
+{"n":11,"bound":25,"line_max":28,"excess":3,"count_y0_0":3,"scanned":3628800,"arg":[0,9,7,6,3,5,4,2,1,10,8],"seconds":0.3}
+{"n":12,"bound":30,"line_max":33,"excess":3,"count_y0_0":41,"scanned":39916800,"arg":[0,2,10,8,7,6,5,4,3,11,9,1],"seconds":3.9}
+{"n":13,"bound":36,"line_max":41,"excess":5,"count_y0_0":3,"scanned":479001600,"arg":[0,9,11,7,6,5,4,3,2,1,12,10,8],"seconds":54.7}

@@ -1,0 +1,132 @@
+{
+ "result": "reduction refuted",
+ "rows": [
+  {
+   "argmax_best": [
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "argmax_worst": [
+    0,
+    1,
+    2,
+    4,
+    3
+   ],
+   "max_gap_best_element": 4,
+   "max_gap_worst_element": 5,
+   "n": 5,
+   "ok": true,
+   "step_allowed": 4
+  },
+  {
+   "argmax_best": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3
+   ],
+   "argmax_worst": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    3
+   ],
+   "max_gap_best_element": 5,
+   "max_gap_worst_element": 8,
+   "n": 6,
+   "ok": true,
+   "step_allowed": 5
+  },
+  {
+   "argmax_best": [
+    6,
+    1,
+    4,
+    5,
+    2,
+    3,
+    0
+   ],
+   "argmax_worst": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    3,
+    6
+   ],
+   "max_gap_best_element": 7,
+   "max_gap_worst_element": 9,
+   "n": 7,
+   "ok": false,
+   "step_allowed": 6
+  },
+  {
+   "argmax_best": [
+    2,
+    3,
+    7,
+    4,
+    0,
+    1,
+    5,
+    6
+   ],
+   "argmax_worst": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    4
+   ],
+   "max_gap_best_element": 9,
+   "max_gap_worst_element": 11,
+   "n": 8,
+   "ok": false,
+   "step_allowed": 7
+  },
+  {
+   "argmax_best": [
+    7,
+    6,
+    2,
+    4,
+    3,
+    8,
+    1,
+    0,
+    5
+   ],
+   "argmax_worst": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    4,
+    8
+   ],
+   "max_gap_best_element": 10,
+   "max_gap_worst_element": 12,
+   "n": 9,
+   "ok": false,
+   "step_allowed": 8
+  }
+ ],
+ "seconds": 10.2,
+ "version": "h3_reduction_scan-1.0"
+}
