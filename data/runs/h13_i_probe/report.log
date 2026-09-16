@@ -1,0 +1,35 @@
+=== h13_i_probe-1.0 run, seed=0 ===
+multiplicative n=  5: floor=    4 max_I=    4 (k=4) ratio=1.000; best non-reflection k=2 I=3 ratio=0.75
+multiplicative n=  6: floor=    6 max_I=    6 (k=5) ratio=1.000; best non-reflection k=1 I=0 ratio=0.0
+multiplicative n=  7: floor=    9 max_I=    9 (k=6) ratio=1.000; best non-reflection k=3 I=7 ratio=0.7778
+multiplicative n=  8: floor=   12 max_I=   12 (k=7) ratio=1.000; best non-reflection k=5 I=11 ratio=0.9167
+multiplicative n=  9: floor=   16 max_I=   16 (k=8) ratio=1.000; best non-reflection k=4 I=14 ratio=0.875
+multiplicative n= 10: floor=   20 max_I=   20 (k=9) ratio=1.000; best non-reflection k=3 I=15 ratio=0.75
+multiplicative n= 11: floor=   25 max_I=   25 (k=10) ratio=1.000; best non-reflection k=7 I=23 ratio=0.92
+multiplicative n= 12: floor=   30 max_I=   30 (k=11) ratio=1.000; best non-reflection k=7 I=26 ratio=0.8667
+multiplicative n= 13: floor=   36 max_I=   36 (k=12) ratio=1.000; best non-reflection k=6 I=33 ratio=0.9167
+multiplicative n= 14: floor=   42 max_I=   42 (k=13) ratio=1.000; best non-reflection k=9 I=40 ratio=0.9524
+multiplicative n= 15: floor=   49 max_I=   49 (k=14) ratio=1.000; best non-reflection k=7 I=45 ratio=0.9184
+multiplicative n= 16: floor=   56 max_I=   56 (k=15) ratio=1.000; best non-reflection k=7 I=49 ratio=0.875
+multiplicative n= 17: floor=   64 max_I=   64 (k=16) ratio=1.000; best non-reflection k=11 I=61 ratio=0.9531
+multiplicative n= 18: floor=   72 max_I=   72 (k=17) ratio=1.000; best non-reflection k=7 I=65 ratio=0.9028
+multiplicative n= 19: floor=   81 max_I=   81 (k=18) ratio=1.000; best non-reflection k=14 I=77 ratio=0.9506
+multiplicative n= 20: floor=   90 max_I=   90 (k=19) ratio=1.000; best non-reflection k=13 I=87 ratio=0.9667
+multiplicative n= 21: floor=  100 max_I=  100 (k=20) ratio=1.000; best non-reflection k=10 I=95 ratio=0.95
+multiplicative n= 22: floor=  110 max_I=  110 (k=21) ratio=1.000; best non-reflection k=13 I=102 ratio=0.9273
+multiplicative n= 23: floor=  121 max_I=  121 (k=22) ratio=1.000; best non-reflection k=15 I=117 ratio=0.9669
+multiplicative n= 24: floor=  132 max_I=  132 (k=23) ratio=1.000; best non-reflection k=19 I=128 ratio=0.9697
+multiplicative n= 25: floor=  144 max_I=  144 (k=24) ratio=1.000; best non-reflection k=12 I=138 ratio=0.9583
+multiplicative n= 26: floor=  156 max_I=  156 (k=25) ratio=1.000; best non-reflection k=17 I=152 ratio=0.9744
+multiplicative n= 27: floor=  169 max_I=  169 (k=26) ratio=1.000; best non-reflection k=20 I=163 ratio=0.9645
+multiplicative n= 28: floor=  182 max_I=  182 (k=27) ratio=1.000; best non-reflection k=11 I=171 ratio=0.9396
+multiplicative n= 29: floor=  196 max_I=  196 (k=28) ratio=1.000; best non-reflection k=19 I=191 ratio=0.9745
+multiplicative n= 30: floor=  210 max_I=  210 (k=29) ratio=1.000; best non-reflection k=19 I=200 ratio=0.9524
+multiplicative n= 31: floor=  225 max_I=  225 (k=30) ratio=1.000; best non-reflection k=15 I=217 ratio=0.9644
+hillclimb n= 12: floor=  30 I(refl)=  30 best_1swap_from_refl=  30 hillclimb_best=  25
+hillclimb n= 15: floor=  49 I(refl)=  49 best_1swap_from_refl=  49 hillclimb_best=  42
+hillclimb n= 18: floor=  72 I(refl)=  72 best_1swap_from_refl=  72 hillclimb_best=  71
+hillclimb n= 20: floor=  90 I(refl)=  90 best_1swap_from_refl=  90 hillclimb_best=  79
+hillclimb n= 24: floor= 132 I(refl)= 132 best_1swap_from_refl= 132 hillclimb_best= 115
+sliding-window sub-lemma FALSE: n=5, k=2 (pi(i)=2*i mod 5): no window of size 2 maps to a contiguous value-window
+done in 36 s, no counterexample to H13-I found
