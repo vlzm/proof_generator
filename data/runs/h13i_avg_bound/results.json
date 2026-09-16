@@ -1,0 +1,32 @@
+{"n": 4, "checked": 24, "lemma_d_checked": true, "lemma_d_mismatches": 0,
+ "bound_floor_(n-1)^2/4": 2, "max_sum_a_2h(a)": 16, "2n*bound": 16,
+ "max_avg_a_h(a)": 2.000000, "exceeds_bound": false, "num_pi_attaining_max": 4,
+ "argmax_pi": [0, 3, 2, 1]}
+{"n": 5, "checked": 120, "lemma_d_checked": true, "lemma_d_mismatches": 0,
+ "bound_floor_(n-1)^2/4": 4, "max_sum_a_2h(a)": 40, "2n*bound": 40,
+ "max_avg_a_h(a)": 4.000000, "exceeds_bound": false, "num_pi_attaining_max": 5,
+ "argmax_pi": [0, 4, 3, 2, 1]}
+{"n": 6, "checked": 720, "lemma_d_checked": true, "lemma_d_mismatches": 0,
+ "bound_floor_(n-1)^2/4": 6, "max_sum_a_2h(a)": 72, "2n*bound": 72,
+ "max_avg_a_h(a)": 6.000000, "exceeds_bound": false, "num_pi_attaining_max": 6,
+ "argmax_pi": [0, 5, 4, 3, 2, 1]}
+{"n": 7, "checked": 5040, "lemma_d_checked": true, "lemma_d_mismatches": 0,
+ "bound_floor_(n-1)^2/4": 9, "max_sum_a_2h(a)": 126, "2n*bound": 126,
+ "max_avg_a_h(a)": 9.000000, "exceeds_bound": false, "num_pi_attaining_max": 7,
+ "argmax_pi": [0, 6, 5, 4, 3, 2, 1]}
+{"n": 8, "checked": 40320, "lemma_d_checked": true, "lemma_d_mismatches": 0,
+ "bound_floor_(n-1)^2/4": 12, "max_sum_a_2h(a)": 192, "2n*bound": 192,
+ "max_avg_a_h(a)": 12.000000, "exceeds_bound": false, "num_pi_attaining_max": 8,
+ "argmax_pi": [0, 7, 6, 5, 4, 3, 2, 1]}
+{"n": 9, "checked": 362880, "lemma_d_checked": false, "lemma_d_mismatches": 0,
+ "bound_floor_(n-1)^2/4": 16, "max_sum_a_2h(a)": 288, "2n*bound": 288,
+ "max_avg_a_h(a)": 16.000000, "exceeds_bound": false, "num_pi_attaining_max": 9,
+ "argmax_pi": [0, 8, 7, 6, 5, 4, 3, 2, 1]}
+{"n": 10, "checked": 3628800, "lemma_d_checked": false, "lemma_d_mismatches": 0,
+ "bound_floor_(n-1)^2/4": 20, "max_sum_a_2h(a)": 400, "2n*bound": 400,
+ "max_avg_a_h(a)": 20.000000, "exceeds_bound": false, "num_pi_attaining_max": 10,
+ "argmax_pi": [0, 9, 8, 7, 6, 5, 4, 3, 2, 1]}
+{"n": 11, "checked": 39916800, "lemma_d_checked": false, "lemma_d_mismatches": 0,
+ "bound_floor_(n-1)^2/4": 25, "max_sum_a_2h(a)": 550, "2n*bound": 550,
+ "max_avg_a_h(a)": 25.000000, "exceeds_bound": false, "num_pi_attaining_max": 11,
+ "argmax_pi": [0, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]}
