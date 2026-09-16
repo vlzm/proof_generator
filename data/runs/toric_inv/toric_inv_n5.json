@@ -1,0 +1,4 @@
+{"version": "toric_inv-1.0", "n": 5, "enumerated": 24, "scope": "pi(0)=0 representatives of toric classes",
+ "bound_floor_(n-1)^2/4": 4, "max_I": 4, "count_max": 1, "violations": 0,
+ "extremal_examples": [[0, 4, 3, 2, 1]],
+ "hist_I": [[0, 1], [1, 5], [2, 10], [3, 7], [4, 1]]}

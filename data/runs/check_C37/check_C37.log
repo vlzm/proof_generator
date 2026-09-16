@@ -1,0 +1,41 @@
+[A-E] identities verified for all 3! permutations, n = 3
+[A-E] identities verified for all 4! permutations, n = 4
+[A-E] identities verified for all 5! permutations, n = 5
+[A-E] identities verified for all 6! permutations, n = 6
+[A-E] identities verified for all 7! permutations, n = 7
+[A-E] identities verified on 30 random + families, n = 8
+[A-E] identities verified on 30 random + families, n = 9
+[A-E] identities verified on 30 random + families, n = 10
+[A-E] identities verified on 30 random + families, n = 11
+[F] n = 4: max I over toric classes = 2 = M = 2, argmax [0, 3, 2, 1]
+[F] n = 5: max I over toric classes = 4 = M = 4, argmax [0, 4, 3, 2, 1]
+[F] n = 6: max I over toric classes = 6 = M = 6, argmax [0, 5, 4, 3, 2, 1]
+[F] n = 7: max I over toric classes = 9 = M = 9, argmax [0, 6, 5, 4, 3, 2, 1]
+[F] n = 8: max I over toric classes = 12 = M = 12, argmax [0, 7, 6, 5, 4, 3, 2, 1]
+[F'] n = 12: 21 family members, max I = 30 <= M = 30 (reflection h=0)
+[F'] n = 13: 30 family members, max I = 36 <= M = 36 (reflection h=0)
+[F'] n = 14: 25 family members, max I = 42 <= M = 42 (reflection h=0)
+[F'] n = 15: 28 family members, max I = 49 <= M = 49 (reflection h=0)
+[F'] n = 16: 29 family members, max I = 56 <= M = 56 (reflection h=0)
+[F'] n = 17: 38 family members, max I = 64 <= M = 64 (reflection h=0)
+[F'] n = 18: 29 family members, max I = 72 <= M = 72 (reflection h=0)
+[F'] n = 19: 42 family members, max I = 81 <= M = 81 (reflection h=0)
+[F'] n = 20: 33 family members, max I = 90 <= M = 90 (reflection h=0)
+[F'] n = 21: 38 family members, max I = 100 <= M = 100 (reflection h=0)
+[F'] n = 22: 37 family members, max I = 110 <= M = 110 (reflection h=0)
+[F'] n = 23: 50 family members, max I = 121 <= M = 121 (reflection h=0)
+[F'] n = 24: 37 family members, max I = 132 <= M = 132 (reflection h=0)
+[F'] n = 30: 43 family members, max I = 210 <= M = 210 (reflection h=0)
+[F'] n = 40: 61 family members, max I = 380 <= M = 380 (reflection h=0)
+[F'] n = 50: 75 family members, max I = 600 <= M = 600 (reflection h=0)
+[F'] n = 60: 81 family members, max I = 870 <= M = 870 (reflection h=0)
+[G] n = 4: criterion 7 covers 5/6 classes, criterion 9 covers 6/6
+[G] n = 5: criterion 7 covers 18/24 classes, criterion 9 covers 19/24
+[G] n = 6: criterion 7 covers 101/120 classes, criterion 9 covers 120/120
+[G] n = 7: criterion 7 covers 579/720 classes, criterion 9 covers 657/720
+[G] n = 8: criterion 7 covers 4083/5040 classes, criterion 9 covers 4904/5040
+PASS  (6.3 s)
+
+real	0m6.290s
+user	0m6.289s
+sys	0m0.000s
