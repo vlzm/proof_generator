@@ -1,0 +1,120 @@
+{
+  "version": "h13i_reductions-1.0",
+  "goal": "check whether the single-shift+rotation family suffices for H13-I",
+  "coverage": "exhaustive over all pi, 3 <= n <= 9; all v checked for n <= 6, v = 0 only for larger n (invariance proved analytically)",
+  "total_seconds": 10.165,
+  "rows": [
+    {
+      "n": 3,
+      "bound_H13I": 1,
+      "worst_family": 1,
+      "exceeds_bound": false,
+      "excess": 0,
+      "example_pi": [
+        0,
+        2,
+        1
+      ],
+      "seconds": 0.0
+    },
+    {
+      "n": 4,
+      "bound_H13I": 2,
+      "worst_family": 2,
+      "exceeds_bound": false,
+      "excess": 0,
+      "example_pi": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "seconds": 0.0
+    },
+    {
+      "n": 5,
+      "bound_H13I": 4,
+      "worst_family": 4,
+      "exceeds_bound": false,
+      "excess": 0,
+      "example_pi": [
+        0,
+        4,
+        1,
+        3,
+        2
+      ],
+      "seconds": 0.005
+    },
+    {
+      "n": 6,
+      "bound_H13I": 6,
+      "worst_family": 6,
+      "exceeds_bound": false,
+      "excess": 0,
+      "example_pi": [
+        0,
+        4,
+        3,
+        2,
+        1,
+        5
+      ],
+      "seconds": 0.049
+    },
+    {
+      "n": 7,
+      "bound_H13I": 9,
+      "worst_family": 10,
+      "exceeds_bound": true,
+      "excess": 1,
+      "example_pi": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1,
+        6
+      ],
+      "seconds": 0.077
+    },
+    {
+      "n": 8,
+      "bound_H13I": 12,
+      "worst_family": 13,
+      "exceeds_bound": true,
+      "excess": 1,
+      "example_pi": [
+        0,
+        6,
+        5,
+        3,
+        4,
+        2,
+        1,
+        7
+      ],
+      "seconds": 0.815
+    },
+    {
+      "n": 9,
+      "bound_H13I": 16,
+      "worst_family": 17,
+      "exceeds_bound": true,
+      "excess": 1,
+      "example_pi": [
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        8,
+        1,
+        7
+      ],
+      "seconds": 9.218
+    }
+  ]
+}
