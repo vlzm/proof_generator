@@ -1,0 +1,22 @@
+n    bound  worst_I  source  exceed  time_s
+  11     25      25  reflection h=0  no  0.2
+  12     30      30  reflection h=0  no  0.3
+  15     49      49  reflection h=0  no  0.4
+  20     90      90  reflection h=0  no  0.8
+  25    144     144  reflection h=0  no  1.3
+  30    210     210  reflection h=0  no  1.7
+  40    380     380  reflection h=0  no  1.5
+  50    600     600  reflection h=0  no  2.9
+  70   1190    1190  reflection h=0  no  6.4
+ 100   2450    2450  reflection h=0  no  28.6
+
+n    bound  SA_best  exceed  time_s
+  11    25      25  no  6.1
+  12    30      30  no  7.3
+  13    36      36  no  8.4
+  14    42      42  no  9.8
+  15    49      49  no  11.0
+  16    56      56  no  13.8
+  18    72      72  no  9.4
+  20    90      83  no  11.1
+  24   132     118  no  15.9

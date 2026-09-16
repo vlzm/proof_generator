@@ -1,0 +1,10 @@
+n=3 fast_I == brute_I: exhaustive OK (6 permutations)
+n=4 fast_I == brute_I: exhaustive OK (24 permutations)
+n=5 fast_I == brute_I: exhaustive OK (120 permutations)
+n=6 fast_I == brute_I: exhaustive OK (720 permutations)
+n=7 fast_I == brute_I: exhaustive OK (5040 permutations)
+n=8 fast_I == brute_I: exhaustive OK (40320 permutations)
+n=9 fast_I == brute_I: 200 random spot checks OK
+n=10 fast_I == brute_I: 200 random spot checks OK
+n=12 fast_I == brute_I: 200 random spot checks OK
+n=15 fast_I == brute_I: 200 random spot checks OK
