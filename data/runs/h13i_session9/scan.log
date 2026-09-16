@@ -1,0 +1,23 @@
+n=4 mode=full checked=6 max_I=2 target_floor((n-1)^2/4)=2 achievers=1 OK
+n=5 mode=full checked=24 max_I=4 target_floor((n-1)^2/4)=4 achievers=1 OK
+n=6 mode=full checked=120 max_I=6 target_floor((n-1)^2/4)=6 achievers=1 OK
+n=7 mode=full checked=720 max_I=9 target_floor((n-1)^2/4)=9 achievers=1 OK
+n=8 mode=full checked=5040 max_I=12 target_floor((n-1)^2/4)=12 achievers=1 OK
+n=9 mode=full checked=40320 max_I=16 target_floor((n-1)^2/4)=16 achievers=1 OK
+n=10 mode=full checked=362880 max_I=20 target_floor((n-1)^2/4)=20 achievers=1 OK
+n=11 mode=full checked=3628800 max_I=25 target_floor((n-1)^2/4)=25 achievers=1 OK
+n=4 mode=axis checked=24 min_over_pi_max_over_cuts_noninv=4 target_floor(n^2/4)=4 gap=0 worst_count=8 OK
+n=5 mode=axis checked=120 min_over_pi_max_over_cuts_noninv=6 target_floor(n^2/4)=6 gap=0 worst_count=15 OK
+n=6 mode=axis checked=720 min_over_pi_max_over_cuts_noninv=9 target_floor(n^2/4)=9 gap=0 worst_count=54 OK
+n=7 mode=axis checked=5040 min_over_pi_max_over_cuts_noninv=11 target_floor(n^2/4)=12 gap=1 worst_count=7 FAIL
+n=8 mode=axis checked=40320 min_over_pi_max_over_cuts_noninv=15 target_floor(n^2/4)=16 gap=1 worst_count=16 FAIL
+n=9 mode=axis checked=362880 min_over_pi_max_over_cuts_noninv=19 target_floor(n^2/4)=20 gap=1 worst_count=162 FAIL
+n=10 mode=axis checked=3628800 min_over_pi_max_over_cuts_noninv=22 target_floor(n^2/4)=25 gap=3 worst_count=10 FAIL
+n=11 mode=axis checked=39916800 min_over_pi_max_over_cuts_noninv=27 target_floor(n^2/4)=30 gap=3 worst_count=33 FAIL
+n=4 mode=diag checked=24 min_over_pi_max_over_cuts_noninv=2 target_floor(n^2/4)=4 gap=2 worst_count=1 FAIL
+n=5 mode=diag checked=120 min_over_pi_max_over_cuts_noninv=4 target_floor(n^2/4)=6 gap=2 worst_count=2 FAIL
+n=6 mode=diag checked=720 min_over_pi_max_over_cuts_noninv=5 target_floor(n^2/4)=9 gap=4 worst_count=2 FAIL
+n=7 mode=diag checked=5040 min_over_pi_max_over_cuts_noninv=9 target_floor(n^2/4)=12 gap=3 worst_count=30 FAIL
+n=8 mode=diag checked=40320 min_over_pi_max_over_cuts_noninv=11 target_floor(n^2/4)=16 gap=5 worst_count=20 FAIL
+n=9 mode=diag checked=362880 min_over_pi_max_over_cuts_noninv=14 target_floor(n^2/4)=20 gap=6 worst_count=6 FAIL
+n=10 mode=diag checked=3628800 min_over_pi_max_over_cuts_noninv=17 target_floor(n^2/4)=25 gap=8 worst_count=12 FAIL
