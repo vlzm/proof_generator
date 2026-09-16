@@ -1,0 +1,231 @@
+{
+ "version": "h13i_cut_families-1.0",
+ "core": "oracle-1.0",
+ "rows": [
+  {
+   "n": 4,
+   "bound_floor_(n-1)^2/4": 2,
+   "count": 24,
+   "max_I": 2,
+   "argmax_I": [
+    0,
+    3,
+    2,
+    1
+   ],
+   "max_avg": 3.5,
+   "argmax_avg": [
+    0,
+    3,
+    2,
+    1
+   ],
+   "n_pi_with_avg_over_bound": 24,
+   "max_value_only_min": 2,
+   "argmax_value_only_min": [
+    0,
+    2,
+    3,
+    1
+   ],
+   "n_pi_value_only_over_bound": 0,
+   "max_diagonal_min": 2,
+   "argmax_diagonal_min": [
+    0,
+    2,
+    3,
+    1
+   ],
+   "n_pi_diagonal_over_bound": 0,
+   "seconds": 0.0
+  },
+  {
+   "n": 5,
+   "bound_floor_(n-1)^2/4": 4,
+   "count": 120,
+   "max_I": 4,
+   "argmax_I": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "max_avg": 6.0,
+   "argmax_avg": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "n_pi_with_avg_over_bound": 115,
+   "max_value_only_min": 4,
+   "argmax_value_only_min": [
+    0,
+    2,
+    4,
+    3,
+    1
+   ],
+   "n_pi_value_only_over_bound": 0,
+   "max_diagonal_min": 4,
+   "argmax_diagonal_min": [
+    0,
+    2,
+    4,
+    3,
+    1
+   ],
+   "n_pi_diagonal_over_bound": 0,
+   "seconds": 0.0
+  },
+  {
+   "n": 6,
+   "bound_floor_(n-1)^2/4": 6,
+   "count": 720,
+   "max_I": 6,
+   "argmax_I": [
+    0,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "max_avg": 9.166666666666666,
+   "argmax_avg": [
+    0,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "n_pi_with_avg_over_bound": 714,
+   "max_value_only_min": 6,
+   "argmax_value_only_min": [
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "n_pi_value_only_over_bound": 0,
+   "max_diagonal_min": 6,
+   "argmax_diagonal_min": [
+    0,
+    1,
+    5,
+    4,
+    3,
+    2
+   ],
+   "n_pi_diagonal_over_bound": 0,
+   "seconds": 0.1
+  },
+  {
+   "n": 7,
+   "bound_floor_(n-1)^2/4": 9,
+   "count": 5040,
+   "max_I": 9,
+   "argmax_I": [
+    0,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "max_avg": 13.0,
+   "argmax_avg": [
+    0,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "n_pi_with_avg_over_bound": 4984,
+   "max_value_only_min": 10,
+   "argmax_value_only_min": [
+    0,
+    5,
+    4,
+    3,
+    2,
+    1,
+    6
+   ],
+   "n_pi_value_only_over_bound": 7,
+   "max_diagonal_min": 10,
+   "argmax_diagonal_min": [
+    0,
+    1,
+    6,
+    5,
+    4,
+    3,
+    2
+   ],
+   "n_pi_diagonal_over_bound": 7,
+   "seconds": 0.8
+  },
+  {
+   "n": 8,
+   "bound_floor_(n-1)^2/4": 12,
+   "count": 40320,
+   "max_I": 12,
+   "argmax_I": [
+    0,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "max_avg": 17.5,
+   "argmax_avg": [
+    0,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "n_pi_with_avg_over_bound": 39832,
+   "max_value_only_min": 13,
+   "argmax_value_only_min": [
+    0,
+    6,
+    5,
+    3,
+    4,
+    2,
+    1,
+    7
+   ],
+   "n_pi_value_only_over_bound": 16,
+   "max_diagonal_min": 13,
+   "argmax_diagonal_min": [
+    0,
+    1,
+    7,
+    6,
+    4,
+    5,
+    3,
+    2
+   ],
+   "n_pi_diagonal_over_bound": 16,
+   "seconds": 9.6
+  }
+ ]
+}

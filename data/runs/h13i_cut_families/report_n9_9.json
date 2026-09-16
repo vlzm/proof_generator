@@ -1,0 +1,63 @@
+{
+ "version": "h13i_cut_families-1.0",
+ "core": "oracle-1.0",
+ "rows": [
+  {
+   "n": 9,
+   "bound_floor_(n-1)^2/4": 16,
+   "count": 362880,
+   "max_I": 16,
+   "argmax_I": [
+    0,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "max_avg": 22.666666666666668,
+   "argmax_avg": [
+    0,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "n_pi_with_avg_over_bound": 356364,
+   "max_value_only_min": 17,
+   "argmax_value_only_min": [
+    0,
+    2,
+    7,
+    6,
+    5,
+    4,
+    3,
+    8,
+    1
+   ],
+   "n_pi_value_only_over_bound": 162,
+   "max_diagonal_min": 17,
+   "argmax_diagonal_min": [
+    0,
+    1,
+    8,
+    3,
+    7,
+    6,
+    5,
+    4,
+    2
+   ],
+   "n_pi_diagonal_over_bound": 162,
+   "seconds": 123.5
+  }
+ ]
+}
