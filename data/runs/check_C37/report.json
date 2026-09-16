@@ -1,0 +1,245 @@
+{
+ "version": "check_C37-1.0",
+ "core": "oracle-1.0",
+ "args": {
+  "amax": 8,
+  "free_amax": 8
+ },
+ "lemma1": true,
+ "lemma23": true,
+ "lemma4": true,
+ "theorem5_rows": [
+  {
+   "n": 4,
+   "min_over_pi_of_max_Q": 2,
+   "target": 2,
+   "crosschecked_with_direct_sum": true,
+   "time": 0.0
+  },
+  {
+   "n": 5,
+   "min_over_pi_of_max_Q": 2,
+   "target": 2,
+   "crosschecked_with_direct_sum": true,
+   "time": 0.0
+  },
+  {
+   "n": 6,
+   "min_over_pi_of_max_Q": 3,
+   "target": 3,
+   "crosschecked_with_direct_sum": true,
+   "time": 0.1
+  },
+  {
+   "n": 7,
+   "min_over_pi_of_max_Q": 3,
+   "target": 3,
+   "crosschecked_with_direct_sum": false,
+   "time": 0.7
+  },
+  {
+   "n": 8,
+   "min_over_pi_of_max_Q": 4,
+   "target": 4,
+   "crosschecked_with_direct_sum": false,
+   "time": 13.7
+  }
+ ],
+ "theorem5": true,
+ "cor52_rows": [
+  {
+   "n": 4,
+   "no_cut_satisfying_criterion": 0,
+   "examples": [],
+   "time": 0.0
+  },
+  {
+   "n": 5,
+   "no_cut_satisfying_criterion": 0,
+   "examples": [],
+   "time": 0.0
+  },
+  {
+   "n": 6,
+   "no_cut_satisfying_criterion": 0,
+   "examples": [],
+   "time": 0.0
+  },
+  {
+   "n": 7,
+   "no_cut_satisfying_criterion": 0,
+   "examples": [],
+   "time": 0.3
+  },
+  {
+   "n": 8,
+   "no_cut_satisfying_criterion": 16,
+   "examples": [
+    [
+     0,
+     3,
+     6,
+     1,
+     4,
+     7,
+     2,
+     5
+    ],
+    [
+     0,
+     5,
+     2,
+     7,
+     4,
+     1,
+     6,
+     3
+    ],
+    [
+     1,
+     4,
+     7,
+     2,
+     5,
+     0,
+     3,
+     6
+    ],
+    [
+     1,
+     6,
+     3,
+     0,
+     5,
+     2,
+     7,
+     4
+    ],
+    [
+     2,
+     5,
+     0,
+     3,
+     6,
+     1,
+     4,
+     7
+    ],
+    [
+     2,
+     7,
+     4,
+     1,
+     6,
+     3,
+     0,
+     5
+    ],
+    [
+     3,
+     0,
+     5,
+     2,
+     7,
+     4,
+     1,
+     6
+    ],
+    [
+     3,
+     6,
+     1,
+     4,
+     7,
+     2,
+     5,
+     0
+    ],
+    [
+     4,
+     1,
+     6,
+     3,
+     0,
+     5,
+     2,
+     7
+    ],
+    [
+     4,
+     7,
+     2,
+     5,
+     0,
+     3,
+     6,
+     1
+    ],
+    [
+     5,
+     0,
+     3,
+     6,
+     1,
+     4,
+     7,
+     2
+    ],
+    [
+     5,
+     2,
+     7,
+     4,
+     1,
+     6,
+     3,
+     0
+    ],
+    [
+     6,
+     1,
+     4,
+     7,
+     2,
+     5,
+     0,
+     3
+    ],
+    [
+     6,
+     3,
+     0,
+     5,
+     2,
+     7,
+     4,
+     1
+    ],
+    [
+     7,
+     2,
+     5,
+     0,
+     3,
+     6,
+     1,
+     4
+    ],
+    [
+     7,
+     4,
+     1,
+     6,
+     3,
+     0,
+     5,
+     2
+    ]
+   ],
+   "time": 6.4
+  }
+ ],
+ "cor52": true,
+ "seconds": 28.0,
+ "verdict": "PASS"
+}
