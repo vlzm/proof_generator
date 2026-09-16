@@ -1,0 +1,23 @@
+{
+  "id": "H13I_diaconis_graham_n8",
+  "date": "2026-09-16",
+  "claim_refuted": "min over cuts of (footrule D - Cayley distance T) <= floor((n-1)^2/4) (Diaconis-Graham route to H13-I)",
+  "n": 8,
+  "pi": [
+    0,
+    3,
+    6,
+    1,
+    4,
+    7,
+    2,
+    5
+  ],
+  "pi_formula": "pi(i) = 3i mod 8",
+  "min_D_minus_T_over_all_cuts": 13,
+  "bound_floor_n_minus_1_sq_over_4": 12,
+  "I_of_pi": 9,
+  "minimality": "smallest n among the exhaustively checked range 4<=n<=8",
+  "checker": "checks/check_H13I.py part 8",
+  "note": "Diaconis-Graham inv + T <= D holds everywhere; it is tight on reflections but too weak on affine inputs."
+}

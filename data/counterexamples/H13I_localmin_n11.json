@@ -1,0 +1,17 @@
+{
+  "id": "H13I_localmin_n11",
+  "date": "2026-09-16",
+  "claim_refuted": "four-direction local minimality of a double cut implies inv <= floor((n-1)^2/4)",
+  "n": 11,
+  "pi": [0, 2, 10, 6, 5, 1, 9, 8, 7, 4, 3],
+  "cut": {"a": 4, "b": 1},
+  "line": [4, 0, 8, 7, 6, 3, 2, 10, 1, 9, 5],
+  "inv_at_cut": 26,
+  "bound_floor_n_minus_1_sq_over_4": 25,
+  "I_of_pi": 18,
+  "locally_minimal_along": [[1, 0], [0, 1], [1, 1], [1, -1]],
+  "minimality": "smallest n among the exhaustively checked range 4<=n<=11; for 4<=n<=10 the maximum of inv over four-direction locally minimal cuts equals the bound exactly",
+  "checker": "checks/check_H13I.py part 9",
+  "producer": "experiments/line_class_scan.c (line_class_scan-1.1) mode 1",
+  "note": "H13-I itself is NOT refuted: I(pi)=18 <= 25. Refuted is the proof route via local optimality conditions."
+}
