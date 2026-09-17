@@ -1,0 +1,100 @@
+{
+  "version": "check_C37-1.0",
+  "core": "oracle-1.0",
+  "args": {
+    "amax": 8,
+    "rmax": 60,
+    "samples": 15
+  },
+  "part_a": [
+    {
+      "n": 4,
+      "count": 24,
+      "seconds": 0.0
+    },
+    {
+      "n": 5,
+      "count": 120,
+      "seconds": 0.0
+    },
+    {
+      "n": 6,
+      "count": 720,
+      "seconds": 0.1
+    },
+    {
+      "n": 7,
+      "count": 5040,
+      "seconds": 0.6
+    },
+    {
+      "n": 8,
+      "count": 40320,
+      "seconds": 7.4
+    }
+  ],
+  "part_b": [
+    {
+      "n": 9,
+      "samples": 15
+    },
+    {
+      "n": 10,
+      "samples": 15
+    },
+    {
+      "n": 11,
+      "samples": 15
+    },
+    {
+      "n": 12,
+      "samples": 15
+    },
+    {
+      "n": 13,
+      "samples": 15
+    },
+    {
+      "n": 14,
+      "samples": 15
+    },
+    {
+      "n": 15,
+      "samples": 15
+    },
+    {
+      "n": 16,
+      "samples": 15
+    },
+    {
+      "n": 17,
+      "samples": 15
+    },
+    {
+      "n": 18,
+      "samples": 15
+    },
+    {
+      "n": 19,
+      "samples": 15
+    },
+    {
+      "n": 20,
+      "samples": 15
+    },
+    {
+      "n": 30,
+      "samples": 15
+    },
+    {
+      "n": 40,
+      "samples": 15
+    },
+    {
+      "n": 60,
+      "samples": 15
+    }
+  ],
+  "part_c_ok": true,
+  "verdict": "PASS"
+}

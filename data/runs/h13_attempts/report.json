@@ -1,0 +1,195 @@
+{
+  "version": "h13_attempts-1.0",
+  "core": "oracle-1.0",
+  "args": {
+    "amax": 8,
+    "rmax": 12
+  },
+  "route1_rotation_only": [
+    {
+      "n": 4,
+      "bound": 2,
+      "max_value_rot_only": 2,
+      "argmax_value": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "max_position_rot_only": 2,
+      "argmax_position": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "n": 5,
+      "bound": 4,
+      "max_value_rot_only": 4,
+      "argmax_value": [
+        0,
+        2,
+        4,
+        3,
+        1
+      ],
+      "max_position_rot_only": 4,
+      "argmax_position": [
+        0,
+        4,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "n": 6,
+      "bound": 6,
+      "max_value_rot_only": 6,
+      "argmax_value": [
+        0,
+        2,
+        4,
+        5,
+        3,
+        1
+      ],
+      "max_position_rot_only": 6,
+      "argmax_position": [
+        0,
+        4,
+        3,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "n": 7,
+      "bound": 9,
+      "max_value_rot_only": 10,
+      "argmax_value": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1,
+        6
+      ],
+      "max_position_rot_only": 10,
+      "argmax_position": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1,
+        6
+      ]
+    },
+    {
+      "n": 8,
+      "bound": 12,
+      "max_value_rot_only": 13,
+      "argmax_value": [
+        0,
+        6,
+        5,
+        3,
+        4,
+        2,
+        1,
+        7
+      ],
+      "max_position_rot_only": 13,
+      "argmax_position": [
+        0,
+        6,
+        5,
+        3,
+        4,
+        2,
+        1,
+        7
+      ]
+    }
+  ],
+  "route1_would_suffice": false,
+  "route2_cantelli": [
+    {
+      "n": 4,
+      "bound": 2,
+      "true_I_rev_n": 2,
+      "mean": 3.5,
+      "max": 6,
+      "cantelli_estimate": 2.6
+    },
+    {
+      "n": 5,
+      "bound": 4,
+      "true_I_rev_n": 4,
+      "mean": 6.0,
+      "max": 10,
+      "cantelli_estimate": 4.8
+    },
+    {
+      "n": 6,
+      "bound": 6,
+      "true_I_rev_n": 6,
+      "mean": 9.167,
+      "max": 15,
+      "cantelli_estimate": 7.6
+    },
+    {
+      "n": 7,
+      "bound": 9,
+      "true_I_rev_n": 9,
+      "mean": 13.0,
+      "max": 21,
+      "cantelli_estimate": 11.0
+    },
+    {
+      "n": 8,
+      "bound": 12,
+      "true_I_rev_n": 12,
+      "mean": 17.5,
+      "max": 28,
+      "cantelli_estimate": 15.0
+    },
+    {
+      "n": 9,
+      "bound": 16,
+      "true_I_rev_n": 16,
+      "mean": 22.667,
+      "max": 36,
+      "cantelli_estimate": 19.6
+    },
+    {
+      "n": 10,
+      "bound": 20,
+      "true_I_rev_n": 20,
+      "mean": 28.5,
+      "max": 45,
+      "cantelli_estimate": 24.8
+    },
+    {
+      "n": 11,
+      "bound": 25,
+      "true_I_rev_n": 25,
+      "mean": 35.0,
+      "max": 55,
+      "cantelli_estimate": 30.6
+    },
+    {
+      "n": 12,
+      "bound": 30,
+      "true_I_rev_n": 30,
+      "mean": 42.167,
+      "max": 66,
+      "cantelli_estimate": 37.0
+    }
+  ]
+}
