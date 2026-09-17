@@ -1,0 +1,2 @@
+verify_xor: nmax=6 checked=29366 all_match=True
+elapsed: 0.2s

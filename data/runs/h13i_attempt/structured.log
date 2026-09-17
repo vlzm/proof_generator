@@ -1,0 +1,14 @@
+n worst_reflections worst_affine worst_random target status
+11 25 25 19 25 OK
+12 30 30 21 30 OK
+13 36 36 27 36 OK
+14 42 42 32 42 OK
+15 49 49 34 49 OK
+16 56 56 40 56 OK
+18 72 72 53 72 OK
+20 90 90 69 90 OK
+25 144 144 112 144 OK
+30 210 210 158 210 OK
+40 380 380 305 380 OK
+50 600 600 483 600 OK
+elapsed: 25.9s
