@@ -1,0 +1,245 @@
+{
+ "version": "toric_average-1.0",
+ "rows": [
+  {
+   "n": 4,
+   "target": 2,
+   "reps": 6,
+   "max_I": 2,
+   "argmax_I": [
+    0,
+    3,
+    2,
+    1
+   ],
+   "mean_fail": 6,
+   "line_fail": 0,
+   "anti_fail": 0,
+   "t_fail": [
+    1,
+    1,
+    2,
+    6
+   ],
+   "min_t_sets": {
+    "size": 2,
+    "sets": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "seconds": 0.0
+  },
+  {
+   "n": 5,
+   "target": 4,
+   "reps": 24,
+   "max_I": 4,
+   "argmax_I": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "mean_fail": 23,
+   "line_fail": 5,
+   "anti_fail": 12,
+   "t_fail": [
+    1,
+    1,
+    7,
+    9,
+    23
+   ],
+   "min_t_sets": {
+    "size": 2,
+    "sets": [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      1,
+      2
+     ]
+    ]
+   },
+   "seconds": 0.0
+  },
+  {
+   "n": 6,
+   "target": 6,
+   "reps": 120,
+   "max_I": 6,
+   "argmax_I": [
+    0,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "mean_fail": 119,
+   "line_fail": 12,
+   "anti_fail": 20,
+   "t_fail": [
+    1,
+    1,
+    4,
+    19,
+    61,
+    113
+   ],
+   "min_t_sets": {
+    "size": 2,
+    "sets": [
+     [
+      0,
+      2
+     ],
+     [
+      1,
+      2
+     ]
+    ]
+   },
+   "seconds": 0.0
+  },
+  {
+   "n": 7,
+   "target": 9,
+   "reps": 720,
+   "max_I": 9,
+   "argmax_I": [
+    0,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "mean_fail": 712,
+   "line_fail": 49,
+   "anti_fail": 256,
+   "t_fail": [
+    8,
+    3,
+    3,
+    81,
+    82,
+    307,
+    607
+   ],
+   "min_t_sets": {
+    "size": 2,
+    "sets": [
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ]
+    ]
+   },
+   "seconds": 0.1
+  },
+  {
+   "n": 8,
+   "target": 12,
+   "reps": 5040,
+   "max_I": 12,
+   "argmax_I": [
+    0,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "mean_fail": 4979,
+   "line_fail": 144,
+   "anti_fail": 857,
+   "t_fail": [
+    69,
+    1,
+    2,
+    92,
+    341,
+    607,
+    2177,
+    3963
+   ],
+   "min_t_sets": {
+    "size": 2,
+    "sets": [
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      3
+     ]
+    ]
+   },
+   "seconds": 0.6
+  },
+  {
+   "n": 9,
+   "target": 16,
+   "reps": 40320,
+   "max_I": 16,
+   "argmax_I": [
+    0,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "mean_fail": 39596,
+   "line_fail": 1353,
+   "anti_fail": 11582,
+   "t_fail": [
+    225,
+    20,
+    3,
+    69,
+    2178,
+    1410,
+    4305,
+    14329,
+    27518
+   ],
+   "min_t_sets": {
+    "size": 2,
+    "sets": [
+     [
+      1,
+      4
+     ],
+     [
+      2,
+      3
+     ]
+    ]
+   },
+   "seconds": 5.8
+  }
+ ]
+}

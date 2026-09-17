@@ -1,0 +1,5 @@
+{"version": "toric_min_inv-1.0", "n": 6, "reps": 120, "target": 6,
+ "max_I": 6, "max_I_count": 1, "max_I_examples": [[0, 5, 4, 3, 2, 1]],
+ "min_good_cuts": 6, "min_good_cuts_pi": [0, 5, 4, 3, 2, 1],
+ "hist_I": [[0, 1], [1, 6], [2, 21], [3, 44], [4, 41], [5, 6], [6, 1]],
+ "seconds": 0.0}
