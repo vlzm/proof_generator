@@ -1,0 +1,1 @@
+{"n": 12, "count": 479001600, "bound_floor((n-1)^2/4)": 30, "max_I": 30, "max_I_minus_bound": 0, "argmax_rank": 39916799, "count_at_bound": 12, "checked_against_brute": false, "seconds": 1742.556}
