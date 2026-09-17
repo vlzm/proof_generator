@@ -1,0 +1,22 @@
+{
+ "version": "h13i_attempt-1.0",
+ "core": "oracle-1.0",
+ "args": {
+  "nmin": 9,
+  "nmax": 9,
+  "affine_nmax": 12,
+  "only": "circtransp"
+ },
+ "circtransp": [
+  {
+   "n": 9,
+   "max_dist": 20,
+   "n_squared_over_4": 20,
+   "mismatches_vs_I_single": 249799,
+   "mismatches_vs_I_double": 281255,
+   "count": 362880,
+   "seconds": 127.1
+  }
+ ],
+ "seconds": 127.1
+}

@@ -1,0 +1,69 @@
+== h13i_attempt-1.0 oracle-1.0 args={'nmin': 4, 'nmax': 7, 'affine_nmax': 16, 'only': None}
+-- 1. pairsum identity (quadrant reformulation sanity check) --
+  pairsum n=4 id: grid_sum=40 formula_sum=40 OK
+  pairsum n=4 sigma: grid_sum=56 formula_sum=56 OK
+  pairsum n=4 rev: grid_sum=56 formula_sum=56 OK
+  pairsum n=4 rnd: grid_sum=48 formula_sum=48 OK
+  pairsum n=5 id: grid_sum=100 formula_sum=100 OK
+  pairsum n=5 sigma: grid_sum=150 formula_sum=150 OK
+  pairsum n=5 rev: grid_sum=150 formula_sum=150 OK
+  pairsum n=5 rnd: grid_sum=115 formula_sum=115 OK
+  pairsum n=6 id: grid_sum=210 formula_sum=210 OK
+  pairsum n=6 sigma: grid_sum=330 formula_sum=330 OK
+  pairsum n=6 rev: grid_sum=330 formula_sum=330 OK
+  pairsum n=6 rnd: grid_sum=270 formula_sum=270 OK
+  pairsum n=7 id: grid_sum=392 formula_sum=392 OK
+  pairsum n=7 sigma: grid_sum=637 formula_sum=637 OK
+  pairsum n=7 rev: grid_sum=637 formula_sum=637 OK
+  pairsum n=7 rnd: grid_sum=504 formula_sum=504 OK
+-- 2. row/column shift-by-one recurrence --
+  recurrence n=4: 6 random pi, all (r0,c0) checked, mismatches=0
+  recurrence n=5: 6 random pi, all (r0,c0) checked, mismatches=0
+  recurrence n=6: 6 random pi, all (r0,c0) checked, mismatches=0
+  recurrence n=7: 6 random pi, all (r0,c0) checked, mismatches=0
+-- 3. compression / local-maxima under adjacent swaps --
+  compress n=4: local maxima pos-swap=4 (non-reflection 0), val-swap=4 (non-reflection 0); 0.0 s
+  compress n=5: local maxima pos-swap=15 (non-reflection 10), val-swap=15 (non-reflection 10); 0.0 s
+  compress n=6: local maxima pos-swap=126 (non-reflection 120), val-swap=126 (non-reflection 120); 0.1 s
+  compress n=7: local maxima pos-swap=231 (non-reflection 224), val-swap=231 (non-reflection 224); 0.7 s
+-- 4. n canonical ('diagonal') origins are not enough --
+  diagonal n=4: bound=2, n-origin restriction exceeds bound on 4/24 pi (worst 3 at (0, 3, 2, 1)); 0.0 s
+  diagonal n=5: bound=4, n-origin restriction exceeds bound on 5/120 pi (worst 6 at (0, 4, 3, 2, 1)); 0.0 s
+  diagonal n=6: bound=6, n-origin restriction exceeds bound on 6/720 pi (worst 10 at (0, 5, 4, 3, 2, 1)); 0.0 s
+  diagonal n=7: bound=9, n-origin restriction exceeds bound on 56/5040 pi (worst 15 at (0, 6, 5, 4, 3, 2, 1)); 0.1 s
+-- 5. affine family pi(i) = a*i mod n --
+  affine n=4: bound=2, max_a I(pi_a)=2 at a=3 (a=n-1 is the reflection pi(i)=-i, already covered by C32/C33)
+  affine n=5: bound=4, max_a I(pi_a)=4 at a=4 (a=n-1 is the reflection pi(i)=-i, already covered by C32/C33)
+  affine n=6: bound=6, max_a I(pi_a)=6 at a=5 (a=n-1 is the reflection pi(i)=-i, already covered by C32/C33)
+  affine n=7: bound=9, max_a I(pi_a)=9 at a=6 (a=n-1 is the reflection pi(i)=-i, already covered by C32/C33)
+  affine n=8: bound=12, max_a I(pi_a)=12 at a=7 (a=n-1 is the reflection pi(i)=-i, already covered by C32/C33)
+  affine n=9: bound=16, max_a I(pi_a)=16 at a=8 (a=n-1 is the reflection pi(i)=-i, already covered by C32/C33)
+  affine n=10: bound=20, max_a I(pi_a)=20 at a=9 (a=n-1 is the reflection pi(i)=-i, already covered by C32/C33)
+  affine n=11: bound=25, max_a I(pi_a)=25 at a=10 (a=n-1 is the reflection pi(i)=-i, already covered by C32/C33)
+  affine n=12: bound=30, max_a I(pi_a)=30 at a=11 (a=n-1 is the reflection pi(i)=-i, already covered by C32/C33)
+  affine n=13: bound=36, max_a I(pi_a)=36 at a=12 (a=n-1 is the reflection pi(i)=-i, already covered by C32/C33)
+  affine n=14: bound=42, max_a I(pi_a)=42 at a=13 (a=n-1 is the reflection pi(i)=-i, already covered by C32/C33)
+  affine n=15: bound=49, max_a I(pi_a)=49 at a=14 (a=n-1 is the reflection pi(i)=-i, already covered by C32/C33)
+  affine n=16: bound=56, max_a I(pi_a)=56 at a=15 (a=n-1 is the reflection pi(i)=-i, already covered by C32/C33)
+-- 6. cyclically-adjacent-transposition sorting distance cross-check --
+  circtransp n=4: max sorting distance (adjacent + wrap transpositions) = 4 (floor(n^2/4) = 4); mismatches vs I_single=16, vs I_double=17 out of 24; 0.0 s
+  circtransp n=5: max sorting distance (adjacent + wrap transpositions) = 6 (floor(n^2/4) = 6); mismatches vs I_single=62, vs I_double=69 out of 120; 0.0 s
+  circtransp n=6: max sorting distance (adjacent + wrap transpositions) = 9 (floor(n^2/4) = 9); mismatches vs I_single=531, vs I_double=579 out of 720; 0.1 s
+  circtransp n=7: max sorting distance (adjacent + wrap transpositions) = 12 (floor(n^2/4) = 12); mismatches vs I_single=3083, vs I_double=3555 out of 5040; 0.8 s
+== done in 1.8 s
+== h13i_attempt-1.0 oracle-1.0 args={'nmin': 8, 'nmax': 8, 'affine_nmax': 12, 'only': 'diagonal'}
+-- 4. n canonical ('diagonal') origins are not enough --
+  diagonal n=8: bound=12, n-origin restriction exceeds bound on 552/40320 pi (worst 21 at (0, 7, 6, 5, 4, 3, 2, 1)); 1.2 s
+== done in 1.2 s
+== h13i_attempt-1.0 oracle-1.0 args={'nmin': 8, 'nmax': 8, 'affine_nmax': 12, 'only': 'circtransp'}
+-- 6. cyclically-adjacent-transposition sorting distance cross-check --
+  circtransp n=8: max sorting distance (adjacent + wrap transpositions) = 16 (floor(n^2/4) = 16); mismatches vs I_single=31865, vs I_double=34361 out of 40320; 9.6 s
+== done in 9.6 s
+== h13i_attempt-1.0 oracle-1.0 args={'nmin': 9, 'nmax': 9, 'affine_nmax': 12, 'only': 'diagonal'}
+-- 4. n canonical ('diagonal') origins are not enough --
+  diagonal n=9: bound=16, n-origin restriction exceeds bound on 2025/362880 pi (worst 28 at (0, 8, 7, 6, 5, 4, 3, 2, 1)); 12.2 s
+== done in 12.2 s
+== h13i_attempt-1.0 oracle-1.0 args={'nmin': 9, 'nmax': 9, 'affine_nmax': 12, 'only': 'circtransp'}
+-- 6. cyclically-adjacent-transposition sorting distance cross-check --
+  circtransp n=9: max sorting distance (adjacent + wrap transpositions) = 20 (floor(n^2/4) = 20); mismatches vs I_single=249799, vs I_double=281255 out of 362880; 127.1 s
+== done in 127.1 s
