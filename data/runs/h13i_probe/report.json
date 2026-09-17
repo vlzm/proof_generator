@@ -1,0 +1,118 @@
+{
+  "version": "h13i_probe-1.0",
+  "core": "oracle-1.0",
+  "goal": "H13-I probe: verify Lemma D (mixed-difference identity for g); quantify failure of plain averaging and of the adjacent-swap exchange argument as routes to I(pi) <= floor((n-1)^2/4)",
+  "coverage": "exhaustive over all pi, all n^2 origins, all n in [4, nmax]",
+  "rows": [
+    {
+      "n": 4,
+      "bound_floor_(n-1)^2/4": 2,
+      "total_pi": 24,
+      "laplacian_identity": "PASS",
+      "laplacian_fail_example": null,
+      "maxI": 2,
+      "maxI_matches_bound": true,
+      "maxI_example": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "avg_exceeds_bound_count": 24,
+      "avg_exceeds_bound_total": 24,
+      "value_adjacent_swap_decreases_I": 32,
+      "position_adjacent_swap_decreases_I": 32,
+      "elapsed_s": 0.01
+    },
+    {
+      "n": 5,
+      "bound_floor_(n-1)^2/4": 4,
+      "total_pi": 120,
+      "laplacian_identity": "PASS",
+      "laplacian_fail_example": null,
+      "maxI": 4,
+      "maxI_matches_bound": true,
+      "maxI_example": [
+        0,
+        4,
+        3,
+        2,
+        1
+      ],
+      "avg_exceeds_bound_count": 115,
+      "avg_exceeds_bound_total": 120,
+      "value_adjacent_swap_decreases_I": 300,
+      "position_adjacent_swap_decreases_I": 300,
+      "elapsed_s": 0.06
+    },
+    {
+      "n": 6,
+      "bound_floor_(n-1)^2/4": 6,
+      "total_pi": 720,
+      "laplacian_identity": "PASS",
+      "laplacian_fail_example": null,
+      "maxI": 6,
+      "maxI_matches_bound": true,
+      "maxI_example": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "avg_exceeds_bound_count": 714,
+      "avg_exceeds_bound_total": 720,
+      "value_adjacent_swap_decreases_I": 1656,
+      "position_adjacent_swap_decreases_I": 1656,
+      "elapsed_s": 0.76
+    },
+    {
+      "n": 7,
+      "bound_floor_(n-1)^2/4": 9,
+      "total_pi": 5040,
+      "laplacian_identity": "PASS",
+      "laplacian_fail_example": null,
+      "maxI": 9,
+      "maxI_matches_bound": true,
+      "maxI_example": [
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "avg_exceeds_bound_count": 4984,
+      "avg_exceeds_bound_total": 5040,
+      "value_adjacent_swap_decreases_I": 17640,
+      "position_adjacent_swap_decreases_I": 17640,
+      "elapsed_s": 8.24
+    },
+    {
+      "n": 8,
+      "bound_floor_(n-1)^2/4": 12,
+      "total_pi": 40320,
+      "laplacian_identity": "PASS",
+      "laplacian_fail_example": null,
+      "maxI": 12,
+      "maxI_matches_bound": true,
+      "maxI_example": [
+        0,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "avg_exceeds_bound_count": 39832,
+      "avg_exceeds_bound_total": 40320,
+      "value_adjacent_swap_decreases_I": 134272,
+      "position_adjacent_swap_decreases_I": 134272,
+      "elapsed_s": 111.35
+    }
+  ]
+}

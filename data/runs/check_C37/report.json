@@ -1,0 +1,80 @@
+{
+  "version": "check_C37-1.0",
+  "core": "oracle-1.0",
+  "claim": "C37 (Lemma D)",
+  "overall": "PASS",
+  "rows": [
+    {
+      "n": 4,
+      "mode": "exhaustive",
+      "checked": 24,
+      "status": "PASS",
+      "fail": null,
+      "elapsed_s": 0.0
+    },
+    {
+      "n": 5,
+      "mode": "exhaustive",
+      "checked": 120,
+      "status": "PASS",
+      "fail": null,
+      "elapsed_s": 0.01
+    },
+    {
+      "n": 6,
+      "mode": "exhaustive",
+      "checked": 720,
+      "status": "PASS",
+      "fail": null,
+      "elapsed_s": 0.05
+    },
+    {
+      "n": 7,
+      "mode": "exhaustive",
+      "checked": 5040,
+      "status": "PASS",
+      "fail": null,
+      "elapsed_s": 0.57
+    },
+    {
+      "n": 8,
+      "mode": "exhaustive",
+      "checked": 40320,
+      "status": "PASS",
+      "fail": null,
+      "elapsed_s": 6.69
+    },
+    {
+      "n": 9,
+      "mode": "random(200, seed=0)",
+      "checked": 200,
+      "status": "PASS",
+      "fail": null,
+      "elapsed_s": 0.05
+    },
+    {
+      "n": 10,
+      "mode": "random(200, seed=0)",
+      "checked": 200,
+      "status": "PASS",
+      "fail": null,
+      "elapsed_s": 0.06
+    },
+    {
+      "n": 13,
+      "mode": "random(200, seed=0)",
+      "checked": 200,
+      "status": "PASS",
+      "fail": null,
+      "elapsed_s": 0.14
+    },
+    {
+      "n": 20,
+      "mode": "random(200, seed=0)",
+      "checked": 200,
+      "status": "PASS",
+      "fail": null,
+      "elapsed_s": 0.65
+    }
+  ]
+}
