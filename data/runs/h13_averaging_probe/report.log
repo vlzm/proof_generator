@@ -1,0 +1,7 @@
+ n  bound  max min_a A(a) argmax pi
+ 3      1          1.6667 (0, 2, 1) (control: true I(pi) = 1)
+ 4      2          3.5000 (0, 3, 2, 1) (control: true I(pi) = 2)
+ 5      4          6.0000 (0, 4, 3, 2, 1) (control: true I(pi) = 4)
+ 6      6          9.1667 (0, 5, 4, 3, 2, 1) (control: true I(pi) = 6)
+ 7      9         13.0000 (0, 6, 5, 4, 3, 2, 1) (control: true I(pi) = 9)
+ 8     12         17.5000 (0, 7, 6, 5, 4, 3, 2, 1) (control: true I(pi) = 12)
