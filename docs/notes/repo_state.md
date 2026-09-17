@@ -152,8 +152,9 @@
   `d_line`, не про `I(pi)`).
 - `experiments/h13i_exhaustive.c`: исчерпывающая проверка `max_pi I(pi) =
   floor((n−1)^2/4)` расширена с 4 <= n <= 10 до **4 <= n <= 13** (n = 11:
-  12 с; n = 12: 161 с; n = 13: фон, ~40 мин); на максимуме всегда ровно n
-  входов (отражения). Отчёт `data/runs/h13i_exhaustive/report.md`.
+  12 с; n = 12: 161 с; n = 13: 2471 с, ~41.2 мин); на максимуме всегда ровно
+  n входов (отражения), ни одного нарушения. Отчёт
+  `data/runs/h13i_exhaustive/report.md`.
 - `experiments/h13i_heuristic_search.py` (simulated annealing, старт из
   отражений и случайный): без контрпримера при 11 <= n <= 50. Отчёт
   `data/runs/h13i_heuristic_search/report.md`.

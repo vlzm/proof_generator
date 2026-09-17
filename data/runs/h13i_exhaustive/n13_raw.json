@@ -1,0 +1,10 @@
+{
+  "n": 13,
+  "total_permutations": 6227020800,
+  "checked": 6227020800,
+  "target_floor_(n-1)^2_over_4": 36,
+  "global_max_I": 36,
+  "count_at_max": 13,
+  "H13_I_holds": true,
+  "elapsed_seconds": 2471
+}
