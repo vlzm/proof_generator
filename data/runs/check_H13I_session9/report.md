@@ -31,6 +31,7 @@ part 5 n=9: max I(pi) = 16 (floor((n-1)^2/4) = 16), 362880 pi -> ok
 part 5 n=10: max I(pi) = 20 (floor((n-1)^2/4) = 20), 3628800 pi -> ok
 part 5 n=11: max I(pi) = 25 (floor((n-1)^2/4) = 25), 39916800 pi -> ok
 part 5 n=12: max I(pi) = 30 (floor((n-1)^2/4) = 30), 479001600 pi -> ok
-total time: 26.5 s
+part 5 n=13: max I(pi) = 36 (floor((n-1)^2/4) = 36), 6227020800 pi -> ok
+total time: 25.9 s
 verdict: PASS  (note: this PASS certifies the session-9 lemmas and computational data, NOT H13-I itself, which remains unproven -- see h13_line_model.md par 7)
 ```
