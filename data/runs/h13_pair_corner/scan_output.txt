@@ -1,0 +1,38 @@
+n=5: pi=[3, 1, 2, 4, 0] — 10 pairs checked
+n=6: pi=[3, 0, 2, 4, 5, 1] — 15 pairs checked
+n=7: pi=[3, 1, 2, 0, 4, 6, 5] — 21 pairs checked
+TOTAL pairs checked: 46, mismatches: 0
+n=  15 I=    49 bound=    49 OK  reflection sigma_n
+n=  15 I=    49 bound=    49 OK  reverse
+n=  15 I=    28 bound=    49 OK  affine a=2 b=1
+n=  15 I=    28 bound=    49 OK  affine a=8 b=3
+n=  15 I=    34 bound=    49 OK  random#0
+n=  15 I=    24 bound=    49 OK  random#1
+n=  15 I=    26 bound=    49 OK  random#2
+n=  15 I=    33 bound=    49 OK  random#3
+n=  15 I=    31 bound=    49 OK  random#4
+n=  20 I=    90 bound=    90 OK  reflection sigma_n
+n=  20 I=    90 bound=    90 OK  reverse
+n=  20 I=    63 bound=    90 OK  affine a=3 b=5
+n=  20 I=    74 bound=    90 OK  affine a=11 b=3
+n=  20 I=    59 bound=    90 OK  random#0
+n=  20 I=    60 bound=    90 OK  random#1
+n=  20 I=    46 bound=    90 OK  random#2
+n=  20 I=    63 bound=    90 OK  random#3
+n=  20 I=    63 bound=    90 OK  random#4
+n=  30 I=   210 bound=   210 OK  reflection sigma_n
+n=  30 I=   210 bound=   210 OK  reverse
+n=  30 I=   154 bound=   210 OK  random#0
+n=  30 I=   144 bound=   210 OK  random#1
+n=  30 I=   144 bound=   210 OK  random#2
+n=  30 I=   125 bound=   210 OK  random#3
+n=  30 I=   148 bound=   210 OK  random#4
+n=  50 I=   600 bound=   600 OK  reflection sigma_n
+n=  50 I=   600 bound=   600 OK  reverse
+n=  50 I=   408 bound=   600 OK  affine a=3 b=5
+n=  50 I=   443 bound=   600 OK  random#0
+n=  50 I=   463 bound=   600 OK  random#1
+n=  50 I=   441 bound=   600 OK  random#2
+n=  50 I=   460 bound=   600 OK  random#3
+n=  50 I=   436 bound=   600 OK  random#4
+elapsed: 1.3s  overall: OK

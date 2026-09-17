@@ -1,0 +1,6 @@
+n=4: 6 pairs x 24 perms checked, elapsed 0.0s
+n=5: 10 pairs x 120 perms checked, elapsed 0.0s
+n=6: 15 pairs x 720 perms checked, elapsed 0.1s
+n=7: 21 pairs x 5040 perms checked, elapsed 1.2s
+TOTAL permutations: 5904, pairs: 117984, mismatches: 0
+PASS
