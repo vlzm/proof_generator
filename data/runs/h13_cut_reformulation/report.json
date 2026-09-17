@@ -1,0 +1,188 @@
+{
+  "elapsed_s": 3.2064616680145264,
+  "results": [
+    {
+      "n": 3,
+      "target": 1,
+      "coverage": "exhaustive",
+      "perms_checked": 6,
+      "worst_full": 1,
+      "worst_full_pi": [
+        0,
+        2,
+        1
+      ],
+      "worst_diag": 2,
+      "worst_diag_pi": [
+        1,
+        2,
+        0
+      ],
+      "worst_avg_num": 5,
+      "worst_avg_den": 3,
+      "worst_avg_pi": [
+        0,
+        2,
+        1
+      ],
+      "pair_formula_ok": true,
+      "telescope_ok": true
+    },
+    {
+      "n": 4,
+      "target": 2,
+      "coverage": "exhaustive",
+      "perms_checked": 24,
+      "worst_full": 2,
+      "worst_full_pi": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "worst_diag": 4,
+      "worst_diag_pi": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "worst_avg_num": 7,
+      "worst_avg_den": 2,
+      "worst_avg_pi": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "pair_formula_ok": true,
+      "telescope_ok": true
+    },
+    {
+      "n": 5,
+      "target": 4,
+      "coverage": "exhaustive",
+      "perms_checked": 120,
+      "worst_full": 4,
+      "worst_full_pi": [
+        0,
+        4,
+        3,
+        2,
+        1
+      ],
+      "worst_diag": 6,
+      "worst_diag_pi": [
+        2,
+        3,
+        4,
+        0,
+        1
+      ],
+      "worst_avg_num": 6,
+      "worst_avg_den": 1,
+      "worst_avg_pi": [
+        0,
+        4,
+        3,
+        2,
+        1
+      ],
+      "pair_formula_ok": true,
+      "telescope_ok": true
+    },
+    {
+      "n": 6,
+      "target": 6,
+      "coverage": "exhaustive",
+      "perms_checked": 720,
+      "worst_full": 6,
+      "worst_full_pi": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "worst_diag": 10,
+      "worst_diag_pi": [
+        2,
+        5,
+        4,
+        1,
+        0,
+        3
+      ],
+      "worst_avg_num": 55,
+      "worst_avg_den": 6,
+      "worst_avg_pi": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "pair_formula_ok": true,
+      "telescope_ok": true
+    },
+    {
+      "n": 7,
+      "target": 9,
+      "coverage": "exhaustive",
+      "perms_checked": 5040,
+      "worst_full": 9,
+      "worst_full_pi": [
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "worst_diag": 12,
+      "worst_diag_pi": [
+        2,
+        3,
+        6,
+        5,
+        1,
+        0,
+        4
+      ],
+      "worst_avg_num": 13,
+      "worst_avg_den": 1,
+      "worst_avg_pi": [
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "pair_formula_ok": true,
+      "telescope_ok": true
+    },
+    {
+      "n": 8,
+      "target": 12,
+      "coverage": "sampled (500 random perms, seed=1) + reflection",
+      "perms_checked": 500,
+      "reflection_min_inv_full": 12,
+      "pair_formula_ok": true,
+      "telescope_ok": true
+    },
+    {
+      "n": 9,
+      "target": 16,
+      "coverage": "sampled (500 random perms, seed=1) + reflection",
+      "perms_checked": 500,
+      "reflection_min_inv_full": 16,
+      "pair_formula_ok": true,
+      "telescope_ok": true
+    }
+  ]
+}
