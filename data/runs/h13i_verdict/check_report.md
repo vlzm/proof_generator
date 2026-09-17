@@ -6,6 +6,7 @@ part B2 (point-aligned cuts b=pi(a)): worst={4: 3, 5: 6, 6: 10, 7: 15, 8: 21}, b
 part B3 (diagonal cuts b=a): worst={4: 4, 5: 6, 6: 10, 7: 12, 8: 17}, bounds=[2, 4, 6, 9, 12]
 part C: n=11 exhaustive (39916800 permutations, 8s): max_I=25 == bound=25, exceed_count=0 -- PASS
 part C: n=12 exhaustive (479001600 permutations, 120s): max_I=30 == bound=30, exceed_count=0 -- PASS
+part C: n=13 exhaustive (6227020800 permutations, 1771s): max_I=36 == bound=36, exceed_count=0 -- PASS
 part D: sa_search.log scanned, max margin seen = 0 (<=0 expected), PASS
 
 OVERALL: PASS
