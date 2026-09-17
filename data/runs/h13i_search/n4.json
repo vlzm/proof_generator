@@ -1,0 +1,8 @@
+{"n": 4, "bound": 2, "total": 24, "global_max_I": 2,
+ "local4": {"worst": 3, "violations": 16},
+ "local8": {"worst": 2, "violations": 0},
+ "antipod4pt": {"worst": 3, "violations": 4},
+ "qsweep_c0": {"worst": 4, "violations": 9},
+ "L1_center_c": {"worst": 3, "violations": 2},
+ "L2_center_c": {"worst": 2, "violations": 0},
+ "Linf_center_c": {"worst": 2, "violations": 0}}
