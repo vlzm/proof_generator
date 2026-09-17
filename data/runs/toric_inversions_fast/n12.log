@@ -1,0 +1,5 @@
+n=12 total=479001600 maxI=30 bound=30 countMax=12
+
+real	2m1.939s
+user	2m1.926s
+sys	0m0.000s

@@ -1,0 +1,7 @@
+n=4 total=24 maxI=2 bound=2 countMax=4
+n=5 total=120 maxI=4 bound=4 countMax=5
+n=6 total=720 maxI=6 bound=6 countMax=6
+n=7 total=5040 maxI=9 bound=9 countMax=7
+n=8 total=40320 maxI=12 bound=12 countMax=8
+n=9 total=362880 maxI=16 bound=16 countMax=9
+n=10 total=3628800 maxI=20 bound=20 countMax=10

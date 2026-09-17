@@ -1,0 +1,40 @@
+n=  20 reflection h=0                 I=    90 bound=    90 OK
+n=  20 reflection h=1                 I=    90 bound=    90 OK
+n=  20 antipodal transposition        I=     1 bound=    90 OK
+n=  20 affine a=3,b=1                 I=    63 bound=    90 OK
+n=  20 random#0                       I=    63 bound=    90 OK
+n=  20 random#1                       I=    51 bound=    90 OK
+n=  20 random#2                       I=    60 bound=    90 OK
+n=  20 identity                       I=     0 bound=    90 OK
+n=  20 rev_n                          I=    90 bound=    90 OK
+n=  50 reflection h=0                 I=   600 bound=   600 OK
+n=  50 reflection h=1                 I=   600 bound=   600 OK
+n=  50 antipodal transposition        I=     1 bound=   600 OK
+n=  50 affine a=3,b=1                 I=   408 bound=   600 OK
+n=  50 random#0                       I=   441 bound=   600 OK
+n=  50 random#1                       I=   455 bound=   600 OK
+n=  50 random#2                       I=   445 bound=   600 OK
+n=  50 identity                       I=     0 bound=   600 OK
+n=  50 rev_n                          I=   600 bound=   600 OK
+n= 100 reflection h=0                 I=  2450 bound=  2450 OK
+n= 100 reflection h=1                 I=  2450 bound=  2450 OK
+n= 100 antipodal transposition        I=     1 bound=  2450 OK
+n= 100 affine a=3,b=1                 I=  1650 bound=  2450 OK
+n= 100 random#0                       I=  2108 bound=  2450 OK
+n= 100 random#1                       I=  1763 bound=  2450 OK
+n= 100 random#2                       I=  1914 bound=  2450 OK
+n= 100 identity                       I=     0 bound=  2450 OK
+n= 100 rev_n                          I=  2450 bound=  2450 OK
+n= 101 reflection h=0                 I=  2500 bound=  2500 OK
+n= 101 reflection h=1                 I=  2500 bound=  2500 OK
+n= 101 affine a=2,b=0                 I=  1275 bound=  2500 OK
+n= 101 affine a=3,b=1                 I=  1683 bound=  2500 OK
+n= 101 affine a=5,b=7                 I=  2020 bound=  2500 OK
+n= 101 affine a=99,b=3                I=  2475 bound=  2500 OK
+n= 101 random#0                       I=  2097 bound=  2500 OK
+n= 101 random#1                       I=  1871 bound=  2500 OK
+n= 101 random#2                       I=  1961 bound=  2500 OK
+n= 101 identity                       I=     0 bound=  2500 OK
+n= 101 rev_n                          I=  2500 bound=  2500 OK
+
+total checks: 38, violations: 0
