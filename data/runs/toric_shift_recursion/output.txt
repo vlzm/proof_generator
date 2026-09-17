@@ -1,0 +1,32 @@
+toric_shift_recursion-1.0
+
+[recursions] 5000 random (n,q,c') trials, n<=(14): both identities hold exactly.
+
+[claim A] fixed q (q = n-1, i.e. w built directly from pi), min over c only:
+  n=3: target=1, worst min_c inv=1 at (0, 2, 1)  [OK]
+  n=4: target=2, worst min_c inv=2 at (0, 2, 3, 1)  [OK]
+  n=5: target=4, worst min_c inv=4 at (0, 2, 4, 3, 1)  [OK]
+  n=6: target=6, worst min_c inv=6 at (0, 2, 4, 5, 3, 1)  [OK]
+  n=7: target=9, worst min_c inv=10 at (0, 5, 4, 3, 2, 1, 6)  [EXCEEDS target -> Claim A false]
+  n=8: target=12, worst min_c inv=13 at (0, 6, 5, 3, 4, 2, 1, 7)  [EXCEEDS target -> Claim A false]
+
+[dual form] C(n,2) - floor((n-1)^2/4) == floor(n^2/4) for all 1 <= n <= 200: True
+
+[dual averaging] reflections pi_h (h=0): avg_inv over all n^2 cuts vs target:
+  n=4: avg_inv=3.50, target=2, true min_inv=2 [averaging would fail here]
+  n=5: avg_inv=6.00, target=4, true min_inv=4 [averaging would fail here]
+  n=6: avg_inv=9.17, target=6, true min_inv=6 [averaging would fail here]
+  n=7: avg_inv=13.00, target=9, true min_inv=9 [averaging would fail here]
+  n=8: avg_inv=17.50, target=12, true min_inv=12 [averaging would fail here]
+  n=9: avg_inv=22.67, target=16, true min_inv=16 [averaging would fail here]
+  n=10: avg_inv=28.50, target=20, true min_inv=20 [averaging would fail here]
+  n=11: avg_inv=35.00, target=25, true min_inv=25 [averaging would fail here]
+  n=12: avg_inv=42.17, target=30, true min_inv=30 [averaging would fail here]
+  n=13: avg_inv=50.00, target=36, true min_inv=36 [averaging would fail here]
+  n=14: avg_inv=58.50, target=42, true min_inv=42 [averaging would fail here]
+  n=15: avg_inv=67.67, target=49, true min_inv=49 [averaging would fail here]
+  n=16: avg_inv=77.50, target=56, true min_inv=56 [averaging would fail here]
+  n=17: avg_inv=88.00, target=64, true min_inv=64 [averaging would fail here]
+  n=18: avg_inv=99.17, target=72, true min_inv=72 [averaging would fail here]
+  n=19: avg_inv=111.00, target=81, true min_inv=81 [averaging would fail here]
+  n=20: avg_inv=123.50, target=90, true min_inv=90 [averaging would fail here]
