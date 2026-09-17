@@ -1,0 +1,165 @@
+{
+ "version": "check_H13I-1.0",
+ "args": {
+  "n11": true,
+  "search_n": [
+   12,
+   13,
+   14
+  ],
+  "search_iters": 1500,
+  "search_trials": 4
+ },
+ "part_a_algorithm_validation": [
+  {
+   "n": 4,
+   "brute_force_max_I": 2,
+   "fast_c_max_I": 2,
+   "floor_(n-1)2_4": 2,
+   "match": true,
+   "brute_force_seconds": 0.0,
+   "fast_c_seconds": 0.0
+  },
+  {
+   "n": 5,
+   "brute_force_max_I": 4,
+   "fast_c_max_I": 4,
+   "floor_(n-1)2_4": 4,
+   "match": true,
+   "brute_force_seconds": 0.01,
+   "fast_c_seconds": 0.0
+  },
+  {
+   "n": 6,
+   "brute_force_max_I": 6,
+   "fast_c_max_I": 6,
+   "floor_(n-1)2_4": 6,
+   "match": true,
+   "brute_force_seconds": 0.06,
+   "fast_c_seconds": 0.0
+  },
+  {
+   "n": 7,
+   "brute_force_max_I": 9,
+   "fast_c_max_I": 9,
+   "floor_(n-1)2_4": 9,
+   "match": true,
+   "brute_force_seconds": 0.77,
+   "fast_c_seconds": 0.0
+  },
+  {
+   "n": 8,
+   "brute_force_max_I": 12,
+   "fast_c_max_I": 12,
+   "floor_(n-1)2_4": 12,
+   "match": true,
+   "brute_force_seconds": 8.39,
+   "fast_c_seconds": 0.04
+  }
+ ],
+ "part_b_exhaustive": [
+  {
+   "n": 9,
+   "previous_max_I": 16,
+   "fast_c_max_I": 16,
+   "floor_(n-1)2_4": 16,
+   "match": true,
+   "seconds": 0.4
+  },
+  {
+   "n": 10,
+   "previous_max_I": 20,
+   "fast_c_max_I": 20,
+   "floor_(n-1)2_4": 20,
+   "match": true,
+   "seconds": 5.5
+  },
+  {
+   "n": 11,
+   "previous_max_I": null,
+   "fast_c_max_I": 25,
+   "floor_(n-1)2_4": 25,
+   "match": true,
+   "seconds": 73.3,
+   "note": "new exhaustive result this session (session 9), extends C33/C36 range"
+  }
+ ],
+ "part_c_search": [
+  {
+   "n": 12,
+   "iters": 1500,
+   "trials": 4,
+   "seed0": 2012,
+   "target": 30,
+   "best": 30,
+   "argmax": [
+    2,
+    1,
+    0,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3
+   ],
+   "exceeds_target": false,
+   "seconds": 4.9
+  },
+  {
+   "n": 13,
+   "iters": 1500,
+   "trials": 4,
+   "seed0": 2013,
+   "target": 36,
+   "best": 31,
+   "argmax": [
+    0,
+    11,
+    9,
+    8,
+    7,
+    6,
+    5,
+    3,
+    2,
+    1,
+    12,
+    4,
+    10
+   ],
+   "exceeds_target": false,
+   "seconds": 6.4
+  },
+  {
+   "n": 14,
+   "iters": 1500,
+   "trials": 4,
+   "seed0": 2014,
+   "target": 42,
+   "best": 42,
+   "argmax": [
+    4,
+    3,
+    2,
+    1,
+    0,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5
+   ],
+   "exceeds_target": false,
+   "seconds": 8.2
+  }
+ ],
+ "verdict": "PASS"
+}
