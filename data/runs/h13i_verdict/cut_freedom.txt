@@ -1,0 +1,13 @@
+n  min_avg_concordant  threshold_floor(n^2/4)  averaging_suffices
+4  2.5000  4  False  argmin=(0, 3, 2, 1)
+5  4.0000  6  False  argmin=(0, 4, 3, 2, 1)
+6  5.8333  9  False  argmin=(0, 5, 4, 3, 2, 1)
+7  8.0000  12  False  argmin=(0, 6, 5, 4, 3, 2, 1)
+8  10.5000  16  False  argmin=(0, 7, 6, 5, 4, 3, 2, 1)
+
+n  max_over_pi(best_value_rotation_only)  bound_floor((n-1)^2/4)  sufficient
+4  2  2  True  argmax=(0, 2, 3, 1)
+5  4  4  True  argmax=(0, 2, 4, 3, 1)
+6  6  6  True  argmax=(0, 2, 4, 5, 3, 1)
+7  10  9  False  argmax=(0, 5, 4, 3, 2, 1, 6)
+8  13  12  False  argmax=(0, 6, 5, 3, 4, 2, 1, 7)
