@@ -1,0 +1,322 @@
+{
+  "version": "h13_i_quadrant-1.0",
+  "nmax": 8,
+  "elapsed_s": 37.08016920089722,
+  "part1_reformulation_identity": [
+    {
+      "n": 4,
+      "perms_checked": 24,
+      "identity_holds": true
+    },
+    {
+      "n": 5,
+      "perms_checked": 120,
+      "identity_holds": true
+    },
+    {
+      "n": 6,
+      "perms_checked": 720,
+      "identity_holds": true
+    },
+    {
+      "n": 7,
+      "perms_checked": 5040,
+      "identity_holds": true
+    },
+    {
+      "n": 8,
+      "perms_checked": 40320,
+      "identity_holds": true
+    }
+  ],
+  "part2_second_moment_bound": [
+    {
+      "n": 4,
+      "target": 4,
+      "worst_pi": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "S2_over_S": 3.4,
+      "actual_max": 4,
+      "second_moment_bound_holds": false
+    },
+    {
+      "n": 5,
+      "target": 6,
+      "worst_pi": [
+        0,
+        4,
+        3,
+        2,
+        1
+      ],
+      "S2_over_S": 5.2,
+      "actual_max": 6,
+      "second_moment_bound_holds": false
+    },
+    {
+      "n": 6,
+      "target": 9,
+      "worst_pi": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "S2_over_S": 7.4,
+      "actual_max": 9,
+      "second_moment_bound_holds": false
+    },
+    {
+      "n": 7,
+      "target": 12,
+      "worst_pi": [
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "S2_over_S": 10.0,
+      "actual_max": 12,
+      "second_moment_bound_holds": false
+    },
+    {
+      "n": 8,
+      "target": 16,
+      "worst_pi": [
+        0,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "S2_over_S": 13.0,
+      "actual_max": 16,
+      "second_moment_bound_holds": false
+    }
+  ],
+  "part3_joint_fixed_points": [
+    {
+      "n": 4,
+      "target": 2,
+      "perms_total": 24,
+      "perms_with_bad_fixed_point": 0,
+      "example": null
+    },
+    {
+      "n": 5,
+      "target": 4,
+      "perms_total": 120,
+      "perms_with_bad_fixed_point": 0,
+      "example": null
+    },
+    {
+      "n": 6,
+      "target": 6,
+      "perms_total": 720,
+      "perms_with_bad_fixed_point": 0,
+      "example": null
+    },
+    {
+      "n": 7,
+      "target": 9,
+      "perms_total": 5040,
+      "perms_with_bad_fixed_point": 49,
+      "example": {
+        "pi": [
+          0,
+          1,
+          6,
+          5,
+          4,
+          3,
+          2
+        ],
+        "worst_fixed_point_inv": 10,
+        "all_fixed_points": [
+          [
+            0,
+            5,
+            8
+          ],
+          [
+            0,
+            6,
+            8
+          ],
+          [
+            1,
+            1,
+            10
+          ],
+          [
+            2,
+            3,
+            8
+          ],
+          [
+            2,
+            4,
+            8
+          ],
+          [
+            3,
+            2,
+            8
+          ],
+          [
+            3,
+            3,
+            8
+          ],
+          [
+            4,
+            2,
+            8
+          ],
+          [
+            5,
+            0,
+            8
+          ],
+          [
+            6,
+            0,
+            8
+          ],
+          [
+            6,
+            6,
+            8
+          ]
+        ]
+      }
+    },
+    {
+      "n": 8,
+      "target": 12,
+      "perms_total": 40320,
+      "perms_with_bad_fixed_point": 0,
+      "example": null
+    }
+  ],
+  "part4_321_avoidance": [
+    {
+      "n": 4,
+      "perms_total": 24,
+      "perms_where_no_optimal_cut_avoids_321": 0,
+      "example": null
+    },
+    {
+      "n": 5,
+      "perms_total": 120,
+      "perms_where_no_optimal_cut_avoids_321": 5,
+      "example": {
+        "pi": [
+          0,
+          4,
+          3,
+          2,
+          1
+        ],
+        "best_inv": 4,
+        "an_optimal_line": [
+          2,
+          1,
+          0,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "n": 6,
+      "perms_total": 720,
+      "perms_where_no_optimal_cut_avoids_321": 150,
+      "example": {
+        "pi": [
+          0,
+          1,
+          2,
+          5,
+          4,
+          3
+        ],
+        "best_inv": 3,
+        "an_optimal_line": [
+          0,
+          1,
+          2,
+          5,
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "n": 7,
+      "perms_total": 5040,
+      "perms_where_no_optimal_cut_avoids_321": 1785,
+      "example": {
+        "pi": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          5,
+          4
+        ],
+        "best_inv": 3,
+        "an_optimal_line": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "n": 8,
+      "perms_total": 40320,
+      "perms_where_no_optimal_cut_avoids_321": 24152,
+      "example": {
+        "pi": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7,
+          6,
+          5
+        ],
+        "best_inv": 3,
+        "an_optimal_line": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7,
+          6,
+          5
+        ]
+      }
+    }
+  ]
+}
