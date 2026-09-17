@@ -1,0 +1,42 @@
+[A] identity inv = c + Q/n, exhaustive 4 <= n <= 8
+    n=4: 24 perms, 384 cuts checked, 0.0 s  OK
+    n=5: 120 perms, 3000 cuts checked, 0.0 s  OK
+    n=6: 720 perms, 25920 cuts checked, 0.1 s  OK
+    n=7: 5040 perms, 246960 cuts checked, 1.5 s  OK
+    n=8: 40320 perms, 2580480 cuts checked, 16.8 s  OK
+[B] Lemma 3: c(pi) <= (n-1)(n-2)/6, equality iff reflection
+    n=4: exhaustive, equality on exactly 4 permutations (= the n reflections)  OK
+    n=5: exhaustive, equality on exactly 5 permutations (= the n reflections)  OK
+    n=6: exhaustive, equality on exactly 6 permutations (= the n reflections)  OK
+    n=7: exhaustive, equality on exactly 7 permutations (= the n reflections)  OK
+    n=8: exhaustive, equality on exactly 8 permutations (= the n reflections)  OK
+    n=9..40: families + random samples  OK
+[C] Theorem 5: J(r) integral and min_r J(r) <= floor((n-1)^2/4)
+    n=4: exhaustive (with the per-cut lower bound)  OK
+    n=5: exhaustive (with the per-cut lower bound)  OK
+    n=6: exhaustive (with the per-cut lower bound)  OK
+    n=7: exhaustive (with the per-cut lower bound)  OK
+    n=8: exhaustive  OK
+    n=9..40: families + random samples  OK
+[D] Proposition 6: I(pi_h) = floor((n-1)^2/4) for all reflections
+    4 <= n <= 30, all h  OK
+[E] finite data (NOT a proof): H13-I and conjecture C38, exhaustive 4 <= n <= 8
+    n=4: max I = 2 = floor((n-1)^2/4), argmax = the 4 reflections; max sum_a min_s inv = 8 = n*bound
+        anti-diagonal average: first counterexample none
+        shifted data-cut average: first counterexample none
+    n=5: max I = 4 = floor((n-1)^2/4), argmax = the 5 reflections; max sum_a min_s inv = 20 = n*bound
+        anti-diagonal average: first counterexample ((0, 1, 2, 4, 3), 21, 20)
+        shifted data-cut average: first counterexample ((0, 1, 4, 3, 2), 21, 20)
+    n=6: max I = 6 = floor((n-1)^2/4), argmax = the 6 reflections; max sum_a min_s inv = 36 = n*bound
+        anti-diagonal average: first counterexample ((0, 2, 4, 1, 5, 3), 40, 36)
+        shifted data-cut average: first counterexample none
+    n=7: max I = 9 = floor((n-1)^2/4), argmax = the 7 reflections; max sum_a min_s inv = 63 = n*bound
+        anti-diagonal average: first counterexample ((0, 1, 3, 2, 6, 5, 4), 64, 63)
+        shifted data-cut average: first counterexample ((0, 1, 2, 6, 5, 4, 3), 66, 63)
+    n=8: max I = 12 = floor((n-1)^2/4), argmax = the 8 reflections; max sum_a min_s inv = 96 = n*bound
+        anti-diagonal average: first counterexample ((0, 1, 3, 5, 2, 7, 4, 6), 100, 96)
+        shifted data-cut average: first counterexample ((0, 1, 3, 7, 6, 5, 4, 2), 98, 96)
+[F] recorded counterexamples of the verdict note
+    n=8, pi(i)=5i mod 8: min Q = 56 > 40 = sum_v D(v)^2 - n/2  (relaxation 'drop c' is false)
+    n=4, tau=(0, 2, 3, 1): min_sigma W + V/2 = 9 > 8 = n*bound (per-anchor form of C38 is false)
+PASS  (40.1 s, seed 20260917)
