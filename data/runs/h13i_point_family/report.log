@@ -1,0 +1,7 @@
+== h13i_point_family-1.0 args={'nmin': 4, 'nmax': 9, 'identity_nmax': 9}
+n=4: bound=2 max I_diag=3 (= C(n-1,2)=3) at (0, 3, 2, 1); I_diag(reflection)=3; exceed bound on 4/24 (0.1667); identity checked=True; 0.0 s
+n=5: bound=4 max I_diag=6 (= C(n-1,2)=6) at (0, 4, 3, 2, 1); I_diag(reflection)=6; exceed bound on 5/120 (0.0417); identity checked=True; 0.0 s
+n=6: bound=6 max I_diag=10 (= C(n-1,2)=10) at (0, 5, 4, 3, 2, 1); I_diag(reflection)=10; exceed bound on 6/720 (0.0083); identity checked=True; 0.0 s
+n=7: bound=9 max I_diag=15 (= C(n-1,2)=15) at (0, 6, 5, 4, 3, 2, 1); I_diag(reflection)=15; exceed bound on 56/5040 (0.0111); identity checked=True; 0.2 s
+n=8: bound=12 max I_diag=21 (= C(n-1,2)=21) at (0, 7, 6, 5, 4, 3, 2, 1); I_diag(reflection)=21; exceed bound on 552/40320 (0.0137); identity checked=True; 2.5 s
+n=9: bound=16 max I_diag=28 (= C(n-1,2)=28) at (0, 8, 7, 6, 5, 4, 3, 2, 1); I_diag(reflection)=28; exceed bound on 2025/362880 (0.0056); identity checked=True; 29.8 s

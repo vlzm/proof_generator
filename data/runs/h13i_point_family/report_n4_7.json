@@ -1,0 +1,83 @@
+{
+ "version": "h13i_point_family-1.0",
+ "rows": [
+  {
+   "n": 4,
+   "count": 24,
+   "bound_floor_(n-1)^2/4": 2,
+   "max_I_diag": 3,
+   "argmax_I_diag": [
+    0,
+    3,
+    2,
+    1
+   ],
+   "C(n-1,2)": 3,
+   "I_diag_reflection": 3,
+   "exceed_bound_count": 4,
+   "exceed_fraction": 0.16666666666666666,
+   "identity_checked": true,
+   "seconds": 0.0
+  },
+  {
+   "n": 5,
+   "count": 120,
+   "bound_floor_(n-1)^2/4": 4,
+   "max_I_diag": 6,
+   "argmax_I_diag": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "C(n-1,2)": 6,
+   "I_diag_reflection": 6,
+   "exceed_bound_count": 5,
+   "exceed_fraction": 0.041666666666666664,
+   "identity_checked": true,
+   "seconds": 0.0
+  },
+  {
+   "n": 6,
+   "count": 720,
+   "bound_floor_(n-1)^2/4": 6,
+   "max_I_diag": 10,
+   "argmax_I_diag": [
+    0,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "C(n-1,2)": 10,
+   "I_diag_reflection": 10,
+   "exceed_bound_count": 6,
+   "exceed_fraction": 0.008333333333333333,
+   "identity_checked": true,
+   "seconds": 0.0
+  },
+  {
+   "n": 7,
+   "count": 5040,
+   "bound_floor_(n-1)^2/4": 9,
+   "max_I_diag": 15,
+   "argmax_I_diag": [
+    0,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+   ],
+   "C(n-1,2)": 15,
+   "I_diag_reflection": 15,
+   "exceed_bound_count": 56,
+   "exceed_fraction": 0.011111111111111112,
+   "identity_checked": true,
+   "seconds": 0.2
+  }
+ ]
+}
